@@ -53,10 +53,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/supersqualoyt/which-llm.git"
+    "url": "git+https://github.com/super-squalo/which-llm.git"
   },
-  "homepage": "https://github.com/supersqualoyt/which-llm",
+  "homepage": "https://github.com/super-squalo/which-llm",
   "bugs": {
-    "url": "https://github.com/supersqualoyt/which-llm/issues"
+    "url": "https://github.com/super-squalo/which-llm/issues"
   }
 }

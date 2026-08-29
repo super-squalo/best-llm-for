@@ -19,7 +19,7 @@ import { fileURLToPath } from 'node:url'
 const here = dirname(fileURLToPath(import.meta.url))
 const OUT_DIR = join(here, '..', 'data', 'independent')
 
-const UA = 'which-llm collector (+https://github.com/supersqualoyt/which-llm)'
+const UA = 'which-llm collector (+https://github.com/super-squalo/which-llm)'
 
 interface IndependentFile {
   benchmarkSet: string

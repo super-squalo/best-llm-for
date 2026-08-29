@@ -15,7 +15,7 @@ import type { Dataset, Loaded } from './types'
  */
 
 const PUBLISHED =
-  'https://raw.githubusercontent.com/supersqualoyt/which-llm/main/data/models.json'
+  'https://raw.githubusercontent.com/super-squalo/which-llm/main/data/models.json'
 
 const CACHE_HOURS = 6
 
