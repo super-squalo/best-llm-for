@@ -24,7 +24,7 @@ import { fileURLToPath } from 'node:url'
 const here = dirname(fileURLToPath(import.meta.url))
 const OUT_DIR = join(here, '..', 'data', 'benchmarks')
 
-const UA = 'which-llm collector (+https://github.com/super-squalo/which-llm)'
+const UA = 'best-llm-for collector (+https://github.com/super-squalo/best-llm-for)'
 
 interface CardConfig {
   /** Output filename under `data/benchmarks/`. */

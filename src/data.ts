@@ -15,7 +15,7 @@ import type { Dataset, Loaded } from './types'
  */
 
 const PUBLISHED =
-  'https://raw.githubusercontent.com/super-squalo/which-llm/main/data/models.json'
+  'https://raw.githubusercontent.com/super-squalo/best-llm-for/main/data/models.json'
 
 const CACHE_HOURS = 6
 
@@ -25,7 +25,7 @@ function cachePath(): string {
     (process.platform === 'win32'
       ? process.env['LOCALAPPDATA'] ?? tmpdir()
       : join(homedir(), '.cache'))
-  return join(base, 'which-llm', 'models.json')
+  return join(base, 'best-llm-for', 'models.json')
 }
 
 function bundledPath(): string {

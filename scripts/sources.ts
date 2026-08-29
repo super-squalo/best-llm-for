@@ -35,7 +35,7 @@ function modeOf(id: string, input: number, output: number): BillingMode {
 
 async function getJson<T>(url: string): Promise<T> {
   const res = await fetch(url, {
-    headers: { 'user-agent': 'which-llm collector (+https://github.com/super-squalo/which-llm)' },
+    headers: { 'user-agent': 'best-llm-for collector (+https://github.com/super-squalo/best-llm-for)' },
   })
   if (!res.ok) throw new Error(`HTTP ${res.status}`)
   return (await res.json()) as T
@@ -217,7 +217,7 @@ export async function fromArena(): Promise<{
 
   try {
     const res = await fetch(url, {
-      headers: { 'user-agent': 'which-llm collector (+https://github.com/super-squalo/which-llm)' },
+      headers: { 'user-agent': 'best-llm-for collector (+https://github.com/super-squalo/best-llm-for)' },
     })
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
 

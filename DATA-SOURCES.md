@@ -70,6 +70,6 @@ open an issue and it comes out or gets fixed — no argument.
 ## Collector behaviour
 
 Every fetch identifies itself as
-`which-llm collector (+https://github.com/super-squalo/which-llm)`. The full
+`best-llm-for collector (+https://github.com/super-squalo/best-llm-for)`. The full
 run makes about a dozen requests, once a day, and each source is read at most
 once per run.

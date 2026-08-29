@@ -1,13 +1,13 @@
-# which-llm
+# best-llm-for
 
 Every model in rows, every benchmark in columns, each number linked to the page
 it was published on — in your terminal.
 
 ```bash
-npx which-llm
+npx best-llm-for
 ```
 
-The same table as a page: **https://super-squalo.github.io/which-llm/**
+The same table as a page: **https://super-squalo.github.io/best-llm-for/**
 
 Each lab publishes the slice of the picture that flatters it, on its own page,
 under its own spelling of the benchmark's name. Nobody publishes the table.
@@ -16,14 +16,14 @@ This builds it.
 ## What it answers
 
 ```bash
-npx which-llm                    # strongest models for coding, and what they cost
-npx which-llm --budget 1         # only what costs $1 or less per million input tokens
-npx which-llm --on gpqa          # every model ranked on one benchmark
-npx which-llm --scores opus 5    # every published score for one model, with who published it
-npx which-llm --benchmarks       # every benchmark, grouped by area
-npx which-llm --area images      # one area at a time: code, images, video, agents, maths, reasoning
-npx which-llm --new              # models that turned up in the last two weeks
-npx which-llm opus 5             # prices, context, vendors for one model
+npx best-llm-for                    # strongest models for coding, and what they cost
+npx best-llm-for --budget 1         # only what costs $1 or less per million input tokens
+npx best-llm-for --on gpqa          # every model ranked on one benchmark
+npx best-llm-for --scores opus 5    # every published score for one model, with who published it
+npx best-llm-for --benchmarks       # every benchmark, grouped by area
+npx best-llm-for --area images      # one area at a time: code, images, video, agents, maths, reasoning
+npx best-llm-for --new              # models that turned up in the last two weeks
+npx best-llm-for opus 5             # prices, context, vendors for one model
 ```
 
 Add `--json` to any of them.
@@ -164,14 +164,14 @@ names mean the same test.
 
 ## As a Claude Code skill
 
-The package ships one in `skill/which-llm/`. Copy it into a project's
+The package ships one in `skill/best-llm-for/`. Copy it into a project's
 `.claude/skills/` (or `~/.claude/skills/` for every project) and Claude answers
 model-choice questions from this data instead of from memory — with the
 benchmark named, the source cited, and the lab's own claims kept apart from
 outsiders' measurements.
 
 ```bash
-cp -r node_modules/which-llm/skill/which-llm .claude/skills/
+cp -r node_modules/best-llm-for/skill/best-llm-for .claude/skills/
 ```
 
 ## Development

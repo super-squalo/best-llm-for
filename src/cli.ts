@@ -34,16 +34,16 @@ const money = (n: number): string => (n === 0 ? 'free' : `$${n.toFixed(2)}`)
 
 function help(): void {
   console.log(`
-${bold('which-llm')} — which model is strongest right now, and what it costs
+${bold('best-llm-for')} — which model is strongest right now, and what it costs
 
-  npx which-llm                     top models for coding
-  npx which-llm --budget 1          only what costs $1 or less per million in
-  npx which-llm --new               models that turned up in the last two weeks
-  npx which-llm opus 5              everything known about one model
-  npx which-llm --area images       one area: code, images, video, agents, maths, reasoning
-  npx which-llm --on gpqa           every model ranked on one benchmark, people included
-  npx which-llm --scores opus 5     every published score for one model
-  npx which-llm --benchmarks        every benchmark, grouped by area
+  npx best-llm-for                     top models for coding
+  npx best-llm-for --budget 1          only what costs $1 or less per million in
+  npx best-llm-for --new               models that turned up in the last two weeks
+  npx best-llm-for opus 5              everything known about one model
+  npx best-llm-for --area images       one area: code, images, video, agents, maths, reasoning
+  npx best-llm-for --on gpqa           every model ranked on one benchmark, people included
+  npx best-llm-for --scores opus 5     every published score for one model
+  npx best-llm-for --benchmarks        every benchmark, grouped by area
 
 Options
   --area <name>   code, images, video, agents, maths, reasoning
@@ -325,7 +325,7 @@ function benchmarkList(grid: Grid): void {
   }
   console.log('')
   console.log(dim(`  ${grid.benchmarks.length} benchmarks, ${grid.rows.length} models, ${age(grid)}`))
-  console.log(dim('  rank on one with:  which-llm --on <name>'))
+  console.log(dim('  rank on one with:  best-llm-for --on <name>'))
   console.log('')
 }
 
@@ -335,7 +335,7 @@ function benchmarkRanking(grid: Grid, query: string, limit: number): void {
 
   if (!benchmark) {
     console.error(`
-  No benchmark matching "${query}". Try: which-llm --benchmarks
+  No benchmark matching "${query}". Try: best-llm-for --benchmarks
 `)
     process.exit(1)
   }
@@ -571,7 +571,7 @@ async function main(): Promise<void> {
 
     const query = args.words.join(' ')
     if (!query) {
-      console.error('\n  --scores needs a model: which-llm --scores opus 5\n')
+      console.error('\n  --scores needs a model: best-llm-for --scores opus 5\n')
       process.exit(1)
     }
     if (args.json) {

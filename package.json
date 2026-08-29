@@ -1,7 +1,7 @@
 {
-  "name": "which-llm",
+  "name": "best-llm-for",
   "version": "0.1.0",
-  "description": "Which model is best for coding right now, and what does it cost — answered in your terminal instead of across eight websites.",
+  "description": "Which model is best for what you are doing, and what it costs - answered in your terminal, with the source behind every number.",
   "keywords": [
     "llm",
     "leaderboard",
@@ -16,7 +16,7 @@
   "author": "Super Squalo",
   "type": "module",
   "bin": {
-    "which-llm": "./dist/cli.js"
+    "best-llm-for": "./dist/cli.js"
   },
   "main": "./dist/index.js",
   "exports": {
@@ -53,10 +53,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/super-squalo/which-llm.git"
+    "url": "git+https://github.com/super-squalo/best-llm-for.git"
   },
-  "homepage": "https://super-squalo.github.io/which-llm/",
+  "homepage": "https://super-squalo.github.io/best-llm-for/",
   "bugs": {
-    "url": "https://github.com/super-squalo/which-llm/issues"
+    "url": "https://github.com/super-squalo/best-llm-for/issues"
   }
 }

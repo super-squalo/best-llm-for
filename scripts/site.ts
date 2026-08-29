@@ -530,9 +530,9 @@ function main(): void {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>which-llm — every model, every benchmark, one table with sources</title>
+<title>best-llm-for — every model, every benchmark, one table with sources</title>
 <meta name="description" content="Language models compared on code, images, video, agents, maths and reasoning. Every number links to the page it was published on, and a lab's claim about its own model is never mixed with an outsider's measurement.">
-<meta property="og:title" content="which-llm">
+<meta property="og:title" content="best-llm-for">
 <meta property="og:description" content="One table for every model and every benchmark, by area. Every number carries its source.">
 <meta property="og:type" content="website">
 <style>
@@ -546,7 +546,7 @@ ${areaCss}
 <div class="wrap">
 
 <header>
-  <h1>which-llm <span>— the whole table</span></h1>
+  <h1>best-llm-for <span>— the whole table</span></h1>
   <p class="lede">Every lab publishes the slice that flatters it, on its own page, under its own
   spelling of the benchmark's name. This puts them in one grid, one area at a time:
   <strong>every number links to the page it came from</strong>, and a lab's claim about its own
@@ -558,7 +558,7 @@ ${areaCss}
     <li><b>${measured}</b><span>independently measured</span></li>
     <li><b>${dropped}</b><span>rival claims dropped</span></li>
   </ul>
-  <p class="install">npx which-llm</p>
+  <p class="install">npx best-llm-for</p>
 </header>
 
 <div class="areas">

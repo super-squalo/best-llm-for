@@ -1,9 +1,9 @@
 ---
-name: which-llm
+name: best-llm-for
 description: Pick a language model and know what it costs. Ranks models by area - code, images, video, agents, maths, reasoning - with the source behind every number, compares a lab's own claims against outsiders' measurements, and prices them per million tokens. Use when asked which model to use for a task, what a model costs, how two models compare, which one reads screenshots or video best, what changed recently, or whether a published benchmark figure holds up.
 ---
 
-# which-llm
+# best-llm-for
 
 A CLI over one grid: every model in rows, every benchmark in columns, each
 number carrying the page it was published on. Data ships with the package and
@@ -12,14 +12,14 @@ works offline; it is rebuilt daily.
 ## Commands
 
 ```bash
-npx which-llm                    # strongest models for coding, with prices
-npx which-llm --budget 1         # only models at $1 or less per million input tokens
-npx which-llm --on gpqa          # every model ranked on one benchmark
-npx which-llm --scores opus 5    # every published score for one model, and who published it
-npx which-llm --benchmarks       # every benchmark, grouped by area
-npx which-llm --area images      # one area: code, images, video, agents, maths, reasoning
-npx which-llm --new              # models listed in the last two weeks
-npx which-llm opus 5             # prices, context and vendors for one model
+npx best-llm-for                    # strongest models for coding, with prices
+npx best-llm-for --budget 1         # only models at $1 or less per million input tokens
+npx best-llm-for --on gpqa          # every model ranked on one benchmark
+npx best-llm-for --scores opus 5    # every published score for one model, and who published it
+npx best-llm-for --benchmarks       # every benchmark, grouped by area
+npx best-llm-for --area images      # one area: code, images, video, agents, maths, reasoning
+npx best-llm-for --new              # models listed in the last two weeks
+npx best-llm-for opus 5             # prices, context and vendors for one model
 ```
 
 `--json` on any of them for structured output. `--limit N` to change how many
