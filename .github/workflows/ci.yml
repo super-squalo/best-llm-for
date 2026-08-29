@@ -66,8 +66,15 @@ jobs:
             if (rivals.length) throw new Error('a lab kept a claim about a rival');
           "
 
+      # Checks the page still carries the things it is for, not just that the
+      # generator exited zero: the six areas, the human line, and the count of
+      # rival claims thrown away.
       - name: The page builds
         run: |
           npm run site
-          grep -q '<table>' site/index.html
+          grep -q '<table data-area=' site/index.html
           grep -q 'rival claims dropped' site/index.html
+          grep -q 'class="humans"' site/index.html
+          for area in codice immagini video agenti matematica ragionamento; do
+            grep -q "data-area=\"$area\"" site/index.html
+          done
