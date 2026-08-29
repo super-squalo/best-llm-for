@@ -7,6 +7,8 @@ it was published on — in your terminal.
 npx which-llm
 ```
 
+The same table as a page: **https://super-squalo.github.io/which-llm/**
+
 Each lab publishes the slice of the picture that flatters it, on its own page,
 under its own spelling of the benchmark's name. Nobody publishes the table.
 This builds it.
