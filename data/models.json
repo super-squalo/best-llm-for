@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T21:10:02.806Z",
+  "generatedAt": "2026-08-29T21:11:40.369Z",
   "sources": [
     {
       "name": "OpenRouter",
@@ -13039,8 +13039,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.54897,
-          "output": 1.09794,
+          "input": 0.538878,
+          "output": 1.077756,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -13148,8 +13148,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.54897,
-          "output": 1.09794,
+          "input": 0.538878,
+          "output": 1.077756,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -13237,8 +13237,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.54897,
-          "output": 1.09794,
+          "input": 0.538878,
+          "output": 1.077756,
           "vendor": "deepseek",
           "mode": "standard"
         },
