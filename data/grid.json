@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T20:06:55.238Z",
+  "generatedAt": "2026-08-29T21:10:07.631Z",
   "humans": [
     {
       "benchmark": "GPQA-Diamond",
@@ -7558,8 +7558,8 @@
       ],
       "maker": "DeepSeek",
       "listedAt": "2026-07-31",
-      "priceInput": 0.045,
-      "priceOutput": 0.09,
+      "priceInput": 0.049999999999999996,
+      "priceOutput": 0.09999999999999999,
       "contextTokens": 1310720
     },
     {

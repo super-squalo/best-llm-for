@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T18:16:06.733Z",
+  "generatedAt": "2026-08-29T21:10:02.806Z",
   "sources": [
     {
       "name": "OpenRouter",
@@ -12674,8 +12674,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.08259999999999999,
-          "output": 0.16519999999999999,
+          "input": 0.08204,
+          "output": 0.16408,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -12726,8 +12726,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.045,
-          "output": 0.09,
+          "input": 0.049999999999999996,
+          "output": 0.09999999999999999,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -12788,8 +12788,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.08259999999999999,
-          "output": 0.16519999999999999,
+          "input": 0.08204,
+          "output": 0.16408,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -12895,8 +12895,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.08259999999999999,
-          "output": 0.16519999999999999,
+          "input": 0.08204,
+          "output": 0.16408,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -13039,8 +13039,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.5693280000000001,
-          "output": 1.1386560000000001,
+          "input": 0.54897,
+          "output": 1.09794,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -13148,8 +13148,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.5693280000000001,
-          "output": 1.1386560000000001,
+          "input": 0.54897,
+          "output": 1.09794,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -13237,8 +13237,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.5693280000000001,
-          "output": 1.1386560000000001,
+          "input": 0.54897,
+          "output": 1.09794,
           "vendor": "deepseek",
           "mode": "standard"
         },
