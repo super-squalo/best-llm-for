@@ -4,3 +4,6 @@ dist/
 
 # Working notes, in Italian, for me. Not part of the package.
 STATO.md
+
+# npm pack leftovers
+*.tgz
