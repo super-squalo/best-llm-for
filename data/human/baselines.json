@@ -1,0 +1,62 @@
+{
+  "note": "What people score on the same tests. Hand-collected, one entry per published figure, each with the sentence that states it. A benchmark with no entry here has no human baseline published - which is most of them.",
+  "capturedAt": "2026-08-29",
+  "entries": [
+    {
+      "benchmark": "GPQA-Diamond",
+      "score": 65.0,
+      "who": "PhD holders and candidates answering questions in their own field",
+      "source": "https://arxiv.org/abs/2311.12022",
+      "quote": "experts who have or are pursuing PhDs in the corresponding domains reach 65% accuracy (74% when discounting clear mistakes the experts identified in retrospect)"
+    },
+    {
+      "benchmark": "GPQA-Diamond",
+      "score": 34.0,
+      "who": "skilled non-experts with over 30 minutes and unrestricted web access",
+      "source": "https://arxiv.org/abs/2311.12022",
+      "quote": "highly skilled non-expert validators only reach 34% accuracy, despite spending on average over 30 minutes with unrestricted access to the web"
+    },
+    {
+      "benchmark": "MMLU",
+      "score": 89.8,
+      "who": "estimated expert level, from 95th-percentile scores on the real exams the questions come from",
+      "source": "https://arxiv.org/abs/2009.03300",
+      "quote": "If we take the 95th percentile human test-taker accuracy for exams that build up our test, and if we make an educated guess when such information is unavailable, we then estimate that expert-level accuracy is approximately 89.8%"
+    },
+    {
+      "benchmark": "MATH",
+      "score": 90.0,
+      "who": "a three-time IMO gold medallist, on a 20-problem sample",
+      "source": "https://arxiv.org/abs/2103.03874",
+      "quote": "A three-time IMO gold medalist got 18/20 = 90%, though missed questions were exclusively due to small errors of arithmetic."
+    },
+    {
+      "benchmark": "MATH",
+      "score": 40.0,
+      "who": "a computer-science PhD student who does not especially like maths",
+      "source": "https://arxiv.org/abs/2103.03874",
+      "quote": "a computer science PhD student who does not especially like mathematics attained approximately 40% on MATH, while a three-time IMO gold medalist attained 90%"
+    },
+    {
+      "benchmark": "MathVista",
+      "score": 60.3,
+      "who": "human performance on the testmini split, as reported by the authors",
+      "source": "https://arxiv.org/abs/2310.02255",
+      "quote": "GPT-4V ... achieves 49.9% accuracy, which is only 58% of human performance at 60.3%"
+    },
+    {
+      "benchmark": "MMMU",
+      "score": 88.6,
+      "who": "human experts, best of three panels (medium 82.6, low 76.2)",
+      "source": "https://mmmu-benchmark.github.io/",
+      "quote": "Human Expert (High), validation overall 88.6 - published on the MMMU leaderboard, 2024-01-31"
+    },
+    {
+      "benchmark": "ARC-AGI-2",
+      "score": 100.0,
+      "who": "a panel of over 400 members of the public - the figure is task coverage, not one person's accuracy",
+      "source": "https://arcprize.org/arc-agi/2/",
+      "quote": "100% of tasks have been solved by at least 2 humans (many by more) in under 2 attempts."
+    }
+  ]
+}

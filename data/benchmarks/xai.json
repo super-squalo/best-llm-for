@@ -1,0 +1,21 @@
+{
+  "benchmarkSet": "xai-grok-announcements",
+  "source": "https://x.ai/news/grok-4",
+  "note": "Self-reported by xAI. GPQA, LiveCodeBench, HMMT and AIME are shown as charts only and are not recorded.",
+  "capturedAt": "2026-08-29",
+  "benchmarks": ["ARC-AGI-2", "USAMO-2025", "Humanity's-Last-Exam"],
+  "entries": [
+    {
+      "model": "Grok 4",
+      "reportedBy": "xAI",
+      "source": "https://x.ai/news/grok-4",
+      "scores": { "ARC-AGI-2": 15.9 }
+    },
+    {
+      "model": "Grok 4 Heavy",
+      "reportedBy": "xAI",
+      "source": "https://x.ai/news/grok-4",
+      "scores": { "USAMO-2025": 61.9, "Humanity's-Last-Exam": 50.7 }
+    }
+  ]
+}

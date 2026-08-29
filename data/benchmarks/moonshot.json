@@ -1,0 +1,27 @@
+{
+  "benchmarkSet": "kimi-k2-model-card",
+  "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
+  "note": "Self-reported by Moonshot in the model card. Instruction-tuned figures.",
+  "capturedAt": "2026-08-29",
+  "benchmarks": [
+    "LiveCodeBench", "MultiPL-E", "SWE-bench-Verified", "SWE-bench-Multilingual",
+    "TerminalBench", "Aider-Polyglot", "AceBench", "AIME-2024", "AIME-2025",
+    "MATH-500", "CNMO-2024", "ZebraLogic", "GPQA-Diamond", "SuperGPQA",
+    "MMLU", "MMLU-Redux", "MMLU-Pro", "IF-Eval", "SimpleQA", "LiveBench"
+  ],
+  "entries": [
+    {
+      "model": "Kimi K2",
+      "reportedBy": "Moonshot",
+      "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
+      "scores": {
+        "LiveCodeBench": 53.7, "MultiPL-E": 85.7, "SWE-bench-Verified": 65.8,
+        "SWE-bench-Multilingual": 47.3, "TerminalBench": 30.0, "Aider-Polyglot": 60.0,
+        "AceBench": 76.5, "AIME-2024": 69.6, "AIME-2025": 49.5, "MATH-500": 97.4,
+        "CNMO-2024": 74.3, "ZebraLogic": 89.0, "GPQA-Diamond": 75.1, "SuperGPQA": 57.2,
+        "MMLU": 89.5, "MMLU-Redux": 92.7, "MMLU-Pro": 81.1, "IF-Eval": 89.8,
+        "SimpleQA": 31.0, "LiveBench": 76.4
+      }
+    }
+  ]
+}

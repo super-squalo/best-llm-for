@@ -1,0 +1,127 @@
+name: Update data
+
+on:
+  # MANUAL ONLY, deliberately.
+  #
+  # The daily schedule below is commented out and stays that way until someone
+  # decides to switch it on. A workflow that refreshes data and deploys a page
+  # is a thing that acts on its own; it gets turned on by a person who wants it
+  # on, after watching it run by hand at least once.
+  #
+  # To enable: uncomment the two lines. 06:17 UTC rather than the hour, because
+  # every scheduled job in the world fires at :00 and the runners queue up.
+  #
+  # schedule:
+  #   - cron: '17 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      # The collector keeps the previous file if a source misbehaves, so a
+      # failure here means it refused to publish something worse — which is
+      # the intended outcome, not a broken build to paper over.
+      - name: Prices and listings
+        id: collect
+        run: npm run collect | tee /tmp/collect.txt
+
+      # Each of these keeps yesterday's file when a source changes shape, and
+      # fails the step only when every source is gone. A lab reformatting its
+      # model card should cost that lab's column, never the whole table.
+      - name: Model cards
+        run: npm run cards | tee /tmp/cards.txt
+
+      - name: Independent leaderboards
+        run: npm run independent | tee /tmp/independent.txt
+
+      - name: Build the grid
+        run: npm run grid | tee /tmp/grid.txt
+
+      - name: Build the page
+        run: npm run site
+
+      - name: Commit if anything changed
+        id: commit
+        run: |
+          git config user.name  'which-llm bot'
+          git config user.email 'bot@users.noreply.github.com'
+          git add data site/index.html
+
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          NEW=$(grep -c '^    ' /tmp/collect.txt || true)
+          git commit -m "data: refresh $(date -u +%Y-%m-%d)"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # A new model is the one thing worth interrupting someone for: being
+      # first with what it costs and how good it is beats being complete about
+      # models everybody already knows.
+      - name: Announce new models
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          if grep -q 'NEW MODELS' /tmp/collect.txt; then
+            {
+              echo "## New models"
+              echo ''
+              echo '```'
+              sed -n '/NEW MODELS/,$p' /tmp/collect.txt
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      # Every rename the grid made, in the run log. A label quietly folding into
+      # the wrong column is the one failure this project cannot afford, and it
+      # would never show up as a failed build.
+      - name: Report what was renamed
+        if: always()
+        run: |
+          {
+            echo "## Labels resolved"
+            echo ''
+            echo '```'
+            sed -n '/labels resolved/,/^$/p' /tmp/grid.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  pages:
+    needs: update
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4

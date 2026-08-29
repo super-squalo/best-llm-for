@@ -1,0 +1,62 @@
+{
+  "name": "which-llm",
+  "version": "0.1.0",
+  "description": "Which model is best for coding right now, and what does it cost — answered in your terminal instead of across eight websites.",
+  "keywords": [
+    "llm",
+    "leaderboard",
+    "pricing",
+    "model-selection",
+    "cli",
+    "benchmark",
+    "ai",
+    "cost"
+  ],
+  "license": "MIT",
+  "author": "Super Squalo",
+  "type": "module",
+  "bin": {
+    "which-llm": "./dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "data",
+    "skill"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts src/cli.ts --format esm --dts --clean",
+    "collect": "tsx scripts/collect.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "site": "tsx scripts/site.ts",
+    "update": "npm run collect && npm run cards && npm run independent && npm run grid && npm run site",
+    "grid": "tsx scripts/grid.ts",
+    "independent": "tsx scripts/independent.ts",
+    "cards": "tsx scripts/cards.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supersqualoyt/which-llm.git"
+  },
+  "homepage": "https://github.com/supersqualoyt/which-llm",
+  "bugs": {
+    "url": "https://github.com/supersqualoyt/which-llm/issues"
+  }
+}

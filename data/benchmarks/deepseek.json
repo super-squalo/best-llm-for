@@ -1,0 +1,40 @@
+{
+  "benchmarkSet": "deepseek-v3-readme",
+  "source": "https://github.com/deepseek-ai/DeepSeek-V3",
+  "note": "Self-reported by DeepSeek in the model README. Chat-model figures.",
+  "capturedAt": "2026-08-29",
+  "benchmarks": [
+    "MMLU", "MMLU-Redux", "MMLU-Pro", "DROP", "IF-Eval", "GPQA-Diamond",
+    "SimpleQA", "FRAMES", "LongBench-v2", "HumanEval-Mul", "LiveCodeBench",
+    "Codeforces", "SWE-bench-Verified", "Aider-Edit", "Aider-Polyglot",
+    "AIME-2024", "MATH-500", "CNMO-2024", "C-Eval", "Arena-Hard", "AlpacaEval-2.0"
+  ],
+  "entries": [
+    {
+      "model": "DeepSeek-V3",
+      "reportedBy": "DeepSeek",
+      "source": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "scores": {
+        "MMLU": 88.5, "MMLU-Redux": 89.1, "MMLU-Pro": 75.9, "DROP": 91.6,
+        "IF-Eval": 86.1, "GPQA-Diamond": 59.1, "SimpleQA": 24.9, "FRAMES": 73.3,
+        "LongBench-v2": 48.7, "HumanEval-Mul": 82.6, "LiveCodeBench": 40.5,
+        "Codeforces": 51.6, "SWE-bench-Verified": 42.0, "Aider-Edit": 79.7,
+        "Aider-Polyglot": 49.6, "AIME-2024": 39.2, "MATH-500": 90.2,
+        "CNMO-2024": 43.2, "C-Eval": 86.5, "Arena-Hard": 85.5, "AlpacaEval-2.0": 70.0
+      }
+    },
+    {
+      "model": "DeepSeek-V2.5",
+      "reportedBy": "DeepSeek",
+      "source": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "scores": {
+        "MMLU": 80.6, "MMLU-Redux": 80.3, "MMLU-Pro": 66.2, "DROP": 87.8,
+        "IF-Eval": 80.6, "GPQA-Diamond": 41.3, "SimpleQA": 10.2, "FRAMES": 65.4,
+        "LongBench-v2": 35.4, "HumanEval-Mul": 77.4, "LiveCodeBench": 29.2,
+        "Codeforces": 35.6, "SWE-bench-Verified": 22.6, "Aider-Edit": 71.6,
+        "Aider-Polyglot": 18.2, "AIME-2024": 16.7, "MATH-500": 74.7,
+        "CNMO-2024": 10.8, "C-Eval": 79.5, "Arena-Hard": 76.2, "AlpacaEval-2.0": 50.5
+      }
+    }
+  ]
+}

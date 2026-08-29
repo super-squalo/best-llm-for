@@ -1,0 +1,472 @@
+{
+  "benchmarkSet": "video-mme",
+  "kind": "independent",
+  "source": "https://video-mme.github.io/home_page.html",
+  "note": "900 videos from a few seconds to an hour. The plain score is without subtitles - the model has to watch rather than read.",
+  "capturedAt": "2026-08-29",
+  "benchmarks": [
+    "Video-MME",
+    "Video-MME-With-Subtitles"
+  ],
+  "entries": [
+    {
+      "model": "video-SALMONN 2+ THU & ByteDance",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 79.7,
+        "Video-MME-With-Subtitles": 81.6
+      }
+    },
+    {
+      "model": "Gemini 1.5 Pro Google",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 75,
+        "Video-MME-With-Subtitles": 81.3
+      }
+    },
+    {
+      "model": "AdaReTaKe HIT & Huawei",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 73.5,
+        "Video-MME-With-Subtitles": 79.6
+      }
+    },
+    {
+      "model": "JT-VL-Chat China Mobile",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 70.6,
+        "Video-MME-With-Subtitles": 79.1
+      }
+    },
+    {
+      "model": "Qwen2-VL Alibaba",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 71.2,
+        "Video-MME-With-Subtitles": 77.8
+      }
+    },
+    {
+      "model": "GPT-4o OpenAI",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 71.9,
+        "Video-MME-With-Subtitles": 77.2
+      }
+    },
+    {
+      "model": "LLaVA-Video Bytedance & NTU S-Lab",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 70.6,
+        "Video-MME-With-Subtitles": 76.9
+      }
+    },
+    {
+      "model": "Gemini 1.5 Flash Google",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 70.3,
+        "Video-MME-With-Subtitles": 75
+      }
+    },
+    {
+      "model": "Oryx-1.5 THU & Tencent & NTU",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 67.3,
+        "Video-MME-With-Subtitles": 74.9
+      }
+    },
+    {
+      "model": "InternVL2.5 Shanghai AI Lab",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 72.1,
+        "Video-MME-With-Subtitles": 74
+      }
+    },
+    {
+      "model": "Keye-VL-1.5 Kwai Keye Team",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 73,
+        "Video-MME-With-Subtitles": 74
+      }
+    },
+    {
+      "model": "TSPO XJTU & TeleAI & USTB",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 73,
+        "Video-MME-With-Subtitles": 73.7
+      }
+    },
+    {
+      "model": "ViLAMP RUC & Ant Group",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 67.5,
+        "Video-MME-With-Subtitles": 73.5
+      }
+    },
+    {
+      "model": "Aria Rhymes AI",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 67.6,
+        "Video-MME-With-Subtitles": 72.1
+      }
+    },
+    {
+      "model": "Long-VITA Tencent & NJU",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 67,
+        "Video-MME-With-Subtitles": 72
+      }
+    },
+    {
+      "model": "LinVT Meituan Inc",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 70.3,
+        "Video-MME-With-Subtitles": 71.7
+      }
+    },
+    {
+      "model": "TPO Stanford University",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 65.6,
+        "Video-MME-With-Subtitles": 71.5
+      }
+    },
+    {
+      "model": "VideoLLaMA 3 Alibaba",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 66.2,
+        "Video-MME-With-Subtitles": 70.3
+      }
+    },
+    {
+      "model": "LiveCC NUS Show Lab & ByteDance",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 64.1,
+        "Video-MME-With-Subtitles": 70.3
+      }
+    },
+    {
+      "model": "QuoTA XMU",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 65.9,
+        "Video-MME-With-Subtitles": 70
+      }
+    },
+    {
+      "model": "NVILA NVIDIA",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 64.2,
+        "Video-MME-With-Subtitles": 70
+      }
+    },
+    {
+      "model": "VideoChat-Flash Shanghai AI Lab & NJU",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 65.3,
+        "Video-MME-With-Subtitles": 69.7
+      }
+    },
+    {
+      "model": "LLaVA-OneVision Bytedance & NTU S-Lab",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 66.3,
+        "Video-MME-With-Subtitles": 69.6
+      }
+    },
+    {
+      "model": "GPT-4o mini OpenAI",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 64.8,
+        "Video-MME-With-Subtitles": 68.9
+      }
+    },
+    {
+      "model": "ReTaKe HIT & Huawei",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 63.9,
+        "Video-MME-With-Subtitles": 68.9
+      }
+    },
+    {
+      "model": "ByteVideoLLM Bytedance",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 64.6,
+        "Video-MME-With-Subtitles": 68.8
+      }
+    },
+    {
+      "model": "mPLUG-Owl3 Alibaba",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 59.3,
+        "Video-MME-With-Subtitles": 68.1
+      }
+    },
+    {
+      "model": "MiniCPM-o 2.6 OpenBMB",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 63.9,
+        "Video-MME-With-Subtitles": 67.9
+      }
+    },
+    {
+      "model": "VideoLLaMA 2 Alibaba",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 62.4,
+        "Video-MME-With-Subtitles": 64.7
+      }
+    },
+    {
+      "model": "MiniCPM-V 2.6 OpenBMB",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 60.9,
+        "Video-MME-With-Subtitles": 63.7
+      }
+    },
+    {
+      "model": "GPT-4V OpenAI",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 59.9,
+        "Video-MME-With-Subtitles": 63.3
+      }
+    },
+    {
+      "model": "Claude 3.5 Sonnet Anthropic",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 60,
+        "Video-MME-With-Subtitles": 62.9
+      }
+    },
+    {
+      "model": "TimeMarker Meituan",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 57.3,
+        "Video-MME-With-Subtitles": 62.8
+      }
+    },
+    {
+      "model": "InternVL2 Shanghai AI Lab",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 61.2,
+        "Video-MME-With-Subtitles": 62.4
+      }
+    },
+    {
+      "model": "Video-XL SJTU & BAAI",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 55.5,
+        "Video-MME-With-Subtitles": 61
+      }
+    },
+    {
+      "model": "VITA Tencent Youtu Lab & NJU",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 55.8,
+        "Video-MME-With-Subtitles": 59.2
+      }
+    },
+    {
+      "model": "VITA 1.5 Tencent Youtu Lab & NJU",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 56.1,
+        "Video-MME-With-Subtitles": 58.7
+      }
+    },
+    {
+      "model": "Kangaroo Meituan & UCAS",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 56,
+        "Video-MME-With-Subtitles": 57.6
+      }
+    },
+    {
+      "model": "Video-CCAM QQMM",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 53.2,
+        "Video-MME-With-Subtitles": 57.4
+      }
+    },
+    {
+      "model": "Long-LLaVA Amazon",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 52.9,
+        "Video-MME-With-Subtitles": 57.1
+      }
+    },
+    {
+      "model": "LongVA NTU S-Lab",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 52.6,
+        "Video-MME-With-Subtitles": 54.3
+      }
+    },
+    {
+      "model": "InternVL-Chat-V1.5 Shanghai AI Lab",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 50.7,
+        "Video-MME-With-Subtitles": 52.4
+      }
+    },
+    {
+      "model": "Qwen-VL-Max Alibaba",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 51.3,
+        "Video-MME-With-Subtitles": 51.2
+      }
+    },
+    {
+      "model": "ShareGemini XMU",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 43.2,
+        "Video-MME-With-Subtitles": 47.9
+      }
+    },
+    {
+      "model": "SliME CASIA",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 45.3,
+        "Video-MME-With-Subtitles": 47.2
+      }
+    },
+    {
+      "model": "Chat-UniVi-v1.5 PKU",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 40.6,
+        "Video-MME-With-Subtitles": 45.9
+      }
+    },
+    {
+      "model": "VideoChat2-Mistral Shanghai AI Lab",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 39.5,
+        "Video-MME-With-Subtitles": 43.8
+      }
+    },
+    {
+      "model": "ShareGPT4Video Shanghai AI Lab",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 39.9,
+        "Video-MME-With-Subtitles": 43.6
+      }
+    },
+    {
+      "model": "ST-LLM PKU",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 37.9,
+        "Video-MME-With-Subtitles": 42.3
+      }
+    },
+    {
+      "model": "Qwen-VL-Chat Alibaba",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 41.1,
+        "Video-MME-With-Subtitles": 41.9
+      }
+    },
+    {
+      "model": "Video-LLaVA PKU",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 39.9,
+        "Video-MME-With-Subtitles": 41.6
+      }
+    }
+  ]
+}

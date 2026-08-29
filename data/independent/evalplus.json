@@ -1,0 +1,1390 @@
+{
+  "benchmarkSet": "evalplus",
+  "kind": "independent",
+  "source": "https://evalplus.github.io/leaderboard.html",
+  "note": "EvalPlus reruns HumanEval and MBPP with roughly 80x more tests. The plain columns are their own rerun of the original tests, not the labs figures.",
+  "capturedAt": "2026-08-29",
+  "benchmarks": [
+    "HumanEval",
+    "HumanEval-Plus",
+    "MBPP",
+    "MBPP-Plus"
+  ],
+  "entries": [
+    {
+      "model": "OpenCoder-8B-Instruct",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 81.7,
+        "HumanEval-Plus": 77.4,
+        "MBPP": 82,
+        "MBPP-Plus": 71.4
+      }
+    },
+    {
+      "model": "Artigenz-Coder-DS-6.7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 75.6,
+        "HumanEval-Plus": 72.6,
+        "MBPP": 80.7,
+        "MBPP-Plus": 69.6
+      }
+    },
+    {
+      "model": "Code-13B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 56.1,
+        "HumanEval-Plus": 52.4,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "Code-290k-6.7B-Instruct",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 64.6,
+        "HumanEval-Plus": 59.7,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "Code-33B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 54.9,
+        "HumanEval-Plus": 49.4,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "CodeGen-16B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 32.9,
+        "HumanEval-Plus": 28,
+        "MBPP": 54.2,
+        "MBPP-Plus": 45.5
+      }
+    },
+    {
+      "model": "CodeGen-2B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 24.4,
+        "HumanEval-Plus": 22.6,
+        "MBPP": 46.3,
+        "MBPP-Plus": 36
+      }
+    },
+    {
+      "model": "CodeGen-6B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 29.3,
+        "HumanEval-Plus": 25.6,
+        "MBPP": 50.8,
+        "MBPP-Plus": 42.9
+      }
+    },
+    {
+      "model": "CodeGen2-16B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 19.5,
+        "HumanEval-Plus": 16.5,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "CodeGen2-1B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 11,
+        "HumanEval-Plus": 9.1,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "CodeGen2-3B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 15.9,
+        "HumanEval-Plus": 12.8,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "CodeGen2-7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 18.3,
+        "HumanEval-Plus": 17.7,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "CodeLlama-13B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 42.7,
+        "HumanEval-Plus": 38.4,
+        "MBPP": 63.5,
+        "MBPP-Plus": 52.6
+      }
+    },
+    {
+      "model": "CodeLlama-34B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 51.8,
+        "HumanEval-Plus": 43.9,
+        "MBPP": 69.3,
+        "MBPP-Plus": 56.3
+      }
+    },
+    {
+      "model": "CodeLlama-70B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 55.5,
+        "HumanEval-Plus": 50.6,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "CodeLlama-70B-Instruct",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 72,
+        "HumanEval-Plus": 65.9,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "CodeLlama-7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 37.8,
+        "HumanEval-Plus": 35.4,
+        "MBPP": 59.5,
+        "MBPP-Plus": 46.8
+      }
+    },
+    {
+      "model": "Qwen2.5-Coder-32B-Instruct",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 92.1,
+        "HumanEval-Plus": 87.2,
+        "MBPP": 90.5,
+        "MBPP-Plus": 77
+      }
+    },
+    {
+      "model": "CodeQwen1.5-7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 51.8,
+        "HumanEval-Plus": 45.7,
+        "MBPP": 73.5,
+        "MBPP-Plus": 60.8
+      }
+    },
+    {
+      "model": "CodeQwen1.5-7B-Chat",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 83.5,
+        "HumanEval-Plus": 78.7,
+        "MBPP": 79.4,
+        "MBPP-Plus": 69
+      }
+    },
+    {
+      "model": "Qwen1.5-72B-Chat",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 68.3,
+        "HumanEval-Plus": 59.1,
+        "MBPP": 72.5,
+        "MBPP-Plus": 61.6
+      }
+    },
+    {
+      "model": "CodeT5+-16B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 31.7,
+        "HumanEval-Plus": 26.8,
+        "MBPP": 56.6,
+        "MBPP-Plus": 47.1
+      }
+    },
+    {
+      "model": "CodeT5+-2B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 25,
+        "HumanEval-Plus": 22,
+        "MBPP": 48.4,
+        "MBPP-Plus": 38.1
+      }
+    },
+    {
+      "model": "CodeT5+-6B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 29.3,
+        "HumanEval-Plus": 24.4,
+        "MBPP": 52.9,
+        "MBPP-Plus": 41.5
+      }
+    },
+    {
+      "model": "Command-R+",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 64,
+        "HumanEval-Plus": 56.7,
+        "MBPP": 74.3,
+        "MBPP-Plus": 63.5
+      }
+    },
+    {
+      "model": "DeepSeek-V3 (Nov 2024)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 91.5,
+        "HumanEval-Plus": 86.6,
+        "MBPP": 87.6,
+        "MBPP-Plus": 73
+      }
+    },
+    {
+      "model": "DeepSeek-V2.5 (Nov 2024)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 90.2,
+        "HumanEval-Plus": 83.5,
+        "MBPP": 87.6,
+        "MBPP-Plus": 74.1
+      }
+    },
+    {
+      "model": "Gemini 1.5 Pro 002",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 89,
+        "HumanEval-Plus": 79.3,
+        "MBPP": 89.7,
+        "MBPP-Plus": 74.6
+      }
+    },
+    {
+      "model": "Gemini 1.5 Flash 002",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 82.3,
+        "HumanEval-Plus": 75.6,
+        "MBPP": 84.7,
+        "MBPP-Plus": 67.5
+      }
+    },
+    {
+      "model": "DeepSeek-Coder-V2-Instruct",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 85.4,
+        "HumanEval-Plus": 82.3,
+        "MBPP": 89.4,
+        "MBPP-Plus": 75.1
+      }
+    },
+    {
+      "model": "DeepSeek-Coder-1.3B-base",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 28.7,
+        "HumanEval-Plus": 25.6,
+        "MBPP": 56.9,
+        "MBPP-Plus": 47.9
+      }
+    },
+    {
+      "model": "DeepSeek-Coder-1.3B-instruct",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 65.9,
+        "HumanEval-Plus": 60.4,
+        "MBPP": 65.3,
+        "MBPP-Plus": 54.8
+      }
+    },
+    {
+      "model": "DeepSeek-Coder-33B-base",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 51.2,
+        "HumanEval-Plus": 44.5,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "DeepSeek-Coder-33B-instruct",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 81.1,
+        "HumanEval-Plus": 75,
+        "MBPP": 80.4,
+        "MBPP-Plus": 70.1
+      }
+    },
+    {
+      "model": "DeepSeek-Coder-6.7B-base",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 47.6,
+        "HumanEval-Plus": 39.6,
+        "MBPP": 72,
+        "MBPP-Plus": 58.7
+      }
+    },
+    {
+      "model": "DeepSeek-Coder-6.7B-instruct",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 74.4,
+        "HumanEval-Plus": 71.3,
+        "MBPP": 74.9,
+        "MBPP-Plus": 65.6
+      }
+    },
+    {
+      "model": "DeepSeek-Coder-7B-instruct-v1.5",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 75.6,
+        "HumanEval-Plus": 71.3,
+        "MBPP": 75.2,
+        "MBPP-Plus": 62.2
+      }
+    },
+    {
+      "model": "Claude Sonnet 3.5 (June 2024)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 87.2,
+        "HumanEval-Plus": 81.7,
+        "MBPP": 89.4,
+        "MBPP-Plus": 74.3
+      }
+    },
+    {
+      "model": "Grok Beta",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 88.4,
+        "HumanEval-Plus": 80.5,
+        "MBPP": 86,
+        "MBPP-Plus": 65.6
+      }
+    },
+    {
+      "model": "O1 Preview (Sept 2024)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 96.3,
+        "HumanEval-Plus": 89,
+        "MBPP": 95.5,
+        "MBPP-Plus": 80.2
+      }
+    },
+    {
+      "model": "O1 Mini (Sept 2024)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 96.3,
+        "HumanEval-Plus": 89,
+        "MBPP": 93.1,
+        "MBPP-Plus": 78.8
+      }
+    },
+    {
+      "model": "GPT 4o (Aug 2024)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 92.7,
+        "HumanEval-Plus": 87.2,
+        "MBPP": 87.6,
+        "MBPP-Plus": 72.2
+      }
+    },
+    {
+      "model": "GPT 4o Mini (July 2024)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 88.4,
+        "HumanEval-Plus": 83.5,
+        "MBPP": 85.4,
+        "MBPP-Plus": 72.2
+      }
+    },
+    {
+      "model": "GPT-3.5 (May 2023)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 73.2,
+        "HumanEval-Plus": 66.5,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "GPT-3.5-Turbo (Nov 2023)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 76.8,
+        "HumanEval-Plus": 70.7,
+        "MBPP": 82.5,
+        "MBPP-Plus": 69.7
+      }
+    },
+    {
+      "model": "GPT-4 (May 2023)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 88.4,
+        "HumanEval-Plus": 79.3,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "GPT-4-Turbo (April 2024)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 90.2,
+        "HumanEval-Plus": 86.6,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "GPT-4-Turbo (Nov 2023)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 85.4,
+        "HumanEval-Plus": 81.7,
+        "MBPP": 85.7,
+        "MBPP-Plus": 73.3
+      }
+    },
+    {
+      "model": "GPT-J-6B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 12.2,
+        "HumanEval-Plus": 11,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "GPT-Neo-2.7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 7.9,
+        "HumanEval-Plus": 6.7,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "Gemini Pro 1.0",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 63.4,
+        "HumanEval-Plus": 55.5,
+        "MBPP": 75.4,
+        "MBPP-Plus": 61.4
+      }
+    },
+    {
+      "model": "Gemini Pro 1.5",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 68.3,
+        "HumanEval-Plus": 61,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "InCoder-1.3B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 12.2,
+        "HumanEval-Plus": 11,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "InCoder-6.7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 15.9,
+        "HumanEval-Plus": 12.2,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "Llama3-70B-instruct",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 77.4,
+        "HumanEval-Plus": 72,
+        "MBPP": 82.3,
+        "MBPP-Plus": 69
+      }
+    },
+    {
+      "model": "Llama3-8B-base",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 33.5,
+        "HumanEval-Plus": 29.3,
+        "MBPP": 61.4,
+        "MBPP-Plus": 51.6
+      }
+    },
+    {
+      "model": "Llama3.1-8B-instruct",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 69.5,
+        "HumanEval-Plus": 62.8,
+        "MBPP": 68.3,
+        "MBPP-Plus": 55.6
+      }
+    },
+    {
+      "model": "Llama3-8B-instruct",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 61.6,
+        "HumanEval-Plus": 56.7,
+        "MBPP": 64.6,
+        "MBPP-Plus": 54.8
+      }
+    },
+    {
+      "model": "WaveCoder-Ultra-6.7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 75,
+        "HumanEval-Plus": 69.5,
+        "MBPP": 74.9,
+        "MBPP-Plus": 63.5
+      }
+    },
+    {
+      "model": "Magicoder-S-CL-7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 70.7,
+        "HumanEval-Plus": 67.7,
+        "MBPP": 70.6,
+        "MBPP-Plus": 60.1
+      }
+    },
+    {
+      "model": "Magicoder-S-DS-6.7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 76.8,
+        "HumanEval-Plus": 71.3,
+        "MBPP": 79.4,
+        "MBPP-Plus": 69
+      }
+    },
+    {
+      "model": "Mistral Large (Mar 2024)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 69.5,
+        "HumanEval-Plus": 62.2,
+        "MBPP": 72.8,
+        "MBPP-Plus": 59.5
+      }
+    },
+    {
+      "model": "Mistral-7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 28.7,
+        "HumanEval-Plus": 23.8,
+        "MBPP": 51.9,
+        "MBPP-Plus": 42.1
+      }
+    },
+    {
+      "model": "Mistral-codealpaca-7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 48.2,
+        "HumanEval-Plus": 42.1,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "MistralHermes-CodePro-7B-v1",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 47.6,
+        "HumanEval-Plus": 42.1,
+        "MBPP": 57.4,
+        "MBPP-Plus": 46.4
+      }
+    },
+    {
+      "model": "databricks/dbrx-instruct",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 75,
+        "HumanEval-Plus": 70.1,
+        "MBPP": 67.2,
+        "MBPP-Plus": 55.8
+      }
+    },
+    {
+      "model": "Codestral-22B-v0.1",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 79.9,
+        "HumanEval-Plus": 73.8,
+        "MBPP": 72.5,
+        "MBPP-Plus": 61.9
+      }
+    },
+    {
+      "model": "Mistral-7B-Instruct-v0.2",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 42.1,
+        "HumanEval-Plus": 36,
+        "MBPP": 44.7,
+        "MBPP-Plus": 37
+      }
+    },
+    {
+      "model": "Mixtral-8x22B-Instruct-v0.1",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 76.2,
+        "HumanEval-Plus": 72,
+        "MBPP": 73.8,
+        "MBPP-Plus": 64.3
+      }
+    },
+    {
+      "model": "Mixtral-8x7B-Instruct-v0.1",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 45.1,
+        "HumanEval-Plus": 39.6,
+        "MBPP": 59.5,
+        "MBPP-Plus": 49.7
+      }
+    },
+    {
+      "model": "OpenChat-3.5-7B-0106",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 72.6,
+        "HumanEval-Plus": 67.7,
+        "MBPP": 63.8,
+        "MBPP-Plus": 54.5
+      }
+    },
+    {
+      "model": "OpenCodeInterpreter-DS-33B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 79.3,
+        "HumanEval-Plus": 73.8,
+        "MBPP": 80.2,
+        "MBPP-Plus": 68.5
+      }
+    },
+    {
+      "model": "OpenCodeInterpreter-DS-6.7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 77.4,
+        "HumanEval-Plus": 72,
+        "MBPP": 76.5,
+        "MBPP-Plus": 66.4
+      }
+    },
+    {
+      "model": "OpenHermes-2.5-Code-290k-13B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 54.3,
+        "HumanEval-Plus": 48.8,
+        "MBPP": 52.4,
+        "MBPP-Plus": 45.8
+      }
+    },
+    {
+      "model": "Phind-CodeLlama-34B-v2",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 71.3,
+        "HumanEval-Plus": 67.1,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "PolyCoder-2.7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 6.1,
+        "HumanEval-Plus": 6.1,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "Python-Code-13B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 32.9,
+        "HumanEval-Plus": 30.5,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "SOLAR-10.7B-Instruct-v1.0",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 43.3,
+        "HumanEval-Plus": 37.2,
+        "MBPP": 43.9,
+        "MBPP-Plus": 36.2
+      }
+    },
+    {
+      "model": "SantaCoder-1.1B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 14.6,
+        "HumanEval-Plus": 14,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "StableLM-7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 2.4,
+        "HumanEval-Plus": 2.4,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "starchat2-15b-v0.1",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 73.8,
+        "HumanEval-Plus": 71.3,
+        "MBPP": 74.9,
+        "MBPP-Plus": 64.6
+      }
+    },
+    {
+      "model": "StarCoder-15B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 34.1,
+        "HumanEval-Plus": 29.3,
+        "MBPP": 55.1,
+        "MBPP-Plus": 46.1
+      }
+    },
+    {
+      "model": "starcoder2-15b-instruct-v0.1",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 67.7,
+        "HumanEval-Plus": 60.4,
+        "MBPP": 78,
+        "MBPP-Plus": 65.1
+      }
+    },
+    {
+      "model": "StarCoder2-15B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 46.3,
+        "HumanEval-Plus": 37.8,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "StarCoder2-3B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 31.7,
+        "HumanEval-Plus": 27.4,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "StarCoder2-7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 35.4,
+        "HumanEval-Plus": 29.9,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "StarCoderBase-1B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 14.6,
+        "HumanEval-Plus": 12.2,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "StarCoderBase-3B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 17.7,
+        "HumanEval-Plus": 15.9,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "StarCoderBase-7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 24.4,
+        "HumanEval-Plus": 21.3,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "Vicuna-13B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 17.1,
+        "HumanEval-Plus": 15.9,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "Vicuna-7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 11.6,
+        "HumanEval-Plus": 11.6,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "WhiteRabbitNeo-33B-v1",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 72,
+        "HumanEval-Plus": 65.9,
+        "MBPP": 79.4,
+        "MBPP-Plus": 66.9
+      }
+    },
+    {
+      "model": "WizardCoder-15B-V1.0",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 56.7,
+        "HumanEval-Plus": 50.6,
+        "MBPP": 64.3,
+        "MBPP-Plus": 54.2
+      }
+    },
+    {
+      "model": "WizardCoder-33B-V1.1",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 79.9,
+        "HumanEval-Plus": 73.2,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "WizardCoder-Python-34B-V1.0",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 73.2,
+        "HumanEval-Plus": 64.6,
+        "MBPP": 75.1,
+        "MBPP-Plus": 63.2
+      }
+    },
+    {
+      "model": "WizardCoder-Python-7B-V1.0",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 50.6,
+        "HumanEval-Plus": 45.1,
+        "MBPP": 58.5,
+        "MBPP-Plus": 49.5
+      }
+    },
+    {
+      "model": "XwinCoder-34B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 75.6,
+        "HumanEval-Plus": 69.5,
+        "MBPP": 77,
+        "MBPP-Plus": 64.8
+      }
+    },
+    {
+      "model": "Zephyr β-7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 30,
+        "HumanEval-Plus": 23.2,
+        "MBPP": 42.1,
+        "MBPP-Plus": 34.7
+      }
+    },
+    {
+      "model": "claude-2 (Mar 2024)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 69.5,
+        "HumanEval-Plus": 61.6,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "claude-3-haiku (Mar 2024)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 76.8,
+        "HumanEval-Plus": 68.9,
+        "MBPP": 80.2,
+        "MBPP-Plus": 68.8
+      }
+    },
+    {
+      "model": "claude-3-opus (Mar 2024)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 82.9,
+        "HumanEval-Plus": 77.4,
+        "MBPP": 89.4,
+        "MBPP-Plus": 73.3
+      }
+    },
+    {
+      "model": "claude-3-sonnet (Mar 2024)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 70.7,
+        "HumanEval-Plus": 64,
+        "MBPP": 83.6,
+        "MBPP-Plus": 69.3
+      }
+    },
+    {
+      "model": "claude-instant-1 (Mar 2024)",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 57.3,
+        "HumanEval-Plus": 50.6,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "code-millenials-34B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 74.4,
+        "HumanEval-Plus": 70.7,
+        "MBPP": 76.2,
+        "MBPP-Plus": 64.6
+      }
+    },
+    {
+      "model": "codegemma-2b",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 26.8,
+        "HumanEval-Plus": 20.7,
+        "MBPP": 55.6,
+        "MBPP-Plus": 46.6
+      }
+    },
+    {
+      "model": "codegemma-7b",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 44.5,
+        "HumanEval-Plus": 41.5,
+        "MBPP": 65.1,
+        "MBPP-Plus": 52.4
+      }
+    },
+    {
+      "model": "codegemma-7b-it",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 60.4,
+        "HumanEval-Plus": 51.8,
+        "MBPP": 70.4,
+        "MBPP-Plus": 56.9
+      }
+    },
+    {
+      "model": "dolphin-2.6-mixtral-8x7b",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 64,
+        "HumanEval-Plus": 57.3,
+        "MBPP": 70.6,
+        "MBPP-Plus": 59
+      }
+    },
+    {
+      "model": "gemma-1.1-2b-it",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 22.6,
+        "HumanEval-Plus": 17.7,
+        "MBPP": 29.8,
+        "MBPP-Plus": 23.3
+      }
+    },
+    {
+      "model": "gemma-1.1-7b-it",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 42.7,
+        "HumanEval-Plus": 35.4,
+        "MBPP": 57.1,
+        "MBPP-Plus": 45
+      }
+    },
+    {
+      "model": "gemma-2b",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 25,
+        "HumanEval-Plus": 20.7,
+        "MBPP": 41.8,
+        "MBPP-Plus": 34.1
+      }
+    },
+    {
+      "model": "gemma-2b-it",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 17.7,
+        "HumanEval-Plus": 15.2,
+        "MBPP": null,
+        "MBPP-Plus": null
+      }
+    },
+    {
+      "model": "gemma-7b",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 35.4,
+        "HumanEval-Plus": 28.7,
+        "MBPP": 52.6,
+        "MBPP-Plus": 43.4
+      }
+    },
+    {
+      "model": "gemma-7b-it",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 28.7,
+        "HumanEval-Plus": 25,
+        "MBPP": 47.1,
+        "MBPP-Plus": 36.8
+      }
+    },
+    {
+      "model": "Phi-3-mini-4k-instruct",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 64.6,
+        "HumanEval-Plus": 59.1,
+        "MBPP": 65.9,
+        "MBPP-Plus": 54.2
+      }
+    },
+    {
+      "model": "phi-2-2.7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 49.4,
+        "HumanEval-Plus": 45.1,
+        "MBPP": 64,
+        "MBPP-Plus": 54.2
+      }
+    },
+    {
+      "model": "speechless-code-mistral-7B-v1.0",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 48.2,
+        "HumanEval-Plus": 41.5,
+        "MBPP": 57.4,
+        "MBPP-Plus": 48.7
+      }
+    },
+    {
+      "model": "speechless-codellama-34B-v2.0",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 77.4,
+        "HumanEval-Plus": 72,
+        "MBPP": 73.8,
+        "MBPP-Plus": 61.4
+      }
+    },
+    {
+      "model": "speechless-coder-ds-6.7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 71.3,
+        "HumanEval-Plus": 65.9,
+        "MBPP": 75.9,
+        "MBPP-Plus": 64.4
+      }
+    },
+    {
+      "model": "speechless-coding-7B-16k-tora",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 54.9,
+        "HumanEval-Plus": 50.6,
+        "MBPP": 64.2,
+        "MBPP-Plus": 50.6
+      }
+    },
+    {
+      "model": "speechless-starcoder2-15b",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 67.1,
+        "HumanEval-Plus": 62.8,
+        "MBPP": 73.5,
+        "MBPP-Plus": 62.4
+      }
+    },
+    {
+      "model": "speechless-starcoder2-7b",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 56.1,
+        "HumanEval-Plus": 51.8,
+        "MBPP": 66.7,
+        "MBPP-Plus": 56.3
+      }
+    },
+    {
+      "model": "stable-code-3B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 29.3,
+        "HumanEval-Plus": 25.6,
+        "MBPP": 54.8,
+        "MBPP-Plus": 45.8
+      }
+    },
+    {
+      "model": "xDAN-L1-Chat-RL-v1-7B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 40.2,
+        "HumanEval-Plus": 32.9,
+        "MBPP": 50.3,
+        "MBPP-Plus": 41.3
+      }
+    },
+    {
+      "model": "zyte-1B",
+      "measuredBy": "EvalPlus",
+      "source": "https://evalplus.github.io/leaderboard.html",
+      "scores": {
+        "HumanEval": 2.4,
+        "HumanEval-Plus": 1.8,
+        "MBPP": 9.8,
+        "MBPP-Plus": 7.5
+      }
+    }
+  ]
+}

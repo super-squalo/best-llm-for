@@ -1,0 +1,462 @@
+{
+  "benchmarkSet": "openai-simple-evals",
+  "note": "Published by OpenAI. Abandoned July 2025 - the repo states it will no longer be updated.",
+  "source": "https://github.com/openai/simple-evals",
+  "capturedAt": "2026-08-28T21:58:55.195204+00:00",
+  "benchmarks": [
+    "MMLU",
+    "GPQA",
+    "MATH",
+    "HumanEval",
+    "MGSM",
+    "DROP",
+    "SimpleQA"
+  ],
+  "entries": [
+    {
+      "model": "o3-high",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 93.3,
+        "GPQA": 83.4,
+        "MATH": 98.1,
+        "HumanEval": 88.4,
+        "MGSM": 92.0,
+        "DROP": 89.8,
+        "SimpleQA": 48.6
+      }
+    },
+    {
+      "model": "o3",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 92.9,
+        "GPQA": 82.8,
+        "MATH": 97.8,
+        "HumanEval": 87.4,
+        "MGSM": 92.3,
+        "DROP": 80.6,
+        "SimpleQA": 49.4
+      }
+    },
+    {
+      "model": "o3-low",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 92.8,
+        "GPQA": 78.6,
+        "MATH": 96.9,
+        "HumanEval": 87.3,
+        "MGSM": 91.9,
+        "DROP": 82.3,
+        "SimpleQA": 49.4
+      }
+    },
+    {
+      "model": "o4-mini-high",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 90.3,
+        "GPQA": 81.3,
+        "MATH": 98.2,
+        "HumanEval": 99.3,
+        "MGSM": 93.5,
+        "DROP": 78.1,
+        "SimpleQA": 19.3
+      }
+    },
+    {
+      "model": "o4-mini",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 90.0,
+        "GPQA": 77.6,
+        "MATH": 97.5,
+        "HumanEval": 97.3,
+        "MGSM": 93.7,
+        "DROP": 77.7,
+        "SimpleQA": 20.2
+      }
+    },
+    {
+      "model": "o4-mini-low",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 89.5,
+        "GPQA": 73.6,
+        "MATH": 96.2,
+        "HumanEval": 95.9,
+        "MGSM": 93.0,
+        "DROP": 76.0,
+        "SimpleQA": 20.2
+      }
+    },
+    {
+      "model": "o3-mini-high",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 86.9,
+        "GPQA": 77.2,
+        "MATH": 97.9,
+        "HumanEval": 97.6,
+        "MGSM": 92.0,
+        "DROP": 80.6,
+        "SimpleQA": 13.8
+      }
+    },
+    {
+      "model": "o3-mini",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 85.9,
+        "GPQA": 74.9,
+        "MATH": 97.3,
+        "HumanEval": 96.3,
+        "MGSM": 90.8,
+        "DROP": 79.2,
+        "SimpleQA": 13.4
+      }
+    },
+    {
+      "model": "o3-mini-low",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 84.9,
+        "GPQA": 67.6,
+        "MATH": 95.8,
+        "HumanEval": 94.5,
+        "MGSM": 89.4,
+        "DROP": 77.6,
+        "SimpleQA": 13.0
+      }
+    },
+    {
+      "model": "o1",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 91.8,
+        "GPQA": 75.7,
+        "MATH": 96.4,
+        "MGSM": 89.3,
+        "DROP": 90.2,
+        "SimpleQA": 42.6
+      }
+    },
+    {
+      "model": "o1-preview",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 90.8,
+        "GPQA": 73.3,
+        "MATH": 85.5,
+        "HumanEval": 92.4,
+        "MGSM": 90.8,
+        "DROP": 74.8,
+        "SimpleQA": 42.4
+      }
+    },
+    {
+      "model": "o1-mini",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 85.2,
+        "GPQA": 60.0,
+        "MATH": 90.0,
+        "HumanEval": 92.4,
+        "MGSM": 89.9,
+        "DROP": 83.9,
+        "SimpleQA": 7.6
+      }
+    },
+    {
+      "model": "gpt-4.1-2025-04-14",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 90.2,
+        "GPQA": 66.3,
+        "MATH": 82.1,
+        "HumanEval": 94.5,
+        "MGSM": 86.9,
+        "DROP": 79.4,
+        "SimpleQA": 41.6
+      }
+    },
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 87.5,
+        "GPQA": 65.0,
+        "MATH": 81.4,
+        "HumanEval": 93.8,
+        "MGSM": 88.2,
+        "DROP": 81.0,
+        "SimpleQA": 16.8
+      }
+    },
+    {
+      "model": "gpt-4.1-nano-2025-04-14",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 80.1,
+        "GPQA": 50.3,
+        "MATH": 62.3,
+        "HumanEval": 87.0,
+        "MGSM": 73.0,
+        "DROP": 82.2,
+        "SimpleQA": 7.6
+      }
+    },
+    {
+      "model": "gpt-4o-2024-11-20",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 85.7,
+        "GPQA": 46.0,
+        "MATH": 68.5,
+        "HumanEval": 90.2,
+        "MGSM": 90.3,
+        "DROP": 81.5,
+        "SimpleQA": 38.8
+      }
+    },
+    {
+      "model": "gpt-4o-2024-08-06",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 88.7,
+        "GPQA": 53.1,
+        "MATH": 75.9,
+        "HumanEval": 90.2,
+        "MGSM": 90.0,
+        "DROP": 79.8,
+        "SimpleQA": 40.1
+      }
+    },
+    {
+      "model": "gpt-4o-2024-05-13",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 87.2,
+        "GPQA": 49.9,
+        "MATH": 76.6,
+        "HumanEval": 91.0,
+        "MGSM": 89.9,
+        "DROP": 83.7,
+        "SimpleQA": 39.0
+      }
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 82.0,
+        "GPQA": 40.2,
+        "MATH": 70.2,
+        "HumanEval": 87.2,
+        "MGSM": 87.0,
+        "DROP": 79.7,
+        "SimpleQA": 9.5
+      }
+    },
+    {
+      "model": "gpt-4.5-preview-2025-02-27",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 90.8,
+        "GPQA": 69.5,
+        "MATH": 87.1,
+        "HumanEval": 88.6,
+        "MGSM": 86.9,
+        "DROP": 83.4,
+        "SimpleQA": 62.5
+      }
+    },
+    {
+      "model": "gpt-4-turbo-2024-04-09",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 86.7,
+        "GPQA": 49.3,
+        "MATH": 73.4,
+        "HumanEval": 88.2,
+        "MGSM": 89.6,
+        "DROP": 86.0,
+        "SimpleQA": 24.2
+      }
+    },
+    {
+      "model": "gpt-4-0125-preview",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 85.4,
+        "GPQA": 41.4,
+        "MATH": 64.5,
+        "HumanEval": 86.6,
+        "MGSM": 85.1,
+        "DROP": 81.5
+      }
+    },
+    {
+      "model": "gpt-4-1106-preview",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/openai/simple-evals",
+      "scores": {
+        "MMLU": 84.7,
+        "GPQA": 42.5,
+        "MATH": 64.3,
+        "HumanEval": 83.7,
+        "MGSM": 87.1,
+        "DROP": 83.2
+      }
+    },
+    {
+      "model": "Claude 3.5 Sonnet",
+      "reportedBy": "OpenAI",
+      "source": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "scores": {
+        "MMLU": 88.3,
+        "GPQA": 59.4,
+        "MATH": 71.1,
+        "HumanEval": 92.0,
+        "MGSM": 91.6,
+        "DROP": 87.1,
+        "SimpleQA": 28.9
+      }
+    },
+    {
+      "model": "Claude 3 Opus",
+      "reportedBy": "OpenAI",
+      "source": "https://www.anthropic.com/news/claude-3-family",
+      "scores": {
+        "MMLU": 86.8,
+        "GPQA": 50.4,
+        "MATH": 60.1,
+        "HumanEval": 84.9,
+        "MGSM": 90.7,
+        "DROP": 83.1,
+        "SimpleQA": 23.5
+      }
+    },
+    {
+      "model": "Llama 3.1 405b",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+      "scores": {
+        "MMLU": 88.6,
+        "GPQA": 50.7,
+        "MATH": 73.8,
+        "HumanEval": 89.0,
+        "MGSM": 91.6,
+        "DROP": 84.8
+      }
+    },
+    {
+      "model": "Llama 3.1 70b",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+      "scores": {
+        "MMLU": 82.0,
+        "GPQA": 41.7,
+        "MATH": 68.0,
+        "HumanEval": 80.5,
+        "MGSM": 86.9,
+        "DROP": 79.6
+      }
+    },
+    {
+      "model": "Llama 3.1 8b",
+      "reportedBy": "OpenAI",
+      "source": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+      "scores": {
+        "MMLU": 68.4,
+        "GPQA": 30.4,
+        "MATH": 51.9,
+        "HumanEval": 72.6,
+        "MGSM": 68.9,
+        "DROP": 59.5
+      }
+    },
+    {
+      "model": "Grok 2",
+      "reportedBy": "OpenAI",
+      "source": "https://x.ai/blog/grok-2",
+      "scores": {
+        "MMLU": 87.5,
+        "GPQA": 56.0,
+        "MATH": 76.1,
+        "HumanEval": 88.4
+      }
+    },
+    {
+      "model": "Grok 2 mini",
+      "reportedBy": "OpenAI",
+      "source": "https://x.ai/blog/grok-2",
+      "scores": {
+        "MMLU": 86.2,
+        "GPQA": 51.0,
+        "MATH": 73.0,
+        "HumanEval": 85.7
+      }
+    },
+    {
+      "model": "Gemini 1.0 Ultra",
+      "reportedBy": "OpenAI",
+      "source": "https://goo.gle/GeminiV1-5",
+      "scores": {
+        "MMLU": 83.7,
+        "MATH": 53.2,
+        "HumanEval": 74.4,
+        "MGSM": 79.0,
+        "DROP": 82.4
+      }
+    },
+    {
+      "model": "Gemini 1.5 Pro",
+      "reportedBy": "OpenAI",
+      "source": "https://goo.gle/GeminiV1-5",
+      "scores": {
+        "MMLU": 81.9,
+        "MATH": 58.5,
+        "HumanEval": 71.9,
+        "MGSM": 88.7,
+        "DROP": 78.9
+      }
+    },
+    {
+      "model": "Gemini 1.5 Flash",
+      "reportedBy": "OpenAI",
+      "source": "https://goo.gle/GeminiV1-5",
+      "scores": {
+        "MMLU": 77.9,
+        "GPQA": 38.6,
+        "MATH": 40.9,
+        "HumanEval": 71.5,
+        "MGSM": 75.5,
+        "DROP": 78.4
+      }
+    }
+  ]
+}

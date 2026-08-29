@@ -1,0 +1,52 @@
+{
+  "maker": "Anthropic",
+  "source": "https://platform.claude.com/docs/en/about-claude/models/overview",
+  "note": "Anthropic publishes benchmark results as charts rather than tables, so no scores are available from this page - only specifications.",
+  "capturedAt": "2026-08-28",
+  "models": [
+    {
+      "id": "claude-fable-5",
+      "name": "Claude Fable 5",
+      "contextTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "priceInput": 10.0,
+      "priceOutput": 50.0,
+      "knowledgeCutoff": "2026-01",
+      "thinking": "adaptive (always on)",
+      "retiresNotBefore": "2027-06-09"
+    },
+    {
+      "id": "claude-opus-5",
+      "name": "Claude Opus 5",
+      "contextTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "priceInput": 5.0,
+      "priceOutput": 25.0,
+      "knowledgeCutoff": "2026-05",
+      "thinking": "adaptive",
+      "retiresNotBefore": "2027-07-24"
+    },
+    {
+      "id": "claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "contextTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "priceInput": 2.0,
+      "priceOutput": 10.0,
+      "knowledgeCutoff": "2026-01",
+      "thinking": "adaptive",
+      "retiresNotBefore": "2027-06-30"
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "name": "Claude Haiku 4.5",
+      "contextTokens": 200000,
+      "maxOutputTokens": 64000,
+      "priceInput": 1.0,
+      "priceOutput": 5.0,
+      "knowledgeCutoff": "2025-02",
+      "thinking": "extended",
+      "retiresNotBefore": "2026-10-15"
+    }
+  ]
+}

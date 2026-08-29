@@ -1,0 +1,4564 @@
+{
+  "benchmarkSet": "openvlm",
+  "kind": "independent",
+  "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+  "note": "Vision benchmarks run by OpenCompass with VLMEvalKit, not by the labs. Headline score of each benchmark only.",
+  "capturedAt": "2025-09-17",
+  "benchmarks": [
+    "MMBench-EN",
+    "MMMU",
+    "MathVista",
+    "OCRBench",
+    "AI2D",
+    "MMStar",
+    "HallusionBench",
+    "MMVet",
+    "RealWorldQA"
+  ],
+  "entries": [
+    {
+      "model": "GPT-4o (0513, detail-high)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 83,
+        "MMMU": 69.2,
+        "MathVista": 61.8,
+        "OCRBench": null,
+        "AI2D": 84.6,
+        "MMStar": 63.9,
+        "HallusionBench": 55,
+        "MMVet": 69.1,
+        "RealWorldQA": 75.4
+      }
+    },
+    {
+      "model": "GPT-4o (0513, detail-low)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 83.1,
+        "MMMU": 62.8,
+        "MathVista": 57.2,
+        "OCRBench": null,
+        "AI2D": 77.4,
+        "MMStar": 61.6,
+        "HallusionBench": 51.7,
+        "MMVet": 66.5,
+        "RealWorldQA": 68.6
+      }
+    },
+    {
+      "model": "InternVL-Chat-V1.5",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 80.3,
+        "MMMU": 46.8,
+        "MathVista": 56.1,
+        "OCRBench": null,
+        "AI2D": 80.6,
+        "MMStar": 57.1,
+        "HallusionBench": 47.4,
+        "MMVet": 55.4,
+        "RealWorldQA": 65.6
+      }
+    },
+    {
+      "model": "TransCore-M",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 67.7,
+        "MMMU": 41,
+        "MathVista": 32.5,
+        "OCRBench": null,
+        "AI2D": 64.1,
+        "MMStar": 35.6,
+        "HallusionBench": 27.3,
+        "MMVet": 36.9,
+        "RealWorldQA": 57.1
+      }
+    },
+    {
+      "model": "GLM-4v",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79.2,
+        "MMMU": 45.6,
+        "MathVista": 45.9,
+        "OCRBench": null,
+        "AI2D": 76.1,
+        "MMStar": 53.2,
+        "HallusionBench": 44.9,
+        "MMVet": 60.7,
+        "RealWorldQA": 67.3
+      }
+    },
+    {
+      "model": "LLaVA-Next-Yi-34B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 78.5,
+        "MMMU": 48.8,
+        "MathVista": 40.5,
+        "OCRBench": null,
+        "AI2D": 78.9,
+        "MMStar": 51.6,
+        "HallusionBench": 34.8,
+        "MMVet": 50.7,
+        "RealWorldQA": 66
+      }
+    },
+    {
+      "model": "GPT-4v (0409, detail-high)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 80,
+        "MMMU": 61.7,
+        "MathVista": 55.2,
+        "OCRBench": null,
+        "AI2D": 78.6,
+        "MMStar": 56,
+        "HallusionBench": 43.9,
+        "MMVet": 67.5,
+        "RealWorldQA": 68
+      }
+    },
+    {
+      "model": "GPT-4v (0409, detail-low)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79.3,
+        "MMMU": 62.3,
+        "MathVista": 51.8,
+        "OCRBench": null,
+        "AI2D": 76.1,
+        "MMStar": 52.9,
+        "HallusionBench": 41.6,
+        "MMVet": 63.6,
+        "RealWorldQA": 61.4
+      }
+    },
+    {
+      "model": "InternLM-XComposer2",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 78.1,
+        "MMMU": 41.4,
+        "MathVista": 59.8,
+        "OCRBench": null,
+        "AI2D": 81.2,
+        "MMStar": 56.2,
+        "HallusionBench": 41,
+        "MMVet": 46.7,
+        "RealWorldQA": 63.8
+      }
+    },
+    {
+      "model": "InternLM-XComposer2-4KHD",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 77,
+        "MMMU": 39.7,
+        "MathVista": 59.5,
+        "OCRBench": null,
+        "AI2D": 81,
+        "MMStar": 55.3,
+        "HallusionBench": 42.5,
+        "MMVet": 48.2,
+        "RealWorldQA": 63.3
+      }
+    },
+    {
+      "model": "WeMM",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 77.8,
+        "MMMU": 45.3,
+        "MathVista": 54.9,
+        "OCRBench": null,
+        "AI2D": 77.9,
+        "MMStar": 57,
+        "HallusionBench": 47.5,
+        "MMVet": 45,
+        "RealWorldQA": 68.1
+      }
+    },
+    {
+      "model": "360VL-70B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 76,
+        "MMMU": 53.4,
+        "MathVista": 37.9,
+        "OCRBench": null,
+        "AI2D": 71.9,
+        "MMStar": 48.1,
+        "HallusionBench": 34.8,
+        "MMVet": 24.7,
+        "RealWorldQA": 62.4
+      }
+    },
+    {
+      "model": "MiniCPM-Llama3-V2.5",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 74,
+        "MMMU": 45.8,
+        "MathVista": 54.5,
+        "OCRBench": null,
+        "AI2D": 78.4,
+        "MMStar": 51.8,
+        "HallusionBench": 42.4,
+        "MMVet": 52.8,
+        "RealWorldQA": 63.5
+      }
+    },
+    {
+      "model": "Qwen-VL-Max",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 75.4,
+        "MMMU": 52,
+        "MathVista": 43.6,
+        "OCRBench": null,
+        "AI2D": 75.7,
+        "MMStar": 49.5,
+        "HallusionBench": 41.2,
+        "MMVet": 61.8,
+        "RealWorldQA": 61.3
+      }
+    },
+    {
+      "model": "GPT-4v (1106, detail-low)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 75.3,
+        "MMMU": 53.8,
+        "MathVista": 49.4,
+        "OCRBench": null,
+        "AI2D": 75.9,
+        "MMStar": 49.7,
+        "HallusionBench": 46.5,
+        "MMVet": 56.8,
+        "RealWorldQA": 56.5
+      }
+    },
+    {
+      "model": "RekaFlash",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 74.5,
+        "MMMU": 44.8,
+        "MathVista": 47.7,
+        "OCRBench": null,
+        "AI2D": 75.6,
+        "MMStar": 50.2,
+        "HallusionBench": 39.2,
+        "MMVet": 52.5,
+        "RealWorldQA": 55.9
+      }
+    },
+    {
+      "model": "IDEFICS2-8B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 72.7,
+        "MMMU": 45.2,
+        "MathVista": 52.5,
+        "OCRBench": null,
+        "AI2D": 72.3,
+        "MMStar": 49.5,
+        "HallusionBench": 39.1,
+        "MMVet": 34,
+        "RealWorldQA": 60.7
+      }
+    },
+    {
+      "model": "XVERSE-V-13B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 72.1,
+        "MMMU": 44.1,
+        "MathVista": 45.1,
+        "OCRBench": null,
+        "AI2D": 70.6,
+        "MMStar": 49.3,
+        "HallusionBench": 33.3,
+        "MMVet": 37.8,
+        "RealWorldQA": 60.8
+      }
+    },
+    {
+      "model": "LLaVA-InternLM2-20B (QLoRA)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 72.3,
+        "MMMU": 39.4,
+        "MathVista": 28.5,
+        "OCRBench": null,
+        "AI2D": 65.4,
+        "MMStar": 41.9,
+        "HallusionBench": 26.4,
+        "MMVet": 37.2,
+        "RealWorldQA": 56.9
+      }
+    },
+    {
+      "model": "InternLM-XComposer",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 6.4,
+        "MMMU": 35.6,
+        "MathVista": 29.9,
+        "OCRBench": null,
+        "AI2D": 56.9,
+        "MMStar": 6.9,
+        "HallusionBench": 36,
+        "MMVet": 35.2,
+        "RealWorldQA": 10.2
+      }
+    },
+    {
+      "model": "CogVLM2-19B-Chat",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 72.7,
+        "MMMU": 42.6,
+        "MathVista": 38.7,
+        "OCRBench": null,
+        "AI2D": 73.4,
+        "MMStar": 50.5,
+        "HallusionBench": 41.3,
+        "MMVet": 57.8,
+        "RealWorldQA": 62.9
+      }
+    },
+    {
+      "model": "DeepSeek-VL-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 71.7,
+        "MMMU": 38.3,
+        "MathVista": 37.2,
+        "OCRBench": null,
+        "AI2D": 65.3,
+        "MMStar": 40.5,
+        "HallusionBench": 34.5,
+        "MMVet": 39.7,
+        "RealWorldQA": 54.2
+      }
+    },
+    {
+      "model": "Phi-3-Vision",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 70.5,
+        "MMMU": 46.1,
+        "MathVista": 44.8,
+        "OCRBench": null,
+        "AI2D": 78.4,
+        "MMStar": 47.7,
+        "HallusionBench": 39,
+        "MMVet": 44.1,
+        "RealWorldQA": 58.8
+      }
+    },
+    {
+      "model": "Gemini-1.0-Pro",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 70.2,
+        "MMMU": 49,
+        "MathVista": 46.5,
+        "OCRBench": null,
+        "AI2D": 72.9,
+        "MMStar": 38.6,
+        "HallusionBench": 45.7,
+        "MMVet": 58.6,
+        "RealWorldQA": 60.4
+      }
+    },
+    {
+      "model": "LLaVA-InternLM2-7B (QLoRA)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 71.9,
+        "MMMU": 40.1,
+        "MathVista": 28.9,
+        "OCRBench": null,
+        "AI2D": 63.6,
+        "MMStar": 38.3,
+        "HallusionBench": 26.7,
+        "MMVet": 35.9,
+        "RealWorldQA": 56.1
+      }
+    },
+    {
+      "model": "InternLM-XComposer2-1.8B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 70.4,
+        "MMMU": 29.7,
+        "MathVista": 50.3,
+        "OCRBench": null,
+        "AI2D": 71.1,
+        "MMStar": 46.4,
+        "HallusionBench": 33.7,
+        "MMVet": 31.2,
+        "RealWorldQA": 56.3
+      }
+    },
+    {
+      "model": "Yi-VL-34B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 68.7,
+        "MMMU": 45.1,
+        "MathVista": 31.6,
+        "OCRBench": null,
+        "AI2D": 65.9,
+        "MMStar": 40.5,
+        "HallusionBench": 35.3,
+        "MMVet": 32.7,
+        "RealWorldQA": 54.8
+      }
+    },
+    {
+      "model": "Monkey-Chat",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 69.6,
+        "MMMU": 40.7,
+        "MathVista": 36,
+        "OCRBench": null,
+        "AI2D": 68.5,
+        "MMStar": 40.7,
+        "HallusionBench": 39.3,
+        "MMVet": 41,
+        "RealWorldQA": 52.4
+      }
+    },
+    {
+      "model": "LLaVA-LLaMA-3-8B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 68.5,
+        "MMMU": 39.2,
+        "MathVista": 40.6,
+        "OCRBench": null,
+        "AI2D": 69.9,
+        "MMStar": 46.1,
+        "HallusionBench": 28.7,
+        "MMVet": 34.1,
+        "RealWorldQA": 56.7
+      }
+    },
+    {
+      "model": "OmniLMM-12B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 69.2,
+        "MMMU": 41.8,
+        "MathVista": 35.2,
+        "OCRBench": null,
+        "AI2D": 63.3,
+        "MMStar": 39.6,
+        "HallusionBench": 35.8,
+        "MMVet": 47.4,
+        "RealWorldQA": 58.4
+      }
+    },
+    {
+      "model": "PaliGemma-3B-mix-448",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 68.4,
+        "MMMU": 34.9,
+        "MathVista": 28.5,
+        "OCRBench": null,
+        "AI2D": 68.3,
+        "MMStar": 48.3,
+        "HallusionBench": 32.2,
+        "MMVet": 33.1,
+        "RealWorldQA": 55.2
+      }
+    },
+    {
+      "model": "LLaVA-Next-Vicuna-13B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 67.3,
+        "MMMU": 37.3,
+        "MathVista": 35.1,
+        "OCRBench": null,
+        "AI2D": 72.2,
+        "MMStar": 40.4,
+        "HallusionBench": 31.8,
+        "MMVet": 44.9,
+        "RealWorldQA": 57.6
+      }
+    },
+    {
+      "model": "ShareGPT4V-13B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 67.5,
+        "MMMU": 36.6,
+        "MathVista": 29.4,
+        "OCRBench": null,
+        "AI2D": 61.4,
+        "MMStar": 38.3,
+        "HallusionBench": 28.4,
+        "MMVet": 41.1,
+        "RealWorldQA": 57
+      }
+    },
+    {
+      "model": "LLaVA-Next-Mistral-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 66.5,
+        "MMMU": 37,
+        "MathVista": 34.9,
+        "OCRBench": null,
+        "AI2D": 69,
+        "MMStar": 38.4,
+        "HallusionBench": 29.1,
+        "MMVet": 42.2,
+        "RealWorldQA": 60
+      }
+    },
+    {
+      "model": "LLaVA-Next-Vicuna-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 66.5,
+        "MMMU": 37.6,
+        "MathVista": 32.5,
+        "OCRBench": null,
+        "AI2D": 67,
+        "MMStar": 37.6,
+        "HallusionBench": 27.6,
+        "MMVet": 40.2,
+        "RealWorldQA": 57.8
+      }
+    },
+    {
+      "model": "LLaVA-v1.5-13B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 65.8,
+        "MMMU": 37,
+        "MathVista": 27.7,
+        "OCRBench": null,
+        "AI2D": 61.1,
+        "MMStar": 34.3,
+        "HallusionBench": 24.5,
+        "MMVet": 35.6,
+        "RealWorldQA": 55.3
+      }
+    },
+    {
+      "model": "MiniCPM-V-2",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 67,
+        "MMMU": 38.2,
+        "MathVista": 39.8,
+        "OCRBench": null,
+        "AI2D": 62.9,
+        "MMStar": 39.1,
+        "HallusionBench": 36.1,
+        "MMVet": 41,
+        "RealWorldQA": 55.8
+      }
+    },
+    {
+      "model": "LLaVA-InternLM-7B (QLoRA)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 66,
+        "MMMU": 36.9,
+        "MathVista": 27.1,
+        "OCRBench": null,
+        "AI2D": 58,
+        "MMStar": 35.5,
+        "HallusionBench": 28.9,
+        "MMVet": 32.4,
+        "RealWorldQA": 51.2
+      }
+    },
+    {
+      "model": "LLaVA-v1.5-13B (QLoRA)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 67,
+        "MMMU": 35.2,
+        "MathVista": 28.5,
+        "OCRBench": null,
+        "AI2D": 61.3,
+        "MMStar": 40.1,
+        "HallusionBench": 26.2,
+        "MMVet": 35.9,
+        "RealWorldQA": 52
+      }
+    },
+    {
+      "model": "Yi-VL-6B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 65.2,
+        "MMMU": 40.3,
+        "MathVista": 29.7,
+        "OCRBench": null,
+        "AI2D": 59.8,
+        "MMStar": 37.7,
+        "HallusionBench": 36,
+        "MMVet": 32.1,
+        "RealWorldQA": 53.5
+      }
+    },
+    {
+      "model": "Claude3-Sonnet",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 64.2,
+        "MMMU": 47.4,
+        "MathVista": 45,
+        "OCRBench": null,
+        "AI2D": 69.9,
+        "MMStar": 44.2,
+        "HallusionBench": 41.3,
+        "MMVet": 51.7,
+        "RealWorldQA": 50.7
+      }
+    },
+    {
+      "model": "LLaVA-v1.5-7B (QLoRA)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 64.7,
+        "MMMU": 33.7,
+        "MathVista": 25.4,
+        "OCRBench": null,
+        "AI2D": 55.9,
+        "MMStar": 34.6,
+        "HallusionBench": 25.2,
+        "MMVet": 32.2,
+        "RealWorldQA": 53.7
+      }
+    },
+    {
+      "model": "ShareGPT4V-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 64.6,
+        "MMMU": 37.2,
+        "MathVista": 26.6,
+        "OCRBench": null,
+        "AI2D": 58,
+        "MMStar": 35.7,
+        "HallusionBench": 28.6,
+        "MMVet": 33.4,
+        "RealWorldQA": 54.9
+      }
+    },
+    {
+      "model": "Qwen-VL-Plus",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 64.3,
+        "MMMU": 39.8,
+        "MathVista": 38.2,
+        "OCRBench": null,
+        "AI2D": 65.7,
+        "MMStar": 39.7,
+        "HallusionBench": 40.6,
+        "MMVet": 55.7,
+        "RealWorldQA": 44.6
+      }
+    },
+    {
+      "model": "ShareCaptioner",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 63.9,
+        "MMMU": 36.3,
+        "MathVista": 29.5,
+        "OCRBench": null,
+        "AI2D": 56.7,
+        "MMStar": 38.4,
+        "HallusionBench": 34.2,
+        "MMVet": 30.1,
+        "RealWorldQA": 52.7
+      }
+    },
+    {
+      "model": "LLaVA-v1.5-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 62.3,
+        "MMMU": 35.7,
+        "MathVista": 25.5,
+        "OCRBench": null,
+        "AI2D": 55.5,
+        "MMStar": 33.1,
+        "HallusionBench": 27.6,
+        "MMVet": 32.9,
+        "RealWorldQA": 54.8
+      }
+    },
+    {
+      "model": "RekaEdge",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 63.6,
+        "MMMU": 42.4,
+        "MathVista": 37.5,
+        "OCRBench": null,
+        "AI2D": 67.4,
+        "MMStar": 39.6,
+        "HallusionBench": 35.1,
+        "MMVet": 40.5,
+        "RealWorldQA": 57
+      }
+    },
+    {
+      "model": "DeepSeek-VL-1.3B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 65.6,
+        "MMMU": 33.8,
+        "MathVista": 30.7,
+        "OCRBench": null,
+        "AI2D": 51.5,
+        "MMStar": 39.9,
+        "HallusionBench": 27.6,
+        "MMVet": 29.2,
+        "RealWorldQA": 49.7
+      }
+    },
+    {
+      "model": "mPLUG-Owl2",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 63.5,
+        "MMMU": 34.7,
+        "MathVista": 25.5,
+        "OCRBench": null,
+        "AI2D": 55.7,
+        "MMStar": 34.8,
+        "HallusionBench": 29.4,
+        "MMVet": 35.7,
+        "RealWorldQA": 50.8
+      }
+    },
+    {
+      "model": "CogVLM-17B-Chat",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 63.6,
+        "MMMU": 37.3,
+        "MathVista": 35.3,
+        "OCRBench": null,
+        "AI2D": 63.3,
+        "MMStar": 39.9,
+        "HallusionBench": 35.4,
+        "MMVet": 54.5,
+        "RealWorldQA": 60.3
+      }
+    },
+    {
+      "model": "GPT-4v (1106, detail-high)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 65.4,
+        "MMMU": 59.3,
+        "MathVista": 48.4,
+        "OCRBench": null,
+        "AI2D": 71.4,
+        "MMStar": 50.4,
+        "HallusionBench": 39.3,
+        "MMVet": 49,
+        "RealWorldQA": 63
+      }
+    },
+    {
+      "model": "MiniCPM-V",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 61.4,
+        "MMMU": 38.3,
+        "MathVista": 30.6,
+        "OCRBench": null,
+        "AI2D": 56.3,
+        "MMStar": 38.6,
+        "HallusionBench": 36.2,
+        "MMVet": 31.1,
+        "RealWorldQA": 51.2
+      }
+    },
+    {
+      "model": "Emu2_chat",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 61.3,
+        "MMMU": 35,
+        "MathVista": 31.3,
+        "OCRBench": null,
+        "AI2D": 49.7,
+        "MMStar": 40.7,
+        "HallusionBench": 29.5,
+        "MMVet": 31,
+        "RealWorldQA": 57.3
+      }
+    },
+    {
+      "model": "Claude3-Opus",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 60.1,
+        "MMMU": 54.9,
+        "MathVista": 46.1,
+        "OCRBench": null,
+        "AI2D": 70.6,
+        "MMStar": 45.7,
+        "HallusionBench": 37.8,
+        "MMVet": 51.7,
+        "RealWorldQA": 48.4
+      }
+    },
+    {
+      "model": "Qwen-VL-Chat",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 60.8,
+        "MMMU": 37,
+        "MathVista": 35.3,
+        "OCRBench": null,
+        "AI2D": 63,
+        "MMStar": 34.5,
+        "HallusionBench": 36.8,
+        "MMVet": 47.3,
+        "RealWorldQA": 49.3
+      }
+    },
+    {
+      "model": "Claude3-Haiku",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 58,
+        "MMMU": 49.7,
+        "MathVista": 42.6,
+        "OCRBench": null,
+        "AI2D": 65.6,
+        "MMStar": 38.1,
+        "HallusionBench": 39.2,
+        "MMVet": 46.4,
+        "RealWorldQA": 45.5
+      }
+    },
+    {
+      "model": "Monkey",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 57.4,
+        "MMMU": 38.9,
+        "MathVista": 33.5,
+        "OCRBench": null,
+        "AI2D": 62.5,
+        "MMStar": 37,
+        "HallusionBench": 34.9,
+        "MMVet": 38.1,
+        "RealWorldQA": 51.6
+      }
+    },
+    {
+      "model": "MMAlaya",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 55.7,
+        "MMMU": 32,
+        "MathVista": 22.9,
+        "OCRBench": null,
+        "AI2D": 42.3,
+        "MMStar": 34.3,
+        "HallusionBench": 32.9,
+        "MMVet": 22.2,
+        "RealWorldQA": 45.2
+      }
+    },
+    {
+      "model": "IDEFICS-80B-Instruct",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 11.3,
+        "MMMU": 24,
+        "MathVista": 28.9,
+        "OCRBench": null,
+        "AI2D": 54.8,
+        "MMStar": 26.1,
+        "HallusionBench": 23.4,
+        "MMVet": 39.7,
+        "RealWorldQA": 49
+      }
+    },
+    {
+      "model": "IDEFICS-9B-Instruct",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 35.2,
+        "MMMU": 18.4,
+        "MathVista": 25.1,
+        "OCRBench": null,
+        "AI2D": 42.2,
+        "MMStar": 21.6,
+        "HallusionBench": 27.3,
+        "MMVet": 30,
+        "RealWorldQA": 42.1
+      }
+    },
+    {
+      "model": "LLaVA-v1-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 41.6,
+        "MMMU": 34.1,
+        "MathVista": 25.4,
+        "OCRBench": null,
+        "AI2D": 48.3,
+        "MMStar": 27.1,
+        "HallusionBench": 21.6,
+        "MMVet": 28.3,
+        "RealWorldQA": 45.8
+      }
+    },
+    {
+      "model": "PandaGPT-13B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 39.7,
+        "MMMU": 32.9,
+        "MathVista": 25.6,
+        "OCRBench": null,
+        "AI2D": 50.3,
+        "MMStar": 25.6,
+        "HallusionBench": 20,
+        "MMVet": 19.6,
+        "RealWorldQA": 32.8
+      }
+    },
+    {
+      "model": "VisualGLM",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 36.7,
+        "MMMU": 29.9,
+        "MathVista": 23.9,
+        "OCRBench": null,
+        "AI2D": 41.2,
+        "MMStar": 25.9,
+        "HallusionBench": 25,
+        "MMVet": 14.8,
+        "RealWorldQA": 39.9
+      }
+    },
+    {
+      "model": "InstructBLIP-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 38.4,
+        "MMMU": 30.6,
+        "MathVista": 24.6,
+        "OCRBench": null,
+        "AI2D": 40.6,
+        "MMStar": 32.7,
+        "HallusionBench": 31.2,
+        "MMVet": 33.1,
+        "RealWorldQA": 36.9
+      }
+    },
+    {
+      "model": "Qwen-VL",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 41.6,
+        "MMMU": 29.6,
+        "MathVista": 18.1,
+        "OCRBench": null,
+        "AI2D": 57.7,
+        "MMStar": 32.5,
+        "HallusionBench": 29.9,
+        "MMVet": 13,
+        "RealWorldQA": 37.8
+      }
+    },
+    {
+      "model": "MiniGPT-4-v1-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 30.9,
+        "MMMU": 23.6,
+        "MathVista": 21.3,
+        "OCRBench": null,
+        "AI2D": 28.4,
+        "MMStar": 16.3,
+        "HallusionBench": 31.9,
+        "MMVet": 15.6,
+        "RealWorldQA": 21.3
+      }
+    },
+    {
+      "model": "MiniGPT-4-v2",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 5,
+        "MMMU": 25,
+        "MathVista": 24,
+        "OCRBench": null,
+        "AI2D": 30.5,
+        "MMStar": 21.3,
+        "HallusionBench": 30,
+        "MMVet": 10.5,
+        "RealWorldQA": 30.7
+      }
+    },
+    {
+      "model": "OpenFlamingo v2",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 2.4,
+        "MMMU": 28.8,
+        "MathVista": 19.9,
+        "OCRBench": null,
+        "AI2D": 31.7,
+        "MMStar": 26.9,
+        "HallusionBench": 29.4,
+        "MMVet": 23.3,
+        "RealWorldQA": 35.2
+      }
+    },
+    {
+      "model": "Mini-InternVL-Chat-2B-V1.5",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 67.5,
+        "MMMU": 37.4,
+        "MathVista": 41.3,
+        "OCRBench": null,
+        "AI2D": 69.7,
+        "MMStar": 46.7,
+        "HallusionBench": 37.3,
+        "MMVet": 35.5,
+        "RealWorldQA": 57.9
+      }
+    },
+    {
+      "model": "Mini-InternVL-Chat-4B-V1.5",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 72.6,
+        "MMMU": 45.1,
+        "MathVista": 55,
+        "OCRBench": null,
+        "AI2D": 77,
+        "MMStar": 53.1,
+        "HallusionBench": 43,
+        "MMVet": 43.6,
+        "RealWorldQA": 60.8
+      }
+    },
+    {
+      "model": "Gemini-1.5-Pro",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 74.6,
+        "MMMU": 60.6,
+        "MathVista": 58.3,
+        "OCRBench": null,
+        "AI2D": 79.1,
+        "MMStar": 59.1,
+        "HallusionBench": 45.6,
+        "MMVet": 64,
+        "RealWorldQA": 64.1
+      }
+    },
+    {
+      "model": "GLM-4v-9B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 68.7,
+        "MMMU": 46.9,
+        "MathVista": 52.2,
+        "OCRBench": null,
+        "AI2D": 71.2,
+        "MMStar": 54.8,
+        "HallusionBench": 45,
+        "MMVet": 58,
+        "RealWorldQA": 66
+      }
+    },
+    {
+      "model": "Claude3.5-Sonnet",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 77.7,
+        "MMMU": 65.9,
+        "MathVista": 61.8,
+        "OCRBench": null,
+        "AI2D": 80.2,
+        "MMStar": 62.2,
+        "HallusionBench": 49.9,
+        "MMVet": 66,
+        "RealWorldQA": 60.1
+      }
+    },
+    {
+      "model": "CongRong",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 80.9,
+        "MMMU": 48.3,
+        "MathVista": 61.1,
+        "OCRBench": null,
+        "AI2D": 82.4,
+        "MMStar": 60.6,
+        "HallusionBench": 50.6,
+        "MMVet": 57.5,
+        "RealWorldQA": 66.9
+      }
+    },
+    {
+      "model": "InternVL2-1B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 61.6,
+        "MMMU": 36.7,
+        "MathVista": 40.4,
+        "OCRBench": null,
+        "AI2D": 63.8,
+        "MMStar": 45.6,
+        "HallusionBench": 34.3,
+        "MMVet": 31.5,
+        "RealWorldQA": 50.2
+      }
+    },
+    {
+      "model": "InternVL2-2B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 70.2,
+        "MMMU": 36.3,
+        "MathVista": 47,
+        "OCRBench": null,
+        "AI2D": 74.1,
+        "MMStar": 49.8,
+        "HallusionBench": 38,
+        "MMVet": 39.7,
+        "RealWorldQA": 57.4
+      }
+    },
+    {
+      "model": "InternVL2-4B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 75.8,
+        "MMMU": 48.3,
+        "MathVista": 58.5,
+        "OCRBench": null,
+        "AI2D": 79,
+        "MMStar": 53.9,
+        "HallusionBench": 42.4,
+        "MMVet": 50.9,
+        "RealWorldQA": 60.5
+      }
+    },
+    {
+      "model": "InternVL2-8B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79.5,
+        "MMMU": 51.2,
+        "MathVista": 58.3,
+        "OCRBench": null,
+        "AI2D": 83.6,
+        "MMStar": 61.5,
+        "HallusionBench": 45,
+        "MMVet": 54.3,
+        "RealWorldQA": 64.2
+      }
+    },
+    {
+      "model": "InternVL2-26B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.5,
+        "MMMU": 50.7,
+        "MathVista": 59.6,
+        "OCRBench": null,
+        "AI2D": 84.5,
+        "MMStar": 61,
+        "HallusionBench": 51.5,
+        "MMVet": 60,
+        "RealWorldQA": 68.1
+      }
+    },
+    {
+      "model": "InternVL2-40B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 85.1,
+        "MMMU": 55.2,
+        "MathVista": 64.3,
+        "OCRBench": null,
+        "AI2D": 86.8,
+        "MMStar": 64.7,
+        "HallusionBench": 56.5,
+        "MMVet": 61.8,
+        "RealWorldQA": 70.1
+      }
+    },
+    {
+      "model": "Cambrian-8B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 71.6,
+        "MMMU": 41.8,
+        "MathVista": 48.1,
+        "OCRBench": null,
+        "AI2D": 74.6,
+        "MMStar": 50.7,
+        "HallusionBench": 30.6,
+        "MMVet": 48,
+        "RealWorldQA": 60
+      }
+    },
+    {
+      "model": "InternLM-XComposer2.5",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 80.1,
+        "MMMU": 42.9,
+        "MathVista": 64,
+        "OCRBench": null,
+        "AI2D": 81.6,
+        "MMStar": 59.9,
+        "HallusionBench": 43.1,
+        "MMVet": 49.3,
+        "RealWorldQA": 67.8
+      }
+    },
+    {
+      "model": "Cambrian-34B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 78.3,
+        "MMMU": 50.4,
+        "MathVista": 50.9,
+        "OCRBench": null,
+        "AI2D": 79.5,
+        "MMStar": 54.2,
+        "HallusionBench": 41.6,
+        "MMVet": 53.2,
+        "RealWorldQA": 67.1
+      }
+    },
+    {
+      "model": "Bunny-Llama3-8B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 74.1,
+        "MMMU": 43.4,
+        "MathVista": 35.2,
+        "OCRBench": null,
+        "AI2D": 69.4,
+        "MMStar": 45.4,
+        "HallusionBench": 37.7,
+        "MMVet": 39.1,
+        "RealWorldQA": 60.4
+      }
+    },
+    {
+      "model": "InternVL2-Llama3-76B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 85.5,
+        "MMMU": 58.3,
+        "MathVista": 65.6,
+        "OCRBench": null,
+        "AI2D": 87.6,
+        "MMStar": 67.1,
+        "HallusionBench": 55.4,
+        "MMVet": 64.4,
+        "RealWorldQA": 72.7
+      }
+    },
+    {
+      "model": "GPT-4o-mini (0718, detail-high)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 77.1,
+        "MMMU": 60,
+        "MathVista": 52.5,
+        "OCRBench": null,
+        "AI2D": 77.8,
+        "MMStar": 54.8,
+        "HallusionBench": 46.1,
+        "MMVet": 66.9,
+        "RealWorldQA": 67.1
+      }
+    },
+    {
+      "model": "Ovis1.5-Llama3-8B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 78.1,
+        "MMMU": 48.3,
+        "MathVista": 63.3,
+        "OCRBench": null,
+        "AI2D": 82.5,
+        "MMStar": 57.3,
+        "HallusionBench": 42.3,
+        "MMVet": 50.9,
+        "RealWorldQA": 64.2
+      }
+    },
+    {
+      "model": "LLaVA-Next-Llama3",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 72.1,
+        "MMMU": 43.1,
+        "MathVista": 37.7,
+        "OCRBench": null,
+        "AI2D": 72.8,
+        "MMStar": 43.9,
+        "HallusionBench": 33.1,
+        "MMVet": 44.4,
+        "RealWorldQA": 58.4
+      }
+    },
+    {
+      "model": "LLaVA-Next-Interleave-7B-DPO",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 71.7,
+        "MMMU": 40.1,
+        "MathVista": 35.3,
+        "OCRBench": null,
+        "AI2D": 72.9,
+        "MMStar": 45.3,
+        "HallusionBench": 36.8,
+        "MMVet": 39.8,
+        "RealWorldQA": 60.4
+      }
+    },
+    {
+      "model": "Chameleon-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 19.9,
+        "MMMU": 22.4,
+        "MathVista": 22.5,
+        "OCRBench": null,
+        "AI2D": 46,
+        "MMStar": 31.1,
+        "HallusionBench": 17.1,
+        "MMVet": 8.3,
+        "RealWorldQA": 39
+      }
+    },
+    {
+      "model": "Chameleon-30B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 37.6,
+        "MMMU": 38.8,
+        "MathVista": 23.8,
+        "OCRBench": null,
+        "AI2D": 53.7,
+        "MMStar": 31.8,
+        "HallusionBench": 18.6,
+        "MMVet": 9.7,
+        "RealWorldQA": 39.2
+      }
+    },
+    {
+      "model": "Cambrian-13B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 71.4,
+        "MMMU": 41.6,
+        "MathVista": 47.7,
+        "OCRBench": null,
+        "AI2D": 73.6,
+        "MMStar": 47.1,
+        "HallusionBench": 39.4,
+        "MMVet": 48.9,
+        "RealWorldQA": 58.6
+      }
+    },
+    {
+      "model": "Yi-Vision",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 76.6,
+        "MMMU": 60.3,
+        "MathVista": 57.8,
+        "OCRBench": null,
+        "AI2D": 78.2,
+        "MMStar": 60.5,
+        "HallusionBench": 50.3,
+        "MMVet": 57.6,
+        "RealWorldQA": 60.9
+      }
+    },
+    {
+      "model": "Ovis1.5-Gemma2-9B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 78.4,
+        "MMMU": 49.7,
+        "MathVista": 65.6,
+        "OCRBench": null,
+        "AI2D": 84.5,
+        "MMStar": 58.1,
+        "HallusionBench": 48.2,
+        "MMVet": 53.8,
+        "RealWorldQA": 66.9
+      }
+    },
+    {
+      "model": "LLaVA-Next-Interleave-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 72.8,
+        "MMMU": 41.7,
+        "MathVista": 34,
+        "OCRBench": null,
+        "AI2D": 73.8,
+        "MMStar": 44.5,
+        "HallusionBench": 34.8,
+        "MMVet": 39.1,
+        "RealWorldQA": 57.6
+      }
+    },
+    {
+      "model": "LLaVA-Next-Qwen-32B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 76.5,
+        "MMMU": 41.8,
+        "MathVista": 39.6,
+        "OCRBench": null,
+        "AI2D": 75.5,
+        "MMStar": 48.5,
+        "HallusionBench": 39.3,
+        "MMVet": 50,
+        "RealWorldQA": 61.4
+      }
+    },
+    {
+      "model": "Mantis-8B-clip-llama3",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 63.8,
+        "MMMU": 40.2,
+        "MathVista": 30.4,
+        "OCRBench": null,
+        "AI2D": 56.6,
+        "MMStar": 38.3,
+        "HallusionBench": 31.3,
+        "MMVet": 28.6,
+        "RealWorldQA": 52.3
+      }
+    },
+    {
+      "model": "Mantis-8B-siglip-llama3",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 66.1,
+        "MMMU": 41.1,
+        "MathVista": 32.7,
+        "OCRBench": null,
+        "AI2D": 60.4,
+        "MMStar": 41.3,
+        "HallusionBench": 34.2,
+        "MMVet": 34.4,
+        "RealWorldQA": 52.2
+      }
+    },
+    {
+      "model": "Mantis-8B-Idefics2",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 73.6,
+        "MMMU": 41.6,
+        "MathVista": 41.2,
+        "OCRBench": null,
+        "AI2D": 67.3,
+        "MMStar": 44.8,
+        "HallusionBench": 37.1,
+        "MMVet": 39.3,
+        "RealWorldQA": 59.5
+      }
+    },
+    {
+      "model": "MiniCPM-V-2.6",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79,
+        "MMMU": 49.8,
+        "MathVista": 60.8,
+        "OCRBench": null,
+        "AI2D": 82.1,
+        "MMStar": 57.5,
+        "HallusionBench": 48.1,
+        "MMVet": 60,
+        "RealWorldQA": 65
+      }
+    },
+    {
+      "model": "GPT-4o (0806, detail-high)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.8,
+        "MMMU": 69.9,
+        "MathVista": 62.9,
+        "OCRBench": null,
+        "AI2D": 84.7,
+        "MMStar": 64.7,
+        "HallusionBench": 54.2,
+        "MMVet": 75.1,
+        "RealWorldQA": 76.5
+      }
+    },
+    {
+      "model": "Llama-3-MixSense-v1.1",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 73.7,
+        "MMMU": 39.3,
+        "MathVista": 50.4,
+        "OCRBench": null,
+        "AI2D": 72.4,
+        "MMStar": 53.1,
+        "HallusionBench": 36.2,
+        "MMVet": 41.1,
+        "RealWorldQA": 63.5
+      }
+    },
+    {
+      "model": "Step-1.5V",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 80.4,
+        "MMMU": 61.2,
+        "MathVista": 69.4,
+        "OCRBench": null,
+        "AI2D": 87.5,
+        "MMStar": 65.1,
+        "HallusionBench": 54.3,
+        "MMVet": 71.3,
+        "RealWorldQA": 69.7
+      }
+    },
+    {
+      "model": "OmChat-v2.0-13B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79.6,
+        "MMMU": 49.6,
+        "MathVista": 57.2,
+        "OCRBench": null,
+        "AI2D": 77.8,
+        "MMStar": 58.2,
+        "HallusionBench": 48.4,
+        "MMVet": 52.6,
+        "RealWorldQA": 69.8
+      }
+    },
+    {
+      "model": "Parrot-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 68.8,
+        "MMMU": 36.7,
+        "MathVista": 27.2,
+        "OCRBench": null,
+        "AI2D": 60.9,
+        "MMStar": 39.1,
+        "HallusionBench": 35.2,
+        "MMVet": 29.8,
+        "RealWorldQA": 54.8
+      }
+    },
+    {
+      "model": "VILA1.5-3B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 63.1,
+        "MMMU": 34.2,
+        "MathVista": 31.8,
+        "OCRBench": null,
+        "AI2D": 57.9,
+        "MMStar": 40.6,
+        "HallusionBench": 31.2,
+        "MMVet": 38.8,
+        "RealWorldQA": 53.2
+      }
+    },
+    {
+      "model": "Llama-3-VILA1.5-8B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 57.9,
+        "MMMU": 37.4,
+        "MathVista": 37.4,
+        "OCRBench": null,
+        "AI2D": 58.8,
+        "MMStar": 39.7,
+        "HallusionBench": 35.3,
+        "MMVet": 41.9,
+        "RealWorldQA": 43.4
+      }
+    },
+    {
+      "model": "VILA1.5-13B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 71.8,
+        "MMMU": 41.1,
+        "MathVista": 42.3,
+        "OCRBench": null,
+        "AI2D": 69.9,
+        "MMStar": 44.2,
+        "HallusionBench": 39.3,
+        "MMVet": 45,
+        "RealWorldQA": 53.3
+      }
+    },
+    {
+      "model": "VILA1.5-40B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79.9,
+        "MMMU": 55.1,
+        "MathVista": 49.7,
+        "OCRBench": null,
+        "AI2D": 77.8,
+        "MMStar": 55.2,
+        "HallusionBench": 40.9,
+        "MMVet": 51.2,
+        "RealWorldQA": 65.4
+      }
+    },
+    {
+      "model": "MMAlaya2",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 80.6,
+        "MMMU": 46.9,
+        "MathVista": 54.1,
+        "OCRBench": null,
+        "AI2D": 80.8,
+        "MMStar": 58.1,
+        "HallusionBench": 49.3,
+        "MMVet": 58.5,
+        "RealWorldQA": 66.5
+      }
+    },
+    {
+      "model": "Idefics3-8B-Llama3",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 75,
+        "MMMU": 46.6,
+        "MathVista": 58.7,
+        "OCRBench": null,
+        "AI2D": 76.5,
+        "MMStar": 55,
+        "HallusionBench": 43.7,
+        "MMVet": 41.7,
+        "RealWorldQA": 62.6
+      }
+    },
+    {
+      "model": "Phi-3.5-Vision",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 72.1,
+        "MMMU": 44.6,
+        "MathVista": 43.3,
+        "OCRBench": null,
+        "AI2D": 77.8,
+        "MMStar": 47.5,
+        "HallusionBench": 40.5,
+        "MMVet": 43.2,
+        "RealWorldQA": 53.6
+      }
+    },
+    {
+      "model": "XGen-MM-Instruct-Interleave-v1.5",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 75.3,
+        "MMMU": 40.9,
+        "MathVista": 40.6,
+        "OCRBench": null,
+        "AI2D": 74.2,
+        "MMStar": 48.4,
+        "HallusionBench": 39.8,
+        "MMVet": 40.2,
+        "RealWorldQA": 61.2
+      }
+    },
+    {
+      "model": "XGen-MM-Instruct-DPO-v1.5",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 75.2,
+        "MMMU": 40.1,
+        "MathVista": 40.1,
+        "OCRBench": null,
+        "AI2D": 72,
+        "MMStar": 47.2,
+        "HallusionBench": 37,
+        "MMVet": 41,
+        "RealWorldQA": 61.6
+      }
+    },
+    {
+      "model": "Qwen2-VL-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.8,
+        "MMMU": 53.7,
+        "MathVista": 61.6,
+        "OCRBench": null,
+        "AI2D": 83,
+        "MMStar": 60.7,
+        "HallusionBench": 50.4,
+        "MMVet": 61.8,
+        "RealWorldQA": 68.5
+      }
+    },
+    {
+      "model": "Qwen2-VL-2B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 73.2,
+        "MMMU": 42.2,
+        "MathVista": 48,
+        "OCRBench": null,
+        "AI2D": 74.7,
+        "MMStar": 47.5,
+        "HallusionBench": 42.4,
+        "MMVet": 51.5,
+        "RealWorldQA": 60.7
+      }
+    },
+    {
+      "model": "Mantis-8B-Fuyu",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 44.1,
+        "MMMU": 30.8,
+        "MathVista": 30.2,
+        "OCRBench": null,
+        "AI2D": 46.8,
+        "MMStar": 34.4,
+        "HallusionBench": 29.8,
+        "MMVet": 27.3,
+        "RealWorldQA": 43.7
+      }
+    },
+    {
+      "model": "Slime-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 63.1,
+        "MMMU": 36.6,
+        "MathVista": 36.9,
+        "OCRBench": null,
+        "AI2D": 61.9,
+        "MMStar": 37.3,
+        "HallusionBench": 32.8,
+        "MMVet": 33.9,
+        "RealWorldQA": 51.9
+      }
+    },
+    {
+      "model": "Slime-8B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 69,
+        "MMMU": 38.8,
+        "MathVista": 41.8,
+        "OCRBench": null,
+        "AI2D": 68.5,
+        "MMStar": 43.5,
+        "HallusionBench": 31.8,
+        "MMVet": 40,
+        "RealWorldQA": 58
+      }
+    },
+    {
+      "model": "Slime-13B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 62.9,
+        "MMMU": 36.4,
+        "MathVista": 34.5,
+        "OCRBench": null,
+        "AI2D": 66,
+        "MMStar": 39.4,
+        "HallusionBench": 32.1,
+        "MMVet": 38.9,
+        "RealWorldQA": 53.2
+      }
+    },
+    {
+      "model": "Pixtral-12B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 75.3,
+        "MMMU": 51.1,
+        "MathVista": 56.3,
+        "OCRBench": null,
+        "AI2D": 79,
+        "MMStar": 54.5,
+        "HallusionBench": 47,
+        "MMVet": 58.5,
+        "RealWorldQA": 65.4
+      }
+    },
+    {
+      "model": "Gemini-1.5-Flash",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 77.1,
+        "MMMU": 58.2,
+        "MathVista": 51.3,
+        "OCRBench": null,
+        "AI2D": 78.5,
+        "MMStar": 55.8,
+        "HallusionBench": 48.5,
+        "MMVet": 63.2,
+        "RealWorldQA": 69
+      }
+    },
+    {
+      "model": "LLaVA-OneVision-0.5B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 59.6,
+        "MMMU": 32.7,
+        "MathVista": 35.9,
+        "OCRBench": null,
+        "AI2D": 59.4,
+        "MMStar": 37.7,
+        "HallusionBench": 27.9,
+        "MMVet": 31.5,
+        "RealWorldQA": 51.8
+      }
+    },
+    {
+      "model": "LLaVA-OneVision-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 80.9,
+        "MMMU": 47.9,
+        "MathVista": 62.6,
+        "OCRBench": null,
+        "AI2D": 82.4,
+        "MMStar": 61.9,
+        "HallusionBench": 31.6,
+        "MMVet": 51.9,
+        "RealWorldQA": 69.9
+      }
+    },
+    {
+      "model": "LLaVA-OneVision-0.5B (SI)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 53,
+        "MMMU": 36.2,
+        "MathVista": 32.7,
+        "OCRBench": null,
+        "AI2D": 53.5,
+        "MMStar": 37.5,
+        "HallusionBench": 31.7,
+        "MMVet": 32.2,
+        "RealWorldQA": 46.1
+      }
+    },
+    {
+      "model": "LLaVA-OneVision-7B (SI)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 77.7,
+        "MMMU": 46.8,
+        "MathVista": 58.6,
+        "OCRBench": null,
+        "AI2D": 82.8,
+        "MMStar": 56.7,
+        "HallusionBench": 47.5,
+        "MMVet": 50.6,
+        "RealWorldQA": 69.5
+      }
+    },
+    {
+      "model": "Qwen-VL-Plus-0809",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.1,
+        "MMMU": 53.2,
+        "MathVista": 61.2,
+        "OCRBench": null,
+        "AI2D": 82.9,
+        "MMStar": 59.9,
+        "HallusionBench": 51.1,
+        "MMVet": 59.6,
+        "RealWorldQA": 70.1
+      }
+    },
+    {
+      "model": "LLaVA-OneVision-72B (SI)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 83.3,
+        "MMMU": 55.7,
+        "MathVista": 67.1,
+        "OCRBench": null,
+        "AI2D": 85.5,
+        "MMStar": 65.3,
+        "HallusionBench": 49,
+        "MMVet": 59.1,
+        "RealWorldQA": 73.7
+      }
+    },
+    {
+      "model": "LLaVA-OneVision-72B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 85,
+        "MMMU": 56.6,
+        "MathVista": 68.4,
+        "OCRBench": null,
+        "AI2D": 86.2,
+        "MMStar": 65.8,
+        "HallusionBench": 47.9,
+        "MMVet": 60.6,
+        "RealWorldQA": 73.9
+      }
+    },
+    {
+      "model": "Ovis1.6-Gemma2-9B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.5,
+        "MMMU": 55,
+        "MathVista": 67.3,
+        "OCRBench": null,
+        "AI2D": 84.4,
+        "MMStar": 62.9,
+        "HallusionBench": 52.2,
+        "MMVet": 65,
+        "RealWorldQA": 70.7
+      }
+    },
+    {
+      "model": "Eagle-X5-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 67.4,
+        "MMMU": 37.6,
+        "MathVista": 38.8,
+        "OCRBench": null,
+        "AI2D": 73.6,
+        "MMStar": 41.7,
+        "HallusionBench": 35.4,
+        "MMVet": 33.3,
+        "RealWorldQA": 63.8
+      }
+    },
+    {
+      "model": "Eagle-X5-13B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 70,
+        "MMMU": 39.7,
+        "MathVista": 40.8,
+        "OCRBench": null,
+        "AI2D": 77.2,
+        "MMStar": 43.7,
+        "HallusionBench": 37.8,
+        "MMVet": 42.6,
+        "RealWorldQA": 62.9
+      }
+    },
+    {
+      "model": "Moondream1",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 59.6,
+        "MMMU": 31.4,
+        "MathVista": 24.7,
+        "OCRBench": null,
+        "AI2D": 49.1,
+        "MMStar": 35.3,
+        "HallusionBench": 29.2,
+        "MMVet": 26,
+        "RealWorldQA": 50.7
+      }
+    },
+    {
+      "model": "Moondream2",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 67.7,
+        "MMMU": 29.3,
+        "MathVista": 33.8,
+        "OCRBench": null,
+        "AI2D": 58.8,
+        "MMStar": 42.1,
+        "HallusionBench": 33,
+        "MMVet": 40.4,
+        "RealWorldQA": 49.3
+      }
+    },
+    {
+      "model": "MiniMonkey",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 69.6,
+        "MMMU": 35,
+        "MathVista": 45.6,
+        "OCRBench": null,
+        "AI2D": 74.8,
+        "MMStar": 50.4,
+        "HallusionBench": 38.7,
+        "MMVet": 38,
+        "RealWorldQA": 57.1
+      }
+    },
+    {
+      "model": "BlueLM-V-3B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 83.1,
+        "MMMU": 45.1,
+        "MathVista": 60.9,
+        "OCRBench": null,
+        "AI2D": 85.3,
+        "MMStar": 62.3,
+        "HallusionBench": 48,
+        "MMVet": 61.8,
+        "RealWorldQA": 66.7
+      }
+    },
+    {
+      "model": "XinYuan-VL-2B-Instruct",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 76.2,
+        "MMMU": 42.9,
+        "MathVista": 47.7,
+        "OCRBench": null,
+        "AI2D": 74.2,
+        "MMStar": 52.3,
+        "HallusionBench": 34.9,
+        "MMVet": 42.3,
+        "RealWorldQA": 63.1
+      }
+    },
+    {
+      "model": "Llama-3.2-11B-Vision-Instruct",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 67.5,
+        "MMMU": 48,
+        "MathVista": 47.7,
+        "OCRBench": null,
+        "AI2D": 77.3,
+        "MMStar": 49.8,
+        "HallusionBench": 40.3,
+        "MMVet": 57.6,
+        "RealWorldQA": 63.3
+      }
+    },
+    {
+      "model": "Molmo-7B-D",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 70.3,
+        "MMMU": 49.1,
+        "MathVista": 48.7,
+        "OCRBench": null,
+        "AI2D": 81,
+        "MMStar": 56.1,
+        "HallusionBench": 46.4,
+        "MMVet": 41.5,
+        "RealWorldQA": 71.1
+      }
+    },
+    {
+      "model": "POINTS-Yi-1.5-9B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79,
+        "MMMU": 47.6,
+        "MathVista": 63.2,
+        "OCRBench": null,
+        "AI2D": 78.8,
+        "MMStar": 56.9,
+        "HallusionBench": 47.8,
+        "MMVet": 49.2,
+        "RealWorldQA": 66.3
+      }
+    },
+    {
+      "model": "POINTS-Qwen2.5-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79,
+        "MMMU": 51.4,
+        "MathVista": 63.1,
+        "OCRBench": null,
+        "AI2D": 81.2,
+        "MMStar": 60.9,
+        "HallusionBench": 45.6,
+        "MMVet": 47.9,
+        "RealWorldQA": 67.8
+      }
+    },
+    {
+      "model": "Kosmos2",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 1.2,
+        "MMMU": 23.7,
+        "MathVista": 24.5,
+        "OCRBench": null,
+        "AI2D": 25.6,
+        "MMStar": 24.9,
+        "HallusionBench": 19.8,
+        "MMVet": 23.7,
+        "RealWorldQA": 32.7
+      }
+    },
+    {
+      "model": "Llama-3.2-90B-Vision-Instruct",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79.5,
+        "MMMU": 60.3,
+        "MathVista": 58.2,
+        "OCRBench": null,
+        "AI2D": 69.5,
+        "MMStar": 55.3,
+        "HallusionBench": 44.1,
+        "MMVet": 64.1,
+        "RealWorldQA": 68.2
+      }
+    },
+    {
+      "model": "NVLM-D-72B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79,
+        "MMMU": 60.8,
+        "MathVista": 64,
+        "OCRBench": null,
+        "AI2D": 80.1,
+        "MMStar": 63.7,
+        "HallusionBench": 49.7,
+        "MMVet": 58.9,
+        "RealWorldQA": 69.9
+      }
+    },
+    {
+      "model": "Molmo-7B-O",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 69.1,
+        "MMMU": 42.2,
+        "MathVista": 43.9,
+        "OCRBench": null,
+        "AI2D": 75.7,
+        "MMStar": 50.1,
+        "HallusionBench": 39.4,
+        "MMVet": 40.6,
+        "RealWorldQA": 62.2
+      }
+    },
+    {
+      "model": "MolmoE-1B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 60.5,
+        "MMMU": 33.9,
+        "MathVista": 37.6,
+        "OCRBench": null,
+        "AI2D": 71,
+        "MMStar": 43.1,
+        "HallusionBench": 38,
+        "MMVet": 37.8,
+        "RealWorldQA": 57.5
+      }
+    },
+    {
+      "model": "Janus-1.3B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 50.2,
+        "MMMU": 31.2,
+        "MathVista": 33.7,
+        "OCRBench": null,
+        "AI2D": 52.8,
+        "MMStar": 37.6,
+        "HallusionBench": 30.3,
+        "MMVet": 37.5,
+        "RealWorldQA": 41.8
+      }
+    },
+    {
+      "model": "Vintern-3B-beta",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 67,
+        "MMMU": 46.7,
+        "MathVista": 43.6,
+        "OCRBench": null,
+        "AI2D": 69.1,
+        "MMStar": 47.5,
+        "HallusionBench": 43.2,
+        "MMVet": 37.8,
+        "RealWorldQA": 58.2
+      }
+    },
+    {
+      "model": "Ovis1.6-Llama3.2-3B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 76.2,
+        "MMMU": 46.7,
+        "MathVista": 58.9,
+        "OCRBench": null,
+        "AI2D": 77.8,
+        "MMStar": 52,
+        "HallusionBench": 43.8,
+        "MMVet": 57.6,
+        "RealWorldQA": 66.7
+      }
+    },
+    {
+      "model": "Aquila-VL-2B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 76.3,
+        "MMMU": 46.9,
+        "MathVista": 59.1,
+        "OCRBench": null,
+        "AI2D": 75.1,
+        "MMStar": 54.9,
+        "HallusionBench": 43,
+        "MMVet": 43.8,
+        "RealWorldQA": 65
+      }
+    },
+    {
+      "model": "Claude3.5-Sonnet-20241022",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 80.9,
+        "MMMU": 66.4,
+        "MathVista": 65.3,
+        "OCRBench": null,
+        "AI2D": 81.2,
+        "MMStar": 65.1,
+        "HallusionBench": 55.5,
+        "MMVet": 70.1,
+        "RealWorldQA": 65.8
+      }
+    },
+    {
+      "model": "Molmo-72B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79.4,
+        "MMMU": 52.8,
+        "MathVista": 55.2,
+        "OCRBench": null,
+        "AI2D": 83.4,
+        "MMStar": 63.3,
+        "HallusionBench": 46.6,
+        "MMVet": 61.1,
+        "RealWorldQA": 73.7
+      }
+    },
+    {
+      "model": "Qwen2-VL-72B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 86.1,
+        "MMMU": 64.3,
+        "MathVista": 69.7,
+        "OCRBench": null,
+        "AI2D": 88.3,
+        "MMStar": 68.6,
+        "HallusionBench": 58.7,
+        "MMVet": 73.9,
+        "RealWorldQA": 76.7
+      }
+    },
+    {
+      "model": "Falcon2-VLM-11B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 68.7,
+        "MMMU": 39.1,
+        "MathVista": 37.6,
+        "OCRBench": null,
+        "AI2D": 77.9,
+        "MMStar": 45.4,
+        "HallusionBench": 35.9,
+        "MMVet": 37.2,
+        "RealWorldQA": 61.2
+      }
+    },
+    {
+      "model": "H2OVL-800M",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 53.9,
+        "MMMU": 32.1,
+        "MathVista": 39.8,
+        "OCRBench": null,
+        "AI2D": 53.5,
+        "MMStar": 39.5,
+        "HallusionBench": 29.6,
+        "MMVet": 30.2,
+        "RealWorldQA": 52.7
+      }
+    },
+    {
+      "model": "H2OVL-2B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 68.7,
+        "MMMU": 36.3,
+        "MathVista": 56.9,
+        "OCRBench": null,
+        "AI2D": 70.9,
+        "MMStar": 48.9,
+        "HallusionBench": 35.9,
+        "MMVet": 41.1,
+        "RealWorldQA": 62.9
+      }
+    },
+    {
+      "model": "Taiyi",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 84.7,
+        "MMMU": 60.4,
+        "MathVista": 72.6,
+        "OCRBench": null,
+        "AI2D": 90.8,
+        "MMStar": 69,
+        "HallusionBench": 56.8,
+        "MMVet": 67.9,
+        "RealWorldQA": 73.1
+      }
+    },
+    {
+      "model": "Qwen-VL-Max-0809",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 86,
+        "MMMU": 64.6,
+        "MathVista": 68.3,
+        "OCRBench": null,
+        "AI2D": 88.1,
+        "MMStar": 69.2,
+        "HallusionBench": 59.2,
+        "MMVet": 72.3,
+        "RealWorldQA": 74.2
+      }
+    },
+    {
+      "model": "bailingMM-mini",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 82.1,
+        "MMMU": 50,
+        "MathVista": 70.8,
+        "OCRBench": null,
+        "AI2D": 83.5,
+        "MMStar": 61.3,
+        "HallusionBench": 45.4,
+        "MMVet": 59.2,
+        "RealWorldQA": 57
+      }
+    },
+    {
+      "model": "JT-VL-Chat-V3.0",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 88.5,
+        "MMMU": 68.7,
+        "MathVista": 72.8,
+        "OCRBench": null,
+        "AI2D": 88.3,
+        "MMStar": 82.1,
+        "HallusionBench": 64.4,
+        "MMVet": 80.3,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "Vintern-1B-v2",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 54.6,
+        "MMMU": 31.6,
+        "MathVista": 33.1,
+        "OCRBench": null,
+        "AI2D": 56.5,
+        "MMStar": 39,
+        "HallusionBench": 37.7,
+        "MMVet": 26.4,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "RBDash-v1.5",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 82.3,
+        "MMMU": 59.9,
+        "MathVista": 61.5,
+        "OCRBench": null,
+        "AI2D": 85,
+        "MMStar": 63.5,
+        "HallusionBench": 49.1,
+        "MMVet": 50,
+        "RealWorldQA": 68.1
+      }
+    },
+    {
+      "model": "InternVL2-8B-MPO",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 76.5,
+        "MMMU": 48,
+        "MathVista": 65.8,
+        "OCRBench": null,
+        "AI2D": 83.4,
+        "MMStar": 62.5,
+        "HallusionBench": 47.7,
+        "MMVet": 55.8,
+        "RealWorldQA": 63.1
+      }
+    },
+    {
+      "model": "InternVL2-8B-MPO-CoT",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 75.6,
+        "MMMU": 48.1,
+        "MathVista": 65.9,
+        "OCRBench": null,
+        "AI2D": 83.4,
+        "MMStar": 62.2,
+        "HallusionBench": 45.1,
+        "MMVet": 55.7,
+        "RealWorldQA": 64.2
+      }
+    },
+    {
+      "model": "SmolVLM-Instruct",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 64.4,
+        "MMMU": 38.8,
+        "MathVista": 43.6,
+        "OCRBench": null,
+        "AI2D": 64.2,
+        "MMStar": 41.7,
+        "HallusionBench": 39.5,
+        "MMVet": 33.8,
+        "RealWorldQA": 54.9
+      }
+    },
+    {
+      "model": "SmolVLM-Instruct-DPO",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 62.6,
+        "MMMU": 39.7,
+        "MathVista": 42.9,
+        "OCRBench": null,
+        "AI2D": 62.2,
+        "MMStar": 39.2,
+        "HallusionBench": 39.8,
+        "MMVet": 29.3,
+        "RealWorldQA": 47.6
+      }
+    },
+    {
+      "model": "SmolVLM-Synthetic",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 51,
+        "MMMU": 38.6,
+        "MathVista": 31.5,
+        "OCRBench": null,
+        "AI2D": 50.8,
+        "MMStar": 34.9,
+        "HallusionBench": 34.8,
+        "MMVet": 29.3,
+        "RealWorldQA": 44.2
+      }
+    },
+    {
+      "model": "Eagle-X5-34B-Chat",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 77.8,
+        "MMMU": 51.2,
+        "MathVista": 52.7,
+        "OCRBench": null,
+        "AI2D": 80.8,
+        "MMStar": 55.5,
+        "HallusionBench": 38.1,
+        "MMVet": 42.4,
+        "RealWorldQA": 64.6
+      }
+    },
+    {
+      "model": "Ovis1.6-Gemma2-27B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 82.8,
+        "MMMU": 60.3,
+        "MathVista": 70.2,
+        "OCRBench": null,
+        "AI2D": 86.6,
+        "MMStar": 63.5,
+        "HallusionBench": 54.1,
+        "MMVet": 68,
+        "RealWorldQA": 72.7
+      }
+    },
+    {
+      "model": "TeleMM",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.6,
+        "MMMU": 66.6,
+        "MathVista": 75.7,
+        "OCRBench": null,
+        "AI2D": 88.5,
+        "MMStar": 70.8,
+        "HallusionBench": 60.6,
+        "MMVet": 75.7,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "Gemini-1.5-Pro-002",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 84.4,
+        "MMMU": 68.6,
+        "MathVista": 67.9,
+        "OCRBench": null,
+        "AI2D": 83.3,
+        "MMStar": 67.1,
+        "HallusionBench": 55.9,
+        "MMVet": 74.6,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "Gemini-1.5-Flash-002",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.6,
+        "MMMU": 60.7,
+        "MathVista": 63.7,
+        "OCRBench": null,
+        "AI2D": 84.4,
+        "MMStar": 64.4,
+        "HallusionBench": 53.9,
+        "MMVet": 69.7,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "GPT-4o (1120, detail-high)",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 84.8,
+        "MMMU": 70.7,
+        "MathVista": 60,
+        "OCRBench": null,
+        "AI2D": 84.9,
+        "MMStar": 65.1,
+        "HallusionBench": 56.2,
+        "MMVet": 74.5,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "Aria",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 78.2,
+        "MMMU": 54,
+        "MathVista": 62.4,
+        "OCRBench": null,
+        "AI2D": 82.7,
+        "MMStar": 60.7,
+        "HallusionBench": 44.8,
+        "MMVet": 56.9,
+        "RealWorldQA": 68.4
+      }
+    },
+    {
+      "model": "LLaVA-CoT",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 74.4,
+        "MMMU": 53.7,
+        "MathVista": 52.5,
+        "OCRBench": null,
+        "AI2D": 78.7,
+        "MMStar": 54.9,
+        "HallusionBench": 47.7,
+        "MMVet": 59.5,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "POINTS1.5-Qwen2.5-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.2,
+        "MMMU": 53.8,
+        "MathVista": 66.4,
+        "OCRBench": null,
+        "AI2D": 81.4,
+        "MMStar": 61.1,
+        "HallusionBench": 50,
+        "MMVet": 62.2,
+        "RealWorldQA": 67.5
+      }
+    },
+    {
+      "model": "BailingMM-Lite-1203",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 83.9,
+        "MMMU": 50.9,
+        "MathVista": 74.5,
+        "OCRBench": null,
+        "AI2D": 86,
+        "MMStar": 67.3,
+        "HallusionBench": 60.1,
+        "MMVet": 64.9,
+        "RealWorldQA": 67.1
+      }
+    },
+    {
+      "model": "GLM-4v-Plus",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79.7,
+        "MMMU": 61.7,
+        "MathVista": 68.8,
+        "OCRBench": null,
+        "AI2D": 85.1,
+        "MMStar": 66.3,
+        "HallusionBench": 55.6,
+        "MMVet": 69.1,
+        "RealWorldQA": 70.5
+      }
+    },
+    {
+      "model": "Step-1.5V-mini",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79.8,
+        "MMMU": 51.7,
+        "MathVista": 57.8,
+        "OCRBench": null,
+        "AI2D": 81.3,
+        "MMStar": 54.7,
+        "HallusionBench": 46.7,
+        "MMVet": 66.5,
+        "RealWorldQA": 65.6
+      }
+    },
+    {
+      "model": "abab6.5s",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 57.9,
+        "MMMU": 34,
+        "MathVista": 23.5,
+        "OCRBench": null,
+        "AI2D": 52,
+        "MMStar": 32.1,
+        "HallusionBench": 33.4,
+        "MMVet": 32.2,
+        "RealWorldQA": 30.3
+      }
+    },
+    {
+      "model": "abab7-preview",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 83.4,
+        "MMMU": 64.8,
+        "MathVista": 67.5,
+        "OCRBench": null,
+        "AI2D": 82.3,
+        "MMStar": 66,
+        "HallusionBench": 51.7,
+        "MMVet": 63.7,
+        "RealWorldQA": 67.3
+      }
+    },
+    {
+      "model": "SenseNova",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 86.1,
+        "MMMU": 69.6,
+        "MathVista": 78.4,
+        "OCRBench": null,
+        "AI2D": 87.8,
+        "MMStar": 72.7,
+        "HallusionBench": 57.4,
+        "MMVet": 78.2,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "InternVL2.5-1B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 68.2,
+        "MMMU": 41.2,
+        "MathVista": 47.1,
+        "OCRBench": null,
+        "AI2D": 69,
+        "MMStar": 51.3,
+        "HallusionBench": 39.4,
+        "MMVet": 47.2,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "InternVL2.5-2B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 72.4,
+        "MMMU": 43.2,
+        "MathVista": 51.1,
+        "OCRBench": null,
+        "AI2D": 74.9,
+        "MMStar": 54.3,
+        "HallusionBench": 42.3,
+        "MMVet": 62.6,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "InternVL2.5-4B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 78.8,
+        "MMMU": 51.8,
+        "MathVista": 60.8,
+        "OCRBench": null,
+        "AI2D": 81.4,
+        "MMStar": 58.7,
+        "HallusionBench": 46.6,
+        "MMVet": 61.5,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "InternVL2.5-8B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 83.2,
+        "MMMU": 56.2,
+        "MathVista": 64.5,
+        "OCRBench": null,
+        "AI2D": 84.6,
+        "MMStar": 63.2,
+        "HallusionBench": 49,
+        "MMVet": 62.8,
+        "RealWorldQA": 69.5
+      }
+    },
+    {
+      "model": "InternVL2.5-26B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 84.4,
+        "MMMU": 56,
+        "MathVista": 68.2,
+        "OCRBench": null,
+        "AI2D": 86.2,
+        "MMStar": 66.5,
+        "HallusionBench": 55.8,
+        "MMVet": 65.4,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "InternVL2.5-38B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 85.3,
+        "MMMU": 63.2,
+        "MathVista": 72.4,
+        "OCRBench": null,
+        "AI2D": 87.6,
+        "MMStar": 68.5,
+        "HallusionBench": 57.9,
+        "MMVet": 67.2,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "InternVL2.5-78B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 87.3,
+        "MMMU": 70,
+        "MathVista": 70.6,
+        "OCRBench": null,
+        "AI2D": 89.1,
+        "MMStar": 69.5,
+        "HallusionBench": 57.4,
+        "MMVet": 16.9,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "SAIL-VL-2B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 75.5,
+        "MMMU": 44.1,
+        "MathVista": 62.8,
+        "OCRBench": null,
+        "AI2D": 77.4,
+        "MMStar": 56.5,
+        "HallusionBench": 45.9,
+        "MMVet": 44.2,
+        "RealWorldQA": 62
+      }
+    },
+    {
+      "model": "InternVL2.5-1B-MPO",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 67.2,
+        "MMMU": 40.3,
+        "MathVista": 47.7,
+        "OCRBench": null,
+        "AI2D": 68.5,
+        "MMStar": 49.5,
+        "HallusionBench": 34.8,
+        "MMVet": 47.2,
+        "RealWorldQA": 57
+      }
+    },
+    {
+      "model": "InternVL2.5-2B-MPO",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 71.9,
+        "MMMU": 44.6,
+        "MathVista": 53.4,
+        "OCRBench": null,
+        "AI2D": 75.1,
+        "MMStar": 54.9,
+        "HallusionBench": 40.7,
+        "MMVet": 64.2,
+        "RealWorldQA": 61.3
+      }
+    },
+    {
+      "model": "InternVL2.5-4B-MPO",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 78.6,
+        "MMMU": 51.8,
+        "MathVista": 64.1,
+        "OCRBench": null,
+        "AI2D": 81.5,
+        "MMStar": 61,
+        "HallusionBench": 47.5,
+        "MMVet": 66,
+        "RealWorldQA": 64.4
+      }
+    },
+    {
+      "model": "InternVL2.5-8B-MPO",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 82.4,
+        "MMMU": 54.8,
+        "MathVista": 67.9,
+        "OCRBench": null,
+        "AI2D": 84.5,
+        "MMStar": 65.2,
+        "HallusionBench": 51.7,
+        "MMVet": 68.1,
+        "RealWorldQA": 71.1
+      }
+    },
+    {
+      "model": "InternVL2.5-26B-MPO",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 84.3,
+        "MMMU": 56.4,
+        "MathVista": 71.5,
+        "OCRBench": null,
+        "AI2D": 86.2,
+        "MMStar": 67.7,
+        "HallusionBench": 52.4,
+        "MMVet": 68.1,
+        "RealWorldQA": 73.7
+      }
+    },
+    {
+      "model": "InternVL2.5-38B-MPO",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 85.4,
+        "MMMU": 63.8,
+        "MathVista": 73.6,
+        "OCRBench": null,
+        "AI2D": 87.9,
+        "MMStar": 70.1,
+        "HallusionBench": 59.7,
+        "MMVet": 72.6,
+        "RealWorldQA": 74.4
+      }
+    },
+    {
+      "model": "Valley-Eagle",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.4,
+        "MMMU": 57,
+        "MathVista": 64.6,
+        "OCRBench": null,
+        "AI2D": 82.5,
+        "MMStar": 60.9,
+        "HallusionBench": 48,
+        "MMVet": 61.3,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "InternVL2.5-78B-MPO",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 87.9,
+        "MMMU": 68.2,
+        "MathVista": 76.6,
+        "OCRBench": null,
+        "AI2D": 89.2,
+        "MMStar": 72.1,
+        "HallusionBench": 58.1,
+        "MMVet": 73.5,
+        "RealWorldQA": 77.4
+      }
+    },
+    {
+      "model": "DeepSeek-VL2-Tiny",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 71.7,
+        "MMMU": 42.9,
+        "MathVista": 54,
+        "OCRBench": null,
+        "AI2D": 74.6,
+        "MMStar": 49.8,
+        "HallusionBench": 39.6,
+        "MMVet": 52.5,
+        "RealWorldQA": 64.3
+      }
+    },
+    {
+      "model": "DeepSeek-VL2-Small",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 80.7,
+        "MMMU": 49.7,
+        "MathVista": 61.9,
+        "OCRBench": null,
+        "AI2D": 81.7,
+        "MMStar": 57.5,
+        "HallusionBench": 43.8,
+        "MMVet": 58.6,
+        "RealWorldQA": 69.4
+      }
+    },
+    {
+      "model": "VARCO-VISION-14B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 82.3,
+        "MMMU": 56.3,
+        "MathVista": 67.6,
+        "OCRBench": null,
+        "AI2D": 83.9,
+        "MMStar": 64.1,
+        "HallusionBench": 46.8,
+        "MMVet": 53,
+        "RealWorldQA": 72.5
+      }
+    },
+    {
+      "model": "Gemini-2.0-Flash",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 70.4,
+        "MMMU": 69.9,
+        "MathVista": 70.4,
+        "OCRBench": null,
+        "AI2D": 83.1,
+        "MMStar": 69.4,
+        "HallusionBench": 58,
+        "MMVet": 73.6,
+        "RealWorldQA": 72.3
+      }
+    },
+    {
+      "model": "Step-1o",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 87.6,
+        "MMMU": 69.9,
+        "MathVista": 74.7,
+        "OCRBench": null,
+        "AI2D": 89.1,
+        "MMStar": 69.3,
+        "HallusionBench": 55.8,
+        "MMVet": 82.8,
+        "RealWorldQA": 74.1
+      }
+    },
+    {
+      "model": "HunYuan-Standard-Vision",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 83.9,
+        "MMMU": 70.7,
+        "MathVista": 66.1,
+        "OCRBench": null,
+        "AI2D": 93.2,
+        "MMStar": 72.9,
+        "HallusionBench": 57.7,
+        "MMVet": 79.9,
+        "RealWorldQA": 67.7
+      }
+    },
+    {
+      "model": "Ross-Qwen2-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 77.1,
+        "MMMU": 49,
+        "MathVista": 52.5,
+        "OCRBench": null,
+        "AI2D": 79.4,
+        "MMStar": 53.9,
+        "HallusionBench": 38.7,
+        "MMVet": 43.2,
+        "RealWorldQA": 58.7
+      }
+    },
+    {
+      "model": "VITA-1.5",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 77.5,
+        "MMMU": 52.6,
+        "MathVista": 66.2,
+        "OCRBench": null,
+        "AI2D": 79.2,
+        "MMStar": 60.2,
+        "HallusionBench": 44.6,
+        "MMVet": 52.7,
+        "RealWorldQA": 66.9
+      }
+    },
+    {
+      "model": "VITA",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 70.8,
+        "MMMU": 47.6,
+        "MathVista": 44.5,
+        "OCRBench": null,
+        "AI2D": 72.8,
+        "MMStar": 46.6,
+        "HallusionBench": 41,
+        "MMVet": 43.2,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "MiniCPM-o-2.6",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.3,
+        "MMMU": 50.9,
+        "MathVista": 73.3,
+        "OCRBench": null,
+        "AI2D": 86.1,
+        "MMStar": 63.3,
+        "HallusionBench": 51.1,
+        "MMVet": 67.2,
+        "RealWorldQA": 68
+      }
+    },
+    {
+      "model": "BailingMM-Pro-0120",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 87.7,
+        "MMMU": 59.2,
+        "MathVista": 72.3,
+        "OCRBench": null,
+        "AI2D": 87.2,
+        "MMStar": 69.4,
+        "HallusionBench": 59.4,
+        "MMVet": 77.6,
+        "RealWorldQA": 70.8
+      }
+    },
+    {
+      "model": "GLM-4v-Plus-20250111",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 87.8,
+        "MMMU": 69.9,
+        "MathVista": 73.5,
+        "OCRBench": null,
+        "AI2D": 86.7,
+        "MMStar": 72.5,
+        "HallusionBench": 58.5,
+        "MMVet": 75.7,
+        "RealWorldQA": 72.2
+      }
+    },
+    {
+      "model": "Emu3_chat",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 59.3,
+        "MMMU": 33.9,
+        "MathVista": 47.6,
+        "OCRBench": null,
+        "AI2D": 71.5,
+        "MMStar": 46.6,
+        "HallusionBench": 31.7,
+        "MMVet": 29.1,
+        "RealWorldQA": 57.1
+      }
+    },
+    {
+      "model": "SmolVLM-256M",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 39.4,
+        "MMMU": 28.9,
+        "MathVista": 37,
+        "OCRBench": null,
+        "AI2D": 46.4,
+        "MMStar": 34.5,
+        "HallusionBench": 27.9,
+        "MMVet": 21.1,
+        "RealWorldQA": 32.2
+      }
+    },
+    {
+      "model": "SmolVLM-500M",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 50,
+        "MMMU": 33.6,
+        "MathVista": 39.8,
+        "OCRBench": null,
+        "AI2D": 59.2,
+        "MMStar": 38.3,
+        "HallusionBench": 31.1,
+        "MMVet": 25.7,
+        "RealWorldQA": 41
+      }
+    },
+    {
+      "model": "Janus-Pro-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 60,
+        "MMMU": 41.6,
+        "MathVista": 42.5,
+        "OCRBench": null,
+        "AI2D": 68.1,
+        "MMStar": 46.5,
+        "HallusionBench": 39.5,
+        "MMVet": 45.1,
+        "RealWorldQA": 42.7
+      }
+    },
+    {
+      "model": "Ola-7b",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 85.5,
+        "MMMU": 57,
+        "MathVista": 68.4,
+        "OCRBench": null,
+        "AI2D": 86.1,
+        "MMStar": 70.8,
+        "HallusionBench": 53.5,
+        "MMVet": 78.6,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "Ovis2-1B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 70.1,
+        "MMMU": 36.1,
+        "MathVista": 59.4,
+        "OCRBench": null,
+        "AI2D": 76.4,
+        "MMStar": 52.1,
+        "HallusionBench": 45.2,
+        "MMVet": 50,
+        "RealWorldQA": 63.9
+      }
+    },
+    {
+      "model": "Ovis2-2B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 77.1,
+        "MMMU": 45.6,
+        "MathVista": 64.1,
+        "OCRBench": null,
+        "AI2D": 82.7,
+        "MMStar": 56.7,
+        "HallusionBench": 50.2,
+        "MMVet": 58.3,
+        "RealWorldQA": 66
+      }
+    },
+    {
+      "model": "Ovis2-4B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.8,
+        "MMMU": 49,
+        "MathVista": 69.6,
+        "OCRBench": null,
+        "AI2D": 85.7,
+        "MMStar": 61.9,
+        "HallusionBench": 53.8,
+        "MMVet": 65.5,
+        "RealWorldQA": 71.1
+      }
+    },
+    {
+      "model": "Ovis2-8B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 83.8,
+        "MMMU": 57.4,
+        "MathVista": 71.8,
+        "OCRBench": null,
+        "AI2D": 86.6,
+        "MMStar": 64.6,
+        "HallusionBench": 56.3,
+        "MMVet": 65.1,
+        "RealWorldQA": 72.5
+      }
+    },
+    {
+      "model": "Ovis2-16B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 85.8,
+        "MMMU": 60.7,
+        "MathVista": 73.7,
+        "OCRBench": null,
+        "AI2D": 86.3,
+        "MMStar": 67.2,
+        "HallusionBench": 56.8,
+        "MMVet": 68.4,
+        "RealWorldQA": 74.1
+      }
+    },
+    {
+      "model": "Ovis2-34B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 86.6,
+        "MMMU": 66.7,
+        "MathVista": 76.1,
+        "OCRBench": null,
+        "AI2D": 88.3,
+        "MMStar": 69.2,
+        "HallusionBench": 58.8,
+        "MMVet": 77.1,
+        "RealWorldQA": 75.6
+      }
+    },
+    {
+      "model": "Qwen2.5-VL-3B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 77,
+        "MMMU": 51.2,
+        "MathVista": 61.2,
+        "OCRBench": null,
+        "AI2D": 81.4,
+        "MMStar": 56.3,
+        "HallusionBench": 46.6,
+        "MMVet": 60,
+        "RealWorldQA": 65.5
+      }
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 82.4,
+        "MMMU": 58,
+        "MathVista": 68.1,
+        "OCRBench": null,
+        "AI2D": 84.3,
+        "MMStar": 64.1,
+        "HallusionBench": 51.9,
+        "MMVet": 69.7,
+        "RealWorldQA": 68.4
+      }
+    },
+    {
+      "model": "Qwen2.5-VL-72B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 88.3,
+        "MMMU": 68.2,
+        "MathVista": 74.2,
+        "OCRBench": null,
+        "AI2D": 88.5,
+        "MMStar": 70.5,
+        "HallusionBench": 54.6,
+        "MMVet": 76.9,
+        "RealWorldQA": 75.3
+      }
+    },
+    {
+      "model": "Gemini-2.0-Pro",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 82.4,
+        "MMMU": 72.6,
+        "MathVista": 71.3,
+        "OCRBench": null,
+        "AI2D": 84.8,
+        "MMStar": 68.5,
+        "HallusionBench": 49.8,
+        "MMVet": 70.4,
+        "RealWorldQA": 74.8
+      }
+    },
+    {
+      "model": "Claude3.7-Sonnet",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79.8,
+        "MMMU": 71,
+        "MathVista": 66.8,
+        "OCRBench": null,
+        "AI2D": 82.5,
+        "MMStar": 65.1,
+        "HallusionBench": 55.4,
+        "MMVet": 70,
+        "RealWorldQA": 55.4
+      }
+    },
+    {
+      "model": "moonshot-v1-8k",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 76.8,
+        "MMMU": 57.7,
+        "MathVista": 66.9,
+        "OCRBench": null,
+        "AI2D": 81.8,
+        "MMStar": 60.1,
+        "HallusionBench": 46.1,
+        "MMVet": 52,
+        "RealWorldQA": 63
+      }
+    },
+    {
+      "model": "grok-2-vision-1212",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 83.3,
+        "MMMU": 67.1,
+        "MathVista": 66.6,
+        "OCRBench": null,
+        "AI2D": 81.2,
+        "MMStar": 65.2,
+        "HallusionBench": 51.7,
+        "MMVet": 65.2,
+        "RealWorldQA": 63
+      }
+    },
+    {
+      "model": "DeepSeek-VL2",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 82.3,
+        "MMMU": 54,
+        "MathVista": 63.9,
+        "OCRBench": null,
+        "AI2D": 83.8,
+        "MMStar": 61.9,
+        "HallusionBench": 45.3,
+        "MMVet": 60,
+        "RealWorldQA": 70.1
+      }
+    },
+    {
+      "model": "SmolVLM2",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 69.1,
+        "MMMU": 41.6,
+        "MathVista": 51.5,
+        "OCRBench": null,
+        "AI2D": 69.7,
+        "MMStar": 46,
+        "HallusionBench": 40.6,
+        "MMVet": 34.9,
+        "RealWorldQA": 57.5
+      }
+    },
+    {
+      "model": "SmolVLM2-256M",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 11,
+        "MMMU": 29,
+        "MathVista": 34,
+        "OCRBench": null,
+        "AI2D": 39.2,
+        "MMStar": 30.9,
+        "HallusionBench": 24.3,
+        "MMVet": 25.5,
+        "RealWorldQA": 35.2
+      }
+    },
+    {
+      "model": "SmolVLM2-500M",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 49.8,
+        "MMMU": 34.1,
+        "MathVista": 37.5,
+        "OCRBench": null,
+        "AI2D": 57.3,
+        "MMStar": 38.2,
+        "HallusionBench": 27.7,
+        "MMVet": 29.9,
+        "RealWorldQA": 49.9
+      }
+    },
+    {
+      "model": "Phi-4-MultiModal",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79.5,
+        "MMMU": 56,
+        "MathVista": 65.8,
+        "OCRBench": null,
+        "AI2D": 83,
+        "MMStar": 58.9,
+        "HallusionBench": 40.5,
+        "MMVet": 51.9,
+        "RealWorldQA": 64.1
+      }
+    },
+    {
+      "model": "MUG-U-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.9,
+        "MMMU": 54.3,
+        "MathVista": 74.8,
+        "OCRBench": null,
+        "AI2D": 88.9,
+        "MMStar": 66.6,
+        "HallusionBench": 51.3,
+        "MMVet": 63,
+        "RealWorldQA": 71.6
+      }
+    },
+    {
+      "model": "Gemma3-4B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 66.1,
+        "MMMU": 47.3,
+        "MathVista": 46.3,
+        "OCRBench": null,
+        "AI2D": 70.7,
+        "MMStar": 47.9,
+        "HallusionBench": 40.8,
+        "MMVet": 57.8,
+        "RealWorldQA": 55.6
+      }
+    },
+    {
+      "model": "Gemma3-12B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 74.9,
+        "MMMU": 55.2,
+        "MathVista": 56.1,
+        "OCRBench": null,
+        "AI2D": 78.1,
+        "MMStar": 56.1,
+        "HallusionBench": 47.2,
+        "MMVet": 64.9,
+        "RealWorldQA": 59.1
+      }
+    },
+    {
+      "model": "Gemma3-27B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79.6,
+        "MMMU": 64.8,
+        "MathVista": 59.8,
+        "OCRBench": null,
+        "AI2D": 81.4,
+        "MMStar": 59.6,
+        "HallusionBench": 48.8,
+        "MMVet": 71,
+        "RealWorldQA": 62.5
+      }
+    },
+    {
+      "model": "AKI-4B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 65.9,
+        "MMMU": 36.3,
+        "MathVista": 28.5,
+        "OCRBench": null,
+        "AI2D": 56.5,
+        "MMStar": 37.8,
+        "HallusionBench": 33.9,
+        "MMVet": 36.2,
+        "RealWorldQA": 56.6
+      }
+    },
+    {
+      "model": "GPT-4.5",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 83.5,
+        "MMMU": 72.1,
+        "MathVista": 70.5,
+        "OCRBench": null,
+        "AI2D": 87.2,
+        "MMStar": 69.3,
+        "HallusionBench": 60,
+        "MMVet": 75.3,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "Ristretto-3B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.2,
+        "MMMU": 51.3,
+        "MathVista": 67.6,
+        "OCRBench": null,
+        "AI2D": 84.2,
+        "MMStar": 62.8,
+        "HallusionBench": 50.2,
+        "MMVet": 60.7,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "ChatGPT-4o-latest",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 86.8,
+        "MMMU": 72.9,
+        "MathVista": 71.6,
+        "OCRBench": null,
+        "AI2D": 86.3,
+        "MMStar": 70.2,
+        "HallusionBench": 57,
+        "MMVet": 76.9,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "Gemini-2.5-Pro",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 88.5,
+        "MMMU": 74.7,
+        "MathVista": 80.9,
+        "OCRBench": null,
+        "AI2D": 89.5,
+        "MMStar": 73.6,
+        "HallusionBench": 64.1,
+        "MMVet": 83.3,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "Kimi-VL-A3B-Instruct",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 80.9,
+        "MMMU": 57.8,
+        "MathVista": 66,
+        "OCRBench": null,
+        "AI2D": 84.5,
+        "MMStar": 62,
+        "HallusionBench": 48.4,
+        "MMVet": 66.1,
+        "RealWorldQA": 68.8
+      }
+    },
+    {
+      "model": "InternVL3-1B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 69.9,
+        "MMMU": 43.2,
+        "MathVista": 46.9,
+        "OCRBench": null,
+        "AI2D": 69.7,
+        "MMStar": 52.3,
+        "HallusionBench": 37.2,
+        "MMVet": 58.7,
+        "RealWorldQA": 57
+      }
+    },
+    {
+      "model": "InternVL3-2B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79,
+        "MMMU": 48.7,
+        "MathVista": 57.6,
+        "OCRBench": null,
+        "AI2D": 78.6,
+        "MMStar": 61.1,
+        "HallusionBench": 41.9,
+        "MMVet": 67,
+        "RealWorldQA": 65.1
+      }
+    },
+    {
+      "model": "InternVL3-8B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 82.3,
+        "MMMU": 62.2,
+        "MathVista": 70.5,
+        "OCRBench": null,
+        "AI2D": 85.1,
+        "MMStar": 68.7,
+        "HallusionBench": 49,
+        "MMVet": 82.8,
+        "RealWorldQA": 71.4
+      }
+    },
+    {
+      "model": "InternVL3-9B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.9,
+        "MMMU": 59.4,
+        "MathVista": 69,
+        "OCRBench": null,
+        "AI2D": 85.2,
+        "MMStar": 67.4,
+        "HallusionBench": 50.8,
+        "MMVet": 78.4,
+        "RealWorldQA": 71
+      }
+    },
+    {
+      "model": "InternVL3-14B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 83.9,
+        "MMMU": 64.8,
+        "MathVista": 74.4,
+        "OCRBench": null,
+        "AI2D": 86,
+        "MMStar": 68.9,
+        "HallusionBench": 55.9,
+        "MMVet": 80.5,
+        "RealWorldQA": 69.8
+      }
+    },
+    {
+      "model": "InternVL3-38B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 87,
+        "MMMU": 69.7,
+        "MathVista": 76.3,
+        "OCRBench": null,
+        "AI2D": 88.7,
+        "MMStar": 72.6,
+        "HallusionBench": 58.4,
+        "MMVet": 81.1,
+        "RealWorldQA": 75.8
+      }
+    },
+    {
+      "model": "InternVL3-78B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 87.5,
+        "MMMU": 72.2,
+        "MathVista": 79,
+        "OCRBench": null,
+        "AI2D": 89.8,
+        "MMStar": 73.4,
+        "HallusionBench": 59.1,
+        "MMVet": 80.7,
+        "RealWorldQA": 78.4
+      }
+    },
+    {
+      "model": "GPT-4.1-20250414",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 86.9,
+        "MMMU": 74,
+        "MathVista": 70.4,
+        "OCRBench": null,
+        "AI2D": 85.9,
+        "MMStar": 69.8,
+        "HallusionBench": 58.5,
+        "MMVet": 78.8,
+        "RealWorldQA": 78.7
+      }
+    },
+    {
+      "model": "GPT-4.1-mini-20250414",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 83.2,
+        "MMMU": 55,
+        "MathVista": 70.9,
+        "OCRBench": null,
+        "AI2D": 76,
+        "MMStar": 60.9,
+        "HallusionBench": 49.3,
+        "MMVet": 74.3,
+        "RealWorldQA": 77.5
+      }
+    },
+    {
+      "model": "GPT-4.1-nano-20250414",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 64.4,
+        "MMMU": 57.6,
+        "MathVista": 53.7,
+        "OCRBench": null,
+        "AI2D": 68,
+        "MMStar": 47.5,
+        "HallusionBench": 36.9,
+        "MMVet": 62.8,
+        "RealWorldQA": 61.7
+      }
+    },
+    {
+      "model": "Kimi-VL-A3B-Thinking",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 72.5,
+        "MMMU": 50.7,
+        "MathVista": 67.6,
+        "OCRBench": null,
+        "AI2D": 77.5,
+        "MMStar": 60.8,
+        "HallusionBench": 52.3,
+        "MMVet": 67.4,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "SAIL-VL-1.5-2B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 79.4,
+        "MMMU": 46.4,
+        "MathVista": 67,
+        "OCRBench": null,
+        "AI2D": 83.7,
+        "MMStar": 62.6,
+        "HallusionBench": 50,
+        "MMVet": 58.8,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "SAIL-VL-1.5-8B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 82.5,
+        "MMMU": 54.3,
+        "MathVista": 73.4,
+        "OCRBench": null,
+        "AI2D": 87.5,
+        "MMStar": 69.7,
+        "HallusionBench": 54.5,
+        "MMVet": 69,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "SAIL-VL-1.6-8B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 84.3,
+        "MMMU": 55.4,
+        "MathVista": 74.2,
+        "OCRBench": null,
+        "AI2D": 87.5,
+        "MMStar": 69.5,
+        "HallusionBench": 54.4,
+        "MMVet": 73.3,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "SenseNova-V6-Pro",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 88.4,
+        "MMMU": 70.4,
+        "MathVista": 76.9,
+        "OCRBench": null,
+        "AI2D": 89.2,
+        "MMStar": 73.7,
+        "HallusionBench": 67.1,
+        "MMVet": 88.2,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "QTuneVL1-2B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 72.6,
+        "MMMU": 44.7,
+        "MathVista": 48.8,
+        "OCRBench": null,
+        "AI2D": 75.2,
+        "MMStar": 53.6,
+        "HallusionBench": 42.4,
+        "MMVet": 63,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "CongRong-v2.0",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 87.9,
+        "MMMU": 75.6,
+        "MathVista": 76.8,
+        "OCRBench": null,
+        "AI2D": 90,
+        "MMStar": 75.3,
+        "HallusionBench": 63.2,
+        "MMVet": 83.9,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "WeThink-Qwen2.5VL-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 82.5,
+        "MMMU": 61,
+        "MathVista": 71.6,
+        "OCRBench": null,
+        "AI2D": 84,
+        "MMStar": 64.2,
+        "HallusionBench": 55.3,
+        "MMVet": 73.2,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "valley2",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.2,
+        "MMMU": 56.8,
+        "MathVista": 61.7,
+        "OCRBench": null,
+        "AI2D": 82.8,
+        "MMStar": 60,
+        "HallusionBench": 47.6,
+        "MMVet": 62.1,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "valley2_dpo",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 82.1,
+        "MMMU": 58.4,
+        "MathVista": 68.7,
+        "OCRBench": null,
+        "AI2D": 83,
+        "MMStar": 61.9,
+        "HallusionBench": 52.4,
+        "MMVet": 62.3,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "Flash-VL-2B-Dynamic-ISS",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 77.1,
+        "MMMU": 45.6,
+        "MathVista": 61.7,
+        "OCRBench": null,
+        "AI2D": 74.4,
+        "MMStar": 53.8,
+        "HallusionBench": 48.5,
+        "MMVet": 48.6,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "Long-VITA-16K",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 76.8,
+        "MMMU": 53.9,
+        "MathVista": 64.8,
+        "OCRBench": null,
+        "AI2D": 80.9,
+        "MMStar": 60.1,
+        "HallusionBench": 45.5,
+        "MMVet": 31,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "HawkVL-2B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 65.3,
+        "MMMU": 43.6,
+        "MathVista": 43.3,
+        "OCRBench": null,
+        "AI2D": 66.6,
+        "MMStar": 48.1,
+        "HallusionBench": 40.9,
+        "MMVet": 38.9,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "granite-vision-3.1-2b-preview",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 74.1,
+        "MMMU": 35.4,
+        "MathVista": 60.5,
+        "OCRBench": null,
+        "AI2D": 77.7,
+        "MMStar": 56.1,
+        "HallusionBench": 41.4,
+        "MMVet": 39.6,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "granite-vision-3.2-2b",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 75.8,
+        "MMMU": 39,
+        "MathVista": 59.7,
+        "OCRBench": null,
+        "AI2D": 78.6,
+        "MMStar": 54.6,
+        "HallusionBench": 40.7,
+        "MMVet": 40.5,
+        "RealWorldQA": 63.4
+      }
+    },
+    {
+      "model": "granite-vision-3.3-2b",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 71.3,
+        "MMMU": 39,
+        "MathVista": 60.2,
+        "OCRBench": null,
+        "AI2D": 76.6,
+        "MMStar": 51.9,
+        "HallusionBench": 47,
+        "MMVet": 45,
+        "RealWorldQA": 66
+      }
+    },
+    {
+      "model": "MiMo-VL-7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 81.5,
+        "MMMU": 26.4,
+        "MathVista": 77.4,
+        "OCRBench": null,
+        "AI2D": 82.8,
+        "MMStar": 38.9,
+        "HallusionBench": 63.8,
+        "MMVet": 72.2,
+        "RealWorldQA": 58.6
+      }
+    },
+    {
+      "model": "Qwen2.5-VL-32B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 84.7,
+        "MMMU": 68.9,
+        "MathVista": 72.8,
+        "OCRBench": null,
+        "AI2D": 85.4,
+        "MMStar": 70.3,
+        "HallusionBench": 58.4,
+        "MMVet": 72.9,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "Kimi-VL-A3B-Thinking-2506",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 80.4,
+        "MMMU": 62.9,
+        "MathVista": 79.5,
+        "OCRBench": null,
+        "AI2D": 83.1,
+        "MMStar": 70,
+        "HallusionBench": 59.8,
+        "MMVet": 77,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "BlueLM-2.5-3B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 73.7,
+        "MMMU": 58.7,
+        "MathVista": 76.7,
+        "OCRBench": null,
+        "AI2D": 83.1,
+        "MMStar": 67.8,
+        "HallusionBench": 60,
+        "MMVet": 61.7,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "Ovis-U1-3B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 78.3,
+        "MMMU": 50.6,
+        "MathVista": 68.9,
+        "OCRBench": null,
+        "AI2D": 85.6,
+        "MMStar": 61.3,
+        "HallusionBench": 55.8,
+        "MMVet": 66,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "VARCO-VISION-2.0-1.7B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 74.9,
+        "MMMU": 44.2,
+        "MathVista": 55.8,
+        "OCRBench": null,
+        "AI2D": 75.2,
+        "MMStar": 52.5,
+        "HallusionBench": 38.6,
+        "MMVet": 53.4,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "VARCO-VISION-2.0-14B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 84.4,
+        "MMMU": 61.9,
+        "MathVista": 73.2,
+        "OCRBench": null,
+        "AI2D": 85.7,
+        "MMStar": 66.9,
+        "HallusionBench": 53.2,
+        "MMVet": 68.9,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "QTuneVL1.5-2B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 78.6,
+        "MMMU": 48.7,
+        "MathVista": 56.1,
+        "OCRBench": null,
+        "AI2D": 78.6,
+        "MMStar": 60.8,
+        "HallusionBench": 43.4,
+        "MMVet": 65.9,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "QTuneVL1.5-3B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 77.5,
+        "MMMU": 53.4,
+        "MathVista": 64.4,
+        "OCRBench": null,
+        "AI2D": 81.2,
+        "MMStar": 57.1,
+        "HallusionBench": 49,
+        "MMVet": 62.8,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "R-4B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 83.7,
+        "MMMU": 64.7,
+        "MathVista": 78,
+        "OCRBench": null,
+        "AI2D": 86.2,
+        "MMStar": 72.6,
+        "HallusionBench": 60,
+        "MMVet": 76.2,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "GPT-5-20250807",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 86.8,
+        "MMMU": 81.8,
+        "MathVista": 81.9,
+        "OCRBench": null,
+        "AI2D": 89.5,
+        "MMStar": 75.7,
+        "HallusionBench": 65.2,
+        "MMVet": 77.6,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "GPT-5-nano-20250807",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 78.9,
+        "MMMU": 72.6,
+        "MathVista": 73.1,
+        "OCRBench": null,
+        "AI2D": 81.4,
+        "MMStar": 68.3,
+        "HallusionBench": 60.9,
+        "MMVet": 67.4,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "GPT-5-mini-20250807",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 86.2,
+        "MMMU": 78.7,
+        "MathVista": 79.2,
+        "OCRBench": null,
+        "AI2D": 86.7,
+        "MMStar": 73.2,
+        "HallusionBench": 62.5,
+        "MMVet": 74.6,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "SenseNova-V6-5-Pro",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 87.6,
+        "MMMU": 77,
+        "MathVista": 82.8,
+        "OCRBench": null,
+        "AI2D": 90.2,
+        "MMStar": 76.1,
+        "HallusionBench": 66.7,
+        "MMVet": 89.4,
+        "RealWorldQA": null
+      }
+    },
+    {
+      "model": "BlueLM-2.6-3B",
+      "measuredBy": "OpenCompass",
+      "source": "https://huggingface.co/spaces/opencompass/open_vlm_leaderboard",
+      "scores": {
+        "MMBench-EN": 86.4,
+        "MMMU": 62.4,
+        "MathVista": 82.3,
+        "OCRBench": null,
+        "AI2D": 86.1,
+        "MMStar": 80.1,
+        "HallusionBench": 63.1,
+        "MMVet": 78.5,
+        "RealWorldQA": null
+      }
+    }
+  ]
+}

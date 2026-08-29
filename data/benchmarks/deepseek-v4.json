@@ -1,0 +1,143 @@
+{
+  "benchmarkSet": "deepseek-v4-model-card",
+  "note": "DeepSeek publishes a markdown benchmark table in the model card shipped with the weights.",
+  "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+  "capturedAt": "2026-08-29",
+  "benchmarks": [
+    "Terminal Bench 2.1",
+    "NL2Repo",
+    "Cybergym",
+    "DeepSWE",
+    "Toolathlon-Verified",
+    "Agents' Last Exam",
+    "AutomationBench (Public)",
+    "DSBench-FullStack †",
+    "DSBench-Hard †"
+  ],
+  "entries": [
+    {
+      "model": "DeepSeek-V4-Pro-0813",
+      "reportedBy": "DeepSeek",
+      "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "scores": {
+        "Terminal Bench 2.1": 87.9,
+        "NL2Repo": 61.5,
+        "Cybergym": 83.3,
+        "DeepSWE": 62.7,
+        "Toolathlon-Verified": 74.1,
+        "Agents' Last Exam": 25.7,
+        "AutomationBench (Public)": 31.8,
+        "DSBench-FullStack †": 71.1,
+        "DSBench-Hard †": 67.2
+      }
+    },
+    {
+      "model": "DeepSeek-V4-Flash-0731",
+      "reportedBy": "DeepSeek",
+      "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "scores": {
+        "Terminal Bench 2.1": 82.7,
+        "NL2Repo": 54.2,
+        "Cybergym": 76.7,
+        "DeepSWE": 54.4,
+        "Toolathlon-Verified": 70.3,
+        "Agents' Last Exam": 25.2,
+        "AutomationBench (Public)": 25.1,
+        "DSBench-FullStack †": 68.7,
+        "DSBench-Hard †": 59.6
+      }
+    },
+    {
+      "model": "DeepSeek-V4-Pro (Preview)",
+      "reportedBy": "DeepSeek",
+      "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "scores": {
+        "Terminal Bench 2.1": 72.1,
+        "NL2Repo": 38.5,
+        "Cybergym": 52.7,
+        "DeepSWE": 12.8,
+        "Toolathlon-Verified": 55.9,
+        "Agents' Last Exam": 16.5,
+        "AutomationBench (Public)": 12.8,
+        "DSBench-FullStack †": 41.8,
+        "DSBench-Hard †": 31.1
+      }
+    },
+    {
+      "model": "DeepSeek-V4-Flash (Preview)",
+      "reportedBy": "DeepSeek",
+      "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "scores": {
+        "Terminal Bench 2.1": 61.8,
+        "NL2Repo": 39.4,
+        "Cybergym": 38.7,
+        "DeepSWE": 7.3,
+        "Toolathlon-Verified": 49.7,
+        "Agents' Last Exam": 15.8,
+        "AutomationBench (Public)": 10.8,
+        "DSBench-FullStack †": 37,
+        "DSBench-Hard †": 25.8
+      }
+    },
+    {
+      "model": "GLM-5.2",
+      "reportedBy": "DeepSeek",
+      "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "scores": {
+        "Terminal Bench 2.1": 81,
+        "NL2Repo": 48.9,
+        "DeepSWE": 46.2,
+        "Toolathlon-Verified": 59.9,
+        "Agents' Last Exam": 23.8,
+        "AutomationBench (Public)": 12.9,
+        "DSBench-FullStack †": 61.8,
+        "DSBench-Hard †": 54.5
+      }
+    },
+    {
+      "model": "Kimi K3",
+      "reportedBy": "DeepSeek",
+      "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "scores": {
+        "Terminal Bench 2.1": 88.3,
+        "Cybergym": 80,
+        "DeepSWE": 67.5,
+        "Toolathlon-Verified": 76.5,
+        "Agents' Last Exam": 27.6,
+        "AutomationBench (Public)": 30.8,
+        "DSBench-FullStack †": 73.7,
+        "DSBench-Hard †": 63
+      }
+    },
+    {
+      "model": "Opus-4.8",
+      "reportedBy": "DeepSeek",
+      "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "scores": {
+        "Terminal Bench 2.1": 85,
+        "NL2Repo": 69.7,
+        "Cybergym": 78.3,
+        "DeepSWE": 58,
+        "Toolathlon-Verified": 76.2,
+        "Agents' Last Exam": 25.7,
+        "AutomationBench (Public)": 27.2,
+        "DSBench-FullStack †": 71.6,
+        "DSBench-Hard †": 71.7
+      }
+    },
+    {
+      "model": "Fable-5 (w/ fallback)",
+      "reportedBy": "DeepSeek",
+      "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "scores": {
+        "Terminal Bench 2.1": 88,
+        "Cybergym": 83.1,
+        "DeepSWE": 70,
+        "Toolathlon-Verified": 77.9,
+        "AutomationBench (Public)": 29.1,
+        "DSBench-FullStack †": 77.2,
+        "DSBench-Hard †": 68.3
+      }
+    }
+  ]
+}

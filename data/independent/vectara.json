@@ -1,0 +1,958 @@
+{
+  "benchmarkSet": "vectara-hallucination",
+  "kind": "independent",
+  "source": "https://github.com/vectara/hallucination-leaderboard",
+  "note": "Measured by Vectara, not self-reported. Lower hallucination rate is better.",
+  "capturedAt": "2026-08-29",
+  "benchmarks": [
+    "Hallucination-Rate",
+    "Factual-Consistency"
+  ],
+  "entries": [
+    {
+      "model": "antgroup/finix_s1_32b",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 1.8,
+        "Factual-Consistency": 98.2
+      }
+    },
+    {
+      "model": "openai/gpt-5.4-nano-2026-03-17",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 3.1,
+        "Factual-Consistency": 96.9
+      }
+    },
+    {
+      "model": "google/gemini-2.5-flash-lite",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 3.3,
+        "Factual-Consistency": 96.7
+      }
+    },
+    {
+      "model": "microsoft/Phi-4",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 3.7,
+        "Factual-Consistency": 96.3
+      }
+    },
+    {
+      "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 4.1,
+        "Factual-Consistency": 95.9
+      }
+    },
+    {
+      "model": "snowflake/snowflake-arctic-instruct",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 4.3,
+        "Factual-Consistency": 95.7
+      }
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 4.4,
+        "Factual-Consistency": 95.6
+      }
+    },
+    {
+      "model": "mistralai/mistral-large-2411",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 4.5,
+        "Factual-Consistency": 95.5
+      }
+    },
+    {
+      "model": "qwen/qwen3-8b",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 4.8,
+        "Factual-Consistency": 95.2
+      }
+    },
+    {
+      "model": "amazon/nova-pro-v1:0",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 5.1,
+        "Factual-Consistency": 94.9
+      }
+    },
+    {
+      "model": "amazon/nova-2-lite-v1:0",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 5.1,
+        "Factual-Consistency": 94.9
+      }
+    },
+    {
+      "model": "mistralai/mistral-small-2501",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 5.1,
+        "Factual-Consistency": 94.9
+      }
+    },
+    {
+      "model": "ibm-granite/granite-4.0-h-small",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 5.2,
+        "Factual-Consistency": 94.8
+      }
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 5.2,
+        "Factual-Consistency": 94.8
+      }
+    },
+    {
+      "model": "ai21labs/jamba-mini-2",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 5.3,
+        "Factual-Consistency": 94.7
+      }
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V3.2-Exp",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 5.3,
+        "Factual-Consistency": 94.7
+      }
+    },
+    {
+      "model": "qwen/qwen3-14b",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 5.4,
+        "Factual-Consistency": 94.6
+      }
+    },
+    {
+      "model": "amazon/nova-micro-v1:0",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 5.5,
+        "Factual-Consistency": 94.5
+      }
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V3.1",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 5.5,
+        "Factual-Consistency": 94.5
+      }
+    },
+    {
+      "model": "openai/gpt-5.4-mini-2026-03-17",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 5.5,
+        "Factual-Consistency": 94.5
+      }
+    },
+    {
+      "model": "openai/gpt-4.1-2025-04-14",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 5.6,
+        "Factual-Consistency": 94.4
+      }
+    },
+    {
+      "model": "qwen/qwen3-4b",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 5.7,
+        "Factual-Consistency": 94.3
+      }
+    },
+    {
+      "model": "xai-org/grok-3",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 5.8,
+        "Factual-Consistency": 94.2
+      }
+    },
+    {
+      "model": "qwen/qwen3-32b",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 5.9,
+        "Factual-Consistency": 94.1
+      }
+    },
+    {
+      "model": "amazon/nova-lite-v1:0",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 6.1,
+        "Factual-Consistency": 93.9
+      }
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V3",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 6.1,
+        "Factual-Consistency": 93.9
+      }
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 6.3,
+        "Factual-Consistency": 93.7
+      }
+    },
+    {
+      "model": "google/gemma-3-4b-it",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 6.4,
+        "Factual-Consistency": 93.6
+      }
+    },
+    {
+      "model": "CohereLabs/command-r-plus-08-2024",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 6.9,
+        "Factual-Consistency": 93.1
+      }
+    },
+    {
+      "model": "arcee-ai/trinity-large-preview",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 6.9,
+        "Factual-Consistency": 93.1
+      }
+    },
+    {
+      "model": "openai/gpt-5.4-2026-03-05",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 7,
+        "Factual-Consistency": 93
+      }
+    },
+    {
+      "model": "google/gemini-2.5-pro",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 7,
+        "Factual-Consistency": 93
+      }
+    },
+    {
+      "model": "mistralai/ministral-3b-2410",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 7.3,
+        "Factual-Consistency": 92.7
+      }
+    },
+    {
+      "model": "google/gemma-3-27b-it",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 7.4,
+        "Factual-Consistency": 92.6
+      }
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 7.4,
+        "Factual-Consistency": 92.6
+      }
+    },
+    {
+      "model": "mistralai/ministral-8b-2410",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 7.4,
+        "Factual-Consistency": 92.6
+      }
+    },
+    {
+      "model": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 7.7,
+        "Factual-Consistency": 92.3
+      }
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 7.8,
+        "Factual-Consistency": 92.2
+      }
+    },
+    {
+      "model": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 8.2,
+        "Factual-Consistency": 91.8
+      }
+    },
+    {
+      "model": "google/gemini-3.1-flash-lite-preview",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 8.2,
+        "Factual-Consistency": 91.8
+      }
+    },
+    {
+      "model": "openai/gpt-5.4-pro-2026-03-05",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 8.3,
+        "Factual-Consistency": 91.7
+      }
+    },
+    {
+      "model": "openai/gpt-5.2-low-2025-12-11",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 8.4,
+        "Factual-Consistency": 91.6
+      }
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V4-Pro",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 8.6,
+        "Factual-Consistency": 91.4
+      }
+    },
+    {
+      "model": "MiniMaxAI/minimax-m2p5",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 9.1,
+        "Factual-Consistency": 90.9
+      }
+    },
+    {
+      "model": "CohereLabs/command-a-03-2025",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 9.3,
+        "Factual-Consistency": 90.7
+      }
+    },
+    {
+      "model": "openai/gpt-5.5",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 9.3,
+        "Factual-Consistency": 90.7
+      }
+    },
+    {
+      "model": "zai-org/GLM-4.5-AIR-FP8",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 9.3,
+        "Factual-Consistency": 90.7
+      }
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 9.3,
+        "Factual-Consistency": 90.7
+      }
+    },
+    {
+      "model": "qwen/qwen3-next-80b-a3b-thinking",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 9.3,
+        "Factual-Consistency": 90.7
+      }
+    },
+    {
+      "model": "zai-org/GLM-4.7-flash",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 9.3,
+        "Factual-Consistency": 90.7
+      }
+    },
+    {
+      "model": "CohereLabs/c4ai-aya-expanse-8b",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 9.5,
+        "Factual-Consistency": 90.5
+      }
+    },
+    {
+      "model": "zai-org/GLM-4.6",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 9.5,
+        "Factual-Consistency": 90.5
+      }
+    },
+    {
+      "model": "nvidia/Nemotron-3-Nano-30B-A3B",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 9.6,
+        "Factual-Consistency": 90.4
+      }
+    },
+    {
+      "model": "openai/gpt-4o-2024-08-06",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 9.6,
+        "Factual-Consistency": 90.4
+      }
+    },
+    {
+      "model": "ai21labs/jamba-large-1.7-2025-07",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 9.7,
+        "Factual-Consistency": 90.3
+      }
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5-20251001",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 9.8,
+        "Factual-Consistency": 90.2
+      }
+    },
+    {
+      "model": "zai-org/glm-5",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 10.1,
+        "Factual-Consistency": 89.9
+      }
+    },
+    {
+      "model": "anthropic/claude-sonnet-4-20250514",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 10.3,
+        "Factual-Consistency": 89.7
+      }
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 10.4,
+        "Factual-Consistency": 89.6
+      }
+    },
+    {
+      "model": "qwen/qwen3.5-flash-2026-02-23",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 10.5,
+        "Factual-Consistency": 89.5
+      }
+    },
+    {
+      "model": "qwen/qwen3.5-35b-a3b",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 10.5,
+        "Factual-Consistency": 89.5
+      }
+    },
+    {
+      "model": "openai/gpt-5-nano-2025-08-07",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 10.5,
+        "Factual-Consistency": 89.5
+      }
+    },
+    {
+      "model": "anthropic/claude-sonnet-4-6",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 10.6,
+        "Factual-Consistency": 89.4
+      }
+    },
+    {
+      "model": "ibm-granite/granite-3.3-8b-instruct",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 10.6,
+        "Factual-Consistency": 89.4
+      }
+    },
+    {
+      "model": "qwen/qwen3.5-plus-2026-02-15",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 10.7,
+        "Factual-Consistency": 89.3
+      }
+    },
+    {
+      "model": "openai/gpt-5.2-high-2025-12-11",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 10.8,
+        "Factual-Consistency": 89.2
+      }
+    },
+    {
+      "model": "moonshotai/kimi-k2.6",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 10.8,
+        "Factual-Consistency": 89.2
+      }
+    },
+    {
+      "model": "anthropic/claude-opus-4-5-20251101",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 10.9,
+        "Factual-Consistency": 89.1
+      }
+    },
+    {
+      "model": "CohereLabs/c4ai-aya-expanse-32b",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 10.9,
+        "Factual-Consistency": 89.1
+      }
+    },
+    {
+      "model": "openai/gpt-5.1-low-2025-11-13",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 10.9,
+        "Factual-Consistency": 89.1
+      }
+    },
+    {
+      "model": "qwen/qwen3.5-122b-a10b",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 11.2,
+        "Factual-Consistency": 88.8
+      }
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-R1",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 11.3,
+        "Factual-Consistency": 88.7
+      }
+    },
+    {
+      "model": "zai-org/glm-4p7",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 11.7,
+        "Factual-Consistency": 88.3
+      }
+    },
+    {
+      "model": "anthropic/claude-opus-4-1-20250805",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 11.8,
+        "Factual-Consistency": 88.2
+      }
+    },
+    {
+      "model": "MiniMaxAI/minimax-m2p1",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 11.8,
+        "Factual-Consistency": 88.2
+      }
+    },
+    {
+      "model": "anthropic/claude-opus-4-20250514",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 12,
+        "Factual-Consistency": 88
+      }
+    },
+    {
+      "model": "anthropic/claude-sonnet-4-5-20250929",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 12,
+        "Factual-Consistency": 88
+      }
+    },
+    {
+      "model": "anthropic/claude-opus-4-7",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 12,
+        "Factual-Consistency": 88
+      }
+    },
+    {
+      "model": "qwen/qwen3.5-27b",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 12.1,
+        "Factual-Consistency": 87.9
+      }
+    },
+    {
+      "model": "openai/gpt-5.1-high-2025-11-13",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 12.1,
+        "Factual-Consistency": 87.9
+      }
+    },
+    {
+      "model": "anthropic/claude-opus-4-6",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 12.2,
+        "Factual-Consistency": 87.8
+      }
+    },
+    {
+      "model": "inceptionlabs/mercury-2",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 12.3,
+        "Factual-Consistency": 87.7
+      }
+    },
+    {
+      "model": "MiniMaxAI/minimax-m2p7",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 12.9,
+        "Factual-Consistency": 87.1
+      }
+    },
+    {
+      "model": "openai/gpt-5-mini-2025-08-07",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 12.9,
+        "Factual-Consistency": 87.1
+      }
+    },
+    {
+      "model": "google/gemini-3-flash-preview",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 13.5,
+        "Factual-Consistency": 86.5
+      }
+    },
+    {
+      "model": "google/gemini-3-pro-preview",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 13.6,
+        "Factual-Consistency": 86.4
+      }
+    },
+    {
+      "model": "moonshotai/Kimi-K2.5",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 14.2,
+        "Factual-Consistency": 85.8
+      }
+    },
+    {
+      "model": "openai/gpt-oss-120b",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 14.2,
+        "Factual-Consistency": 85.8
+      }
+    },
+    {
+      "model": "mistralai/mistral-3-large-2512",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 14.5,
+        "Factual-Consistency": 85.5
+      }
+    },
+    {
+      "model": "ai21labs/jamba-mini-1.7-2025-07",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 14.7,
+        "Factual-Consistency": 85.3
+      }
+    },
+    {
+      "model": "openai/gpt-5-minimal-2025-08-07",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 14.7,
+        "Factual-Consistency": 85.3
+      }
+    },
+    {
+      "model": "openai/gpt-5-high-2025-08-07",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 15.1,
+        "Factual-Consistency": 84.9
+      }
+    },
+    {
+      "model": "xai-org/grok-4-1-fast-non-reasoning",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 17.8,
+        "Factual-Consistency": 82.2
+      }
+    },
+    {
+      "model": "moonshotai/Kimi-K2-Instruct-0905",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 17.9,
+        "Factual-Consistency": 82.1
+      }
+    },
+    {
+      "model": "openai/o4-mini-low-2025-04-16",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 18.6,
+        "Factual-Consistency": 81.4
+      }
+    },
+    {
+      "model": "openai/o4-mini-high-2025-04-16",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 18.6,
+        "Factual-Consistency": 81.4
+      }
+    },
+    {
+      "model": "xai-org/grok-4-1-fast-reasoning",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 19.2,
+        "Factual-Consistency": 80.8
+      }
+    },
+    {
+      "model": "mistralai/ministral-3-14b-2512",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 19.4,
+        "Factual-Consistency": 80.6
+      }
+    },
+    {
+      "model": "xai-org/grok-4-fast-non-reasoning",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 19.7,
+        "Factual-Consistency": 80.3
+      }
+    },
+    {
+      "model": "xai-org/grok-4-fast-reasoning",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 20.2,
+        "Factual-Consistency": 79.8
+      }
+    },
+    {
+      "model": "mistralai/ministral-3-8b-2512",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 21.7,
+        "Factual-Consistency": 78.3
+      }
+    },
+    {
+      "model": "mistralai/mistral-medium-2508",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 22.7,
+        "Factual-Consistency": 77.3
+      }
+    },
+    {
+      "model": "openai/o3-pro",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 23.3,
+        "Factual-Consistency": 76.7
+      }
+    },
+    {
+      "model": "microsoft/Phi-4-mini-instruct",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 23.5,
+        "Factual-Consistency": 76.5
+      }
+    },
+    {
+      "model": "mistralai/ministral-3-3b-2512",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 24.2,
+        "Factual-Consistency": 75.8
+      }
+    }
+  ]
+}

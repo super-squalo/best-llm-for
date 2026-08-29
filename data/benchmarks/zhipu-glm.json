@@ -1,0 +1,187 @@
+{
+  "benchmarkSet": "glm-5.3-model-card",
+  "note": "Z.ai publishes a markdown benchmark table in the GLM model card.",
+  "source": "https://huggingface.co/zai-org/GLM-5.3",
+  "capturedAt": "2026-08-29",
+  "benchmarks": [
+    "Terminal Bench 2.1",
+    "Terminal Bench 3.0",
+    "DeepSWE (v1.1)",
+    "NL2Repo",
+    "ProgramBench (Almost Solved)",
+    "FrontierSWE",
+    "SWE-Marathon (v1.1)",
+    "PostTrainBench",
+    "CyberGym",
+    "ExploitBench",
+    "Toolathlon Verified",
+    "AutomationBench (v1.0.6)",
+    "Agents' Last Exam (ALE-CLI)",
+    "HLE w/ Tools",
+    "GDPval-AA v2"
+  ],
+  "entries": [
+    {
+      "model": "GLM-5.3",
+      "reportedBy": "Zhipu",
+      "source": "https://huggingface.co/zai-org/GLM-5.3",
+      "scores": {
+        "Terminal Bench 2.1": 88.2,
+        "Terminal Bench 3.0": 28.3,
+        "DeepSWE (v1.1)": 66.9,
+        "NL2Repo": 58,
+        "ProgramBench (Almost Solved)": 19,
+        "FrontierSWE": 78.1,
+        "SWE-Marathon (v1.1)": 42.5,
+        "PostTrainBench": 39.8,
+        "CyberGym": 84.5,
+        "ExploitBench": 54.4,
+        "Toolathlon Verified": 73,
+        "AutomationBench (v1.0.6)": 48.2,
+        "Agents' Last Exam (ALE-CLI)": 28.5,
+        "HLE w/ Tools": 62.5,
+        "GDPval-AA v2": 1769
+      }
+    },
+    {
+      "model": "GLM-5.2",
+      "reportedBy": "Zhipu",
+      "source": "https://huggingface.co/zai-org/GLM-5.3",
+      "scores": {
+        "Terminal Bench 2.1": 81,
+        "Terminal Bench 3.0": 4.6,
+        "DeepSWE (v1.1)": 46.2,
+        "NL2Repo": 48.9,
+        "ProgramBench (Almost Solved)": 9.5,
+        "FrontierSWE": 67.5,
+        "SWE-Marathon (v1.1)": 19.4,
+        "PostTrainBench": 31.7,
+        "CyberGym": 77.2,
+        "ExploitBench": 24.4,
+        "Toolathlon Verified": 59.9,
+        "AutomationBench (v1.0.6)": 26.2,
+        "Agents' Last Exam (ALE-CLI)": 23.8,
+        "HLE w/ Tools": 54.7,
+        "GDPval-AA v2": 1508
+      }
+    },
+    {
+      "model": "Kimi K3",
+      "reportedBy": "Zhipu",
+      "source": "https://huggingface.co/zai-org/GLM-5.3",
+      "scores": {
+        "Terminal Bench 2.1": 88.3,
+        "Terminal Bench 3.0": 17.4,
+        "DeepSWE (v1.1)": 67.5,
+        "NL2Repo": 58,
+        "ProgramBench (Almost Solved)": 17.5,
+        "SWE-Marathon (v1.1)": 48.1,
+        "PostTrainBench": 32,
+        "CyberGym": 80,
+        "ExploitBench": 32.2,
+        "Toolathlon Verified": 76.5,
+        "AutomationBench (v1.0.6)": 46.7,
+        "Agents' Last Exam (ALE-CLI)": 27.6,
+        "HLE w/ Tools": 59.8,
+        "GDPval-AA v2": 1682
+      }
+    },
+    {
+      "model": "DeepSeek-V4 Pro-0813",
+      "reportedBy": "Zhipu",
+      "source": "https://huggingface.co/zai-org/GLM-5.3",
+      "scores": {
+        "Terminal Bench 2.1": 87.9,
+        "DeepSWE (v1.1)": 62.7,
+        "NL2Repo": 61.1,
+        "CyberGym": 83.3,
+        "Toolathlon Verified": 74.1,
+        "AutomationBench (v1.0.6)": 43.2,
+        "Agents' Last Exam (ALE-CLI)": 25.7,
+        "HLE w/ Tools": 60,
+        "GDPval-AA v2": 1590
+      }
+    },
+    {
+      "model": "Qwen3.8-Max",
+      "reportedBy": "Zhipu",
+      "source": "https://huggingface.co/zai-org/GLM-5.3",
+      "scores": {
+        "Terminal Bench 2.1": 86.6,
+        "DeepSWE (v1.1)": 56.6,
+        "NL2Repo": 55.9,
+        "ProgramBench (Almost Solved)": 10.5,
+        "CyberGym": 78.5,
+        "ExploitBench": 28.8,
+        "Toolathlon Verified": 72.5,
+        "AutomationBench (v1.0.6)": 39.8,
+        "Agents' Last Exam (ALE-CLI)": 27,
+        "HLE w/ Tools": 56.2,
+        "GDPval-AA v2": 1739
+      }
+    },
+    {
+      "model": "Opus 4.8",
+      "reportedBy": "Zhipu",
+      "source": "https://huggingface.co/zai-org/GLM-5.3",
+      "scores": {
+        "Terminal Bench 2.1": 85,
+        "Terminal Bench 3.0": 21.1,
+        "DeepSWE (v1.1)": 58,
+        "NL2Repo": 69.7,
+        "ProgramBench (Almost Solved)": 15.5,
+        "FrontierSWE": 66.5,
+        "SWE-Marathon (v1.1)": 48.8,
+        "PostTrainBench": 32.9,
+        "CyberGym": 78.1,
+        "ExploitBench": 40,
+        "Toolathlon Verified": 76.2,
+        "AutomationBench (v1.0.6)": 41,
+        "Agents' Last Exam (ALE-CLI)": 25.7,
+        "HLE w/ Tools": 57.9,
+        "GDPval-AA v2": 1588
+      }
+    },
+    {
+      "model": "Fable 5 (w/ fallback)",
+      "reportedBy": "Zhipu",
+      "source": "https://huggingface.co/zai-org/GLM-5.3",
+      "scores": {
+        "Terminal Bench 2.1": 88,
+        "Terminal Bench 3.0": 33.7,
+        "DeepSWE (v1.1)": 69.7,
+        "ProgramBench (Almost Solved)": 33,
+        "FrontierSWE": 88.2,
+        "SWE-Marathon (v1.1)": 33.1,
+        "PostTrainBench": 41.8,
+        "CyberGym": 83.8,
+        "ExploitBench": 78,
+        "Toolathlon Verified": 74.7,
+        "AutomationBench (v1.0.6)": 46.2,
+        "Agents' Last Exam (ALE-CLI)": 23.8,
+        "HLE w/ Tools": 63.9,
+        "GDPval-AA v2": 1743
+      }
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "reportedBy": "Zhipu",
+      "source": "https://huggingface.co/zai-org/GLM-5.3",
+      "scores": {
+        "Terminal Bench 2.1": 88.8,
+        "Terminal Bench 3.0": 34.6,
+        "DeepSWE (v1.1)": 72.7,
+        "ProgramBench (Almost Solved)": 23,
+        "SWE-Marathon (v1.1)": 42.5,
+        "PostTrainBench": 36.2,
+        "CyberGym": 83.6,
+        "ExploitBench": 76.5,
+        "Toolathlon Verified": 74.9,
+        "AutomationBench (v1.0.6)": 45.8,
+        "Agents' Last Exam (ALE-CLI)": 28.6,
+        "HLE w/ Tools": 64.5,
+        "GDPval-AA v2": 1730
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "benchmarkSet": "google-gemini-announcements",
+  "source": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
+  "note": "Self-reported by Google. Most figures are inside charts; only those stated in text are recorded here.",
+  "capturedAt": "2026-08-29",
+  "benchmarks": ["Humanity's-Last-Exam", "SWE-bench-Verified"],
+  "entries": [
+    {
+      "model": "Gemini 2.5 Pro",
+      "reportedBy": "Google",
+      "source": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
+      "scores": { "Humanity's-Last-Exam": 18.8, "SWE-bench-Verified": 63.8 }
+    }
+  ]
+}

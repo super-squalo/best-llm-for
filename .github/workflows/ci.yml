@@ -1,0 +1,73 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ['18', '20', '22']
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+
+      # The CLI has to answer from the file that ships with it, with no network
+      # at all — someone on a plane still gets an answer, just an older one.
+      - name: Answers offline
+        run: |
+          OUT=$(node dist/cli.js --limit 3)
+          echo "$OUT"
+          echo "$OUT" | grep -q 'SCORE'
+
+      - name: Budget filter narrows the field
+        run: |
+          ALL=$(node dist/cli.js --limit 50 | grep -c '\$' || true)
+          FEW=$(node dist/cli.js --budget 0.5 --limit 50 | grep -c '\$' || true)
+          echo "all=$ALL under-budget=$FEW"
+          [ "$FEW" -lt "$ALL" ]
+
+      # The grid ships in the package too, so these answer with no network.
+      - name: The grid answers offline
+        run: |
+          node dist/cli.js --benchmarks | grep -q 'GPQA-Diamond'
+          node dist/cli.js --on gpqa --limit 5 | grep -q 'GPQA-Diamond'
+          node dist/cli.js --scores kimi | grep -q 'claimed by'
+
+      # A benchmark column that quietly absorbed a differently-spelled one is
+      # the failure this project cannot afford, and it looks like success
+      # everywhere else. These two pairs must never share a column.
+      - name: Versions and subsets stayed apart
+        run: |
+          node -e "
+            const g = require('./data/grid.json');
+            const must = [['TerminalBench','Terminal Bench 2.1'], ['MATH','MATH-500']];
+            for (const [a, b] of must) {
+              if (!g.benchmarks.includes(a) || !g.benchmarks.includes(b)) {
+                throw new Error(a + ' and ' + b + ' should both be columns');
+              }
+            }
+            const rivals = g.rows.flatMap(r => r.claims).filter(c => c.kind === 'claimed')
+              .filter(c => c.by === 'OpenAI' && /claude|llama|gemini|grok/i.test(JSON.stringify(c)));
+            if (rivals.length) throw new Error('a lab kept a claim about a rival');
+          "
+
+      - name: The page builds
+        run: |
+          npm run site
+          grep -q '<table>' site/index.html
+          grep -q 'rival claims dropped' site/index.html

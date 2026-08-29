@@ -1,0 +1,625 @@
+{
+  "benchmarkSet": "aider-polyglot",
+  "kind": "independent",
+  "source": "https://aider.chat/docs/leaderboards/",
+  "note": "225 exercises in six languages, run by Aider. Pass rate 2 allows a second attempt after seeing the test output, which is how the tool is actually used.",
+  "capturedAt": "2026-08-29",
+  "benchmarks": [
+    "Aider-Polyglot",
+    "Aider-Polyglot-First-Try"
+  ],
+  "entries": [
+    {
+      "model": "Gemini 2.0 Pro exp-02-05",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 35.6,
+        "Aider-Polyglot-First-Try": 20.4
+      }
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 3.6,
+        "Aider-Polyglot-First-Try": 0.9
+      }
+    },
+    {
+      "model": "claude-3-5-sonnet-20241022",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 51.6,
+        "Aider-Polyglot-First-Try": 22.2
+      }
+    },
+    {
+      "model": "gpt-4o-2024-11-20",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 18.2,
+        "Aider-Polyglot-First-Try": 4.9
+      }
+    },
+    {
+      "model": "gpt-4o-2024-08-06",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 23.1,
+        "Aider-Polyglot-First-Try": 4.9
+      }
+    },
+    {
+      "model": "o1-2024-12-17 (high)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 61.7,
+        "Aider-Polyglot-First-Try": 23.7
+      }
+    },
+    {
+      "model": "DeepSeek Chat V2.5",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 17.8,
+        "Aider-Polyglot-First-Try": 5.3
+      }
+    },
+    {
+      "model": "claude-3-5-haiku-20241022",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 28,
+        "Aider-Polyglot-First-Try": 7.1
+      }
+    },
+    {
+      "model": "Qwen2.5-Coder-32B-Instruct",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 16.4,
+        "Aider-Polyglot-First-Try": 4.9
+      }
+    },
+    {
+      "model": "o1-mini-2024-09-12",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 32.9,
+        "Aider-Polyglot-First-Try": 5.8
+      }
+    },
+    {
+      "model": "gemini-exp-1206",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 38.2,
+        "Aider-Polyglot-First-Try": 19.6
+      }
+    },
+    {
+      "model": "gemini-2.0-flash-exp",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 22.2,
+        "Aider-Polyglot-First-Try": 11.6
+      }
+    },
+    {
+      "model": "yi-lightning",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 12.9,
+        "Aider-Polyglot-First-Try": 5.8
+      }
+    },
+    {
+      "model": "DeepSeek Chat V3 (prev)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 48.4,
+        "Aider-Polyglot-First-Try": 22.7
+      }
+    },
+    {
+      "model": "Codestral 25.01",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 11.1,
+        "Aider-Polyglot-First-Try": 4
+      }
+    },
+    {
+      "model": "DeepSeek R1",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 56.9,
+        "Aider-Polyglot-First-Try": 26.7
+      }
+    },
+    {
+      "model": "DeepSeek R1 + claude-3-5-sonnet-20241022",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 64,
+        "Aider-Polyglot-First-Try": 27.1
+      }
+    },
+    {
+      "model": "qwen-max-2025-01-25",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 21.8,
+        "Aider-Polyglot-First-Try": 9.3
+      }
+    },
+    {
+      "model": "o3-mini (medium)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 53.8,
+        "Aider-Polyglot-First-Try": 19.1
+      }
+    },
+    {
+      "model": "o3-mini (high)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 60.4,
+        "Aider-Polyglot-First-Try": 21
+      }
+    },
+    {
+      "model": "gemini-2.0-flash-thinking-exp-01-21",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 18.2,
+        "Aider-Polyglot-First-Try": 5.8
+      }
+    },
+    {
+      "model": "chatgpt-4o-latest (2025-02-15)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 27.1,
+        "Aider-Polyglot-First-Try": 9
+      }
+    },
+    {
+      "model": "claude-3-7-sonnet-20250219 (no thinking)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 60.4,
+        "Aider-Polyglot-First-Try": 24.4
+      }
+    },
+    {
+      "model": "claude-3-7-sonnet-20250219 (32k thinking tokens)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 64.9,
+        "Aider-Polyglot-First-Try": 29.3
+      }
+    },
+    {
+      "model": "gpt-4.5-preview",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 44.9,
+        "Aider-Polyglot-First-Try": 22.3
+      }
+    },
+    {
+      "model": "QwQ-32B",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 20.9,
+        "Aider-Polyglot-First-Try": 8
+      }
+    },
+    {
+      "model": "QwQ-32B + Qwen 2.5 Coder Instruct",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 26.2,
+        "Aider-Polyglot-First-Try": 9.8
+      }
+    },
+    {
+      "model": "command-a-03-2025-quality",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 12,
+        "Aider-Polyglot-First-Try": 2.2
+      }
+    },
+    {
+      "model": "gemma-3-27b-it",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 4.9,
+        "Aider-Polyglot-First-Try": 1.8
+      }
+    },
+    {
+      "model": "DeepSeek V3 (0324)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 55.1,
+        "Aider-Polyglot-First-Try": 28
+      }
+    },
+    {
+      "model": "Gemini 2.5 Pro Preview 03-25",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 72.9,
+        "Aider-Polyglot-First-Try": 40.9
+      }
+    },
+    {
+      "model": "chatgpt-4o-latest (2025-03-29)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 45.3,
+        "Aider-Polyglot-First-Try": 16.4
+      }
+    },
+    {
+      "model": "Quasar Alpha",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 54.7,
+        "Aider-Polyglot-First-Try": 21.8
+      }
+    },
+    {
+      "model": "Llama 4 Maverick",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 15.6,
+        "Aider-Polyglot-First-Try": 4.4
+      }
+    },
+    {
+      "model": "Grok 3 Beta",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 53.3,
+        "Aider-Polyglot-First-Try": 22.2
+      }
+    },
+    {
+      "model": "Grok 3 Mini Beta (low)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 34.7,
+        "Aider-Polyglot-First-Try": 11.1
+      }
+    },
+    {
+      "model": "Grok 3 Mini Beta (high)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 49.3,
+        "Aider-Polyglot-First-Try": 17.3
+      }
+    },
+    {
+      "model": "Optimus Alpha",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 52.9,
+        "Aider-Polyglot-First-Try": 21.3
+      }
+    },
+    {
+      "model": "gpt-4.1",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 52.4,
+        "Aider-Polyglot-First-Try": 20
+      }
+    },
+    {
+      "model": "gpt-4.1-mini",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 32.4,
+        "Aider-Polyglot-First-Try": 11.1
+      }
+    },
+    {
+      "model": "gpt-4.1-nano",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 8.9,
+        "Aider-Polyglot-First-Try": 3.1
+      }
+    },
+    {
+      "model": "o4-mini (high)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 72,
+        "Aider-Polyglot-First-Try": 19.6
+      }
+    },
+    {
+      "model": "openhands-lm-32b-v0.1",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 10.2,
+        "Aider-Polyglot-First-Try": 4
+      }
+    },
+    {
+      "model": "gemini-2.5-flash-preview-04-17 (default)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 47.1,
+        "Aider-Polyglot-First-Try": 21.8
+      }
+    },
+    {
+      "model": "Gemini 2.5 Pro Preview 05-06",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 76.9,
+        "Aider-Polyglot-First-Try": 36.4
+      }
+    },
+    {
+      "model": "Qwen3 32B",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 40,
+        "Aider-Polyglot-First-Try": 14.2
+      }
+    },
+    {
+      "model": "Qwen3 235B A22B diff, no think, Alibaba API",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 59.6,
+        "Aider-Polyglot-First-Try": 28.9
+      }
+    },
+    {
+      "model": "claude-sonnet-4-20250514 (no thinking)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 56.4,
+        "Aider-Polyglot-First-Try": 20.4
+      }
+    },
+    {
+      "model": "claude-sonnet-4-20250514 (32k thinking)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 61.3,
+        "Aider-Polyglot-First-Try": 25.8
+      }
+    },
+    {
+      "model": "claude-opus-4-20250514 (no think)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 70.7,
+        "Aider-Polyglot-First-Try": 32.9
+      }
+    },
+    {
+      "model": "claude-opus-4-20250514 (32k thinking)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 72,
+        "Aider-Polyglot-First-Try": 37.3
+      }
+    },
+    {
+      "model": "gemini-2.5-flash-preview-05-20 (no think)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 44,
+        "Aider-Polyglot-First-Try": 20.9
+      }
+    },
+    {
+      "model": "gemini-2.5-flash-preview-05-20 (24k think)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 55.1,
+        "Aider-Polyglot-First-Try": 26.2
+      }
+    },
+    {
+      "model": "gemini-2.5-pro-preview-06-05 (default think)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 79.1,
+        "Aider-Polyglot-First-Try": 44.9
+      }
+    },
+    {
+      "model": "gemini-2.5-pro-preview-06-05 (32k think)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 83.1,
+        "Aider-Polyglot-First-Try": 46.2
+      }
+    },
+    {
+      "model": "DeepSeek R1 (0528)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 71.4,
+        "Aider-Polyglot-First-Try": 34.4
+      }
+    },
+    {
+      "model": "o3 (high)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 81.3,
+        "Aider-Polyglot-First-Try": 40
+      }
+    },
+    {
+      "model": "o3",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 76.9,
+        "Aider-Polyglot-First-Try": 40.9
+      }
+    },
+    {
+      "model": "o3 (high) + gpt-4.1",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 78.2,
+        "Aider-Polyglot-First-Try": 34.8
+      }
+    },
+    {
+      "model": "o3-pro (high)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 84.9,
+        "Aider-Polyglot-First-Try": 43.6
+      }
+    },
+    {
+      "model": "grok-4 (high)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 79.6,
+        "Aider-Polyglot-First-Try": 40.9
+      }
+    },
+    {
+      "model": "Kimi K2",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 59.1,
+        "Aider-Polyglot-First-Try": 20.4
+      }
+    },
+    {
+      "model": "gpt-oss-120b (high)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 41.8,
+        "Aider-Polyglot-First-Try": 13.8
+      }
+    },
+    {
+      "model": "gpt-5 (high)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 88,
+        "Aider-Polyglot-First-Try": 52
+      }
+    },
+    {
+      "model": "gpt-5 (medium)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 86.7,
+        "Aider-Polyglot-First-Try": 49.8
+      }
+    },
+    {
+      "model": "gpt-5 (low)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 81.3,
+        "Aider-Polyglot-First-Try": 43.1
+      }
+    },
+    {
+      "model": "DeepSeek-V3.2-Exp (Reasoner)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 74.2,
+        "Aider-Polyglot-First-Try": 39.6
+      }
+    },
+    {
+      "model": "DeepSeek-V3.2-Exp (Chat)",
+      "measuredBy": "Aider",
+      "source": "https://aider.chat/docs/leaderboards/",
+      "scores": {
+        "Aider-Polyglot": 70.2,
+        "Aider-Polyglot-First-Try": 38.7
+      }
+    }
+  ]
+}
