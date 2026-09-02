@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-29T21:19:56.575Z",
+  "generatedAt": "2026-09-02T08:20:57.544Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 396
+      "records": 421
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 2793
+      "records": 2889
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -20,7 +20,73 @@
       "records": 121
     }
   ],
-  "newModels": [],
+  "newModels": [
+    "accounts/fireworks/models/glm-5p3",
+    "accounts/fireworks/models/qwen3-embedding-8b",
+    "amazon.nova-2-sonic-v1:0",
+    "amazon.nova-sonic-v1:0",
+    "anthropic.claude-fable-5-1",
+    "claude-fable-5-1",
+    "claude-fable-5-1@default",
+    "claude-fable-5.1",
+    "claude-fable-5.1:batch",
+    "databricks-deepseek-v4-flash-0731",
+    "databricks-deepseek-v4-pro-0813",
+    "eu.anthropic.claude-fable-5-1",
+    "gemini-3.5-transcribe-live-preview",
+    "gemini-3.5-transcribe-preview",
+    "gemini-omni-1.1-flash",
+    "gigachat-2",
+    "gigaembeddings-3b-2025-09",
+    "glm-flash-latest",
+    "global.anthropic.claude-fable-5-1",
+    "gpt-3.5-turbo:batch",
+    "gpt-4-turbo:batch",
+    "gpt-4.1-mini:batch",
+    "gpt-4.1-nano:batch",
+    "gpt-4.1:batch",
+    "gpt-4o-mini:batch",
+    "gpt-4o:batch",
+    "gpt-5-mini:batch",
+    "gpt-5-nano:batch",
+    "gpt-5-pro:batch",
+    "gpt-5.1:batch",
+    "gpt-5.2-pro:batch",
+    "gpt-5.2:batch",
+    "gpt-5.4-mini:batch",
+    "gpt-5.4-nano:batch",
+    "gpt-5.4-pro:batch",
+    "gpt-5.4:batch",
+    "gpt-5.5-pro:batch",
+    "gpt-5.5:batch",
+    "gpt-5.6-luna-pro:batch",
+    "gpt-5.6-luna:batch",
+    "gpt-5.6-sol-pro:batch",
+    "gpt-5.6-sol:batch",
+    "gpt-5.6-terra-pro:batch",
+    "gpt-5.6-terra:batch",
+    "gpt-5:batch",
+    "granite-4.2-8b",
+    "grok-4.20-multi-agent-latest",
+    "grok-4.20-non-reasoning",
+    "grok-4.20-non-reasoning-latest",
+    "grok-4.20-reasoning",
+    "grok-4.20-reasoning-latest",
+    "labs-leanstral-1-5-1",
+    "mercury-2.5-preview",
+    "mistral-code-agent-latest",
+    "mistral-code-fim-latest",
+    "mistral-code-latest",
+    "mistral-vibe-cli-fast",
+    "mistral-vibe-cli-latest",
+    "mistral-vibe-cli-with-tools",
+    "nano-banana-pro-preview",
+    "o3-mini:batch",
+    "o3:batch",
+    "o4-mini:batch",
+    "qwen/qwen3.8-flash",
+    "us.anthropic.claude-fable-5-1"
+  ],
   "models": [
     {
       "id": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
@@ -1766,6 +1832,21 @@
       "id": "accounts/fireworks/models/glm-5p2",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "fireworks_ai/accounts/fireworks/models/glm-5p2",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "accounts/fireworks/models/glm-5p3",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "fireworks_ai/accounts/fireworks/models/glm-5p3",
       "context": 1048576,
       "prices": [
         {
@@ -4118,6 +4199,21 @@
       "benchmarks": []
     },
     {
+      "id": "accounts/fireworks/models/qwen3-embedding-8b",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-embedding-8b",
+      "context": 40960,
+      "prices": [
+        {
+          "input": 0.09999999999999999,
+          "output": 0,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "accounts/fireworks/models/qwen3-next-80b-a3b-instruct",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "fireworks_ai/accounts/fireworks/models/qwen3-next-80b-a3b-instruct",
@@ -5053,6 +5149,20 @@
       "benchmarks": []
     },
     {
+      "id": "amazon.nova-2-sonic-v1:0",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "amazon.nova-2-sonic-v1:0",
+      "prices": [
+        {
+          "input": 0.33,
+          "output": 2.75,
+          "vendor": "bedrock",
+          "mode": "other"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "amazon.nova-lite-v1:0",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "amazon.nova-lite-v1:0",
@@ -5092,6 +5202,20 @@
           "input": 0.7999999999999999,
           "output": 3.1999999999999997,
           "vendor": "bedrock_converse",
+          "mode": "other"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "amazon.nova-sonic-v1:0",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "amazon.nova-sonic-v1:0",
+      "prices": [
+        {
+          "input": 0.06,
+          "output": 0.24,
+          "vendor": "bedrock",
           "mode": "other"
         }
       ],
@@ -5464,6 +5588,21 @@
       "id": "anthropic.claude-fable-5",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "anthropic.claude-fable-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 10,
+          "output": 50,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "anthropic.claude-fable-5-1",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "anthropic.claude-fable-5-1",
       "context": 1000000,
       "prices": [
         {
@@ -7804,6 +7943,49 @@
       "listedAt": "2026-06-09"
     },
     {
+      "id": "claude-fable-5-1",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "azure_ai/claude-fable-5-1",
+      "context": 1000000,
+      "listedAt": "2026-09-01",
+      "prices": [
+        {
+          "input": 10,
+          "output": 50,
+          "vendor": "azure_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 10,
+          "output": 50,
+          "vendor": "anthropic",
+          "mode": "standard"
+        },
+        {
+          "input": 10,
+          "output": 50,
+          "vendor": "vertex_ai-anthropic_models",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "claude-fable-5-1@default",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "vertex_ai/claude-fable-5-1@default",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 10,
+          "output": 50,
+          "vendor": "vertex_ai-anthropic_models",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "claude-fable-5:batch",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "Anthropic: Claude Fable 5 (batch)",
@@ -7818,6 +8000,38 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-06-09"
+    },
+    {
+      "id": "claude-fable-5.1",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "Anthropic: Claude Fable 5.1",
+      "context": 1000000,
+      "listedAt": "2026-09-01",
+      "prices": [
+        {
+          "input": 10,
+          "output": 50,
+          "vendor": "anthropic",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "claude-fable-5.1:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "Anthropic: Claude Fable 5.1 (batch)",
+      "context": 1000000,
+      "listedAt": "2026-09-01",
+      "prices": [
+        {
+          "input": 5,
+          "output": 25,
+          "vendor": "anthropic",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "claude-fable-5@default",
@@ -8761,22 +8975,6 @@
       "listedAt": "2026-04-16"
     },
     {
-      "id": "claude-opus-4.7-fast",
-      "firstSeen": "2026-08-28T21:24:06.288Z",
-      "name": "Anthropic: Claude Opus 4.7 (Fast)",
-      "context": 1000000,
-      "prices": [
-        {
-          "input": 30,
-          "output": 150,
-          "vendor": "anthropic",
-          "mode": "standard"
-        }
-      ],
-      "benchmarks": [],
-      "listedAt": "2026-05-12"
-    },
-    {
       "id": "claude-opus-4.7:batch",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "Anthropic: Claude Opus 4.7 (batch)",
@@ -8801,22 +8999,6 @@
         {
           "input": 5,
           "output": 25,
-          "vendor": "anthropic",
-          "mode": "standard"
-        }
-      ],
-      "benchmarks": [],
-      "listedAt": "2026-05-27"
-    },
-    {
-      "id": "claude-opus-4.8-fast",
-      "firstSeen": "2026-08-28T21:24:06.288Z",
-      "name": "Anthropic: Claude Opus 4.8 (Fast)",
-      "context": 1000000,
-      "prices": [
-        {
-          "input": 10,
-          "output": 50,
           "vendor": "anthropic",
           "mode": "standard"
         }
@@ -8877,22 +9059,6 @@
           "input": 5,
           "output": 25,
           "vendor": "vertex_ai-anthropic_models",
-          "mode": "standard"
-        }
-      ],
-      "benchmarks": [],
-      "listedAt": "2026-07-24"
-    },
-    {
-      "id": "claude-opus-5-fast",
-      "firstSeen": "2026-08-28T21:24:06.288Z",
-      "name": "Claude Opus 5 (Fast)",
-      "context": 1000000,
-      "prices": [
-        {
-          "input": 10,
-          "output": 50,
-          "vendor": "anthropic",
           "mode": "standard"
         }
       ],
@@ -9750,7 +9916,13 @@
           "input": 0.3,
           "output": 0.8999999999999999,
           "vendor": "mistralai",
-          "mode": "batch"
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 0.8999999999999999,
+          "vendor": "mistral",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -10872,6 +11044,36 @@
         {
           "input": 2.99999,
           "output": 15.00002,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-deepseek-v4-flash-0731",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "databricks/databricks-deepseek-v4-flash-0731",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 0.14,
+          "output": 0.28,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-deepseek-v4-pro-0813",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "databricks/databricks-deepseek-v4-pro-0813",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.31999,
+          "output": 3.9599699999999998,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -12046,8 +12248,8 @@
       "context": 163840,
       "prices": [
         {
-          "input": 0.55,
-          "output": 1.6500000000000001,
+          "input": 0.25,
+          "output": 0.95,
           "vendor": "deepseek",
           "mode": "standard"
         }
@@ -12674,8 +12876,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.08204,
-          "output": 0.16408,
+          "input": 0.088606,
+          "output": 0.177212,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -12689,6 +12891,18 @@
           "input": 0.19999999999999998,
           "output": 0.39999999999999997,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.39999999999999997,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.39999999999999997,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         },
         {
@@ -12726,9 +12940,15 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.049999999999999996,
-          "output": 0.09999999999999999,
+          "input": 0.065,
+          "output": 0.18,
           "vendor": "deepseek",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19,
+          "output": 0.51,
+          "vendor": "azure_ai",
           "mode": "standard"
         },
         {
@@ -12738,8 +12958,20 @@
           "mode": "standard"
         },
         {
-          "input": 0.14,
-          "output": 0.28,
+          "input": 0.19999999999999998,
+          "output": 0.39999999999999997,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.39999999999999997,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
+        },
+        {
+          "input": 0.22,
+          "output": 0.66,
           "vendor": "fireworks_ai",
           "mode": "standard"
         }
@@ -12788,8 +13020,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.08204,
-          "output": 0.16408,
+          "input": 0.088606,
+          "output": 0.177212,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -12803,6 +13035,18 @@
           "input": 0.19999999999999998,
           "output": 0.39999999999999997,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.39999999999999997,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.39999999999999997,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         },
         {
@@ -12830,8 +13074,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.03,
-          "output": 0.09999999999999999,
+          "input": 0.049999999999999996,
+          "output": 0.16,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -12895,8 +13139,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.08204,
-          "output": 0.16408,
+          "input": 0.088606,
+          "output": 0.177212,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -12910,6 +13154,18 @@
           "input": 0.19999999999999998,
           "output": 0.39999999999999997,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.39999999999999997,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.39999999999999997,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         },
         {
@@ -12937,8 +13193,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.03,
-          "output": 0.09999999999999999,
+          "input": 0.049999999999999996,
+          "output": 0.16,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -12984,8 +13240,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.03,
-          "output": 0.09999999999999999,
+          "input": 0.049999999999999996,
+          "output": 0.16,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -13016,12 +13272,6 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.22,
-          "output": 0.66,
-          "vendor": "deepseek",
-          "mode": "standard"
-        },
-        {
           "input": 0.44,
           "output": 1.32,
           "vendor": "deepseek",
@@ -13039,8 +13289,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.538878,
-          "output": 1.077756,
+          "input": 1.04226,
+          "output": 2.08452,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -13054,6 +13304,18 @@
           "input": 2.4,
           "output": 4.8,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 2.4,
+          "output": 4.8,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 2.4,
+          "output": 4.8,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         },
         {
@@ -13098,8 +13360,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.66,
-          "output": 1.9800000000000002,
+          "input": 1.1154,
+          "output": 3.3461999999999996,
           "vendor": "deepseek",
           "mode": "standard"
         }
@@ -13148,8 +13410,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.538878,
-          "output": 1.077756,
+          "input": 1.04226,
+          "output": 2.08452,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -13163,6 +13425,18 @@
           "input": 2.4,
           "output": 4.8,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 2.4,
+          "output": 4.8,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 2.4,
+          "output": 4.8,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         },
         {
@@ -13237,8 +13511,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.538878,
-          "output": 1.077756,
+          "input": 1.04226,
+          "output": 2.08452,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -13252,6 +13526,18 @@
           "input": 2.4,
           "output": 4.8,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 2.4,
+          "output": 4.8,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 2.4,
+          "output": 4.8,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         },
         {
@@ -13842,8 +14128,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.44,
-          "output": 2.2,
+          "input": 0.39999999999999997,
+          "output": 2,
           "vendor": "mistralai",
           "mode": "standard"
         },
@@ -14869,6 +15155,21 @@
       "id": "eu.anthropic.claude-fable-5",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "eu.anthropic.claude-fable-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 11,
+          "output": 55,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu.anthropic.claude-fable-5-1",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "eu.anthropic.claude-fable-5-1",
       "context": 1000000,
       "prices": [
         {
@@ -17457,6 +17758,34 @@
       "benchmarks": []
     },
     {
+      "id": "gemini-3.5-transcribe-live-preview",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "vertex_ai/gemini-3.5-transcribe-live-preview",
+      "prices": [
+        {
+          "input": 3.5,
+          "output": 21,
+          "vendor": "vertex_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gemini-3.5-transcribe-preview",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "vertex_ai/gemini-3.5-transcribe-preview",
+      "prices": [
+        {
+          "input": 2.5,
+          "output": 12,
+          "vendor": "vertex_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gemini-3.6-flash",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "Google: Gemini 3.6 Flash",
@@ -17884,6 +18213,21 @@
       "benchmarks": []
     },
     {
+      "id": "gemini-omni-1.1-flash",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "gemini/gemini-omni-1.1-flash",
+      "context": 131072,
+      "prices": [
+        {
+          "input": 1.5,
+          "output": 9,
+          "vendor": "gemini",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gemini-omni-flash-preview",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "gemini/gemini-omni-flash-preview",
@@ -18123,6 +18467,12 @@
           "output": 0.33999999999999997,
           "vendor": "google",
           "mode": "standard"
+        },
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "gemini",
+          "mode": "free"
         }
       ],
       "benchmarks": [],
@@ -18149,7 +18499,14 @@
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "gemma-4-31b",
       "maker": "Google",
-      "prices": [],
+      "prices": [
+        {
+          "input": 0.9900000000000001,
+          "output": 1.49,
+          "vendor": "cerebras",
+          "mode": "standard"
+        }
+      ],
       "benchmarks": [
         {
           "name": "arena-code",
@@ -18163,7 +18520,8 @@
             "fetchedAt": "2026-08-28T21:24:06.454Z"
           }
         }
-      ]
+      ],
+      "context": 131072
     },
     {
       "id": "gemma-4-31b-it",
@@ -18176,6 +18534,12 @@
           "output": 0.33999999999999997,
           "vendor": "google",
           "mode": "standard"
+        },
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "gemini",
+          "mode": "free"
         },
         {
           "input": 0.38,
@@ -18272,9 +18636,9 @@
       "benchmarks": []
     },
     {
-      "id": "gigachat-2-lite",
-      "firstSeen": "2026-08-28T21:24:06.288Z",
-      "name": "gigachat/GigaChat-2-Lite",
+      "id": "gigachat-2",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "gigachat/GigaChat-2",
       "context": 128000,
       "prices": [
         {
@@ -18306,6 +18670,21 @@
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "gigachat/GigaChat-2-Pro",
       "context": 128000,
+      "prices": [
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "gigachat",
+          "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gigaembeddings-3b-2025-09",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "gigachat/GigaEmbeddings-3B-2025-09",
+      "context": 4096,
       "prices": [
         {
           "input": 0,
@@ -18673,8 +19052,8 @@
       "context": 204800,
       "prices": [
         {
-          "input": 1.26,
-          "output": 3.9600000000000004,
+          "input": 0.966,
+          "output": 3.036,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -18682,6 +19061,18 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         },
         {
@@ -18714,8 +19105,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 1.19,
-          "output": 3.74,
+          "input": 0.966,
+          "output": 3.036,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -18726,9 +19117,27 @@
           "mode": "standard"
         },
         {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
+        },
+        {
           "input": 0.61,
           "output": 1.9800000000000002,
           "vendor": "scx-ai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "zai",
           "mode": "standard"
         }
       ],
@@ -18748,8 +19157,8 @@
           "mode": "standard"
         },
         {
-          "input": 1.19,
-          "output": 3.74,
+          "input": 0.966,
+          "output": 3.036,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -18760,9 +19169,27 @@
           "mode": "standard"
         },
         {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
+        },
+        {
           "input": 0.61,
           "output": 1.9800000000000002,
           "vendor": "scx-ai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "zai",
           "mode": "standard"
         },
         {
@@ -18862,6 +19289,12 @@
           "output": 0.25,
           "vendor": "z-ai",
           "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.5,
+          "vendor": "zai",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -18910,6 +19343,18 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "zai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.26,
+          "output": 3.9600000000000004,
+          "vendor": "friendliai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "together_ai",
           "mode": "standard"
         },
         {
@@ -19041,14 +19486,30 @@
       "listedAt": "2026-04-01"
     },
     {
+      "id": "glm-flash-latest",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "Z.ai: GLM Flash Latest",
+      "context": 1310720,
+      "listedAt": "2026-08-27",
+      "prices": [
+        {
+          "input": 0.075,
+          "output": 0.25,
+          "vendor": "~z-ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "glm-latest",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "Z.ai: GLM Latest",
       "context": 1310720,
       "prices": [
         {
-          "input": 1.1875,
-          "output": 4.18,
+          "input": 1.17,
+          "output": 3.9600000000000004,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -19123,6 +19584,21 @@
       "id": "global.anthropic.claude-fable-5",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "global.anthropic.claude-fable-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 10,
+          "output": 50,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "global.anthropic.claude-fable-5-1",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "global.anthropic.claude-fable-5-1",
       "context": 1000000,
       "prices": [
         {
@@ -20321,6 +20797,22 @@
       "benchmarks": []
     },
     {
+      "id": "gpt-3.5-turbo:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-3.5 Turbo (batch)",
+      "context": 16385,
+      "listedAt": "2023-05-28",
+      "prices": [
+        {
+          "input": 0.25,
+          "output": 0.75,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-35-turbo",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/gpt-35-turbo",
@@ -20632,6 +21124,22 @@
       "benchmarks": []
     },
     {
+      "id": "gpt-4-turbo:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-4 Turbo (batch)",
+      "context": 128000,
+      "listedAt": "2024-04-09",
+      "prices": [
+        {
+          "input": 5,
+          "output": 15,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-4.1",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "OpenAI: GPT-4.1",
@@ -20720,6 +21228,22 @@
       "listedAt": "2025-04-14"
     },
     {
+      "id": "gpt-4.1-mini:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-4.1 Mini (batch)",
+      "context": 1047576,
+      "listedAt": "2025-04-14",
+      "prices": [
+        {
+          "input": 0.19999999999999998,
+          "output": 0.7999999999999999,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-4.1-nano",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "OpenAI: GPT-4.1 Nano",
@@ -20762,6 +21286,38 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-04-14"
+    },
+    {
+      "id": "gpt-4.1-nano:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-4.1 Nano (batch)",
+      "context": 1047576,
+      "listedAt": "2025-04-14",
+      "prices": [
+        {
+          "input": 0.049999999999999996,
+          "output": 0.19999999999999998,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gpt-4.1:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-4.1 (batch)",
+      "context": 1047576,
+      "listedAt": "2025-04-14",
+      "prices": [
+        {
+          "input": 1,
+          "output": 4,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "gpt-4.5-preview",
@@ -21163,6 +21719,22 @@
       "benchmarks": []
     },
     {
+      "id": "gpt-4o-mini:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-4o-mini (batch)",
+      "context": 128000,
+      "listedAt": "2024-07-18",
+      "prices": [
+        {
+          "input": 0.075,
+          "output": 0.3,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-4o-realtime-preview",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "gpt-4o-realtime-preview",
@@ -21296,6 +21868,22 @@
           "output": 10,
           "vendor": "openai",
           "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gpt-4o:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-4o (batch)",
+      "context": 128000,
+      "listedAt": "2024-05-13",
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 5,
+          "vendor": "openai",
+          "mode": "batch"
         }
       ],
       "benchmarks": []
@@ -21561,6 +22149,22 @@
       "listedAt": "2025-08-07"
     },
     {
+      "id": "gpt-5-mini:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5 Mini (batch)",
+      "context": 400000,
+      "listedAt": "2025-08-07",
+      "prices": [
+        {
+          "input": 0.125,
+          "output": 1,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-5-nano",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "OpenAI: GPT-5 Nano",
@@ -21605,6 +22209,22 @@
       "listedAt": "2025-08-07"
     },
     {
+      "id": "gpt-5-nano:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5 Nano (batch)",
+      "context": 400000,
+      "listedAt": "2025-08-07",
+      "prices": [
+        {
+          "input": 0.024999999999999998,
+          "output": 0.19999999999999998,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-5-pro",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "OpenAI: GPT-5 Pro",
@@ -21643,6 +22263,22 @@
       "listedAt": "2025-10-06"
     },
     {
+      "id": "gpt-5-pro:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5 Pro (batch)",
+      "context": 400000,
+      "listedAt": "2025-10-06",
+      "prices": [
+        {
+          "input": 7.5,
+          "output": 60,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-5-search-api",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "gpt-5-search-api",
@@ -21668,6 +22304,22 @@
           "output": 10,
           "vendor": "openai",
           "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gpt-5:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5 (batch)",
+      "context": 400000,
+      "listedAt": "2025-08-07",
+      "prices": [
+        {
+          "input": 0.625,
+          "output": 5,
+          "vendor": "openai",
+          "mode": "batch"
         }
       ],
       "benchmarks": []
@@ -21973,6 +22625,22 @@
       "listedAt": "2025-11-13"
     },
     {
+      "id": "gpt-5.1:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5.1 (batch)",
+      "context": 400000,
+      "listedAt": "2025-11-13",
+      "prices": [
+        {
+          "input": 0.625,
+          "output": 5,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-5.2",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "OpenAI: GPT-5.2",
@@ -22163,6 +22831,38 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-12-10"
+    },
+    {
+      "id": "gpt-5.2-pro:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5.2 Pro (batch)",
+      "context": 400000,
+      "listedAt": "2025-12-10",
+      "prices": [
+        {
+          "input": 10.5,
+          "output": 84,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gpt-5.2:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5.2 (batch)",
+      "context": 400000,
+      "listedAt": "2025-12-10",
+      "prices": [
+        {
+          "input": 0.875,
+          "output": 7,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "gpt-5.3-chat",
@@ -22631,6 +23331,22 @@
       "listedAt": "2026-03-17"
     },
     {
+      "id": "gpt-5.4-mini:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5.4 Mini (batch)",
+      "context": 400000,
+      "listedAt": "2026-03-17",
+      "prices": [
+        {
+          "input": 0.375,
+          "output": 2.25,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-5.4-nano",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "OpenAI: GPT-5.4 Nano",
@@ -22687,6 +23403,22 @@
       "listedAt": "2026-03-17"
     },
     {
+      "id": "gpt-5.4-nano:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5.4 Nano (batch)",
+      "context": 400000,
+      "listedAt": "2026-03-17",
+      "prices": [
+        {
+          "input": 0.09999999999999999,
+          "output": 0.625,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-5.4-pro",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "OpenAI: GPT-5.4 Pro",
@@ -22741,6 +23473,38 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-03-05"
+    },
+    {
+      "id": "gpt-5.4-pro:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5.4 Pro (batch)",
+      "context": 1050000,
+      "listedAt": "2026-03-05",
+      "prices": [
+        {
+          "input": 15,
+          "output": 90,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gpt-5.4:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5.4 (batch)",
+      "context": 1050000,
+      "listedAt": "2026-03-05",
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 7.5,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "gpt-5.5",
@@ -23009,6 +23773,22 @@
       "listedAt": "2026-04-24"
     },
     {
+      "id": "gpt-5.5-pro:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5.5 Pro (batch)",
+      "context": 1050000,
+      "listedAt": "2026-04-24",
+      "prices": [
+        {
+          "input": 15,
+          "output": 90,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-5.5-xhigh (codex-harness)",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "gpt-5.5-xhigh (codex-harness)",
@@ -23092,6 +23872,22 @@
       "listedAt": "2026-04-24"
     },
     {
+      "id": "gpt-5.5:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5.5 (batch)",
+      "context": 1050000,
+      "listedAt": "2026-04-24",
+      "prices": [
+        {
+          "input": 2.5,
+          "output": 15,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-5.6",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/gpt-5.6",
@@ -23166,6 +23962,22 @@
       "listedAt": "2026-07-09"
     },
     {
+      "id": "gpt-5.6-luna-pro:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
+      "context": 1050000,
+      "listedAt": "2026-07-09",
+      "prices": [
+        {
+          "input": 0.09999999999999999,
+          "output": 0.6,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-5.6-luna-xhigh (codex-harness)",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "gpt-5.6-luna-xhigh (codex-harness)",
@@ -23213,6 +24025,22 @@
       "listedAt": "2026-07-09"
     },
     {
+      "id": "gpt-5.6-luna:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5.6 Luna (batch)",
+      "context": 1050000,
+      "listedAt": "2026-07-09",
+      "prices": [
+        {
+          "input": 0.09999999999999999,
+          "output": 0.6,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-5.6-sol",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "OpenAI: GPT-5.6 Sol",
@@ -23255,6 +24083,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-07-09"
+    },
+    {
+      "id": "gpt-5.6-sol-pro:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+      "context": 1050000,
+      "listedAt": "2026-07-09",
+      "prices": [
+        {
+          "input": 1,
+          "output": 5,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "gpt-5.6-sol-xhigh (codex-harness)",
@@ -23310,6 +24154,22 @@
       "listedAt": "2026-07-09"
     },
     {
+      "id": "gpt-5.6-sol:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5.6 Sol (batch)",
+      "context": 1050000,
+      "listedAt": "2026-07-09",
+      "prices": [
+        {
+          "input": 1,
+          "output": 5,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-5.6-terra",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "OpenAI: GPT-5.6 Terra",
@@ -23346,6 +24206,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-07-09"
+    },
+    {
+      "id": "gpt-5.6-terra-pro:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+      "context": 1050000,
+      "listedAt": "2026-07-09",
+      "prices": [
+        {
+          "input": 1,
+          "output": 6,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "gpt-5.6-terra-xhigh (codex-harness)",
@@ -23393,6 +24269,22 @@
         }
       ],
       "listedAt": "2026-07-09"
+    },
+    {
+      "id": "gpt-5.6-terra:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: GPT-5.6 Terra (batch)",
+      "context": 1050000,
+      "listedAt": "2026-07-09",
+      "prices": [
+        {
+          "input": 1,
+          "output": 6,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "gpt-audio",
@@ -24041,6 +24933,22 @@
       "listedAt": "2026-04-30"
     },
     {
+      "id": "granite-4.2-8b",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "IBM: Granite 4.2 8B",
+      "context": 131072,
+      "listedAt": "2026-08-31",
+      "prices": [
+        {
+          "input": 0.09999999999999999,
+          "output": 0.15,
+          "vendor": "ibm-granite",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "grok-3",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure_ai/grok-3",
@@ -24053,8 +24961,8 @@
           "mode": "standard"
         },
         {
-          "input": 3,
-          "output": 15,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24068,8 +24976,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 3,
-          "output": 15,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24083,8 +24991,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 5,
-          "output": 25,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24098,8 +25006,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 5,
-          "output": 25,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24113,8 +25021,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 3,
-          "output": 15,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24134,8 +25042,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.3,
-          "output": 0.5,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24149,8 +25057,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.3,
-          "output": 0.5,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24164,8 +25072,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.6,
-          "output": 4,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24179,8 +25087,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.6,
-          "output": 4,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24194,8 +25102,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.6,
-          "output": 4,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24209,8 +25117,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.3,
-          "output": 0.5,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24230,8 +25138,8 @@
           "mode": "standard"
         },
         {
-          "input": 3,
-          "output": 15,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24245,8 +25153,8 @@
       "context": 256000,
       "prices": [
         {
-          "input": 3,
-          "output": 15,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24260,8 +25168,8 @@
       "context": 2000000,
       "prices": [
         {
-          "input": 0.19999999999999998,
-          "output": 0.5,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24281,8 +25189,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.19999999999999998,
-          "output": 0.5,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24296,8 +25204,8 @@
       "context": 2000000,
       "prices": [
         {
-          "input": 0.19999999999999998,
-          "output": 0.5,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24318,8 +25226,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.19999999999999998,
-          "output": 0.5,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24346,8 +25254,8 @@
       "context": 2000000,
       "prices": [
         {
-          "input": 0.19999999999999998,
-          "output": 0.5,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24367,8 +25275,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.19999999999999998,
-          "output": 0.5,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24389,8 +25297,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.19999999999999998,
-          "output": 0.5,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24417,8 +25325,8 @@
       "context": 256000,
       "prices": [
         {
-          "input": 3,
-          "output": 15,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
         }
@@ -24456,6 +25364,12 @@
           "input": 1.25,
           "output": 2.5,
           "vendor": "x-ai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
           "mode": "standard"
         }
       ],
@@ -24547,6 +25461,12 @@
           "output": 2.5,
           "vendor": "x-ai",
           "mode": "standard"
+        },
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -24572,6 +25492,84 @@
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "xai/grok-4.20-multi-agent-beta-0309",
       "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-multi-agent-latest",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "xai/grok-4.20-multi-agent-latest",
+      "context": 1000000,
+      "listedAt": "2026-03-31",
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-non-reasoning",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "xai/grok-4.20-non-reasoning",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-non-reasoning-latest",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "xai/grok-4.20-non-reasoning-latest",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-reasoning",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "xai/grok-4.20-reasoning",
+      "context": 1000000,
+      "listedAt": "2026-03-31",
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-reasoning-latest",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "xai/grok-4.20-reasoning-latest",
+      "context": 1000000,
+      "listedAt": "2026-03-31",
       "prices": [
         {
           "input": 1.25,
@@ -25127,8 +26125,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.0825,
-          "output": 0.33,
+          "input": 0.13199999999999998,
+          "output": 0.5279999999999999,
           "vendor": "tencent",
           "mode": "standard"
         }
@@ -25448,7 +26446,7 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.95,
+          "input": 1,
           "output": 4.05,
           "vendor": "thinkingmachines",
           "mode": "standard"
@@ -26027,22 +27025,6 @@
       "benchmarks": []
     },
     {
-      "id": "kat-coder-air-v2.5",
-      "firstSeen": "2026-08-28T21:24:06.288Z",
-      "name": "Kwaipilot: KAT-Coder-Air V2.5",
-      "context": 256000,
-      "prices": [
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "kwaipilot",
-          "mode": "standard"
-        }
-      ],
-      "benchmarks": [],
-      "listedAt": "2026-07-10"
-    },
-    {
       "id": "kat-coder-pro-v1",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "kat-coder-pro-v1",
@@ -26260,8 +27242,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.6,
-          "output": 3,
+          "input": 0.44999999999999996,
+          "output": 2.25,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -26309,8 +27291,8 @@
       "maker": "Moonshot",
       "prices": [
         {
-          "input": 0.6,
-          "output": 3,
+          "input": 0.44999999999999996,
+          "output": 2.25,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -26438,6 +27420,24 @@
           "input": 0.95,
           "output": 4,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 0.95,
+          "output": 4,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.95,
+          "output": 4,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
+        },
+        {
+          "input": 0.95,
+          "output": 4,
+          "vendor": "moonshot",
           "mode": "standard"
         }
       ],
@@ -26840,6 +27840,21 @@
       "id": "labs-leanstral-1-5",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "mistral/labs-leanstral-1-5",
+      "context": 262144,
+      "prices": [
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "mistral",
+          "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "labs-leanstral-1-5-1",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "mistral/labs-leanstral-1-5-1",
       "context": 262144,
       "prices": [
         {
@@ -27282,7 +28297,7 @@
       "prices": [
         {
           "input": 0.19999999999999998,
-          "output": 0.7999999999999999,
+          "output": 0.696,
           "vendor": "meta-llama",
           "mode": "standard"
         }
@@ -27333,8 +28348,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.11,
-          "output": 0.33999999999999997,
+          "input": 0.09999999999999999,
+          "output": 0.3,
           "vendor": "meta-llama",
           "mode": "standard"
         }
@@ -27959,7 +28974,7 @@
       "context": 32768,
       "prices": [
         {
-          "input": 3,
+          "input": 2.5,
           "output": 5,
           "vendor": "anthracite-org",
           "mode": "standard"
@@ -28073,6 +29088,22 @@
         }
       ],
       "listedAt": "2026-03-04"
+    },
+    {
+      "id": "mercury-2.5-preview",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "Inception: Mercury 2.5 Preview",
+      "context": 260000,
+      "listedAt": "2026-08-31",
+      "prices": [
+        {
+          "input": 0.04,
+          "output": 0.15,
+          "vendor": "inception",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "mercury-edit-2",
@@ -30992,7 +32023,19 @@
           "input": 0.15,
           "output": 0.15,
           "vendor": "mistralai",
-          "mode": "batch"
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.15,
+          "vendor": "mistral",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.15,
+          "vendor": "openrouter",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -31098,6 +32141,51 @@
           "input": 0.09999999999999999,
           "output": 0.15,
           "vendor": "llamagate",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "mistral-code-agent-latest",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "mistral/mistral-code-agent-latest",
+      "context": 256000,
+      "prices": [
+        {
+          "input": 0.39999999999999997,
+          "output": 2,
+          "vendor": "mistral",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "mistral-code-fim-latest",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "mistral/mistral-code-fim-latest",
+      "context": 128000,
+      "prices": [
+        {
+          "input": 0.3,
+          "output": 0.8999999999999999,
+          "vendor": "mistral",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "mistral-code-latest",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "mistral/mistral-code-latest",
+      "context": 128000,
+      "prices": [
+        {
+          "input": 0.3,
+          "output": 0.8999999999999999,
+          "vendor": "mistral",
           "mode": "standard"
         }
       ],
@@ -31227,7 +32315,19 @@
           "input": 0.5,
           "output": 1.5,
           "vendor": "mistralai",
-          "mode": "batch"
+          "mode": "standard"
+        },
+        {
+          "input": 0.5,
+          "output": 1.5,
+          "vendor": "mistral",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5,
+          "output": 1.5,
+          "vendor": "openrouter",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -31559,7 +32659,7 @@
           "input": 0.39999999999999997,
           "output": 2,
           "vendor": "mistralai",
-          "mode": "batch"
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -31571,12 +32671,6 @@
       "name": "mistral-medium-3.5",
       "maker": "Mistral",
       "prices": [
-        {
-          "input": 1.5,
-          "output": 7.5,
-          "vendor": "mistralai",
-          "mode": "standard"
-        },
         {
           "input": 1.5,
           "output": 7.5,
@@ -31598,7 +32692,8 @@
           }
         }
       ],
-      "listedAt": "2026-04-30"
+      "listedAt": "2026-04-30",
+      "context": 262144
     },
     {
       "id": "mistral-medium-3@001",
@@ -31839,7 +32934,13 @@
           "input": 0.15,
           "output": 0.6,
           "vendor": "mistralai",
-          "mode": "batch"
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "mistral",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -31931,6 +33032,51 @@
         {
           "input": 0.25,
           "output": 0.25,
+          "vendor": "mistral",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "mistral-vibe-cli-fast",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "mistral/mistral-vibe-cli-fast",
+      "context": 262144,
+      "prices": [
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "mistral",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "mistral-vibe-cli-latest",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "mistral/mistral-vibe-cli-latest",
+      "context": 262144,
+      "prices": [
+        {
+          "input": 1.5,
+          "output": 7.5,
+          "vendor": "mistral",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "mistral-vibe-cli-with-tools",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "mistral/mistral-vibe-cli-with-tools",
+      "context": 262144,
+      "prices": [
+        {
+          "input": 1.5,
+          "output": 7.5,
           "vendor": "mistral",
           "mode": "standard"
         }
@@ -33693,6 +34839,21 @@
       "listedAt": "2023-07-02"
     },
     {
+      "id": "nano-banana-pro-preview",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "gemini/nano-banana-pro-preview",
+      "context": 131072,
+      "prices": [
+        {
+          "input": 2,
+          "output": 12,
+          "vendor": "gemini",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "nemotron-3-nano-30b-a3b",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
@@ -33763,8 +34924,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.5,
-          "output": 2.2,
+          "input": 0.625,
+          "output": 3.125,
           "vendor": "nvidia",
           "mode": "standard"
         }
@@ -34729,6 +35890,22 @@
       "listedAt": "2025-02-12"
     },
     {
+      "id": "o3-mini:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: o3 Mini (batch)",
+      "context": 200000,
+      "listedAt": "2025-01-31",
+      "prices": [
+        {
+          "input": 0.55,
+          "output": 2.2,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "o3-pro",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "OpenAI: o3 Pro",
@@ -34771,6 +35948,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-06-10"
+    },
+    {
+      "id": "o3:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: o3 (batch)",
+      "context": 200000,
+      "listedAt": "2025-04-16",
+      "prices": [
+        {
+          "input": 1,
+          "output": 4,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "o4-mini",
@@ -34861,6 +36054,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-04-16"
+    },
+    {
+      "id": "o4-mini:batch",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "OpenAI: o4 Mini (batch)",
+      "context": 200000,
+      "listedAt": "2025-04-16",
+      "prices": [
+        {
+          "input": 0.55,
+          "output": 2.2,
+          "vendor": "openai",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "omni-moderation-2024-09-26",
@@ -35184,8 +36393,8 @@
       "context": 1050000,
       "prices": [
         {
-          "input": 4.4,
-          "output": 22,
+          "input": 5.5,
+          "output": 33,
           "vendor": "bedrock_mantle",
           "mode": "standard"
         }
@@ -37003,6 +38212,18 @@
           "output": 1.5,
           "vendor": "dashscope",
           "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.5,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.5,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -37017,6 +38238,18 @@
           "input": 1.5999999999999999,
           "output": 6.3999999999999995,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 1.5999999999999999,
+          "output": 6.3999999999999995,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 1.5999999999999999,
+          "output": 6.3999999999999995,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         }
       ],
@@ -37039,6 +38272,18 @@
           "output": 1.2,
           "vendor": "dashscope",
           "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.2,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.2,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -37054,6 +38299,18 @@
           "input": 0.39999999999999997,
           "output": 1.2,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.2,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.2,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         }
       ],
@@ -37071,6 +38328,18 @@
           "output": 1.2,
           "vendor": "dashscope",
           "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.2,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.2,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -37086,6 +38355,18 @@
           "input": 0.39999999999999997,
           "output": 1.2,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.2,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.2,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         }
       ],
@@ -37119,6 +38400,18 @@
           "output": 0.19999999999999998,
           "vendor": "dashscope",
           "mode": "standard"
+        },
+        {
+          "input": 0.049999999999999996,
+          "output": 0.19999999999999998,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.049999999999999996,
+          "output": 0.19999999999999998,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -37133,6 +38426,18 @@
           "input": 0.049999999999999996,
           "output": 0.19999999999999998,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 0.049999999999999996,
+          "output": 0.19999999999999998,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.049999999999999996,
+          "output": 0.19999999999999998,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         }
       ],
@@ -37149,6 +38454,18 @@
           "output": 0.19999999999999998,
           "vendor": "dashscope",
           "mode": "standard"
+        },
+        {
+          "input": 0.049999999999999996,
+          "output": 0.19999999999999998,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.049999999999999996,
+          "output": 0.19999999999999998,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -37163,6 +38480,18 @@
           "input": 0.049999999999999996,
           "output": 0.19999999999999998,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 0.049999999999999996,
+          "output": 0.19999999999999998,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.049999999999999996,
+          "output": 0.19999999999999998,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         }
       ],
@@ -38728,10 +40057,32 @@
           "output": 3,
           "vendor": "deepinfra",
           "mode": "standard"
+        },
+        {
+          "input": 0.7999999999999999,
+          "output": 4,
+          "vendor": "groq",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
       "listedAt": "2026-08-14"
+    },
+    {
+      "id": "qwen/qwen3.8-flash",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "together_ai/Qwen/Qwen3.8-Flash",
+      "context": 1000000,
+      "listedAt": "2026-08-26",
+      "prices": [
+        {
+          "input": 0.15,
+          "output": 0.47,
+          "vendor": "together_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "qwen/qwen3.8-max",
@@ -39277,6 +40628,18 @@
           "output": 1.2,
           "vendor": "dashscope",
           "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 1.2,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 1.2,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -39298,6 +40661,18 @@
           "input": 0.15,
           "output": 1.2,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 1.2,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 1.2,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         }
       ],
@@ -39321,6 +40696,18 @@
           "output": 1.5999999999999999,
           "vendor": "dashscope",
           "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.5999999999999999,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.5999999999999999,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -39342,6 +40729,18 @@
           "input": 0.39999999999999997,
           "output": 4,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 4,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 4,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         }
       ],
@@ -39397,6 +40796,18 @@
           "output": 0.64,
           "vendor": "dashscope",
           "mode": "standard"
+        },
+        {
+          "input": 0.16,
+          "output": 0.64,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.16,
+          "output": 0.64,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -39412,6 +40823,18 @@
           "input": 0.16,
           "output": 2.87,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 0.16,
+          "output": 2.87,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.16,
+          "output": 2.87,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         }
       ],
@@ -39893,6 +41316,18 @@
           "output": 7.5,
           "vendor": "dashscope",
           "mode": "standard"
+        },
+        {
+          "input": 2.5,
+          "output": 7.5,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 2.5,
+          "output": 7.5,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -39932,6 +41367,18 @@
           "input": 2.5,
           "output": 7.5,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 2.5,
+          "output": 7.5,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 2.5,
+          "output": 7.5,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         }
       ],
@@ -39990,8 +41437,8 @@
       "context": 1010000,
       "prices": [
         {
-          "input": 2.5,
-          "output": 6.25,
+          "input": 2,
+          "output": 6,
           "vendor": "qwen",
           "mode": "batch"
         }
@@ -40084,6 +41531,18 @@
           "mode": "standard"
         },
         {
+          "input": 2,
+          "output": 6,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
+        },
+        {
           "input": 1.6500000000000001,
           "output": 4.989999999999999,
           "vendor": "scx-ai",
@@ -40161,6 +41620,18 @@
           "input": 0.7999999999999999,
           "output": 2.4,
           "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 0.7999999999999999,
+          "output": 2.4,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.7999999999999999,
+          "output": 2.4,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         }
       ],
@@ -41732,8 +43203,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.22,
-          "output": 0.85,
+          "input": 0.25,
+          "output": 0.7999999999999999,
           "vendor": "arcee-ai",
           "mode": "standard"
         }
@@ -42981,6 +44452,21 @@
       "id": "us.anthropic.claude-fable-5",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "us.anthropic.claude-fable-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 11,
+          "output": 55,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us.anthropic.claude-fable-5-1",
+      "firstSeen": "2026-09-02T08:20:57.544Z",
+      "name": "us.anthropic.claude-fable-5-1",
       "context": 1000000,
       "prices": [
         {
@@ -44404,7 +45890,7 @@
       "context": 8000,
       "prices": [
         {
-          "input": 0.5,
+          "input": 0.39999999999999997,
           "output": 0.75,
           "vendor": "mancer",
           "mode": "standard"
@@ -45451,6 +46937,18 @@
       "context": 1048576,
       "prices": [
         {
+          "input": 1.26,
+          "output": 3.9600000000000004,
+          "vendor": "friendliai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
           "input": 1.4,
           "output": 4.4,
           "vendor": "novita",
@@ -45466,6 +46964,12 @@
       "name": "together_ai/zai-org/GLM-5.3-Flash",
       "context": 1048575,
       "prices": [
+        {
+          "input": 0.15,
+          "output": 0.5,
+          "vendor": "friendliai",
+          "mode": "standard"
+        },
         {
           "input": 0.15,
           "output": 0.5,

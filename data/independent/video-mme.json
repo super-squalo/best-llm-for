@@ -3,7 +3,7 @@
   "kind": "independent",
   "source": "https://video-mme.github.io/home_page.html",
   "note": "900 videos from a few seconds to an hour. The plain score is without subtitles - the model has to watch rather than read.",
-  "capturedAt": "2026-08-29",
+  "capturedAt": "2026-09-02",
   "benchmarks": [
     "Video-MME",
     "Video-MME-With-Subtitles"

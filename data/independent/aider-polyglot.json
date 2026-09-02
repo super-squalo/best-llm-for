@@ -3,7 +3,7 @@
   "kind": "independent",
   "source": "https://aider.chat/docs/leaderboards/",
   "note": "225 exercises in six languages, run by Aider. Pass rate 2 allows a second attempt after seeing the test output, which is how the tool is actually used.",
-  "capturedAt": "2026-08-29",
+  "capturedAt": "2026-09-02",
   "benchmarks": [
     "Aider-Polyglot",
     "Aider-Polyglot-First-Try"

@@ -3,7 +3,7 @@
   "kind": "independent",
   "source": "https://livebench.ai/table_2026_06_25.csv",
   "note": "Questions are written after the models are released, so no model can have seen them in training. Task-level scores only: LiveBench computes its headline average from a task-to-category mapping that is not published in machine-readable form, and guessing it would fake their number.",
-  "capturedAt": "2026-08-29",
+  "capturedAt": "2026-09-02",
   "benchmarks": [
     "LiveBench/AMPS_Hard",
     "LiveBench/code_completion",
@@ -1498,6 +1498,66 @@
         "LiveBench/typescript": 46.667,
         "LiveBench/typos": 78,
         "LiveBench/zebra_puzzle": 98.75
+      }
+    },
+    {
+      "model": "nemotron-3-ultra-550b-a55b",
+      "measuredBy": "LiveBench",
+      "source": "https://livebench.ai/",
+      "scores": {
+        "LiveBench/AMPS_Hard": 96,
+        "LiveBench/code_completion": 69.565,
+        "LiveBench/code_generation": 71.831,
+        "LiveBench/connections": 86.667,
+        "LiveBench/consecutive_events": 18.773,
+        "LiveBench/integrals_with_game": 80,
+        "LiveBench/javascript": 27.273,
+        "LiveBench/logic_with_navigation": 68,
+        "LiveBench/math_comp": 96.078,
+        "LiveBench/olympiad": 82.575,
+        "LiveBench/paraphrase": 77.383,
+        "LiveBench/plot_unscrambling": 47.767,
+        "LiveBench/python": 15,
+        "LiveBench/simplify": 72.283,
+        "LiveBench/spatial": 98,
+        "LiveBench/story_generation": 69.233,
+        "LiveBench/summarize": 74.883,
+        "LiveBench/tablejoin": 46.558,
+        "LiveBench/tablereformat": 98.039,
+        "LiveBench/theory_of_mind": 61.538,
+        "LiveBench/typescript": 6.667,
+        "LiveBench/typos": 78,
+        "LiveBench/zebra_puzzle": 71.25
+      }
+    },
+    {
+      "model": "claude-fable-5-1-max-effort",
+      "measuredBy": "LiveBench",
+      "source": "https://livebench.ai/",
+      "scores": {
+        "LiveBench/AMPS_Hard": 99,
+        "LiveBench/code_completion": 82.609,
+        "LiveBench/code_generation": 90.141,
+        "LiveBench/connections": 99.333,
+        "LiveBench/consecutive_events": 90.555,
+        "LiveBench/integrals_with_game": 99,
+        "LiveBench/javascript": 68.182,
+        "LiveBench/logic_with_navigation": 86,
+        "LiveBench/math_comp": 97.059,
+        "LiveBench/olympiad": 92.968,
+        "LiveBench/paraphrase": 71.517,
+        "LiveBench/plot_unscrambling": 75.17,
+        "LiveBench/python": 70,
+        "LiveBench/simplify": 70.167,
+        "LiveBench/spatial": 100,
+        "LiveBench/story_generation": 78.1,
+        "LiveBench/summarize": 72.167,
+        "LiveBench/tablejoin": 56.154,
+        "LiveBench/tablereformat": 94.118,
+        "LiveBench/theory_of_mind": 80.769,
+        "LiveBench/typescript": 60,
+        "LiveBench/typos": 94,
+        "LiveBench/zebra_puzzle": 100
       }
     }
   ]

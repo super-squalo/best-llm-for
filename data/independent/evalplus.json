@@ -3,7 +3,7 @@
   "kind": "independent",
   "source": "https://evalplus.github.io/leaderboard.html",
   "note": "EvalPlus reruns HumanEval and MBPP with roughly 80x more tests. The plain columns are their own rerun of the original tests, not the labs figures.",
-  "capturedAt": "2026-08-29",
+  "capturedAt": "2026-09-02",
   "benchmarks": [
     "HumanEval",
     "HumanEval-Plus",
