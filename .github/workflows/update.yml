@@ -1,18 +1,13 @@
 name: Update data
 
 on:
-  # MANUAL ONLY, deliberately.
+  # Daily, switched on deliberately by the owner.
   #
-  # The daily schedule below is commented out and stays that way until someone
-  # decides to switch it on. A workflow that refreshes data and deploys a page
-  # is a thing that acts on its own; it gets turned on by a person who wants it
-  # on, after watching it run by hand at least once.
-  #
-  # To enable: uncomment the two lines. 06:17 UTC rather than the hour, because
-  # every scheduled job in the world fires at :00 and the runners queue up.
-  #
-  # schedule:
-  #   - cron: '17 6 * * *'
+  # 06:17 UTC rather than the hour, because every scheduled job in the world
+  # fires at :00 and the runners queue up. A run refreshes the data, commits
+  # only when something actually changed, and deploys the page.
+  schedule:
+    - cron: '17 6 * * *'
   workflow_dispatch:
 
 permissions:
