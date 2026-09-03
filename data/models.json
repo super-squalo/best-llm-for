@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-02T08:20:57.544Z",
+  "generatedAt": "2026-09-03T11:12:04.479Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 421
+      "records": 424
     },
     {
       "name": "LiteLLM",
@@ -21,71 +21,10 @@
     }
   ],
   "newModels": [
-    "accounts/fireworks/models/glm-5p3",
-    "accounts/fireworks/models/qwen3-embedding-8b",
-    "amazon.nova-2-sonic-v1:0",
-    "amazon.nova-sonic-v1:0",
-    "anthropic.claude-fable-5-1",
-    "claude-fable-5-1",
-    "claude-fable-5-1@default",
-    "claude-fable-5.1",
-    "claude-fable-5.1:batch",
-    "databricks-deepseek-v4-flash-0731",
-    "databricks-deepseek-v4-pro-0813",
-    "eu.anthropic.claude-fable-5-1",
-    "gemini-3.5-transcribe-live-preview",
-    "gemini-3.5-transcribe-preview",
-    "gemini-omni-1.1-flash",
-    "gigachat-2",
-    "gigaembeddings-3b-2025-09",
-    "glm-flash-latest",
-    "global.anthropic.claude-fable-5-1",
-    "gpt-3.5-turbo:batch",
-    "gpt-4-turbo:batch",
-    "gpt-4.1-mini:batch",
-    "gpt-4.1-nano:batch",
-    "gpt-4.1:batch",
-    "gpt-4o-mini:batch",
-    "gpt-4o:batch",
-    "gpt-5-mini:batch",
-    "gpt-5-nano:batch",
-    "gpt-5-pro:batch",
-    "gpt-5.1:batch",
-    "gpt-5.2-pro:batch",
-    "gpt-5.2:batch",
-    "gpt-5.4-mini:batch",
-    "gpt-5.4-nano:batch",
-    "gpt-5.4-pro:batch",
-    "gpt-5.4:batch",
-    "gpt-5.5-pro:batch",
-    "gpt-5.5:batch",
-    "gpt-5.6-luna-pro:batch",
-    "gpt-5.6-luna:batch",
-    "gpt-5.6-sol-pro:batch",
-    "gpt-5.6-sol:batch",
-    "gpt-5.6-terra-pro:batch",
-    "gpt-5.6-terra:batch",
-    "gpt-5:batch",
-    "granite-4.2-8b",
-    "grok-4.20-multi-agent-latest",
-    "grok-4.20-non-reasoning",
-    "grok-4.20-non-reasoning-latest",
-    "grok-4.20-reasoning",
-    "grok-4.20-reasoning-latest",
-    "labs-leanstral-1-5-1",
-    "mercury-2.5-preview",
-    "mistral-code-agent-latest",
-    "mistral-code-fim-latest",
-    "mistral-code-latest",
-    "mistral-vibe-cli-fast",
-    "mistral-vibe-cli-latest",
-    "mistral-vibe-cli-with-tools",
-    "nano-banana-pro-preview",
-    "o3-mini:batch",
-    "o3:batch",
-    "o4-mini:batch",
-    "qwen/qwen3.8-flash",
-    "us.anthropic.claude-fable-5-1"
+    "gemini-3.8-flash",
+    "gemini-3.8-flash:batch",
+    "muse-spark-1.3",
+    "muse-spark-1.3-contributor"
   ],
   "models": [
     {
@@ -12210,8 +12149,8 @@
       "context": 163840,
       "prices": [
         {
-          "input": 0.2574,
-          "output": 1.0287,
+          "input": 0.32,
+          "output": 0.8899999999999999,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -13271,6 +13210,12 @@
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
       "context": 1048576,
       "prices": [
+        {
+          "input": 0.22,
+          "output": 0.66,
+          "vendor": "deepseek",
+          "mode": "standard"
+        },
         {
           "input": 0.44,
           "output": 1.32,
@@ -17976,14 +17921,46 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.1875,
-          "output": 0.9375,
+          "input": 0.375,
+          "output": 1.875,
           "vendor": "google",
           "mode": "batch"
         }
       ],
       "benchmarks": [],
       "listedAt": "2026-08-13"
+    },
+    {
+      "id": "gemini-3.8-flash",
+      "firstSeen": "2026-09-03T11:12:04.479Z",
+      "name": "Google: Gemini 3.8 Flash",
+      "context": 1048576,
+      "listedAt": "2026-09-02",
+      "prices": [
+        {
+          "input": 0.75,
+          "output": 3.75,
+          "vendor": "google",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gemini-3.8-flash:batch",
+      "firstSeen": "2026-09-03T11:12:04.479Z",
+      "name": "Google: Gemini 3.8 Flash (batch)",
+      "context": 1048576,
+      "listedAt": "2026-09-02",
+      "prices": [
+        {
+          "input": 0.375,
+          "output": 1.875,
+          "vendor": "google",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "gemini-embedding-001",
@@ -18844,8 +18821,8 @@
       "context": 204800,
       "prices": [
         {
-          "input": 0.43,
-          "output": 1.75,
+          "input": 0.55,
+          "output": 2.2,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -19508,8 +19485,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 1.17,
-          "output": 3.9600000000000004,
+          "input": 1.12,
+          "output": 3.52,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -28259,8 +28236,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.71,
-          "output": 0.71,
+          "input": 0.09999999999999999,
+          "output": 0.32,
           "vendor": "meta-llama",
           "mode": "standard"
         },
@@ -34701,7 +34678,7 @@
       "prices": [
         {
           "input": 0.3,
-          "output": 1.2,
+          "output": 1.1,
           "vendor": "meta",
           "mode": "standard"
         },
@@ -34823,6 +34800,38 @@
       "listedAt": "2026-08-21"
     },
     {
+      "id": "muse-spark-1.3",
+      "firstSeen": "2026-09-03T11:12:04.479Z",
+      "name": "Meta: Muse Spark 1.3",
+      "context": 1048576,
+      "listedAt": "2026-09-02",
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 4.25,
+          "vendor": "meta",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "muse-spark-1.3-contributor",
+      "firstSeen": "2026-09-03T11:12:04.479Z",
+      "name": "Meta: Muse Spark 1.3 Contributor",
+      "context": 1048576,
+      "listedAt": "2026-09-02",
+      "prices": [
+        {
+          "input": 0.09999999999999999,
+          "output": 0.19999999999999998,
+          "vendor": "meta",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "mythomax-l2-13b",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "MythoMax 13B",
@@ -34924,8 +34933,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.625,
-          "output": 3.125,
+          "input": 0.6,
+          "output": 2.4,
           "vendor": "nvidia",
           "mode": "standard"
         }
@@ -34941,9 +34950,15 @@
       "prices": [
         {
           "input": 0.6,
-          "output": 3.5999999999999996,
+          "output": 2.4,
           "vendor": "nvidia",
-          "mode": "batch"
+          "mode": "standard"
+        },
+        {
+          "input": 0.6,
+          "output": 3.5999999999999996,
+          "vendor": "together_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -41008,8 +41023,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.39,
-          "output": 2.34,
+          "input": 0.55,
+          "output": 3.5,
           "vendor": "qwen",
           "mode": "standard"
         }

@@ -2,7 +2,7 @@
   "benchmarkSet": "qwen3.8-model-card",
   "note": "Qwen publishes its benchmark table as HTML inside the model card.",
   "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-  "capturedAt": "2026-09-02",
+  "capturedAt": "2026-09-03",
   "benchmarks": [
     "Terminal Bench 2.1",
     "SWE-bench Pro",
