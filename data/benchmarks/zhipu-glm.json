@@ -2,7 +2,7 @@
   "benchmarkSet": "glm-5.3-model-card",
   "note": "Z.ai publishes a markdown benchmark table in the GLM model card.",
   "source": "https://huggingface.co/zai-org/GLM-5.3",
-  "capturedAt": "2026-09-03",
+  "capturedAt": "2026-09-04",
   "benchmarks": [
     "Terminal Bench 2.1",
     "Terminal Bench 3.0",
