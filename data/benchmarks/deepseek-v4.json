@@ -2,7 +2,7 @@
   "benchmarkSet": "deepseek-v4-model-card",
   "note": "DeepSeek publishes a markdown benchmark table in the model card shipped with the weights.",
   "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
-  "capturedAt": "2026-09-04",
+  "capturedAt": "2026-09-05",
   "benchmarks": [
     "Terminal Bench 2.1",
     "NL2Repo",

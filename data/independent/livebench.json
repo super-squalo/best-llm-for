@@ -3,7 +3,7 @@
   "kind": "independent",
   "source": "https://livebench.ai/table_2026_06_25.csv",
   "note": "Questions are written after the models are released, so no model can have seen them in training. Task-level scores only: LiveBench computes its headline average from a task-to-category mapping that is not published in machine-readable form, and guessing it would fake their number.",
-  "capturedAt": "2026-09-04",
+  "capturedAt": "2026-09-05",
   "benchmarks": [
     "LiveBench/AMPS_Hard",
     "LiveBench/code_completion",
@@ -1618,6 +1618,36 @@
         "LiveBench/typescript": 60,
         "LiveBench/typos": 86,
         "LiveBench/zebra_puzzle": 98
+      }
+    },
+    {
+      "model": "gpt-6-astra-max",
+      "measuredBy": "LiveBench",
+      "source": "https://livebench.ai/",
+      "scores": {
+        "LiveBench/AMPS_Hard": 98,
+        "LiveBench/code_completion": 80.435,
+        "LiveBench/code_generation": 80.282,
+        "LiveBench/connections": 100,
+        "LiveBench/consecutive_events": 90.555,
+        "LiveBench/integrals_with_game": 100,
+        "LiveBench/javascript": 63.636,
+        "LiveBench/logic_with_navigation": 88,
+        "LiveBench/math_comp": 97.059,
+        "LiveBench/olympiad": 92.166,
+        "LiveBench/paraphrase": 78.25,
+        "LiveBench/plot_unscrambling": 86.292,
+        "LiveBench/python": 65,
+        "LiveBench/simplify": 70.533,
+        "LiveBench/spatial": 98,
+        "LiveBench/story_generation": 73.983,
+        "LiveBench/summarize": 79.55,
+        "LiveBench/tablejoin": 58.365,
+        "LiveBench/tablereformat": 100,
+        "LiveBench/theory_of_mind": 84.615,
+        "LiveBench/typescript": 43.333,
+        "LiveBench/typos": 82,
+        "LiveBench/zebra_puzzle": 100
       }
     }
   ]
