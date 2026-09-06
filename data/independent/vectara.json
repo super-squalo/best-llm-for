@@ -3,7 +3,7 @@
   "kind": "independent",
   "source": "https://github.com/vectara/hallucination-leaderboard",
   "note": "Measured by Vectara, not self-reported. Lower hallucination rate is better.",
-  "capturedAt": "2026-09-05",
+  "capturedAt": "2026-09-06",
   "benchmarks": [
     "Hallucination-Rate",
     "Factual-Consistency"
