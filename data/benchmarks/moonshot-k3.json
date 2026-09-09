@@ -2,7 +2,7 @@
   "benchmarkSet": "kimi-k3-model-card",
   "note": "Moonshot publishes its benchmark table as HTML inside the model card.",
   "source": "https://huggingface.co/moonshotai/Kimi-K3",
-  "capturedAt": "2026-09-08",
+  "capturedAt": "2026-09-09",
   "benchmarks": [
     "GPQA Diamond",
     "CritPt",
