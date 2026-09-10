@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-09T11:20:19.183Z",
+  "generatedAt": "2026-09-10T11:17:02.031Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 431
+      "records": 436
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3213
+      "records": 3232
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -21,40 +21,21 @@
     }
   ],
   "newModels": [
-    "deepseek-v4-flash-vision-exp:batch",
-    "glm-5.2:batch",
-    "glm-5.3:batch",
-    "mercury-2.5",
-    "nex-n2.5-mini:free",
-    "nex-n2.5-pro:free",
-    "us-gov-east-1/anthropic.claude-fable-5-1",
-    "us-gov-east-1/anthropic.claude-opus-5",
-    "us-gov-east-1/nvidia.nemotron-nano-9b-v2",
-    "us-gov-east-1/openai.gpt-oss-120b",
-    "us-gov-east-1/openai.gpt-oss-20b",
-    "us-gov-east-1/xai.grok-4.6",
-    "us-gov-west-1/amazon.nova-2-multimodal-embeddings-v1:0",
-    "us-gov-west-1/amazon.nova-lite-v1:0",
-    "us-gov-west-1/amazon.nova-micro-v1:0",
-    "us-gov-west-1/anthropic.claude-fable-5-1",
-    "us-gov-west-1/anthropic.claude-opus-5",
-    "us-gov-west-1/google.gemma-4-26b-a4b",
-    "us-gov-west-1/google.gemma-4-31b",
-    "us-gov-west-1/google.gemma-4-e2b",
-    "us-gov-west-1/nvidia.nemotron-nano-9b-v2",
-    "us-gov-west-1/openai.gpt-oss-120b",
-    "us-gov-west-1/openai.gpt-oss-20b",
-    "us-gov-west-1/xai.grok-4.6",
-    "us-gov.anthropic.claude-3-haiku-20240307-v1:0",
-    "us-gov.anthropic.claude-fable-5-1",
-    "us-gov.anthropic.claude-opus-5",
-    "us-gov.nvidia.nemotron-nano-12b-v2",
-    "us-gov.nvidia.nemotron-nano-3-30b",
-    "us-gov.nvidia.nemotron-nano-9b-v2",
-    "us-gov.nvidia.nemotron-super-3-120b",
-    "us-gov.openai.gpt-oss-120b-1:0",
-    "us-gov.openai.gpt-oss-20b-1:0",
-    "us-gov.xai.grok-4.6"
+    "cohere-command-a",
+    "deepseek-v4.1-flash",
+    "global.cohere.embed-v4:0",
+    "global.openai.gpt-6-astra",
+    "grok-4-20-non-reasoning",
+    "grok-4-20-reasoning",
+    "lyria-3.5",
+    "model-router",
+    "openai.gpt-6-astra",
+    "openai.gpt-daybreak-blue-5.6-sol",
+    "rerank-v4.0-fast",
+    "rerank-v4.0-pro",
+    "us.cohere.embed-v4:0",
+    "us.openai.gpt-6-astra",
+    "voyage-multilingual-2"
   ],
   "models": [
     {
@@ -10154,22 +10135,10 @@
       "context": 256000,
       "prices": [
         {
-          "input": 0.3,
-          "output": 0.8999999999999999,
+          "input": 0.15,
+          "output": 0.44999999999999996,
           "vendor": "mistralai",
-          "mode": "standard"
-        },
-        {
-          "input": 0.3,
-          "output": 0.8999999999999999,
-          "vendor": "mistral",
-          "mode": "standard"
-        },
-        {
-          "input": 0.3,
-          "output": 0.8999999999999999,
-          "vendor": "openrouter",
-          "mode": "standard"
+          "mode": "batch"
         }
       ],
       "benchmarks": [],
@@ -10258,6 +10227,12 @@
           "output": 6,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 1.5,
+          "output": 6,
+          "vendor": "azure_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -10272,6 +10247,21 @@
           "input": 1.5,
           "output": 6,
           "vendor": "openai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "cohere-command-a",
+      "firstSeen": "2026-09-10T11:17:02.031Z",
+      "name": "azure_ai/cohere-command-a",
+      "context": 131072,
+      "prices": [
+        {
+          "input": 2.5,
+          "output": 10,
+          "vendor": "azure_ai",
           "mode": "standard"
         }
       ],
@@ -12714,8 +12704,8 @@
       "context": 163840,
       "prices": [
         {
-          "input": 0.32,
-          "output": 0.8899999999999999,
+          "input": 0.2574,
+          "output": 1.0287,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -14160,6 +14150,22 @@
         }
       ],
       "listedAt": "2026-04-24"
+    },
+    {
+      "id": "deepseek-v4.1-flash",
+      "firstSeen": "2026-09-10T11:17:02.031Z",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "context": 1048576,
+      "listedAt": "2026-09-10",
+      "prices": [
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "deepseek",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "deepseek.v3-v1:0",
@@ -15657,8 +15663,8 @@
       "context": 200000,
       "prices": [
         {
-          "input": 0.25,
-          "output": 1.25,
+          "input": 0.7999999999999999,
+          "output": 4,
           "vendor": "bedrock",
           "mode": "other"
         }
@@ -18365,6 +18371,12 @@
           "output": 21,
           "vendor": "gemini",
           "mode": "standard"
+        },
+        {
+          "input": 3.5,
+          "output": 21,
+          "vendor": "vertex_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -18418,7 +18430,7 @@
       "name": "vertex_ai/gemini-3.5-transcribe-preview",
       "prices": [
         {
-          "input": 2.5,
+          "input": 2,
           "output": 12,
           "vendor": "vertex_ai",
           "mode": "standard"
@@ -20124,8 +20136,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.075,
-          "output": 0.25,
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -20381,8 +20393,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 1.113,
-          "output": 3.4979999999999998,
+          "input": 1.085,
+          "output": 3.41,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -20634,6 +20646,21 @@
       "benchmarks": []
     },
     {
+      "id": "global.cohere.embed-v4:0",
+      "firstSeen": "2026-09-10T11:17:02.031Z",
+      "name": "global.cohere.embed-v4:0",
+      "context": 128000,
+      "prices": [
+        {
+          "input": 0.12,
+          "output": 0,
+          "vendor": "bedrock",
+          "mode": "other"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "global.openai.gpt-5.6-luna",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "global.openai.gpt-5.6-luna",
@@ -20672,6 +20699,21 @@
         {
           "input": 2,
           "output": 12,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "global.openai.gpt-6-astra",
+      "firstSeen": "2026-09-10T11:17:02.031Z",
+      "name": "global.openai.gpt-6-astra",
+      "context": 1050000,
+      "prices": [
+        {
+          "input": 10,
+          "output": 50,
           "vendor": "bedrock_converse",
           "mode": "standard"
         }
@@ -25846,6 +25888,12 @@
           "output": 30,
           "vendor": "openai",
           "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 30,
+          "vendor": "azure_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -26692,6 +26740,37 @@
       "benchmarks": []
     },
     {
+      "id": "grok-4-20-non-reasoning",
+      "firstSeen": "2026-09-10T11:17:02.031Z",
+      "name": "azure_ai/grok-4-20-non-reasoning",
+      "context": 262000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "azure_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4-20-reasoning",
+      "firstSeen": "2026-09-10T11:17:02.031Z",
+      "name": "azure_ai/grok-4-20-reasoning",
+      "context": 262000,
+      "listedAt": "2026-03-31",
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "azure_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "grok-4-fast-non-reasoning",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure_ai/grok-4-fast-non-reasoning",
@@ -27196,6 +27275,12 @@
         {
           "input": 2,
           "output": 6,
+          "vendor": "vertex_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
           "vendor": "perplexity",
           "mode": "standard"
         }
@@ -27449,7 +27534,7 @@
         {
           "input": 0.13,
           "output": 0.39999999999999997,
-          "vendor": "nousresearch",
+          "vendor": "nebius",
           "mode": "standard"
         }
       ],
@@ -30409,6 +30494,21 @@
       "listedAt": "2026-03-30"
     },
     {
+      "id": "lyria-3.5",
+      "firstSeen": "2026-09-10T11:17:02.031Z",
+      "name": "gemini/lyria-3.5",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "gemini",
+          "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "lyria-3.5-clip-preview",
       "firstSeen": "2026-09-06T10:54:05.600Z",
       "name": "gemini/lyria-3.5-clip-preview",
@@ -33032,12 +33132,6 @@
       "context": 204800,
       "prices": [
         {
-          "input": 0.27,
-          "output": 1.08,
-          "vendor": "minimax",
-          "mode": "standard"
-        },
-        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "minimax",
@@ -33883,22 +33977,10 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.15,
+          "input": 0.075,
+          "output": 0.075,
           "vendor": "mistralai",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.15,
-          "vendor": "mistral",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.15,
-          "vendor": "openrouter",
-          "mode": "standard"
+          "mode": "batch"
         }
       ],
       "benchmarks": [],
@@ -34175,22 +34257,10 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.5,
-          "output": 1.5,
+          "input": 0.25,
+          "output": 0.75,
           "vendor": "mistralai",
-          "mode": "standard"
-        },
-        {
-          "input": 0.5,
-          "output": 1.5,
-          "vendor": "mistral",
-          "mode": "standard"
-        },
-        {
-          "input": 0.5,
-          "output": 1.5,
-          "vendor": "openrouter",
-          "mode": "standard"
+          "mode": "batch"
         }
       ],
       "benchmarks": [],
@@ -34519,16 +34589,10 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.39999999999999997,
-          "output": 2,
+          "input": 0.19999999999999998,
+          "output": 1,
           "vendor": "mistralai",
-          "mode": "standard"
-        },
-        {
-          "input": 0.39999999999999997,
-          "output": 2,
-          "vendor": "openrouter",
-          "mode": "standard"
+          "mode": "batch"
         }
       ],
       "benchmarks": [],
@@ -34800,22 +34864,10 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.6,
+          "input": 0.075,
+          "output": 0.3,
           "vendor": "mistralai",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "mistral",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "openrouter",
-          "mode": "standard"
+          "mode": "batch"
         }
       ],
       "benchmarks": [],
@@ -36067,6 +36119,22 @@
       "id": "model_router",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure_ai/model_router",
+      "prices": [
+        {
+          "input": 0.14,
+          "output": 0,
+          "vendor": "azure_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": [],
+      "context": 200000
+    },
+    {
+      "id": "model-router",
+      "firstSeen": "2026-09-10T11:17:02.031Z",
+      "name": "azure_ai/model-router",
+      "context": 200000,
       "prices": [
         {
           "input": 0.14,
@@ -38782,6 +38850,36 @@
       "benchmarks": []
     },
     {
+      "id": "openai.gpt-6-astra",
+      "firstSeen": "2026-09-10T11:17:02.031Z",
+      "name": "bedrock_mantle/openai.gpt-6-astra",
+      "context": 1050000,
+      "prices": [
+        {
+          "input": 11,
+          "output": 55,
+          "vendor": "bedrock_mantle",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "openai.gpt-daybreak-blue-5.6-sol",
+      "firstSeen": "2026-09-10T11:17:02.031Z",
+      "name": "bedrock_mantle/openai.gpt-daybreak-blue-5.6-sol",
+      "context": 1050000,
+      "prices": [
+        {
+          "input": 5.5,
+          "output": 33,
+          "vendor": "bedrock_mantle",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "openai.gpt-oss-120b",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "bedrock_mantle/openai.gpt-oss-120b",
@@ -38818,7 +38916,7 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.075,
+          "input": 0.07,
           "output": 0.3,
           "vendor": "bedrock_mantle",
           "mode": "standard"
@@ -38875,8 +38973,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.075,
-          "output": 0.3,
+          "input": 0.07,
+          "output": 0.19999999999999998,
           "vendor": "bedrock_mantle",
           "mode": "standard"
         }
@@ -43676,8 +43774,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.04815,
-          "output": 0.19305,
+          "input": 0.09,
+          "output": 0.3,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -44264,8 +44362,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.29,
-          "output": 2.4,
+          "input": 0.26,
+          "output": 2.08,
           "vendor": "qwen",
           "mode": "standard"
         },
@@ -45270,6 +45368,36 @@
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "rerank-v3.5",
       "context": 4096,
+      "prices": [
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "cohere",
+          "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "rerank-v4.0-fast",
+      "firstSeen": "2026-09-10T11:17:02.031Z",
+      "name": "rerank-v4.0-fast",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "cohere",
+          "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "rerank-v4.0-pro",
+      "firstSeen": "2026-09-10T11:17:02.031Z",
+      "name": "rerank-v4.0-pro",
+      "context": 32768,
       "prices": [
         {
           "input": 0,
@@ -48855,6 +48983,21 @@
       "benchmarks": []
     },
     {
+      "id": "us.cohere.embed-v4:0",
+      "firstSeen": "2026-09-10T11:17:02.031Z",
+      "name": "us.cohere.embed-v4:0",
+      "context": 128000,
+      "prices": [
+        {
+          "input": 0.12,
+          "output": 0,
+          "vendor": "bedrock",
+          "mode": "other"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us.deepseek.r1-v1:0",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "us.deepseek.r1-v1:0",
@@ -49088,6 +49231,21 @@
         {
           "input": 2.2,
           "output": 13.200000000000001,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us.openai.gpt-6-astra",
+      "firstSeen": "2026-09-10T11:17:02.031Z",
+      "name": "us.openai.gpt-6-astra",
+      "context": 1050000,
+      "prices": [
+        {
+          "input": 11,
+          "output": 55,
           "vendor": "bedrock_converse",
           "mode": "standard"
         }
@@ -50051,6 +50209,21 @@
       "benchmarks": []
     },
     {
+      "id": "voyage-multilingual-2",
+      "firstSeen": "2026-09-10T11:17:02.031Z",
+      "name": "voyage/voyage-multilingual-2",
+      "context": 32000,
+      "prices": [
+        {
+          "input": 0.12,
+          "output": 0,
+          "vendor": "voyage",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "voyage-multimodal-3",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "voyage/voyage-multimodal-3",
@@ -50611,8 +50784,8 @@
       "context": 2000000,
       "prices": [
         {
-          "input": 2,
-          "output": 6,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "vertex_ai",
           "mode": "standard"
         },
@@ -50632,8 +50805,8 @@
       "context": 2000000,
       "prices": [
         {
-          "input": 2,
-          "output": 6,
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "vertex_ai",
           "mode": "standard"
         },
@@ -50656,11 +50829,18 @@
         {
           "input": 1.25,
           "output": 2.5,
+          "vendor": "vertex_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "perplexity",
           "mode": "standard"
         }
       ],
-      "benchmarks": []
+      "benchmarks": [],
+      "context": 200000
     },
     {
       "id": "xai/grok-4.5",
@@ -50686,11 +50866,18 @@
         {
           "input": 2,
           "output": 6,
+          "vendor": "vertex_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
           "vendor": "perplexity",
           "mode": "standard"
         }
       ],
-      "benchmarks": []
+      "benchmarks": [],
+      "context": 524288
     },
     {
       "id": "xiaomi/mimo-v2-flash",
