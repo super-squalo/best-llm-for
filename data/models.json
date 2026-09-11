@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-10T11:17:02.031Z",
+  "generatedAt": "2026-09-11T11:18:25.121Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 436
+      "records": 439
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3232
+      "records": 3235
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -21,21 +21,10 @@
     }
   ],
   "newModels": [
-    "cohere-command-a",
-    "deepseek-v4.1-flash",
-    "global.cohere.embed-v4:0",
-    "global.openai.gpt-6-astra",
-    "grok-4-20-non-reasoning",
-    "grok-4-20-reasoning",
-    "lyria-3.5",
-    "model-router",
-    "openai.gpt-6-astra",
-    "openai.gpt-daybreak-blue-5.6-sol",
-    "rerank-v4.0-fast",
-    "rerank-v4.0-pro",
-    "us.cohere.embed-v4:0",
-    "us.openai.gpt-6-astra",
-    "voyage-multilingual-2"
+    "fugu-max",
+    "fugu-ultra-v2",
+    "ibm-granite/granite-4.2-8b",
+    "ling-3.0-flash-vl:free"
   ],
   "models": [
     {
@@ -12688,6 +12677,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.31,
+          "output": 3.9600000000000004,
+          "vendor": "wandb",
+          "mode": "standard"
+        },
+        {
           "input": 1.3,
           "output": 2.6,
           "vendor": "deepinfra",
@@ -12726,8 +12721,8 @@
       "context": 163840,
       "prices": [
         {
-          "input": 0.29,
-          "output": 1.1400000000000001,
+          "input": 0.25,
+          "output": 1,
           "vendor": "deepseek",
           "mode": "standard"
         }
@@ -13912,8 +13907,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 1.0494,
-          "output": 3.1482,
+          "input": 0.66,
+          "output": 1.9800000000000002,
           "vendor": "deepseek",
           "mode": "standard"
         }
@@ -16764,6 +16759,22 @@
       "benchmarks": []
     },
     {
+      "id": "fugu-max",
+      "firstSeen": "2026-09-11T11:18:25.121Z",
+      "name": "Sakana: Fugu Max",
+      "context": 1000000,
+      "listedAt": "2026-09-11",
+      "prices": [
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "sakana",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "fugu-ultra",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "Sakana: Fugu Ultra",
@@ -16778,6 +16789,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-06-24"
+    },
+    {
+      "id": "fugu-ultra-v2",
+      "firstSeen": "2026-09-11T11:18:25.121Z",
+      "name": "Sakana: Fugu Ultra v2",
+      "context": 1000000,
+      "listedAt": "2026-09-11",
+      "prices": [
+        {
+          "input": 5,
+          "output": 30,
+          "vendor": "sakana",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "fusion",
@@ -19190,8 +19217,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.07,
-          "output": 0.33999999999999997,
+          "input": 0.041999999999999996,
+          "output": 0.22,
           "vendor": "google",
           "mode": "standard"
         },
@@ -20393,8 +20420,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 1.085,
-          "output": 3.41,
+          "input": 0.9700000000000001,
+          "output": 3.3077,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -25500,6 +25527,12 @@
           "mode": "standard"
         },
         {
+          "input": 2,
+          "output": 10,
+          "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
           "input": 5,
           "output": 30,
           "vendor": "perplexity",
@@ -27791,6 +27824,21 @@
       "listedAt": "2026-04-30"
     },
     {
+      "id": "ibm-granite/granite-4.2-8b",
+      "firstSeen": "2026-09-11T11:18:25.121Z",
+      "name": "wandb/ibm-granite/granite-4.2-8b",
+      "listedAt": "2026-08-31",
+      "prices": [
+        {
+          "input": 0.09999999999999999,
+          "output": 0.15,
+          "vendor": "wandb",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "ibm/granite-13b-chat-v2",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "watsonx/ibm/granite-13b-chat-v2",
@@ -28480,8 +28528,8 @@
       "context": 1024,
       "prices": [
         {
-          "input": 0.018,
-          "output": 0.018,
+          "input": 0.049999999999999996,
+          "output": 0,
           "vendor": "jina_ai",
           "mode": "standard"
         }
@@ -29114,8 +29162,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 3,
-          "output": 15,
+          "input": 2.34,
+          "output": 11.7,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -29157,8 +29205,8 @@
       "maker": "Moonshot",
       "prices": [
         {
-          "input": 3,
-          "output": 15,
+          "input": 2.34,
+          "output": 11.7,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -29265,8 +29313,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 2.4,
-          "output": 12,
+          "input": 2.34,
+          "output": 11.7,
           "vendor": "~moonshotai",
           "mode": "standard"
         },
@@ -29674,6 +29722,22 @@
       "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
       "context": 262144,
       "listedAt": "2026-09-04",
+      "prices": [
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "inclusionai",
+          "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "ling-3.0-flash-vl:free",
+      "firstSeen": "2026-09-11T11:18:25.121Z",
+      "name": "inclusionAI: Ling 3.0 Flash VL (free)",
+      "context": 262144,
+      "listedAt": "2026-09-10",
       "prices": [
         {
           "input": 0,
@@ -39758,13 +39822,20 @@
       "listedAt": "2026-07-09",
       "prices": [
         {
+          "input": 2,
+          "output": 10,
+          "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
           "input": 5,
           "output": 30,
           "vendor": "perplexity",
           "mode": "standard"
         }
       ],
-      "benchmarks": []
+      "benchmarks": [],
+      "context": 1050000
     },
     {
       "id": "openai/gpt-5.6-terra",
@@ -45897,8 +45968,8 @@
       "context": 524288,
       "prices": [
         {
-          "input": 0.03,
-          "output": 0.12,
+          "input": 0.09,
+          "output": 0.36,
           "vendor": "upstage",
           "mode": "standard"
         }
