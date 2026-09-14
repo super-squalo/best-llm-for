@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T11:49:04.105Z",
+  "generatedAt": "2026-09-14T12:43:14.838Z",
   "sources": [
     {
       "name": "OpenRouter",
@@ -20,26 +20,7 @@
       "records": 121
     }
   ],
-  "newModels": [
-    "accounts/fireworks/models/deepseek-v4p1-flash",
-    "deepseek-flash",
-    "deepseek-v4p1-flash",
-    "deepseek/deepseek-v4.1-flash",
-    "lgai-exaone/k-exaone-2.0-750b-a37b",
-    "mistralai/ministral-3-14b-instruct-2512",
-    "mistralai/mistral-7b-instruct-v0.3",
-    "moonshotai/kimi-k2.5-fp4",
-    "openai/gpt-5.6-luna-pro",
-    "openai/gpt-5.6-sol-pro",
-    "openai/gpt-5.6-terra-pro",
-    "openai/gpt-6-astra-pro",
-    "openai/gpt-chat-latest",
-    "qwen-3.8-27b",
-    "qwen/qwen2.5-72b-instruct-turbo",
-    "qwen/qwen2.5-7b-instruct-turbo",
-    "qwen/qwen3-coder-next-fp8",
-    "qwen/qwen3.8-max-0902"
-  ],
+  "newModels": [],
   "models": [
     {
       "id": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
@@ -13433,8 +13414,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.049,
-          "output": 0.098,
+          "input": 0.08707999999999999,
+          "output": 0.17415999999999998,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -13497,8 +13478,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.04,
-          "output": 0.08,
+          "input": 0.06,
+          "output": 0.12,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -13589,8 +13570,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.049,
-          "output": 0.098,
+          "input": 0.08707999999999999,
+          "output": 0.17415999999999998,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -13643,8 +13624,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.035199999999999995,
-          "output": 0.1056,
+          "input": 0.04,
+          "output": 0.09999999999999999,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -13720,8 +13701,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.049,
-          "output": 0.098,
+          "input": 0.08707999999999999,
+          "output": 0.17415999999999998,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -13774,8 +13755,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.035199999999999995,
-          "output": 0.1056,
+          "input": 0.04,
+          "output": 0.09999999999999999,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -13827,8 +13808,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.035199999999999995,
-          "output": 0.1056,
+          "input": 0.04,
+          "output": 0.09999999999999999,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -13975,8 +13956,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.57816,
-          "output": 1.73448,
+          "input": 0.9833999999999999,
+          "output": 2.9502,
           "vendor": "deepseek",
           "mode": "standard"
         }
@@ -19958,8 +19939,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.6,
-          "output": 2,
+          "input": 0.6832,
+          "output": 2.1471999999999998,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -20016,8 +19997,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.6,
-          "output": 2,
+          "input": 0.6832,
+          "output": 2.1471999999999998,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -20151,8 +20132,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.6,
-          "output": 2,
+          "input": 0.6832,
+          "output": 2.1471999999999998,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -20251,8 +20232,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 1.092,
-          "output": 3.432,
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -20323,8 +20304,8 @@
       "maker": "Z.ai",
       "prices": [
         {
-          "input": 1.092,
-          "output": 3.432,
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -20531,8 +20512,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.936,
-          "output": 3.168,
+          "input": 0.9199999999999999,
+          "output": 3.1372,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -37400,8 +37381,8 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 0.08499999999999999,
-          "output": 0.39999999999999997,
+          "input": 0.08,
+          "output": 0.44999999999999996,
           "vendor": "nvidia",
           "mode": "standard"
         }
@@ -37432,8 +37413,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.625,
-          "output": 3.125,
+          "input": 0.6,
+          "output": 2.4,
           "vendor": "nvidia",
           "mode": "standard"
         }
@@ -37448,8 +37429,8 @@
       "context": 512288,
       "prices": [
         {
-          "input": 0.625,
-          "output": 3.125,
+          "input": 0.6,
+          "output": 2.4,
           "vendor": "nvidia",
           "mode": "standard"
         },
@@ -44240,8 +44221,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.22749999999999998,
-          "output": 0.9099999999999999,
+          "input": 0.12,
+          "output": 0.24,
           "vendor": "qwen",
           "mode": "standard"
         }
