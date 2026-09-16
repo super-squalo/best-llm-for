@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-15T11:42:25.295Z",
+  "generatedAt": "2026-09-16T11:29:57.470Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 445
+      "records": 443
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3305
+      "records": 3377
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -21,26 +21,29 @@
     }
   ],
   "newModels": [
-    "accounts/fireworks/routers/glm-5p3-fast",
-    "arcee-ai/trinity-mini",
-    "chatgpt-image-latest",
-    "deepseek-ai/deepseek-coder-33b-instruct",
-    "deepseek-ai/deepseek-v4.1-flash",
-    "deepseek-flash-latest",
-    "deepseek-pro-latest",
-    "gemini-2.5-flash-native-audio",
-    "gemini-robotics-er-2",
-    "gpt-5.5-cyber",
-    "gpt-rosalind-research",
-    "meta-llama/llama-3-8b-chat-hf",
-    "meta-llama/llama-3.1-405b-instruct",
-    "meta-llama/meta-llama-3-70b-instruct-turbo",
-    "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
-    "nvidia/llama-3.1-nemotron-70b-instruct-hf",
-    "qwen/qwen2-1.5b-instruct",
-    "qwen/qwen2-72b-instruct",
-    "qwen/qwen2.5-14b-instruct",
-    "us/gpt-chat-latest"
+    "agnes-2.5-flash",
+    "agnes-2.5-pro",
+    "cc-glm-5.1",
+    "claude-opus-4-8-think",
+    "coding-glm-5.3",
+    "coding-kimi-k3",
+    "coding-xiaomi-mimo-v2-omni",
+    "coding-xiaomi-mimo-v2.5",
+    "coding-xiaomi-mimo-v2.5-pro",
+    "command-a-plus-05-2026",
+    "doubao-seed-2-0-code-preview",
+    "doubao-seed-2-0-lite-260428",
+    "doubao-seed-2-0-mini",
+    "doubao-seed-2-0-pro",
+    "doubao-seed-2-1-turbo",
+    "ernie-5.1",
+    "gemini-3-flash-preview-search",
+    "glm-5.2-fast-preview",
+    "gpt-5.4-high",
+    "gpt-5.4-low",
+    "gpt-5.6-sol-disc",
+    "kimi-k2.7-code-highspeed",
+    "mimo-v2-omni"
   ],
   "models": [
     {
@@ -4828,6 +4831,36 @@
       "benchmarks": []
     },
     {
+      "id": "agnes-2.5-flash",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/agnes-2.5-flash",
+      "context": 512000,
+      "prices": [
+        {
+          "input": 0.03,
+          "output": 0.15,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "agnes-2.5-pro",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/agnes-2.5-pro",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 0.44999999999999996,
+          "output": 0.8999999999999999,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "ai21.j2-mid-v1",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "ai21.j2-mid-v1",
@@ -7716,6 +7749,21 @@
       "benchmarks": []
     },
     {
+      "id": "cc-glm-5.1",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/cc-glm-5.1",
+      "context": 200000,
+      "prices": [
+        {
+          "input": 0.06,
+          "output": 0.22,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "chat-bison",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "palm/chat-bison",
@@ -8133,6 +8181,12 @@
           "output": 50,
           "vendor": "vertex_ai-anthropic_models",
           "mode": "standard"
+        },
+        {
+          "input": 11,
+          "output": 55,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -8301,6 +8355,12 @@
           "input": 1,
           "output": 5,
           "vendor": "snowflake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1,
+          "output": 5.5,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -9102,6 +9162,21 @@
       "listedAt": "2026-05-27"
     },
     {
+      "id": "claude-opus-4-8-think",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/claude-opus-4-8-think",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 5,
+          "output": 25,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "claude-opus-4-8@default",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "vertex_ai/claude-opus-4-8@default",
@@ -9314,6 +9389,12 @@
           "output": 25,
           "vendor": "vertex_ai-anthropic_models",
           "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -9359,6 +9440,12 @@
           "input": 5,
           "output": 25,
           "vendor": "vertex_ai-anthropic_models",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -9418,6 +9505,12 @@
           "input": 5,
           "output": 25,
           "vendor": "vertex_ai-anthropic_models",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -9865,6 +9958,12 @@
           "output": 10,
           "vendor": "vertex_ai-anthropic_models",
           "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -9910,6 +10009,12 @@
           "input": 2,
           "output": 10,
           "vendor": "vertex_ai-anthropic_models",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -10315,6 +10420,80 @@
           "input": 1.5,
           "output": 6,
           "vendor": "openai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "coding-glm-5.3",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/coding-glm-5.3",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.06,
+          "output": 0.22,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "coding-kimi-k3",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/coding-kimi-k3",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.44,
+          "output": 1.6133300000000002,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "coding-xiaomi-mimo-v2-omni",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/coding-xiaomi-mimo-v2-omni",
+      "prices": [
+        {
+          "input": 0.08,
+          "output": 0.39999999999999997,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "coding-xiaomi-mimo-v2.5",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/coding-xiaomi-mimo-v2.5",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.08,
+          "output": 0.16,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "coding-xiaomi-mimo-v2.5-pro",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/coding-xiaomi-mimo-v2.5-pro",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.19999999999999998,
+          "output": 0.39999999999999997,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -10932,6 +11111,21 @@
           "input": 2.5,
           "output": 10,
           "vendor": "cohere_chat",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "command-a-plus-05-2026",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/command-a-plus-05-2026",
+      "context": 128000,
+      "prices": [
+        {
+          "input": 2.5,
+          "output": 10,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -13615,6 +13809,12 @@
           "output": 0.28,
           "vendor": "tencent",
           "mode": "standard"
+        },
+        {
+          "input": 0.142,
+          "output": 0.284,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -13773,6 +13973,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.142,
+          "output": 0.284,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
           "input": 0.04,
           "output": 0.09999999999999999,
           "vendor": "~deepseek",
@@ -13901,6 +14107,12 @@
           "input": 0.14,
           "output": 0.28,
           "vendor": "tencent",
+          "mode": "standard"
+        },
+        {
+          "input": 0.142,
+          "output": 0.284,
+          "vendor": "aihubmix",
           "mode": "standard"
         },
         {
@@ -14080,6 +14292,12 @@
           "output": 0.87,
           "vendor": "tencent",
           "mode": "standard"
+        },
+        {
+          "input": 1.69,
+          "output": 3.38,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -14209,6 +14427,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.69,
+          "output": 3.38,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
           "input": 0.859908,
           "output": 1.719816,
           "vendor": "openrouter",
@@ -14313,6 +14537,12 @@
           "input": 0.435,
           "output": 0.87,
           "vendor": "tencent",
+          "mode": "standard"
+        },
+        {
+          "input": 1.69,
+          "output": 3.38,
+          "vendor": "aihubmix",
           "mode": "standard"
         },
         {
@@ -15219,6 +15449,81 @@
       "benchmarks": []
     },
     {
+      "id": "doubao-seed-2-0-code-preview",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/doubao-seed-2-0-code-preview",
+      "context": 256000,
+      "prices": [
+        {
+          "input": 0.4822,
+          "output": 2.411,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "doubao-seed-2-0-lite-260428",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/doubao-seed-2-0-lite-260428",
+      "context": 256000,
+      "prices": [
+        {
+          "input": 0.09041,
+          "output": 0.5424599999999999,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "doubao-seed-2-0-mini",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/doubao-seed-2-0-mini",
+      "context": 256000,
+      "prices": [
+        {
+          "input": 0.030136,
+          "output": 0.30136,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "doubao-seed-2-0-pro",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/doubao-seed-2-0-pro",
+      "context": 256000,
+      "prices": [
+        {
+          "input": 0.4822,
+          "output": 2.411,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "doubao-seed-2-1-turbo",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/doubao-seed-2-1-turbo",
+      "context": 256000,
+      "prices": [
+        {
+          "input": 0.46475,
+          "output": 2.32375,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "embed-english-light-v2.0",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "embed-english-light-v2.0",
@@ -15413,6 +15718,21 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-06-30"
+    },
+    {
+      "id": "ernie-5.1",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/ernie-5.1",
+      "context": 119000,
+      "prices": [
+        {
+          "input": 0.5634,
+          "output": 2.5353,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "eu-central-1/anthropic.claude-instant-v1",
@@ -17813,6 +18133,12 @@
         {
           "input": 0.5,
           "output": 3,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5,
+          "output": 3,
           "vendor": "gmi",
           "mode": "standard"
         },
@@ -17873,6 +18199,12 @@
           "input": 0.5,
           "output": 3,
           "vendor": "vertex_ai-language-models",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5,
+          "output": 3,
+          "vendor": "aihubmix",
           "mode": "standard"
         },
         {
@@ -17939,10 +18271,31 @@
           "output": 3,
           "vendor": "vertex_ai-language-models",
           "mode": "standard"
+        },
+        {
+          "input": 0.5,
+          "output": 3,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
       "listedAt": "2025-12-17"
+    },
+    {
+      "id": "gemini-3-flash-preview-search",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/gemini-3-flash-preview-search",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.5,
+          "output": 3,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "gemini-3-flash-preview:batch",
@@ -18343,6 +18696,12 @@
           "output": 12,
           "vendor": "gemini",
           "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 12,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -18389,6 +18748,12 @@
           "input": 2,
           "output": 12,
           "vendor": "gemini",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 12,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -18533,6 +18898,12 @@
           "input": 0.3,
           "output": 2.5,
           "vendor": "gemini",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 2.499999,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -18864,6 +19235,12 @@
           "output": 3.75,
           "vendor": "vertex_ai-language-models",
           "mode": "standard"
+        },
+        {
+          "input": 0.75,
+          "output": 3.75,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -18897,6 +19274,12 @@
           "input": 0.75,
           "output": 3.75,
           "vendor": "vertex_ai-language-models",
+          "mode": "standard"
+        },
+        {
+          "input": 0.75,
+          "output": 3.75,
+          "vendor": "aihubmix",
           "mode": "standard"
         },
         {
@@ -19514,6 +19897,12 @@
           "output": 0.6,
           "vendor": "vertex_ai",
           "mode": "standard"
+        },
+        {
+          "input": 0.14,
+          "output": 0.39998,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -19593,6 +19982,12 @@
           "output": 0.39999999999999997,
           "vendor": "libertai",
           "mode": "standard"
+        },
+        {
+          "input": 0.14,
+          "output": 0.39998,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -19621,10 +20016,82 @@
       "context": 262144,
       "prices": [
         {
+          "input": 0.09,
+          "output": 0.33999999999999997,
+          "vendor": "google",
+          "mode": "standard"
+        },
+        {
+          "input": 0.38,
+          "output": 1.15,
+          "vendor": "sambanova",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.39999999999999997,
+          "vendor": "libertai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.14,
+          "output": 0.39998,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.39999999999999997,
+          "vendor": "libertai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.14,
+          "output": 0.39999999999999997,
+          "vendor": "friendliai",
+          "mode": "standard"
+        },
+        {
           "input": 0.39,
           "output": 0.9700000000000001,
-          "vendor": "google",
-          "mode": "batch"
+          "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.14,
+          "output": 0.56,
+          "vendor": "tensormesh",
+          "mode": "standard"
+        },
+        {
+          "input": 0.14,
+          "output": 0.4,
+          "vendor": "novita",
+          "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.33999999999999997,
+          "vendor": "wandb",
+          "mode": "standard"
+        },
+        {
+          "input": 0.13,
+          "output": 0.38,
+          "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 0.09,
+          "output": 0.33999999999999997,
+          "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.28,
+          "output": 0.86,
+          "vendor": "together_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -20192,6 +20659,21 @@
       "listedAt": "2026-06-16"
     },
     {
+      "id": "glm-5.2-fast-preview",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/glm-5.2-fast-preview",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 2.254,
+          "output": 7.889,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "glm-5.2-max",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "glm-5.2-max",
@@ -20333,100 +20815,10 @@
       "context": 256000,
       "prices": [
         {
-          "input": 1.4,
-          "output": 4.4,
-          "vendor": "mistral",
-          "mode": "standard"
-        },
-        {
-          "input": 1.4,
-          "output": 4.4,
+          "input": 0,
+          "output": 0,
           "vendor": "z-ai",
-          "mode": "standard"
-        },
-        {
-          "input": 1.4,
-          "output": 4.4,
-          "vendor": "dashscope",
-          "mode": "standard"
-        },
-        {
-          "input": 1.4,
-          "output": 4.4,
-          "vendor": "qwencloud",
-          "mode": "standard"
-        },
-        {
-          "input": 1.4,
-          "output": 4.4,
-          "vendor": "qwen_ai_platform",
-          "mode": "standard"
-        },
-        {
-          "input": 0.61,
-          "output": 1.9800000000000002,
-          "vendor": "scx-ai",
-          "mode": "standard"
-        },
-        {
-          "input": 1.4,
-          "output": 4.4,
-          "vendor": "zai",
-          "mode": "standard"
-        },
-        {
-          "input": 1.7999999999999998,
-          "output": 5.5,
-          "vendor": "scaleway",
-          "mode": "standard"
-        },
-        {
-          "input": 1.4,
-          "output": 4.4,
-          "vendor": "perplexity",
-          "mode": "standard"
-        },
-        {
-          "input": 0.6,
-          "output": 2,
-          "vendor": "openrouter",
-          "mode": "standard"
-        },
-        {
-          "input": 1.4,
-          "output": 4.4,
-          "vendor": "friendliai",
-          "mode": "standard"
-        },
-        {
-          "input": 1.4,
-          "output": 4.4,
-          "vendor": "nebius",
-          "mode": "standard"
-        },
-        {
-          "input": 1.4,
-          "output": 4.4,
-          "vendor": "together_ai",
-          "mode": "standard"
-        },
-        {
-          "input": 1.4,
-          "output": 4.4,
-          "vendor": "novita",
-          "mode": "standard"
-        },
-        {
-          "input": 0.76,
-          "output": 2.42,
-          "vendor": "wandb",
-          "mode": "standard"
-        },
-        {
-          "input": 0.75,
-          "output": 2.4,
-          "vendor": "deepinfra",
-          "mode": "standard"
+          "mode": "free"
         }
       ],
       "benchmarks": [],
@@ -20449,6 +20841,12 @@
           "output": 4.4,
           "vendor": "zai",
           "mode": "standard"
+        },
+        {
+          "input": 1.1268,
+          "output": 3.9438000000000004,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -20462,8 +20860,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.5,
+          "input": 0.09,
+          "output": 0.3,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -20471,6 +20869,12 @@
           "input": 0.15,
           "output": 0.5,
           "vendor": "zai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.11268,
+          "output": 0.39438,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -20520,6 +20924,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "zai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1268,
+          "output": 3.9438000000000004,
+          "vendor": "aihubmix",
           "mode": "standard"
         },
         {
@@ -20677,6 +21087,12 @@
           "input": 1.2,
           "output": 4,
           "vendor": "z-ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.7041999999999999,
+          "output": 3.09848,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -24528,6 +24944,12 @@
           "output": 14,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 1.75,
+          "output": 14,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -24549,6 +24971,12 @@
           "input": 1.75,
           "output": 14,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.75,
+          "output": 14,
+          "vendor": "aihubmix",
           "mode": "standard"
         },
         {
@@ -24657,6 +25085,22 @@
       "listedAt": "2026-03-05"
     },
     {
+      "id": "gpt-5.4-high",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/gpt-5.4-high",
+      "context": 1050000,
+      "listedAt": "2026-03-05",
+      "prices": [
+        {
+          "input": 2.5,
+          "output": 15,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-5.4-high (codex-harness)",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "gpt-5.4-high (codex-harness)",
@@ -24733,6 +25177,18 @@
           "output": 16.5,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 2.5,
+          "output": 15,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 2.5,
+          "output": 15,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -24766,6 +25222,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-04-21"
+    },
+    {
+      "id": "gpt-5.4-low",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/gpt-5.4-low",
+      "context": 1050000,
+      "listedAt": "2026-03-05",
+      "prices": [
+        {
+          "input": 2.5,
+          "output": 15,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "gpt-5.4-medium (codex-harness)",
@@ -24844,6 +25316,18 @@
           "output": 16.5,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 2.5,
+          "output": 15,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 2.5,
+          "output": 15,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -24884,6 +25368,12 @@
           "input": 0.75,
           "output": 4.5,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 0.75,
+          "output": 4.5,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -24940,6 +25430,12 @@
           "input": 0.75,
           "output": 4.5,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 0.75,
+          "output": 4.5,
+          "vendor": "aihubmix",
           "mode": "standard"
         },
         {
@@ -25027,6 +25523,12 @@
           "input": 0.19999999999999998,
           "output": 1.25,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 1.25,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -25188,6 +25690,12 @@
           "output": 30,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 30,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -25227,6 +25735,12 @@
           "input": 5,
           "output": 30,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 30,
+          "vendor": "aihubmix",
           "mode": "standard"
         },
         {
@@ -25369,6 +25883,12 @@
         {
           "input": 5,
           "output": 30,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 30,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -25441,6 +25961,12 @@
           "input": 30,
           "output": 180,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 30,
+          "output": 180,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -25519,6 +26045,12 @@
           "input": 5,
           "output": 30,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 30,
+          "vendor": "aihubmix",
           "mode": "standard"
         },
         {
@@ -25649,6 +26181,12 @@
           "output": 1.2,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 1.2,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -25708,6 +26246,12 @@
           "input": 0.19999999999999998,
           "output": 1.2,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 1.2,
+          "vendor": "aihubmix",
           "mode": "standard"
         },
         {
@@ -25788,6 +26332,21 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-07-09"
+    },
+    {
+      "id": "gpt-5.6-sol-disc",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/gpt-5.6-sol-disc",
+      "context": 1050000,
+      "prices": [
+        {
+          "input": 4,
+          "output": 20,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "gpt-5.6-sol-pro",
@@ -25919,6 +26478,12 @@
           "output": 12,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 12,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -25978,6 +26543,12 @@
           "input": 2,
           "output": 12,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 12,
+          "vendor": "aihubmix",
           "mode": "standard"
         },
         {
@@ -26274,6 +26845,12 @@
           "output": 30,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 30,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -26502,10 +27079,76 @@
       "context": 131072,
       "prices": [
         {
+          "input": 0.03,
+          "output": 0.13,
+          "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.07,
+          "output": 0.3,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.04,
+          "output": 0.15,
+          "vendor": "ovhcloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.0145,
+          "output": 0.07,
+          "vendor": "darkbloom",
+          "mode": "standard"
+        },
+        {
+          "input": 0.03,
+          "output": 0.14,
+          "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 0.075,
+          "output": 0.3,
+          "vendor": "groq",
+          "mode": "standard"
+        },
+        {
+          "input": 0.03,
+          "output": 0.13,
+          "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.09,
+          "output": 0.36,
+          "vendor": "replicate",
+          "mode": "standard"
+        },
+        {
           "input": 0.049999999999999996,
           "output": 0.19999999999999998,
-          "vendor": "openai",
-          "mode": "batch"
+          "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.03,
+          "output": 0.13,
+          "vendor": "wandb",
+          "mode": "standard"
+        },
+        {
+          "input": 0.04,
+          "output": 0.15,
+          "vendor": "novita",
+          "mode": "standard"
+        },
+        {
+          "input": 0.07,
+          "output": 0.28,
+          "vendor": "tensormesh",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -27176,6 +27819,12 @@
           "output": 2.5,
           "vendor": "azure_ai",
           "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -27191,6 +27840,12 @@
           "input": 1.25,
           "output": 2.5,
           "vendor": "azure_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -27663,6 +28318,12 @@
           "output": 6,
           "vendor": "xai",
           "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -27690,6 +28351,12 @@
           "input": 2,
           "output": 6,
           "vendor": "xai",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "aihubmix",
           "mode": "standard"
         },
         {
@@ -27743,6 +28410,12 @@
           "input": 1,
           "output": 2,
           "vendor": "xai",
+          "mode": "standard"
+        },
+        {
+          "input": 1,
+          "output": 2,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -28124,6 +28797,12 @@
           "output": 0.5279999999999999,
           "vendor": "tencent",
           "mode": "standard"
+        },
+        {
+          "input": 0.1562,
+          "output": 0.6248,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -28169,6 +28848,12 @@
           "input": 0.834,
           "output": 2.501,
           "vendor": "tencent",
+          "mode": "standard"
+        },
+        {
+          "input": 0.845,
+          "output": 2.5349999999999997,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -28542,10 +29227,22 @@
       "context": 524288,
       "prices": [
         {
-          "input": 0.5,
+          "input": 0.44999999999999996,
           "output": 1.2,
           "vendor": "thinkingmachines",
-          "mode": "batch"
+          "mode": "standard"
+        },
+        {
+          "input": 0.5,
+          "output": 1.2,
+          "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.44999999999999996,
+          "output": 1.2,
+          "vendor": "deepinfra",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -29395,6 +30092,12 @@
           "output": 4,
           "vendor": "moonshot",
           "mode": "standard"
+        },
+        {
+          "input": 0.95,
+          "output": 3.9995000000000003,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -29421,8 +30124,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.71,
-          "output": 3.5,
+          "input": 0.7062,
+          "output": 3.21,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -29472,6 +30175,21 @@
         }
       ],
       "listedAt": "2026-06-12"
+    },
+    {
+      "id": "kimi-k2.7-code-highspeed",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/kimi-k2.7-code-highspeed",
+      "context": 262144,
+      "prices": [
+        {
+          "input": 1.9,
+          "output": 7.9990000000000006,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "kimi-k2p5",
@@ -29571,6 +30289,12 @@
           "output": 15,
           "vendor": "fireworks_ai",
           "mode": "standard"
+        },
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -29613,6 +30337,12 @@
           "input": 3,
           "output": 15,
           "vendor": "fireworks_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "aihubmix",
           "mode": "standard"
         },
         {
@@ -30905,6 +31635,12 @@
           "output": 1.2,
           "vendor": "meituan",
           "mode": "standard"
+        },
+        {
+          "input": 0.7746,
+          "output": 3.0984,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -31202,6 +31938,12 @@
           "input": 2,
           "output": 8,
           "vendor": "azure_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 8,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -33400,11 +34142,33 @@
       ]
     },
     {
+      "id": "mimo-v2-omni",
+      "firstSeen": "2026-09-16T11:29:57.470Z",
+      "name": "aihubmix/mimo-v2-omni",
+      "context": 256000,
+      "prices": [
+        {
+          "input": 0.44,
+          "output": 2.2,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "mimo-v2-pro",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "mimo-v2-pro",
       "maker": "Xiaomi",
-      "prices": [],
+      "prices": [
+        {
+          "input": 1.1,
+          "output": 3.3000000000000003,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
       "benchmarks": [
         {
           "name": "arena-code",
@@ -33418,7 +34182,8 @@
             "fetchedAt": "2026-08-28T21:24:06.454Z"
           }
         }
-      ]
+      ],
+      "context": 1000000
     },
     {
       "id": "mimo-v2.5",
@@ -33533,7 +34298,7 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 0.55,
+          "input": 0.39999999999999997,
           "output": 2.2,
           "vendor": "minimax",
           "mode": "standard"
@@ -33741,6 +34506,12 @@
           "output": 2.4,
           "vendor": "sambanova",
           "mode": "standard"
+        },
+        {
+          "input": 0.2958,
+          "output": 1.1832,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -33775,6 +34546,12 @@
           "input": 0.6,
           "output": 2.4,
           "vendor": "sambanova",
+          "mode": "standard"
+        },
+        {
+          "input": 0.2958,
+          "output": 1.1832,
+          "vendor": "aihubmix",
           "mode": "standard"
         },
         {
@@ -33865,6 +34642,12 @@
           "output": 1.2,
           "vendor": "tencent",
           "mode": "standard"
+        },
+        {
+          "input": 0.288,
+          "output": 1.152,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -33921,6 +34704,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "tencent",
+          "mode": "standard"
+        },
+        {
+          "input": 0.288,
+          "output": 1.152,
+          "vendor": "aihubmix",
           "mode": "standard"
         },
         {
@@ -35483,8 +36272,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.075,
-          "output": 0.19999999999999998,
+          "input": 0.09375,
+          "output": 0.25,
           "vendor": "mistralai",
           "mode": "standard"
         }
@@ -37524,6 +38313,12 @@
           "output": 4.25,
           "vendor": "meta",
           "mode": "standard"
+        },
+        {
+          "input": 1.375,
+          "output": 4.675,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -37539,6 +38334,12 @@
           "input": 1.25,
           "output": 4.25,
           "vendor": "meta",
+          "mode": "standard"
+        },
+        {
+          "input": 1.375,
+          "output": 4.675,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -37708,8 +38509,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.6,
-          "output": 2.4,
+          "input": 0.625,
+          "output": 3.125,
           "vendor": "nvidia",
           "mode": "standard"
         }
@@ -37724,8 +38525,8 @@
       "context": 512288,
       "prices": [
         {
-          "input": 0.6,
-          "output": 2.4,
+          "input": 0.625,
+          "output": 3.125,
           "vendor": "nvidia",
           "mode": "standard"
         },
@@ -44909,6 +45710,12 @@
           "output": 0.7999999999999999,
           "vendor": "qwen",
           "mode": "standard"
+        },
+        {
+          "input": 0.13699999999999998,
+          "output": 0.5479999999999999,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -45288,6 +46095,12 @@
           "output": 1.75,
           "vendor": "libertai",
           "mode": "standard"
+        },
+        {
+          "input": 0.1126,
+          "output": 0.9008,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -45393,6 +46206,12 @@
           "input": 0.55,
           "output": 3.5,
           "vendor": "qwen",
+          "mode": "standard"
+        },
+        {
+          "input": 0.1644,
+          "output": 0.9863999999999999,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -45530,6 +46349,12 @@
           "output": 0.5,
           "vendor": "libertai",
           "mode": "standard"
+        },
+        {
+          "input": 0.422,
+          "output": 2.532,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -45567,6 +46392,12 @@
           "input": 0.15,
           "output": 0.5,
           "vendor": "libertai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.254,
+          "output": 1.524,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -45616,6 +46447,12 @@
           "input": 1.0270000000000001,
           "output": 6.162,
           "vendor": "qwen",
+          "mode": "standard"
+        },
+        {
+          "input": 1.268,
+          "output": 7.608,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -45797,6 +46634,12 @@
           "output": 1.28,
           "vendor": "qwen",
           "mode": "standard"
+        },
+        {
+          "input": 0.28200000000000003,
+          "output": 1.1280000000000001,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -45812,6 +46655,12 @@
           "input": 2,
           "output": 6,
           "vendor": "qwen",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -45875,6 +46724,12 @@
           "output": 0.47,
           "vendor": "qwen",
           "mode": "standard"
+        },
+        {
+          "input": 0.1126,
+          "output": 0.380025,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -45928,6 +46783,12 @@
           "input": 1.6500000000000001,
           "output": 4.989999999999999,
           "vendor": "scx-ai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.69,
+          "output": 5.069999999999999,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -47049,6 +47910,12 @@
           "input": 0.19999999999999998,
           "output": 1.15,
           "vendor": "stepfun",
+          "mode": "standard"
+        },
+        {
+          "input": 0.22,
+          "output": 1.32,
+          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
