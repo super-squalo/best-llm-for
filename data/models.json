@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-16T11:29:57.470Z",
+  "generatedAt": "2026-09-17T11:39:05.964Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 443
+      "records": 444
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3377
+      "records": 3451
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -21,29 +21,75 @@
     }
   ],
   "newModels": [
-    "agnes-2.5-flash",
-    "agnes-2.5-pro",
-    "cc-glm-5.1",
-    "claude-opus-4-8-think",
-    "coding-glm-5.3",
-    "coding-kimi-k3",
-    "coding-xiaomi-mimo-v2-omni",
-    "coding-xiaomi-mimo-v2.5",
-    "coding-xiaomi-mimo-v2.5-pro",
-    "command-a-plus-05-2026",
-    "doubao-seed-2-0-code-preview",
-    "doubao-seed-2-0-lite-260428",
-    "doubao-seed-2-0-mini",
-    "doubao-seed-2-0-pro",
-    "doubao-seed-2-1-turbo",
-    "ernie-5.1",
-    "gemini-3-flash-preview-search",
-    "glm-5.2-fast-preview",
-    "gpt-5.4-high",
-    "gpt-5.4-low",
-    "gpt-5.6-sol-disc",
-    "kimi-k2.7-code-highspeed",
-    "mimo-v2-omni"
+    "doubao-seed-2-1-pro-260628",
+    "doubao-seed-2-1-turbo-260628",
+    "eu/codex-mini",
+    "eu/computer-use-preview",
+    "eu/gpt-4.1",
+    "eu/gpt-4.1-mini",
+    "eu/gpt-4.1-nano",
+    "eu/gpt-4o-2024-05-13",
+    "eu/gpt-5",
+    "eu/gpt-5-codex",
+    "eu/gpt-5-mini",
+    "eu/gpt-5-nano",
+    "eu/gpt-5-pro",
+    "eu/gpt-5.1-codex-max",
+    "eu/gpt-5.2",
+    "eu/gpt-5.2-chat",
+    "eu/gpt-5.2-codex",
+    "eu/gpt-5.2-pro",
+    "eu/gpt-5.3-chat",
+    "eu/gpt-5.3-codex",
+    "eu/gpt-5.4-mini",
+    "eu/gpt-5.4-nano",
+    "eu/gpt-5.4-pro",
+    "eu/gpt-5.5-2026-04-24",
+    "eu/gpt-6-astra",
+    "eu/o1-mini",
+    "eu/o1-preview",
+    "eu/o3-2025-04-16",
+    "eu/o3-deep-research",
+    "eu/o4-mini-2025-04-16",
+    "gemini-3.8-live",
+    "gemini-3.8-live-extended-thinking",
+    "glm-5p3-fast",
+    "gpt-5.5-2026-04-24",
+    "gpt-5.6-luna-2026-07-09",
+    "gpt-5.6-sol-2026-07-09",
+    "gpt-5.6-terra-2026-07-09",
+    "gpt-6-astra-2026-09-03",
+    "stealth/union-alpha",
+    "union-alpha",
+    "us/codex-mini",
+    "us/computer-use-preview",
+    "us/gpt-4.1",
+    "us/gpt-4.1-mini",
+    "us/gpt-4.1-nano",
+    "us/gpt-4o-2024-05-13",
+    "us/gpt-5",
+    "us/gpt-5-codex",
+    "us/gpt-5-mini",
+    "us/gpt-5-nano",
+    "us/gpt-5-pro",
+    "us/gpt-5.1-codex-max",
+    "us/gpt-5.2",
+    "us/gpt-5.2-chat",
+    "us/gpt-5.2-codex",
+    "us/gpt-5.2-pro",
+    "us/gpt-5.3-chat",
+    "us/gpt-5.3-codex",
+    "us/gpt-5.4-mini",
+    "us/gpt-5.4-nano",
+    "us/gpt-5.4-pro",
+    "us/gpt-5.5-2026-04-24",
+    "us/o1-mini",
+    "us/o1-preview",
+    "us/o3-deep-research",
+    "writer.palmyra-vision-7b",
+    "zai-glm-5",
+    "zai-glm-5-3",
+    "zai-glm-latest"
   ],
   "models": [
     {
@@ -4753,7 +4799,8 @@
           "mode": "standard"
         }
       ],
-      "benchmarks": []
+      "benchmarks": [],
+      "context": 1048576
     },
     {
       "id": "accounts/fireworks/routers/kimi-k2p6-fast",
@@ -11123,6 +11170,12 @@
       "context": 128000,
       "prices": [
         {
+          "input": 0,
+          "output": 0,
+          "vendor": "cohere_chat",
+          "mode": "free"
+        },
+        {
           "input": 2.5,
           "output": 10,
           "vendor": "aihubmix",
@@ -12996,6 +13049,12 @@
         {
           "input": 1.32,
           "output": 3.9600000000000004,
+          "vendor": "nebius",
+          "mode": "standard"
+        },
+        {
+          "input": 1.32,
+          "output": 3.9600000000000004,
           "vendor": "together_ai",
           "mode": "standard"
         },
@@ -13028,7 +13087,8 @@
           "mode": "standard"
         }
       ],
-      "benchmarks": []
+      "benchmarks": [],
+      "context": 1048576
     },
     {
       "id": "deepseek-chat",
@@ -13979,8 +14039,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04,
-          "output": 0.09999999999999999,
+          "input": 0.03,
+          "output": 0.13,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -14116,8 +14176,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04,
-          "output": 0.09999999999999999,
+          "input": 0.03,
+          "output": 0.13,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -14169,8 +14229,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.04,
-          "output": 0.09999999999999999,
+          "input": 0.03,
+          "output": 0.13,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -14323,8 +14383,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.9833999999999999,
-          "output": 2.9502,
+          "input": 0.66,
+          "output": 1.9800000000000002,
           "vendor": "deepseek",
           "mode": "standard"
         }
@@ -14433,8 +14493,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.859908,
-          "output": 1.719816,
+          "input": 1.5999999999999999,
+          "output": 3.1999999999999997,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -14546,8 +14606,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.859908,
-          "output": 1.719816,
+          "input": 1.5999999999999999,
+          "output": 3.1999999999999997,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -14658,8 +14718,8 @@
       "context": 65536,
       "prices": [
         {
-          "input": 0.32,
-          "output": 0.8899999999999999,
+          "input": 0.2574,
+          "output": 1.0287,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -15073,8 +15133,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.065,
-          "output": 0.18,
+          "input": 0.06,
+          "output": 0.12,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -15111,8 +15171,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.859908,
-          "output": 1.719816,
+          "input": 1.5999999999999999,
+          "output": 3.1999999999999997,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -15509,6 +15569,21 @@
       "benchmarks": []
     },
     {
+      "id": "doubao-seed-2-1-pro-260628",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "volcengine/doubao-seed-2-1-pro-260628",
+      "context": 256000,
+      "prices": [
+        {
+          "input": 0.8625,
+          "output": 4.3125,
+          "vendor": "volcengine",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "doubao-seed-2-1-turbo",
       "firstSeen": "2026-09-16T11:29:57.470Z",
       "name": "aihubmix/doubao-seed-2-1-turbo",
@@ -15518,6 +15593,21 @@
           "input": 0.46475,
           "output": 2.32375,
           "vendor": "aihubmix",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "doubao-seed-2-1-turbo-260628",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "volcengine/doubao-seed-2-1-turbo-260628",
+      "context": 256000,
+      "prices": [
+        {
+          "input": 0.43125,
+          "output": 2.15625,
+          "vendor": "volcengine",
           "mode": "standard"
         }
       ],
@@ -16576,6 +16666,94 @@
       "benchmarks": []
     },
     {
+      "id": "eu/codex-mini",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/codex-mini",
+      "prices": [
+        {
+          "input": 1.6500000000000001,
+          "output": 6.6000000000000005,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/computer-use-preview",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/computer-use-preview",
+      "prices": [
+        {
+          "input": 3.3000000000000003,
+          "output": 13.200000000000001,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/gpt-4.1",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-4.1",
+      "listedAt": "2025-04-14",
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 8.8,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/gpt-4.1-mini",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-4.1-mini",
+      "listedAt": "2025-04-14",
+      "prices": [
+        {
+          "input": 0.44,
+          "output": 1.76,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/gpt-4.1-nano",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-4.1-nano",
+      "listedAt": "2025-04-14",
+      "prices": [
+        {
+          "input": 0.11,
+          "output": 0.44,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/gpt-4o-2024-05-13",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-4o-2024-05-13",
+      "listedAt": "2024-05-13",
+      "prices": [
+        {
+          "input": 5.5,
+          "output": 16.5,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu/gpt-4o-2024-08-06",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/eu/gpt-4o-2024-08-06",
@@ -16669,6 +16847,21 @@
       "benchmarks": []
     },
     {
+      "id": "eu/gpt-5",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5",
+      "listedAt": "2025-08-07",
+      "prices": [
+        {
+          "input": 1.375,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu/gpt-5-2025-08-07",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/eu/gpt-5-2025-08-07",
@@ -16683,6 +16876,35 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-08-07"
+    },
+    {
+      "id": "eu/gpt-5-codex",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5-codex",
+      "prices": [
+        {
+          "input": 1.375,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/gpt-5-mini",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5-mini",
+      "listedAt": "2025-08-07",
+      "prices": [
+        {
+          "input": 0.275,
+          "output": 2.2,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "eu/gpt-5-mini-2025-08-07",
@@ -16701,6 +16923,21 @@
       "listedAt": "2025-08-07"
     },
     {
+      "id": "eu/gpt-5-nano",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5-nano",
+      "listedAt": "2025-08-07",
+      "prices": [
+        {
+          "input": 0.055,
+          "output": 0.44,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu/gpt-5-nano-2025-08-07",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/eu/gpt-5-nano-2025-08-07",
@@ -16717,13 +16954,28 @@
       "listedAt": "2025-08-07"
     },
     {
+      "id": "eu/gpt-5-pro",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5-pro",
+      "listedAt": "2025-10-06",
+      "prices": [
+        {
+          "input": 16.5,
+          "output": 132,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu/gpt-5.1",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/eu/gpt-5.1",
       "context": 272000,
       "prices": [
         {
-          "input": 1.38,
+          "input": 1.375,
           "output": 11,
           "vendor": "azure",
           "mode": "standard"
@@ -16739,7 +16991,7 @@
       "context": 128000,
       "prices": [
         {
-          "input": 1.38,
+          "input": 1.375,
           "output": 11,
           "vendor": "azure",
           "mode": "standard"
@@ -16754,7 +17006,7 @@
       "context": 272000,
       "prices": [
         {
-          "input": 1.38,
+          "input": 1.375,
           "output": 11,
           "vendor": "azure",
           "mode": "standard"
@@ -16762,6 +17014,21 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-11-13"
+    },
+    {
+      "id": "eu/gpt-5.1-codex-max",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5.1-codex-max",
+      "listedAt": "2025-11-13",
+      "prices": [
+        {
+          "input": 1.375,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "eu/gpt-5.1-codex-mini",
@@ -16778,6 +17045,95 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-11-13"
+    },
+    {
+      "id": "eu/gpt-5.2",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5.2",
+      "listedAt": "2025-12-10",
+      "prices": [
+        {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/gpt-5.2-chat",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5.2-chat",
+      "listedAt": "2025-12-10",
+      "prices": [
+        {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/gpt-5.2-codex",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5.2-codex",
+      "listedAt": "2026-01-14",
+      "prices": [
+        {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/gpt-5.2-pro",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5.2-pro",
+      "listedAt": "2025-12-10",
+      "prices": [
+        {
+          "input": 23.099999999999998,
+          "output": 184.79999999999998,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/gpt-5.3-chat",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5.3-chat",
+      "prices": [
+        {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/gpt-5.3-codex",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5.3-codex",
+      "listedAt": "2026-02-24",
+      "prices": [
+        {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "eu/gpt-5.4",
@@ -16812,6 +17168,51 @@
       "listedAt": "2026-03-05"
     },
     {
+      "id": "eu/gpt-5.4-mini",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5.4-mini",
+      "listedAt": "2026-03-17",
+      "prices": [
+        {
+          "input": 0.8250000000000001,
+          "output": 4.95,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/gpt-5.4-nano",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5.4-nano",
+      "listedAt": "2026-03-17",
+      "prices": [
+        {
+          "input": 0.22,
+          "output": 1.375,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/gpt-5.4-pro",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5.4-pro",
+      "listedAt": "2026-03-05",
+      "prices": [
+        {
+          "input": 33,
+          "output": 198,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu/gpt-5.5",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/eu/gpt-5.5",
@@ -16842,6 +17243,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-04-24"
+    },
+    {
+      "id": "eu/gpt-5.5-2026-04-24",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-5.5-2026-04-24",
+      "context": 1050000,
+      "listedAt": "2026-04-24",
+      "prices": [
+        {
+          "input": 5.5,
+          "output": 33,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "eu/gpt-5.6",
@@ -16881,8 +17298,8 @@
       "context": 922000,
       "prices": [
         {
-          "input": 5.5,
-          "output": 33,
+          "input": 4.4,
+          "output": 22,
           "vendor": "azure",
           "mode": "standard"
         }
@@ -16907,6 +17324,21 @@
       "listedAt": "2026-07-09"
     },
     {
+      "id": "eu/gpt-6-astra",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/gpt-6-astra",
+      "listedAt": "2026-09-04",
+      "prices": [
+        {
+          "input": 11,
+          "output": 55,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu/o1-2024-12-17",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/eu/o1-2024-12-17",
@@ -16923,6 +17355,20 @@
       "listedAt": "2024-12-17"
     },
     {
+      "id": "eu/o1-mini",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/o1-mini",
+      "prices": [
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu/o1-mini-2024-09-12",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/eu/o1-mini-2024-09-12",
@@ -16931,6 +17377,21 @@
         {
           "input": 1.21,
           "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/o1-preview",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/o1-preview",
+      "listedAt": "2024-12-17",
+      "prices": [
+        {
+          "input": 16.5,
+          "output": 66,
           "vendor": "azure",
           "mode": "standard"
         }
@@ -16954,6 +17415,35 @@
       "listedAt": "2024-12-17"
     },
     {
+      "id": "eu/o3-2025-04-16",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/o3-2025-04-16",
+      "listedAt": "2025-04-16",
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 8.8,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/o3-deep-research",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/o3-deep-research",
+      "prices": [
+        {
+          "input": 11,
+          "output": 44,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu/o3-mini-2025-01-31",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/eu/o3-mini-2025-01-31",
@@ -16968,6 +17458,21 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-01-31"
+    },
+    {
+      "id": "eu/o4-mini-2025-04-16",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/eu/o4-mini-2025-04-16",
+      "listedAt": "2025-04-16",
+      "prices": [
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "fireworks-ai-4.1b-to-16b",
@@ -17453,8 +17958,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 2.0999999999999996,
-          "output": 6.6000000000000005,
+          "input": 2.31,
+          "output": 7.26,
           "vendor": "azure_ai",
           "mode": "standard"
         }
@@ -17468,8 +17973,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 1,
-          "output": 4.05,
+          "input": 1.1,
+          "output": 4.46,
           "vendor": "azure_ai",
           "mode": "standard"
         }
@@ -17573,8 +18078,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.6,
-          "output": 2.4,
+          "input": 0.66,
+          "output": 2.64,
           "vendor": "azure_ai",
           "mode": "standard"
         }
@@ -17971,7 +18476,8 @@
           "mode": "standard"
         }
       ],
-      "benchmarks": []
+      "benchmarks": [],
+      "context": 8192
     },
     {
       "id": "gemini-2.5-flash:batch",
@@ -19384,6 +19890,36 @@
       "benchmarks": []
     },
     {
+      "id": "gemini-3.8-live",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "gemini-3.8-live",
+      "context": 131072,
+      "prices": [
+        {
+          "input": 0.75,
+          "output": 4.5,
+          "vendor": "gemini",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gemini-3.8-live-extended-thinking",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "gemini-3.8-live-extended-thinking",
+      "context": 131072,
+      "prices": [
+        {
+          "input": 0.75,
+          "output": 4.5,
+          "vendor": "gemini",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gemini-embedding-001",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "gemini-embedding-001",
@@ -19522,8 +20058,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.3,
-          "output": 2.5,
+          "input": 0.75,
+          "output": 3.75,
           "vendor": "gemini",
           "mode": "standard"
         }
@@ -19538,8 +20074,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.09999999999999999,
-          "output": 0.39999999999999997,
+          "input": 0.3,
+          "output": 2.5,
           "vendor": "gemini",
           "mode": "standard"
         }
@@ -19665,8 +20201,8 @@
           "mode": "standard"
         },
         {
-          "input": 1.25,
-          "output": 10,
+          "input": 2,
+          "output": 12,
           "vendor": "gemini",
           "mode": "standard"
         }
@@ -19731,8 +20267,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 2,
-          "output": 10,
+          "input": 1,
+          "output": 5,
           "vendor": "gemini",
           "mode": "standard"
         }
@@ -20352,8 +20888,8 @@
       "context": 204800,
       "prices": [
         {
-          "input": 0.43,
-          "output": 1.75,
+          "input": 0.5,
+          "output": 2,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -20734,8 +21270,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.6,
-          "output": 2,
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -20953,6 +21489,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "nebius",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "together_ai",
           "mode": "standard"
         },
@@ -21065,6 +21607,21 @@
       "id": "glm-5p2-fast-us",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "fireworks_ai/glm-5p2-fast-us",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 2.0999999999999996,
+          "output": 6.6000000000000005,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "glm-5p3-fast",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "fireworks_ai/glm-5p3-fast",
       "context": 1048576,
       "prices": [
         {
@@ -22474,8 +23031,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.041999999999999996,
-          "output": 0.22,
+          "input": 0.09,
+          "output": 0.3,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -23422,8 +23979,8 @@
           "mode": "standard"
         },
         {
-          "input": 2.75,
-          "output": 11,
+          "input": 2.5,
+          "output": 10,
           "vendor": "azure",
           "mode": "standard"
         }
@@ -23517,8 +24074,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.165,
-          "output": 0.66,
+          "input": 0.15,
+          "output": 0.6,
           "vendor": "azure",
           "mode": "standard"
         }
@@ -24101,6 +24658,18 @@
           "output": 11,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 1.375,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.375,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -24575,7 +25144,7 @@
       "maker": "OpenAI",
       "prices": [
         {
-          "input": 1.38,
+          "input": 1.375,
           "output": 11,
           "vendor": "azure",
           "mode": "standard"
@@ -24635,7 +25204,7 @@
           "mode": "standard"
         },
         {
-          "input": 1.38,
+          "input": 1.375,
           "output": 11,
           "vendor": "azure",
           "mode": "standard"
@@ -24984,6 +25553,18 @@
           "output": 14,
           "vendor": "openrouter",
           "mode": "standard"
+        },
+        {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -25157,6 +25738,18 @@
         {
           "input": 2.5,
           "output": 15,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 2.5,
+          "output": 15,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 2.5,
+          "output": 15,
           "vendor": "perplexity",
           "mode": "standard"
         },
@@ -25176,18 +25769,6 @@
           "input": 2.75,
           "output": 16.5,
           "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 2.5,
-          "output": 15,
-          "vendor": "aihubmix",
-          "mode": "standard"
-        },
-        {
-          "input": 2.5,
-          "output": 15,
-          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -25296,6 +25877,18 @@
         {
           "input": 2.5,
           "output": 15,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 2.5,
+          "output": 15,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 2.5,
+          "output": 15,
           "vendor": "perplexity",
           "mode": "standard"
         },
@@ -25315,18 +25908,6 @@
           "input": 2.75,
           "output": 16.5,
           "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 2.5,
-          "output": 15,
-          "vendor": "aihubmix",
-          "mode": "standard"
-        },
-        {
-          "input": 2.5,
-          "output": 15,
-          "vendor": "aihubmix",
           "mode": "standard"
         }
       ],
@@ -25466,6 +26047,18 @@
           "input": 0.75,
           "output": 4.5,
           "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.8250000000000001,
+          "output": 4.95,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 0.8250000000000001,
+          "output": 4.95,
+          "vendor": "azure",
           "mode": "standard"
         }
       ],
@@ -25784,6 +26377,30 @@
           "output": 33,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 30,
+          "vendor": "azure_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 30,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 5.5,
+          "output": 33,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 5.5,
+          "output": 33,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -25829,6 +26446,28 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-04-24"
+    },
+    {
+      "id": "gpt-5.5-2026-04-24",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure_ai/gpt-5.5-2026-04-24",
+      "context": 1050000,
+      "listedAt": "2026-04-24",
+      "prices": [
+        {
+          "input": 5,
+          "output": 30,
+          "vendor": "azure_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 30,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "gpt-5.5-cyber",
@@ -25914,6 +26553,30 @@
           "input": 5,
           "output": 30,
           "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 5.5,
+          "output": 33,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 5.5,
+          "output": 33,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 30,
+          "vendor": "azure_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 30,
+          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -26094,6 +26757,30 @@
           "output": 33,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 30,
+          "vendor": "azure_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 30,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 5.5,
+          "output": 33,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 5.5,
+          "output": 33,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -26193,6 +26880,22 @@
       "listedAt": "2026-07-09"
     },
     {
+      "id": "gpt-5.6-luna-2026-07-09",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/gpt-5.6-luna-2026-07-09",
+      "context": 922000,
+      "listedAt": "2026-07-09",
+      "prices": [
+        {
+          "input": 0.19999999999999998,
+          "output": 1.2,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-5.6-luna-pro",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "OpenAI: GPT-5.6 Luna Pro",
@@ -26271,6 +26974,12 @@
           "output": 1.32,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 1.2,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -26318,8 +27027,8 @@
           "mode": "standard"
         },
         {
-          "input": 5,
-          "output": 30,
+          "input": 4,
+          "output": 20,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -26332,6 +27041,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-07-09"
+    },
+    {
+      "id": "gpt-5.6-sol-2026-07-09",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/gpt-5.6-sol-2026-07-09",
+      "context": 922000,
+      "listedAt": "2026-07-09",
+      "prices": [
+        {
+          "input": 4,
+          "output": 20,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "gpt-5.6-sol-disc",
@@ -26387,8 +27112,8 @@
       "maker": "OpenAI",
       "prices": [
         {
-          "input": 5.5,
-          "output": 33,
+          "input": 4.4,
+          "output": 22,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -26399,8 +27124,8 @@
           "mode": "standard"
         },
         {
-          "input": 5,
-          "output": 30,
+          "input": 4,
+          "output": 20,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -26423,8 +27148,14 @@
           "mode": "standard"
         },
         {
-          "input": 5.5,
-          "output": 33,
+          "input": 4.4,
+          "output": 22,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 4,
+          "output": 20,
           "vendor": "azure",
           "mode": "standard"
         }
@@ -26488,6 +27219,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-07-09"
+    },
+    {
+      "id": "gpt-5.6-terra-2026-07-09",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/gpt-5.6-terra-2026-07-09",
+      "context": 922000,
+      "listedAt": "2026-07-09",
+      "prices": [
+        {
+          "input": 2,
+          "output": 12,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "gpt-5.6-terra-pro",
@@ -26568,6 +27315,12 @@
           "output": 13.200000000000001,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 12,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -26629,6 +27382,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-09-04"
+    },
+    {
+      "id": "gpt-6-astra-2026-09-03",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/gpt-6-astra-2026-09-03",
+      "context": 922000,
+      "listedAt": "2026-09-04",
+      "prices": [
+        {
+          "input": 10,
+          "output": 50,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "gpt-6-astra-pro",
@@ -28531,8 +29300,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.06,
-          "output": 0.06,
+          "input": 0.08,
+          "output": 0.11,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -30273,8 +31042,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 2.6481380629999998,
-          "output": 13.282724250000001,
+          "input": 3,
+          "output": 15,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -30322,8 +31091,8 @@
       "maker": "Moonshot",
       "prices": [
         {
-          "input": 2.6481380629999998,
-          "output": 13.282724250000001,
+          "input": 3,
+          "output": 15,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -30370,8 +31139,8 @@
           "mode": "standard"
         },
         {
-          "input": 2.0999999999999996,
-          "output": 10.530000000000001,
+          "input": 3,
+          "output": 15,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -31164,8 +31933,8 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 1.4100000000000001,
-          "output": 0.35,
+          "input": 0.25,
+          "output": 1,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -32658,8 +33427,8 @@
       "listedAt": "2025-04-05",
       "prices": [
         {
-          "input": 0.19999999999999998,
-          "output": 0.696,
+          "input": 0.1875,
+          "output": 0.6525,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -34821,7 +35590,7 @@
       "listedAt": "2025-06-17",
       "prices": [
         {
-          "input": 0.55,
+          "input": 0.39999999999999997,
           "output": 2.2,
           "vendor": "openrouter",
           "mode": "standard"
@@ -37308,8 +38077,8 @@
       "context": 128000,
       "prices": [
         {
-          "input": 0.075,
-          "output": 0.19999999999999998,
+          "input": 0.09375,
+          "output": 0.25,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -38070,8 +38839,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.71,
-          "output": 3.5,
+          "input": 0.7062,
+          "output": 3.21,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -38110,8 +38879,8 @@
           "mode": "standard"
         },
         {
-          "input": 2.0999999999999996,
-          "output": 10.530000000000001,
+          "input": 3,
+          "output": 15,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -38241,8 +39010,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.35,
-          "output": 1.5,
+          "input": 0.3,
+          "output": 1.1,
           "vendor": "meta",
           "mode": "standard"
         },
@@ -38414,8 +39183,8 @@
       "context": 8192,
       "prices": [
         {
-          "input": 0.06,
-          "output": 0.06,
+          "input": 0.08,
+          "output": 0.11,
           "vendor": "gryphe",
           "mode": "standard"
         }
@@ -38445,8 +39214,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.049999999999999996,
-          "output": 0.19999999999999998,
+          "input": 0.06,
+          "output": 0.24,
           "vendor": "nvidia",
           "mode": "standard"
         }
@@ -39565,8 +40334,8 @@
       "context": 128000,
       "prices": [
         {
-          "input": 1.21,
-          "output": 4.84,
+          "input": 1.1,
+          "output": 4.4,
           "vendor": "azure",
           "mode": "standard"
         }
@@ -42399,8 +43168,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.08,
-          "output": 0.32,
+          "input": 0.075,
+          "output": 0.3,
           "vendor": "azure_ai",
           "mode": "standard"
         }
@@ -43687,8 +44456,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.22749999999999998,
-          "output": 0.9099999999999999,
+          "input": 0.12,
+          "output": 0.24,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -43737,8 +44506,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.22,
-          "output": 0.88,
+          "input": 0.0875,
+          "output": 0.35,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -43959,8 +44728,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.09,
-          "output": 0.3,
+          "input": 0.04815,
+          "output": 0.19305,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -44610,8 +45379,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.15,
-          "output": 0.6,
+          "input": 0.13,
+          "output": 0.52,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -44770,8 +45539,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.3125,
-          "output": 1.25,
+          "input": 0.1625,
+          "output": 1.3,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -45208,8 +45977,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.42,
-          "output": 3,
+          "input": 0.21400000000000002,
+          "output": 2.5500000000000003,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -45943,8 +46712,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.6,
+          "input": 0.13,
+          "output": 0.52,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -47885,6 +48654,22 @@
       "benchmarks": []
     },
     {
+      "id": "stealth/union-alpha",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "openrouter/stealth/union-alpha",
+      "context": 262144,
+      "listedAt": "2026-09-16",
+      "prices": [
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "openrouter",
+          "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "step-3.5-flash",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "StepFun: Step 3.5 Flash",
@@ -48613,6 +49398,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2023-07-22"
+    },
+    {
+      "id": "union-alpha",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "Union Alpha",
+      "context": 262144,
+      "listedAt": "2026-09-16",
+      "prices": [
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "stealth",
+          "mode": "free"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "unslopnemo-12b",
@@ -51113,6 +51914,49 @@
       "benchmarks": []
     },
     {
+      "id": "us/codex-mini",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/codex-mini",
+      "prices": [
+        {
+          "input": 1.6500000000000001,
+          "output": 6.6000000000000005,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us/computer-use-preview",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/computer-use-preview",
+      "prices": [
+        {
+          "input": 3.3000000000000003,
+          "output": 13.200000000000001,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us/gpt-4.1",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-4.1",
+      "listedAt": "2025-04-14",
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 8.8,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us/gpt-4.1-2025-04-14",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/us/gpt-4.1-2025-04-14",
@@ -51127,6 +51971,21 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-04-14"
+    },
+    {
+      "id": "us/gpt-4.1-mini",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-4.1-mini",
+      "listedAt": "2025-04-14",
+      "prices": [
+        {
+          "input": 0.44,
+          "output": 1.76,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "us/gpt-4.1-mini-2025-04-14",
@@ -51145,6 +52004,21 @@
       "listedAt": "2025-04-14"
     },
     {
+      "id": "us/gpt-4.1-nano",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-4.1-nano",
+      "listedAt": "2025-04-14",
+      "prices": [
+        {
+          "input": 0.11,
+          "output": 0.44,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us/gpt-4.1-nano-2025-04-14",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/us/gpt-4.1-nano-2025-04-14",
@@ -51159,6 +52033,21 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-04-14"
+    },
+    {
+      "id": "us/gpt-4o-2024-05-13",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-4o-2024-05-13",
+      "listedAt": "2024-05-13",
+      "prices": [
+        {
+          "input": 5.5,
+          "output": 16.5,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "us/gpt-4o-2024-08-06",
@@ -51254,6 +52143,21 @@
       "benchmarks": []
     },
     {
+      "id": "us/gpt-5",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5",
+      "listedAt": "2025-08-07",
+      "prices": [
+        {
+          "input": 1.375,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us/gpt-5-2025-08-07",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/us/gpt-5-2025-08-07",
@@ -51268,6 +52172,35 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-08-07"
+    },
+    {
+      "id": "us/gpt-5-codex",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5-codex",
+      "prices": [
+        {
+          "input": 1.375,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us/gpt-5-mini",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5-mini",
+      "listedAt": "2025-08-07",
+      "prices": [
+        {
+          "input": 0.275,
+          "output": 2.2,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "us/gpt-5-mini-2025-08-07",
@@ -51286,6 +52219,21 @@
       "listedAt": "2025-08-07"
     },
     {
+      "id": "us/gpt-5-nano",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5-nano",
+      "listedAt": "2025-08-07",
+      "prices": [
+        {
+          "input": 0.055,
+          "output": 0.44,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us/gpt-5-nano-2025-08-07",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/us/gpt-5-nano-2025-08-07",
@@ -51302,13 +52250,28 @@
       "listedAt": "2025-08-07"
     },
     {
+      "id": "us/gpt-5-pro",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5-pro",
+      "listedAt": "2025-10-06",
+      "prices": [
+        {
+          "input": 16.5,
+          "output": 132,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us/gpt-5.1",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/us/gpt-5.1",
       "context": 272000,
       "prices": [
         {
-          "input": 1.38,
+          "input": 1.375,
           "output": 11,
           "vendor": "azure",
           "mode": "standard"
@@ -51324,7 +52287,7 @@
       "context": 128000,
       "prices": [
         {
-          "input": 1.38,
+          "input": 1.375,
           "output": 11,
           "vendor": "azure",
           "mode": "standard"
@@ -51339,7 +52302,7 @@
       "context": 272000,
       "prices": [
         {
-          "input": 1.38,
+          "input": 1.375,
           "output": 11,
           "vendor": "azure",
           "mode": "standard"
@@ -51347,6 +52310,21 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-11-13"
+    },
+    {
+      "id": "us/gpt-5.1-codex-max",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5.1-codex-max",
+      "listedAt": "2025-11-13",
+      "prices": [
+        {
+          "input": 1.375,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "us/gpt-5.1-codex-mini",
@@ -51363,6 +52341,95 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-11-13"
+    },
+    {
+      "id": "us/gpt-5.2",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5.2",
+      "listedAt": "2025-12-10",
+      "prices": [
+        {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us/gpt-5.2-chat",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5.2-chat",
+      "listedAt": "2025-12-10",
+      "prices": [
+        {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us/gpt-5.2-codex",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5.2-codex",
+      "listedAt": "2026-01-14",
+      "prices": [
+        {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us/gpt-5.2-pro",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5.2-pro",
+      "listedAt": "2025-12-10",
+      "prices": [
+        {
+          "input": 23.099999999999998,
+          "output": 184.79999999999998,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us/gpt-5.3-chat",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5.3-chat",
+      "prices": [
+        {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us/gpt-5.3-codex",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5.3-codex",
+      "listedAt": "2026-02-24",
+      "prices": [
+        {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "us/gpt-5.4",
@@ -51397,6 +52464,51 @@
       "listedAt": "2026-03-05"
     },
     {
+      "id": "us/gpt-5.4-mini",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5.4-mini",
+      "listedAt": "2026-03-17",
+      "prices": [
+        {
+          "input": 0.8250000000000001,
+          "output": 4.95,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us/gpt-5.4-nano",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5.4-nano",
+      "listedAt": "2026-03-17",
+      "prices": [
+        {
+          "input": 0.22,
+          "output": 1.375,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us/gpt-5.4-pro",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5.4-pro",
+      "listedAt": "2026-03-05",
+      "prices": [
+        {
+          "input": 33,
+          "output": 198,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us/gpt-5.5",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/us/gpt-5.5",
@@ -51427,6 +52539,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-04-24"
+    },
+    {
+      "id": "us/gpt-5.5-2026-04-24",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/gpt-5.5-2026-04-24",
+      "context": 1050000,
+      "listedAt": "2026-04-24",
+      "prices": [
+        {
+          "input": 5.5,
+          "output": 33,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "us/gpt-5.6",
@@ -51466,8 +52594,8 @@
       "context": 922000,
       "prices": [
         {
-          "input": 5.5,
-          "output": 33,
+          "input": 4.4,
+          "output": 22,
           "vendor": "azure",
           "mode": "standard"
         }
@@ -51540,6 +52668,20 @@
       "listedAt": "2024-12-17"
     },
     {
+      "id": "us/o1-mini",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/o1-mini",
+      "prices": [
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us/o1-mini-2024-09-12",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/us/o1-mini-2024-09-12",
@@ -51548,6 +52690,21 @@
         {
           "input": 1.21,
           "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us/o1-preview",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/o1-preview",
+      "listedAt": "2024-12-17",
+      "prices": [
+        {
+          "input": 16.5,
+          "output": 66,
           "vendor": "azure",
           "mode": "standard"
         }
@@ -51585,6 +52742,20 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-04-16"
+    },
+    {
+      "id": "us/o3-deep-research",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "azure/us/o3-deep-research",
+      "prices": [
+        {
+          "input": 11,
+          "output": 44,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "us/o3-mini-2025-01-31",
@@ -52130,6 +53301,21 @@
       ],
       "benchmarks": [],
       "listedAt": "2024-04-16"
+    },
+    {
+      "id": "writer.palmyra-vision-7b",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "writer.palmyra-vision-7b",
+      "context": 4096,
+      "prices": [
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "writer.palmyra-x4-v1:0",
@@ -53000,8 +54186,8 @@
       "listedAt": "2026-06-16",
       "prices": [
         {
-          "input": 0.6,
-          "output": 2,
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -53048,8 +54234,8 @@
       "listedAt": "2026-08-26",
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.5,
+          "input": 0.09,
+          "output": 0.3,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -53103,9 +54289,54 @@
       "benchmarks": []
     },
     {
+      "id": "zai-glm-5",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "mistral/zai-glm-5",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "mistral",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "zai-glm-5-2",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "mistral/zai-glm-5-2",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "mistral",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "zai-glm-5-3",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "mistral/zai-glm-5-3",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "mistral",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "zai-glm-latest",
+      "firstSeen": "2026-09-17T11:39:05.964Z",
+      "name": "mistral/zai-glm-latest",
       "context": 1048576,
       "prices": [
         {
@@ -53519,6 +54750,12 @@
           "input": 1.26,
           "output": 3.9600000000000004,
           "vendor": "friendliai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "nebius",
           "mode": "standard"
         },
         {
