@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-18T11:11:35.916Z",
+  "generatedAt": "2026-09-19T10:56:15.912Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 445
+      "records": 447
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3646
+      "records": 3649
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -21,185 +21,9 @@
     }
   ],
   "newModels": [
-    "aion-labs/aion-2.0",
-    "aion-labs/aion-3.0",
-    "aion-labs/aion-3.0-mini",
-    "aion-labs/aion-rp-llama-3.1-8b",
-    "amazon/nova-2-lite-v1",
-    "amazon/nova-lite-v1",
-    "amazon/nova-micro-v1",
-    "amazon/nova-premier-v1",
-    "amazon/nova-pro-v1",
-    "anthracite-org/magnum-v4-72b",
-    "anthropic/claude-fable-5.1:batch",
-    "anthropic/claude-fable-5:batch",
-    "anthropic/claude-haiku-4.5:batch",
-    "anthropic/claude-opus-4.1:batch",
-    "anthropic/claude-opus-4.5:batch",
-    "anthropic/claude-opus-4.6:batch",
-    "anthropic/claude-opus-4.7:batch",
-    "anthropic/claude-opus-4.8:batch",
-    "anthropic/claude-opus-5:batch",
-    "anthropic/claude-sonnet-4.5:batch",
-    "anthropic/claude-sonnet-4.6:batch",
-    "anthropic/claude-sonnet-5:batch",
-    "arcee-ai/trinity-large-thinking",
-    "bytedance-seed/seed-1.6",
-    "bytedance-seed/seed-1.6-flash",
-    "bytedance-seed/seed-2-1-turbo",
-    "bytedance-seed/seed-2.0-code",
-    "bytedance-seed/seed-2.0-lite",
-    "bytedance-seed/seed-2.0-mini",
-    "cognitivecomputations/dolphin-mistral-24b-venice-edition",
-    "cohere/command-r-08-2024",
-    "cohere/command-r-plus-08-2024",
-    "cohere/command-r7b-12-2024",
-    "cohere/north-mini-code:free",
-    "deepseek-v4-flash-0731:free",
-    "deepseek/deepseek-v4-flash-0731:batch",
-    "deepseek/deepseek-v4-flash-0731:free",
-    "deepseek/deepseek-v4-flash-vision-exp:batch",
-    "deepseek/deepseek-v4-pro-0813:batch",
-    "dots-studio/dots-3-note-preview:free",
-    "google/gemini-2.5-flash-lite:batch",
-    "google/gemini-2.5-flash:batch",
-    "google/gemini-2.5-pro:batch",
-    "google/gemini-3-flash-preview:batch",
-    "google/gemini-3.1-flash-lite:batch",
-    "google/gemini-3.1-pro-preview:batch",
-    "google/gemini-3.5-flash-lite:batch",
-    "google/gemini-3.5-flash:batch",
-    "google/gemini-3.6-flash:batch",
-    "google/gemini-3.7-flash:batch",
-    "google/gemini-3.8-flash:batch",
-    "ibm-granite/granite-4.0-h-micro",
-    "inception/mercury-2",
-    "inception/mercury-2.5",
-    "inclusionai/ling-3.0-flash-fin",
-    "inclusionai/ling-3.0-flash-fin:free",
-    "inclusionai/ling-3.0-flash-sante:free",
-    "inclusionai/ling-3.0-flash-vl",
-    "inclusionai/ling-3.0-flash-vl:free",
-    "inference-net/schematron-v2-small",
-    "inference-net/schematron-v2-turbo",
-    "jev-1.13.0",
-    "jev-latest",
-    "jev-preview",
-    "kwaipilot/kat-coder-pro-v2",
-    "kwaipilot/kat-coder-pro-v2.5",
-    "liquid/lfm-2.5-2.6b:free",
-    "meituan/longcat-2.0",
-    "meta/muse-glimmer-30b",
-    "meta/muse-glimmer-30b:batch",
-    "meta/muse-spark-1.1",
-    "meta/muse-spark-1.2",
-    "meta/muse-spark-1.2-contributor",
-    "meta/muse-spark-1.3",
-    "meta/muse-spark-1.3-contributor",
-    "minimax/minimax-m3:batch",
-    "mistralai/codestral-2508:batch",
-    "mistralai/ministral-8b-2512:batch",
-    "mistralai/mistral-large-2512:batch",
-    "mistralai/mistral-medium-3-5:batch",
-    "mistralai/mistral-medium-3.1:batch",
-    "mistralai/mistral-small-2603:batch",
-    "moonshotai/kimi-k3:batch",
-    "nex-agi/nex-n2.5-mini:free",
-    "nex-agi/nex-n2.5-pro:free",
-    "openai/gpt-3.5-turbo-0613",
-    "openai/gpt-3.5-turbo:batch",
-    "openai/gpt-4-turbo:batch",
-    "openai/gpt-4.1-mini:batch",
-    "openai/gpt-4.1-nano:batch",
-    "openai/gpt-4.1:batch",
-    "openai/gpt-4o-mini:batch",
-    "openai/gpt-4o:batch",
-    "openai/gpt-5-image",
-    "openai/gpt-5-image-mini",
-    "openai/gpt-5-mini:batch",
-    "openai/gpt-5-nano:batch",
-    "openai/gpt-5-pro:batch",
-    "openai/gpt-5.1:batch",
-    "openai/gpt-5.2-pro:batch",
-    "openai/gpt-5.2:batch",
-    "openai/gpt-5.4-image-2",
-    "openai/gpt-5.4-mini:batch",
-    "openai/gpt-5.4-nano:batch",
-    "openai/gpt-5.4-pro:batch",
-    "openai/gpt-5.4:batch",
-    "openai/gpt-5.5-pro:batch",
-    "openai/gpt-5.5:batch",
-    "openai/gpt-5.6-luna-pro:batch",
-    "openai/gpt-5.6-luna:batch",
-    "openai/gpt-5.6-sol-pro:batch",
-    "openai/gpt-5.6-sol:batch",
-    "openai/gpt-5.6-terra-pro:batch",
-    "openai/gpt-5.6-terra:batch",
-    "openai/gpt-5:batch",
-    "openai/gpt-6-astra-pro:batch",
-    "openai/gpt-6-astra:batch",
-    "openai/gpt-oss-120b:batch",
-    "openai/o3-mini:batch",
-    "openai/o3:batch",
-    "openai/o4-mini:batch",
-    "pareto",
-    "perceptron/perceptron-mk1",
-    "perplexity/sonar-deep-research",
-    "perplexity/sonar-pro-search",
-    "qwen/qwen3.5-9b:batch",
-    "qwen/qwen3.8-2.4t-a95b:batch",
-    "qwen/qwen3.8-27b:free",
-    "qwen3.8-27b:free",
-    "rekaai/reka-edge",
-    "rekaai/reka-flash-3",
-    "relace/relace-apply-3",
-    "relace/relace-search",
-    "sakana/fugu-max",
-    "sakana/fugu-ultra",
-    "sakana/fugu-ultra-v2",
-    "sakana/sakana-namazu",
-    "sao10k/l3-lunaris-8b",
-    "sao10k/l3.1-euryale-70b",
-    "sao10k/l3.3-euryale-70b",
-    "stepfun/step-3.5-flash",
-    "tencent/hunyuan-a13b-instruct",
-    "tencent/hy-mt2-1.8b",
-    "tencent/hy-mt2-30b-a3b",
-    "tencent/hy-mt2-7b",
-    "tencent/hy3-preview",
-    "tencent/hy4-preview",
-    "thedrummer/cydonia-24b-v4.1",
-    "thedrummer/skyfall-36b-v2",
-    "thedrummer/unslopnemo-12b",
-    "thinkingmachines/inkling-small:free",
-    "thinkingmachines/inkling:batch",
-    "thinkingmachines/inkling:free",
-    "unbiased/pareto",
-    "upstage/solar-pro-3",
-    "upstage/solar-pro4",
-    "writer/palmyra-x5",
-    "x-ai/grok-4.3:batch",
-    "z-ai/glm-5.2:batch",
-    "z-ai/glm-5.3-flash:batch",
-    "z-ai/glm-5.3:batch",
-    "~anthropic/claude-fable-latest",
-    "~anthropic/claude-haiku-latest",
-    "~anthropic/claude-opus-latest",
-    "~anthropic/claude-sonnet-latest",
-    "~deepseek/deepseek-flash-latest",
-    "~deepseek/deepseek-pro-latest",
-    "~deepseek/deepseek-v4-flash-latest",
-    "~google/gemini-flash-latest",
-    "~google/gemini-pro-latest",
-    "~moonshotai/kimi-latest",
-    "~openai/gpt-astra-latest",
-    "~openai/gpt-luna-latest",
-    "~openai/gpt-mini-latest",
-    "~openai/gpt-sol-latest",
-    "~openai/gpt-terra-latest",
-    "~x-ai/grok-latest",
-    "~z-ai/glm-flash-latest",
-    "~z-ai/glm-latest"
+    "glm-5.3-flashx",
+    "qwen3.8-omni-flash",
+    "ternary-bonsai-2-27b"
   ],
   "models": [
     {
@@ -724,8 +548,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.6,
+          "input": 0.14,
+          "output": 0.42,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -740,8 +564,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.66,
-          "output": 1.9800000000000002,
+          "input": 0.57816,
+          "output": 1.73448,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -756,8 +580,8 @@
       "listedAt": "2026-04-24",
       "prices": [
         {
-          "input": 0.055799999999999995,
-          "output": 0.1767,
+          "input": 0.055,
+          "output": 0.165,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -932,8 +756,8 @@
       "listedAt": "2026-08-19",
       "prices": [
         {
-          "input": 0.8775,
-          "output": 2.9699999999999998,
+          "input": 0.8999999999999999,
+          "output": 2.8049999999999997,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -14212,8 +14036,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.6,
+          "input": 0.13,
+          "output": 0.52,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -14243,8 +14067,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.66,
-          "output": 1.9800000000000002,
+          "input": 0.57816,
+          "output": 1.73448,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -14771,8 +14595,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.088606,
-          "output": 0.177212,
+          "input": 0.0448,
+          "output": 0.0896,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -14841,8 +14665,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.06,
-          "output": 0.12,
+          "input": 0.04,
+          "output": 0.08,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -14925,6 +14749,12 @@
       "maker": "DeepSeek",
       "prices": [
         {
+          "input": 0.055,
+          "output": 0.165,
+          "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
           "input": 0.14,
           "output": 0.28,
           "vendor": "nebius",
@@ -14949,8 +14779,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.088606,
-          "output": 0.177212,
+          "input": 0.0448,
+          "output": 0.0896,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15009,8 +14839,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.055799999999999995,
-          "output": 0.1767,
+          "input": 0.04,
+          "output": 0.08,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -15027,8 +14857,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.088606,
-          "output": 0.177212,
+          "input": 0.04984,
+          "output": 0.09968,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -15036,12 +14866,6 @@
           "input": 0.09999999999999999,
           "output": 0.19999999999999998,
           "vendor": "pinstripes",
-          "mode": "standard"
-        },
-        {
-          "input": 0.055799999999999995,
-          "output": 0.1767,
-          "vendor": "openrouter",
           "mode": "standard"
         }
       ],
@@ -15068,6 +14892,12 @@
       "maker": "DeepSeek",
       "prices": [
         {
+          "input": 0.055,
+          "output": 0.165,
+          "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
           "input": 0.14,
           "output": 0.28,
           "vendor": "nebius",
@@ -15092,8 +14922,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.088606,
-          "output": 0.177212,
+          "input": 0.0448,
+          "output": 0.0896,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15152,8 +14982,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.055799999999999995,
-          "output": 0.1767,
+          "input": 0.04,
+          "output": 0.08,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -15170,8 +15000,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.088606,
-          "output": 0.177212,
+          "input": 0.04984,
+          "output": 0.09968,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -15179,12 +15009,6 @@
           "input": 0.09999999999999999,
           "output": 0.19999999999999998,
           "vendor": "pinstripes",
-          "mode": "standard"
-        },
-        {
-          "input": 0.055799999999999995,
-          "output": 0.1767,
-          "vendor": "openrouter",
           "mode": "standard"
         }
       ],
@@ -15211,8 +15035,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.055799999999999995,
-          "output": 0.1767,
+          "input": 0.04,
+          "output": 0.08,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -15288,8 +15112,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 1.5999999999999999,
-          "output": 3.1999999999999997,
+          "input": 0.483024,
+          "output": 0.966048,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15365,8 +15189,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.66,
-          "output": 1.9800000000000002,
+          "input": 0.57816,
+          "output": 1.73448,
           "vendor": "deepseek",
           "mode": "standard"
         }
@@ -15421,8 +15245,8 @@
           "mode": "standard"
         },
         {
-          "input": 1.5999999999999999,
-          "output": 3.1999999999999997,
+          "input": 0.483024,
+          "output": 0.966048,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15475,8 +15299,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.94336,
-          "output": 1.88672,
+          "input": 1.5999999999999999,
+          "output": 3.1999999999999997,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -15534,8 +15358,8 @@
           "mode": "standard"
         },
         {
-          "input": 1.5999999999999999,
-          "output": 3.1999999999999997,
+          "input": 0.483024,
+          "output": 0.966048,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15588,8 +15412,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.94336,
-          "output": 1.88672,
+          "input": 1.5999999999999999,
+          "output": 3.1999999999999997,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -16093,8 +15917,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.088606,
-          "output": 0.177212,
+          "input": 0.04984,
+          "output": 0.09968,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -16201,8 +16025,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.94336,
-          "output": 1.88672,
+          "input": 1.5999999999999999,
+          "output": 3.1999999999999997,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -16223,8 +16047,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.66,
-          "output": 1.9800000000000002,
+          "input": 0.57816,
+          "output": 1.73448,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -19914,12 +19738,6 @@
         {
           "input": 2,
           "output": 12,
-          "vendor": "gmi",
-          "mode": "standard"
-        },
-        {
-          "input": 2,
-          "output": 12,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -22211,8 +22029,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.5625,
-          "output": 1.7999999999999998,
+          "input": 0.5544,
+          "output": 1.7424,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -22284,8 +22102,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.5625,
-          "output": 1.7999999999999998,
+          "input": 0.5544,
+          "output": 1.7424,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -22332,8 +22150,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.4875,
-          "output": 1.56,
+          "input": 0.5544,
+          "output": 1.7424,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -22429,8 +22247,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 1.4,
-          "output": 4.4,
+          "input": 0.9099999999999999,
+          "output": 2.8600000000000003,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -22507,14 +22325,30 @@
       "listedAt": "2026-08-26"
     },
     {
+      "id": "glm-5.3-flashx",
+      "firstSeen": "2026-09-19T10:56:15.912Z",
+      "name": "Z.ai: GLM 5.3 FlashX",
+      "context": 1048576,
+      "listedAt": "2026-09-18",
+      "prices": [
+        {
+          "input": 0.37,
+          "output": 1.25,
+          "vendor": "z-ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "glm-5.3-max",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "glm-5.3-max",
       "maker": "Z.ai",
       "prices": [
         {
-          "input": 1.4,
-          "output": 4.4,
+          "input": 0.9099999999999999,
+          "output": 2.8600000000000003,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -22537,8 +22371,8 @@
           "mode": "standard"
         },
         {
-          "input": 1.4,
-          "output": 4.4,
+          "input": 0.9099999999999999,
+          "output": 2.8600000000000003,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -22754,8 +22588,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.8775,
-          "output": 2.9699999999999998,
+          "input": 0.8917999999999999,
+          "output": 2.8028,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -23441,7 +23275,7 @@
           "mode": "standard"
         },
         {
-          "input": 2.5,
+          "input": 0.3,
           "output": 2.5,
           "vendor": "replicate",
           "mode": "standard"
@@ -23539,7 +23373,7 @@
           "mode": "standard"
         },
         {
-          "input": 2.5,
+          "input": 1.25,
           "output": 10,
           "vendor": "vercel_ai_gateway",
           "mode": "standard"
@@ -23692,12 +23526,6 @@
       "name": "gmi/google/gemini-3-pro-preview",
       "context": 1048576,
       "prices": [
-        {
-          "input": 2,
-          "output": 12,
-          "vendor": "gmi",
-          "mode": "standard"
-        },
         {
           "input": 2,
           "output": 12,
@@ -32513,8 +32341,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 2.0999999999999996,
-          "output": 10.950000000000001,
+          "input": 1.7,
+          "output": 8.5,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -32562,8 +32390,8 @@
       "maker": "Moonshot",
       "prices": [
         {
-          "input": 2.0999999999999996,
-          "output": 10.950000000000001,
+          "input": 1.7,
+          "output": 8.5,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -32676,8 +32504,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 2.0999999999999996,
-          "output": 10.950000000000001,
+          "input": 1.7,
+          "output": 8.5,
           "vendor": "~moonshotai",
           "mode": "standard"
         },
@@ -34346,6 +34174,12 @@
         {
           "input": 0.04,
           "output": 0.15,
+          "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.04,
+          "output": 0.15,
           "vendor": "inception",
           "mode": "standard"
         },
@@ -34353,12 +34187,6 @@
           "input": 0.19999999999999998,
           "output": 0.75,
           "vendor": "inception",
-          "mode": "standard"
-        },
-        {
-          "input": 0.04,
-          "output": 0.15,
-          "vendor": "openrouter",
           "mode": "standard"
         }
       ],
@@ -36338,8 +36166,8 @@
       "listedAt": "2026-08-09",
       "prices": [
         {
-          "input": 0.3,
-          "output": 1.1,
+          "input": 0.35,
+          "output": 1.5,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -40809,8 +40637,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.3,
-          "output": 1.1,
+          "input": 0.35,
+          "output": 1.5,
           "vendor": "meta",
           "mode": "standard"
         },
@@ -40901,6 +40729,12 @@
         {
           "input": 1.25,
           "output": 4.25,
+          "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 1.25,
+          "output": 4.25,
           "vendor": "meta",
           "mode": "standard"
         },
@@ -40908,12 +40742,6 @@
           "input": 1.375,
           "output": 4.675,
           "vendor": "aihubmix",
-          "mode": "standard"
-        },
-        {
-          "input": 1.25,
-          "output": 4.25,
-          "vendor": "openrouter",
           "mode": "standard"
         }
       ],
@@ -41083,8 +40911,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.625,
-          "output": 3.125,
+          "input": 0.6,
+          "output": 2.4,
           "vendor": "nvidia",
           "mode": "standard"
         }
@@ -41099,8 +40927,8 @@
       "context": 512288,
       "prices": [
         {
-          "input": 0.625,
-          "output": 3.125,
+          "input": 0.6,
+          "output": 2.4,
           "vendor": "nvidia",
           "mode": "standard"
         },
@@ -41202,7 +41030,7 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.08,
+          "input": 0.07,
           "output": 0.19999999999999998,
           "vendor": "nvidia",
           "mode": "standard"
@@ -42920,8 +42748,8 @@
       "context": 1050000,
       "prices": [
         {
-          "input": 5.5,
-          "output": 33,
+          "input": 4.4,
+          "output": 22,
           "vendor": "bedrock_mantle",
           "mode": "standard"
         }
@@ -49273,8 +49101,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.13,
-          "output": 0.52,
+          "input": 0.19999999999999998,
+          "output": 0.7,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -50072,6 +49900,18 @@
           "mode": "standard"
         },
         {
+          "input": 0.15,
+          "output": 0.47,
+          "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.47,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
+        },
+        {
           "input": 0.1126,
           "output": 0.380025,
           "vendor": "aihubmix",
@@ -50165,6 +50005,27 @@
           "input": 2,
           "output": 6,
           "vendor": "qwen",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "qwen3.8-omni-flash",
+      "firstSeen": "2026-09-19T10:56:15.912Z",
+      "name": "dashscope/qwen3.8-omni-flash",
+      "context": 991808,
+      "prices": [
+        {
+          "input": 0.15,
+          "output": 0.47,
+          "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.47,
+          "vendor": "qwen_ai_platform",
           "mode": "standard"
         }
       ],
@@ -51684,8 +51545,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.13199999999999998,
-          "output": 0.5279999999999999,
+          "input": 0.0825,
+          "output": 0.33,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -51720,6 +51581,22 @@
           "input": 0.834,
           "output": 2.501,
           "vendor": "openrouter",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "ternary-bonsai-2-27b",
+      "firstSeen": "2026-09-19T10:56:15.912Z",
+      "name": "PrismML: Ternary Bonsai 2 27B",
+      "context": 262144,
+      "listedAt": "2026-09-18",
+      "prices": [
+        {
+          "input": 0.075,
+          "output": 0.5,
+          "vendor": "prism-ml",
           "mode": "standard"
         }
       ],
@@ -57235,8 +57112,8 @@
       "listedAt": "2026-06-16",
       "prices": [
         {
-          "input": 0.4875,
-          "output": 1.56,
+          "input": 0.5544,
+          "output": 1.7424,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -57283,8 +57160,8 @@
       "listedAt": "2026-08-18",
       "prices": [
         {
-          "input": 1.4,
-          "output": 4.4,
+          "input": 0.9099999999999999,
+          "output": 2.8600000000000003,
           "vendor": "openrouter",
           "mode": "standard"
         }
