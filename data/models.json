@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-21T12:45:20.774Z",
+  "generatedAt": "2026-09-22T11:35:28.204Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 446
+      "records": 444
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3651
+      "records": 3693
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -20,7 +20,53 @@
       "records": 121
     }
   ],
-  "newModels": [],
+  "newModels": [
+    "anthropic.claude-haiku-4-5",
+    "ap-northeast-1/qwen.qwen3-next-80b-a3b",
+    "ap-south-1/qwen.qwen3-next-80b-a3b",
+    "ap-southeast-2/qwen.qwen3-next-80b-a3b",
+    "eu-west-1/qwen.qwen3-next-80b-a3b",
+    "eu-west-2/qwen.qwen3-next-80b-a3b",
+    "fal-ai/moondream3-preview/query",
+    "glm-5p3",
+    "glm-5p3-flash",
+    "global.moonshotai.kimi-k3",
+    "grok-4.20-0309",
+    "grok-4.20-beta",
+    "grok-4.20-beta-0309",
+    "grok-4.20-beta-latest",
+    "grok-4.20-beta-latest-non-reasoning",
+    "grok-4.20-beta-latest-reasoning",
+    "grok-4.20-beta-non-reasoning",
+    "grok-4.20-beta-reasoning",
+    "grok-4.20-experimental-beta-0304",
+    "grok-4.20-experimental-beta-0304-non-reasoning",
+    "grok-4.20-experimental-beta-0304-reasoning",
+    "grok-4.20-experimental-beta-latest",
+    "grok-4.20-experimental-beta-non-reasoning-latest",
+    "grok-4.20-experimental-beta-reasoning-latest",
+    "grok-4.20-multi-agent-beta-latest",
+    "grok-4.20-multi-agent-experimental-beta-0304",
+    "grok-4.20-multi-agent-experimental-beta-latest",
+    "grok-4.20-non-reasoning-gv2",
+    "grok-4.20-reasoning-gv2",
+    "grok-4.7",
+    "mimo-v2.6-flash",
+    "mimo-v2.6-pro",
+    "mimo-v2.6-pro-ultraspeed",
+    "moonshotai.kimi-k3",
+    "nex-agi/nex-n2.5-mini",
+    "nex-agi/nex-n2.5-pro",
+    "nex-n2.5-mini",
+    "nex-n2.5-pro",
+    "sa-east-1/qwen.qwen3-next-80b-a3b",
+    "typesafe/jev-1.13",
+    "us.moonshotai.kimi-k3",
+    "x-ai/grok-4.7",
+    "xiaomi/mimo-v2.6-flash",
+    "xiaomi/mimo-v2.6-pro",
+    "xiaomi/mimo-v2.6-pro-ultraspeed"
+  ],
   "models": [
     {
       "id": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
@@ -577,7 +623,7 @@
       "prices": [
         {
           "input": 0.04,
-          "output": 0.16,
+          "output": 0.64,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -624,8 +670,8 @@
       "listedAt": "2026-04-27",
       "prices": [
         {
-          "input": 1.7,
-          "output": 8.5,
+          "input": 3,
+          "output": 15,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -720,8 +766,8 @@
       "listedAt": "2026-07-08",
       "prices": [
         {
-          "input": 2,
-          "output": 6,
+          "input": 1.5999999999999999,
+          "output": 4.8,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -736,8 +782,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.09,
-          "output": 0.3,
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -752,8 +798,8 @@
       "listedAt": "2026-08-19",
       "prices": [
         {
-          "input": 0.9099999999999999,
-          "output": 2.8600000000000003,
+          "input": 0.84,
+          "output": 2.64,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -6102,6 +6148,21 @@
       "benchmarks": []
     },
     {
+      "id": "anthropic.claude-haiku-4-5",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "bedrock_mantle/anthropic.claude-haiku-4-5",
+      "context": 200000,
+      "prices": [
+        {
+          "input": 1,
+          "output": 5,
+          "vendor": "bedrock_mantle",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "anthropic.claude-haiku-4-5-20251001-v1:0",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "anthropic.claude-haiku-4-5-20251001-v1:0",
@@ -7392,6 +7453,21 @@
       "benchmarks": []
     },
     {
+      "id": "ap-northeast-1/qwen.qwen3-next-80b-a3b",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "bedrock/ap-northeast-1/qwen.qwen3-next-80b-a3b",
+      "context": 128000,
+      "prices": [
+        {
+          "input": 0.18,
+          "output": 1.4500000000000002,
+          "vendor": "bedrock",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "ap-south-1/deepseek.v3.2",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "bedrock/ap-south-1/deepseek.v3.2",
@@ -7513,6 +7589,21 @@
       "benchmarks": []
     },
     {
+      "id": "ap-south-1/qwen.qwen3-next-80b-a3b",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "bedrock/ap-south-1/qwen.qwen3-next-80b-a3b",
+      "context": 128000,
+      "prices": [
+        {
+          "input": 0.18,
+          "output": 1.4100000000000001,
+          "vendor": "bedrock",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "ap-southeast-2/minimax.minimax-m2.5",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "bedrock/ap-southeast-2/minimax.minimax-m2.5",
@@ -7520,6 +7611,21 @@
       "prices": [
         {
           "input": 0.309,
+          "output": 1.236,
+          "vendor": "bedrock",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "ap-southeast-2/qwen.qwen3-next-80b-a3b",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "bedrock/ap-southeast-2/qwen.qwen3-next-80b-a3b",
+      "context": 128000,
+      "prices": [
+        {
+          "input": 0.1545,
           "output": 1.236,
           "vendor": "bedrock",
           "mode": "standard"
@@ -9246,12 +9352,6 @@
       "name": "Anthropic: Claude Opus 4",
       "context": 200000,
       "prices": [
-        {
-          "input": 15,
-          "output": 75,
-          "vendor": "anthropic",
-          "mode": "standard"
-        },
         {
           "input": 15,
           "output": 75,
@@ -14063,8 +14163,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.65868,
-          "output": 1.97604,
+          "input": 0.624,
+          "output": 2.88,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -14591,8 +14691,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.058519999999999996,
-          "output": 0.11703999999999999,
+          "input": 0.088606,
+          "output": 0.177212,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -14662,7 +14762,7 @@
       "prices": [
         {
           "input": 0.04,
-          "output": 0.16,
+          "output": 0.64,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -14755,7 +14855,7 @@
         },
         {
           "input": 0.04,
-          "output": 0.16,
+          "output": 0.64,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -14803,7 +14903,7 @@
         },
         {
           "input": 0.04,
-          "output": 0.16,
+          "output": 0.64,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -14824,7 +14924,7 @@
       "prices": [
         {
           "input": 0.04,
-          "output": 0.16,
+          "output": 0.64,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -14853,8 +14953,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.058519999999999996,
-          "output": 0.11703999999999999,
+          "input": 0.088606,
+          "output": 0.177212,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -14913,8 +15013,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04,
-          "output": 0.16,
+          "input": 0.03,
+          "output": 1,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -14967,7 +15067,7 @@
       "prices": [
         {
           "input": 0.04,
-          "output": 0.16,
+          "output": 0.64,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -14996,8 +15096,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.058519999999999996,
-          "output": 0.11703999999999999,
+          "input": 0.088606,
+          "output": 0.177212,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15056,8 +15156,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04,
-          "output": 0.16,
+          "input": 0.03,
+          "output": 1,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -15109,8 +15209,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.04,
-          "output": 0.16,
+          "input": 0.03,
+          "output": 1,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -15263,9 +15363,15 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.65868,
-          "output": 1.97604,
+          "input": 0.624,
+          "output": 2.88,
           "vendor": "deepseek",
+          "mode": "standard"
+        },
+        {
+          "input": 1.32,
+          "output": 3.9600000000000004,
+          "vendor": "fireworks_ai",
           "mode": "standard"
         }
       ],
@@ -16014,7 +16120,7 @@
         },
         {
           "input": 0.04,
-          "output": 0.16,
+          "output": 0.64,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -17056,6 +17162,21 @@
       "benchmarks": []
     },
     {
+      "id": "eu-west-1/qwen.qwen3-next-80b-a3b",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "bedrock/eu-west-1/qwen.qwen3-next-80b-a3b",
+      "context": 128000,
+      "prices": [
+        {
+          "input": 0.18,
+          "output": 1.4100000000000001,
+          "vendor": "bedrock",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu-west-2/meta.llama3-70b-instruct-v1:0",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "bedrock/eu-west-2/meta.llama3-70b-instruct-v1:0",
@@ -17123,6 +17244,21 @@
       "prices": [
         {
           "input": 0.78,
+          "output": 1.8599999999999999,
+          "vendor": "bedrock",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu-west-2/qwen.qwen3-next-80b-a3b",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "bedrock/eu-west-2/qwen.qwen3-next-80b-a3b",
+      "context": 128000,
+      "prices": [
+        {
+          "input": 0.22999999999999998,
           "output": 1.8599999999999999,
           "vendor": "bedrock",
           "mode": "standard"
@@ -18429,6 +18565,20 @@
           "input": 1.21,
           "output": 4.84,
           "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "fal-ai/moondream3-preview/query",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "fal_ai/fal-ai/moondream3-preview/query",
+      "prices": [
+        {
+          "input": 0.39999999999999997,
+          "output": 3.5,
+          "vendor": "fal_ai",
           "mode": "standard"
         }
       ],
@@ -22321,8 +22471,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.9099999999999999,
-          "output": 2.8600000000000003,
+          "input": 0.84,
+          "output": 2.64,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -22350,8 +22500,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.09,
-          "output": 0.3,
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -22421,8 +22571,8 @@
       "maker": "Z.ai",
       "prices": [
         {
-          "input": 0.9099999999999999,
-          "output": 2.8600000000000003,
+          "input": 0.84,
+          "output": 2.64,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -22445,8 +22595,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.9099999999999999,
-          "output": 2.8600000000000003,
+          "input": 0.84,
+          "output": 2.64,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -22589,6 +22739,21 @@
       "benchmarks": []
     },
     {
+      "id": "glm-5p3",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "fireworks_ai/glm-5p3",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "glm-5p3-fast",
       "firstSeen": "2026-09-17T11:39:05.964Z",
       "name": "fireworks_ai/glm-5p3-fast",
@@ -22597,6 +22762,21 @@
         {
           "input": 2.0999999999999996,
           "output": 6.6000000000000005,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "glm-5p3-flash",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "fireworks_ai/glm-5p3-flash",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "fireworks_ai",
           "mode": "standard"
         }
@@ -22662,8 +22842,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.7735,
-          "output": 2.431,
+          "input": 0.6545000000000001,
+          "output": 2.057,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -22925,6 +23105,21 @@
           "output": 0,
           "vendor": "bedrock",
           "mode": "other"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "global.moonshotai.kimi-k3",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "global.moonshotai.kimi-k3",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -28926,7 +29121,115 @@
           "input": 0.15,
           "output": 0.6,
           "vendor": "openai",
-          "mode": "batch"
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "azure_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.35,
+          "output": 0.75,
+          "vendor": "cerebras",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.08,
+          "output": 0.39999999999999997,
+          "vendor": "ovhcloud",
+          "mode": "standard"
+        },
+        {
+          "input": 0.22,
+          "output": 0.59,
+          "vendor": "sambanova",
+          "mode": "standard"
+        },
+        {
+          "input": 0.037,
+          "output": 0.16999999999999998,
+          "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.5,
+          "vendor": "baseten",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "groq",
+          "mode": "standard"
+        },
+        {
+          "input": 0.7999999999999999,
+          "output": 0.7999999999999999,
+          "vendor": "crusoe",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "nebius",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.18,
+          "output": 0.72,
+          "vendor": "replicate",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.03,
+          "output": 0.16999999999999998,
+          "vendor": "wandb",
+          "mode": "standard"
+        },
+        {
+          "input": 0.159,
+          "output": 0.636,
+          "vendor": "watsonx",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "scaleway",
+          "mode": "standard"
+        },
+        {
+          "input": 0.049999999999999996,
+          "output": 0.25,
+          "vendor": "novita",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "tensormesh",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -29395,8 +29698,8 @@
       "listedAt": "2026-08-31",
       "prices": [
         {
-          "input": 0.09999999999999999,
-          "output": 0.15,
+          "input": 0.06,
+          "output": 0.25,
           "vendor": "ibm-granite",
           "mode": "standard"
         }
@@ -29875,6 +30178,21 @@
       "listedAt": "2026-03-31"
     },
     {
+      "id": "grok-4.20-0309",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-0309",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "grok-4.20-0309-non-reasoning",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "xai/grok-4.20-0309-non-reasoning",
@@ -29893,6 +30211,37 @@
       "id": "grok-4.20-0309-reasoning",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "xai/grok-4.20-0309-reasoning",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-beta",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-beta",
+      "context": 1000000,
+      "listedAt": "2026-03-31",
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-beta-0309",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-beta-0309",
       "context": 1000000,
       "prices": [
         {
@@ -29949,6 +30298,174 @@
       ]
     },
     {
+      "id": "grok-4.20-beta-latest",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-beta-latest",
+      "context": 1000000,
+      "listedAt": "2026-03-31",
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-beta-latest-non-reasoning",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-beta-latest-non-reasoning",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-beta-latest-reasoning",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-beta-latest-reasoning",
+      "context": 1000000,
+      "listedAt": "2026-03-31",
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-beta-non-reasoning",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-beta-non-reasoning",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-beta-reasoning",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-beta-reasoning",
+      "context": 1000000,
+      "listedAt": "2026-03-31",
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-experimental-beta-0304",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-experimental-beta-0304",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-experimental-beta-0304-non-reasoning",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-experimental-beta-0304-non-reasoning",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-experimental-beta-0304-reasoning",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-experimental-beta-0304-reasoning",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-experimental-beta-latest",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-experimental-beta-latest",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-experimental-beta-non-reasoning-latest",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-experimental-beta-non-reasoning-latest",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-experimental-beta-reasoning-latest",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-experimental-beta-reasoning-latest",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "grok-4.20-multi-agent",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "SpaceXAI: Grok 4.20 Multi-Agent",
@@ -30001,6 +30518,52 @@
       "benchmarks": []
     },
     {
+      "id": "grok-4.20-multi-agent-beta-latest",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-multi-agent-beta-latest",
+      "context": 1000000,
+      "listedAt": "2026-03-31",
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-multi-agent-experimental-beta-0304",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-multi-agent-experimental-beta-0304",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-multi-agent-experimental-beta-latest",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-multi-agent-experimental-beta-latest",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "grok-4.20-multi-agent-latest",
       "firstSeen": "2026-09-02T08:20:57.544Z",
       "name": "xai/grok-4.20-multi-agent-latest",
@@ -30020,6 +30583,21 @@
       "id": "grok-4.20-non-reasoning",
       "firstSeen": "2026-09-02T08:20:57.544Z",
       "name": "xai/grok-4.20-non-reasoning",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-non-reasoning-gv2",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-non-reasoning-gv2",
       "context": 1000000,
       "prices": [
         {
@@ -30052,6 +30630,21 @@
       "name": "xai/grok-4.20-reasoning",
       "context": 1000000,
       "listedAt": "2026-03-31",
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.20-reasoning-gv2",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "xai/grok-4.20-reasoning-gv2",
+      "context": 1000000,
       "prices": [
         {
           "input": 1.25,
@@ -30304,6 +30897,28 @@
       "listedAt": "2026-08-12"
     },
     {
+      "id": "grok-4.7",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "SpaceXAI: Grok 4.7",
+      "context": 500000,
+      "listedAt": "2026-09-21",
+      "prices": [
+        {
+          "input": 1.5999999999999999,
+          "output": 4.8,
+          "vendor": "x-ai",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "grok-build-0.1",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "SpaceXAI: Grok Build 0.1",
@@ -30418,8 +31033,8 @@
       "context": 500000,
       "prices": [
         {
-          "input": 2,
-          "output": 6,
+          "input": 1.5999999999999999,
+          "output": 4.8,
           "vendor": "~x-ai",
           "mode": "standard"
         }
@@ -30839,8 +31454,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.09999999999999999,
-          "output": 0.15,
+          "input": 0.06,
+          "output": 0.25,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -31368,7 +31983,25 @@
           "input": 1,
           "output": 4.05,
           "vendor": "thinkingmachines",
-          "mode": "batch"
+          "mode": "standard"
+        },
+        {
+          "input": 1,
+          "output": 4.05,
+          "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.95,
+          "output": 4.05,
+          "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 1,
+          "output": 4.05,
+          "vendor": "openrouter",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -31876,12 +32509,6 @@
         {
           "input": 0.3,
           "output": 1.2,
-          "vendor": "kwaipilot",
-          "mode": "standard"
-        },
-        {
-          "input": 0.3,
-          "output": 1.2,
           "vendor": "novita",
           "mode": "standard"
         },
@@ -31917,7 +32544,13 @@
         {
           "input": 0.3,
           "output": 1.2,
-          "vendor": "kwaipilot",
+          "vendor": "novita",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "openrouter",
           "mode": "standard"
         }
       ],
@@ -32267,7 +32900,7 @@
       "prices": [
         {
           "input": 0.7062,
-          "output": 3.21,
+          "output": 3.3000000000000003,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -32415,8 +33048,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 1.7,
-          "output": 8.5,
+          "input": 3,
+          "output": 15,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -32464,8 +33097,8 @@
       "maker": "Moonshot",
       "prices": [
         {
-          "input": 1.7,
-          "output": 8.5,
+          "input": 3,
+          "output": 15,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -32512,8 +33145,8 @@
           "mode": "standard"
         },
         {
-          "input": 1.7,
-          "output": 8.5,
+          "input": 3,
+          "output": 15,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -32565,7 +33198,61 @@
           "input": 3,
           "output": 15,
           "vendor": "moonshotai",
-          "mode": "batch"
+          "mode": "standard"
+        },
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "moonshot",
+          "mode": "standard"
+        },
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "nebius",
+          "mode": "standard"
+        },
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "novita",
+          "mode": "standard"
+        },
+        {
+          "input": 2.8499999999999996,
+          "output": 14.25,
+          "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "perplexity",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -32578,8 +33265,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 1.7,
-          "output": 8.5,
+          "input": 1.5,
+          "output": 7.5,
           "vendor": "~moonshotai",
           "mode": "standard"
         },
@@ -33114,8 +33801,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.72,
-          "output": 0.72,
+          "input": 0.39999999999999997,
+          "output": 0.39999999999999997,
           "vendor": "meta-llama",
           "mode": "standard"
         },
@@ -33323,8 +34010,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.19999999999999998,
-          "output": 0.7999999999999999,
+          "input": 0.1875,
+          "output": 0.6525,
           "vendor": "meta-llama",
           "mode": "standard"
         }
@@ -34643,8 +35330,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.72,
-          "output": 0.72,
+          "input": 0.39999999999999997,
+          "output": 0.39999999999999997,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -34870,8 +35557,8 @@
       "listedAt": "2025-04-05",
       "prices": [
         {
-          "input": 0.19999999999999998,
-          "output": 0.7999999999999999,
+          "input": 0.1875,
+          "output": 0.6525,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -36582,6 +37269,66 @@
       "listedAt": "2026-04-22"
     },
     {
+      "id": "mimo-v2.6-flash",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "Xiaomi: MiMo-V2.6-Flash",
+      "context": 1048576,
+      "listedAt": "2026-09-21",
+      "prices": [
+        {
+          "input": 0.14,
+          "output": 0.28,
+          "vendor": "xiaomi",
+          "mode": "standard"
+        },
+        {
+          "input": 0.14,
+          "output": 0.28,
+          "vendor": "xiaomi_mimo",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "mimo-v2.6-pro",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "Xiaomi: MiMo-V2.6-Pro",
+      "context": 1048576,
+      "listedAt": "2026-09-21",
+      "prices": [
+        {
+          "input": 0.435,
+          "output": 0.87,
+          "vendor": "xiaomi",
+          "mode": "standard"
+        },
+        {
+          "input": 0.435,
+          "output": 0.87,
+          "vendor": "xiaomi_mimo",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "mimo-v2.6-pro-ultraspeed",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
+      "context": 1048576,
+      "listedAt": "2026-09-21",
+      "prices": [
+        {
+          "input": 4.35,
+          "output": 8.7,
+          "vendor": "xiaomi",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "mindai/macaron-v1-tall",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "novita/mindai/macaron-v1-tall",
@@ -37012,7 +37759,61 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "minimax",
-          "mode": "batch"
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "tencent",
+          "mode": "standard"
+        },
+        {
+          "input": 0.288,
+          "output": 1.152,
+          "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "novita",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "nebius",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.22999999999999998,
+          "output": 0.96,
+          "vendor": "wandb",
+          "mode": "standard"
+        },
+        {
+          "input": 0.28,
+          "output": 1.1,
+          "vendor": "deepinfra",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -40192,6 +40993,21 @@
       "benchmarks": []
     },
     {
+      "id": "moonshotai.kimi-k3",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "moonshotai.kimi-k3",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "moonshotai/kimi-k2",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "vercel_ai_gateway/moonshotai/kimi-k2",
@@ -40552,8 +41368,8 @@
           "mode": "standard"
         },
         {
-          "input": 1.7,
-          "output": 8.5,
+          "input": 3,
+          "output": 15,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -40921,8 +41737,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.06,
-          "output": 0.24,
+          "input": 0.049999999999999996,
+          "output": 0.19999999999999998,
           "vendor": "nvidia",
           "mode": "standard"
         }
@@ -41145,6 +41961,22 @@
       "benchmarks": []
     },
     {
+      "id": "nex-agi/nex-n2.5-mini",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "openrouter/nex-agi/nex-n2.5-mini",
+      "context": 262144,
+      "listedAt": "2026-09-08",
+      "prices": [
+        {
+          "input": 0.024999999999999998,
+          "output": 0.09999999999999999,
+          "vendor": "openrouter",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "nex-agi/nex-n2.5-mini:free",
       "firstSeen": "2026-09-18T11:11:35.916Z",
       "name": "openrouter/nex-agi/nex-n2.5-mini:free",
@@ -41156,6 +41988,22 @@
           "output": 0,
           "vendor": "openrouter",
           "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "nex-agi/nex-n2.5-pro",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "openrouter/nex-agi/nex-n2.5-pro",
+      "context": 262144,
+      "listedAt": "2026-09-08",
+      "prices": [
+        {
+          "input": 0.075,
+          "output": 0.25,
+          "vendor": "openrouter",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -41177,6 +42025,22 @@
       "benchmarks": []
     },
     {
+      "id": "nex-n2.5-mini",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "Nex AGI: Nex-N2.5-Mini",
+      "context": 262144,
+      "listedAt": "2026-09-08",
+      "prices": [
+        {
+          "input": 0.024999999999999998,
+          "output": 0.09999999999999999,
+          "vendor": "nex-agi",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "nex-n2.5-mini:free",
       "firstSeen": "2026-09-09T11:20:19.183Z",
       "name": "Nex AGI: Nex-N2.5-Mini (free)",
@@ -41188,6 +42052,22 @@
           "output": 0,
           "vendor": "nex-agi",
           "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "nex-n2.5-pro",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "Nex AGI: Nex-N2.5-Pro",
+      "context": 262144,
+      "listedAt": "2026-09-08",
+      "prices": [
+        {
+          "input": 0.075,
+          "output": 0.25,
+          "vendor": "nex-agi",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -41723,8 +42603,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.06,
-          "output": 0.24,
+          "input": 0.049999999999999996,
+          "output": 0.19999999999999998,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -48322,8 +49202,8 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 2.5,
-          "output": 7.5,
+          "input": 1.5,
+          "output": 4.5,
           "vendor": "together_ai",
           "mode": "standard"
         },
@@ -48440,8 +49320,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.19999999999999998,
-          "output": 2.5,
+          "input": 0.42,
+          "output": 3,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -48473,8 +49353,8 @@
       "listedAt": "2026-08-26",
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.47,
+          "input": 0.09,
+          "output": 0.28200000000000003,
           "vendor": "together_ai",
           "mode": "standard"
         },
@@ -49504,8 +50384,26 @@
         {
           "input": 0.16999999999999998,
           "output": 0.25,
+          "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.15,
+          "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.15,
+          "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.15,
           "vendor": "qwen",
-          "mode": "batch"
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -49807,8 +50705,8 @@
       "maker": "Alibaba",
       "prices": [
         {
-          "input": 2.5,
-          "output": 7.5,
+          "input": 1.5,
+          "output": 4.5,
           "vendor": "together_ai",
           "mode": "standard"
         },
@@ -49924,8 +50822,32 @@
         {
           "input": 2,
           "output": 6,
+          "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
           "vendor": "qwen",
-          "mode": "batch"
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "aihubmix",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -49939,8 +50861,8 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 0.19999999999999998,
-          "output": 2.5,
+          "input": 0.42,
+          "output": 3,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -50668,6 +51590,21 @@
       "benchmarks": []
     },
     {
+      "id": "sa-east-1/qwen.qwen3-next-80b-a3b",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "bedrock/sa-east-1/qwen.qwen3-next-80b-a3b",
+      "context": 128000,
+      "prices": [
+        {
+          "input": 0.18,
+          "output": 1.4500000000000002,
+          "vendor": "bedrock",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "sakana-namazu",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "Sakana: Sakana Namazu",
@@ -51353,22 +52290,6 @@
           "output": 0.28,
           "vendor": "perplexity",
           "mode": "standard"
-        }
-      ],
-      "benchmarks": []
-    },
-    {
-      "id": "stealth/union-alpha",
-      "firstSeen": "2026-09-17T11:39:05.964Z",
-      "name": "openrouter/stealth/union-alpha",
-      "context": 262144,
-      "listedAt": "2026-09-16",
-      "prices": [
-        {
-          "input": 0,
-          "output": 0,
-          "vendor": "openrouter",
-          "mode": "free"
         }
       ],
       "benchmarks": []
@@ -52318,6 +53239,21 @@
         }
       ],
       "listedAt": "2026-04-01"
+    },
+    {
+      "id": "typesafe/jev-1.13",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "openrouter/typesafe/jev-1.13",
+      "context": 32000,
+      "prices": [
+        {
+          "input": 0.041999999999999996,
+          "output": 0,
+          "vendor": "openrouter",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "ui-tars-1.5-7b",
@@ -54793,6 +55729,21 @@
       "benchmarks": []
     },
     {
+      "id": "us.moonshotai.kimi-k3",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "us.moonshotai.kimi-k3",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 3.3000000000000003,
+          "output": 16.5,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us.openai.gpt-5.6-luna",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "us.openai.gpt-5.6-luna",
@@ -56459,6 +57410,22 @@
       "benchmarks": []
     },
     {
+      "id": "x-ai/grok-4.7",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "openrouter/x-ai/grok-4.7",
+      "context": 500000,
+      "listedAt": "2026-09-21",
+      "prices": [
+        {
+          "input": 1.5999999999999999,
+          "output": 4.8,
+          "vendor": "openrouter",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "x-ai/grok-build-0.1",
       "firstSeen": "2026-09-06T10:54:05.600Z",
       "name": "openrouter/x-ai/grok-build-0.1",
@@ -56960,6 +57927,54 @@
       "listedAt": "2026-04-22"
     },
     {
+      "id": "xiaomi/mimo-v2.6-flash",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "openrouter/xiaomi/mimo-v2.6-flash",
+      "context": 1048576,
+      "listedAt": "2026-09-21",
+      "prices": [
+        {
+          "input": 0.14,
+          "output": 0.28,
+          "vendor": "openrouter",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "openrouter/xiaomi/mimo-v2.6-pro",
+      "context": 1048576,
+      "listedAt": "2026-09-21",
+      "prices": [
+        {
+          "input": 0.435,
+          "output": 0.87,
+          "vendor": "openrouter",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "firstSeen": "2026-09-22T11:35:28.204Z",
+      "name": "openrouter/xiaomi/mimo-v2.6-pro-ultraspeed",
+      "context": 1048576,
+      "listedAt": "2026-09-21",
+      "prices": [
+        {
+          "input": 4.35,
+          "output": 8.7,
+          "vendor": "openrouter",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "xiaomimimo/mimo-v2-flash",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "novita/xiaomimimo/mimo-v2-flash",
@@ -57250,8 +58265,8 @@
       "listedAt": "2026-08-18",
       "prices": [
         {
-          "input": 0.9099999999999999,
-          "output": 2.8600000000000003,
+          "input": 0.84,
+          "output": 2.64,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -57266,8 +58281,8 @@
       "listedAt": "2026-08-26",
       "prices": [
         {
-          "input": 0.09,
-          "output": 0.3,
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "openrouter",
           "mode": "standard"
         }
