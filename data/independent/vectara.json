@@ -3,7 +3,7 @@
   "kind": "independent",
   "source": "https://github.com/vectara/hallucination-leaderboard",
   "note": "Measured by Vectara, not self-reported. Lower hallucination rate is better.",
-  "capturedAt": "2026-09-22",
+  "capturedAt": "2026-09-23",
   "benchmarks": [
     "Hallucination-Rate",
     "Factual-Consistency"
@@ -271,6 +271,15 @@
       }
     },
     {
+      "model": "openai/gpt-6-sol",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 6.5,
+        "Factual-Consistency": 93.5
+      }
+    },
+    {
       "model": "arcee-ai/trinity-large-preview",
       "measuredBy": "Vectara",
       "source": "https://github.com/vectara/hallucination-leaderboard",
@@ -322,6 +331,15 @@
       "scores": {
         "Hallucination-Rate": 7.4,
         "Factual-Consistency": 92.6
+      }
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 8.7,
+        "Factual-Consistency": 91.3
       }
     },
     {
@@ -718,6 +736,15 @@
       "scores": {
         "Hallucination-Rate": 12.1,
         "Factual-Consistency": 87.9
+      }
+    },
+    {
+      "model": "openai/gpt-5.6-sol",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 12.4,
+        "Factual-Consistency": 87.6
       }
     },
     {
