@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-23T11:33:17.417Z",
+  "generatedAt": "2026-09-24T11:43:01.736Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 455
+      "records": 458
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3409
+      "records": 3544
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -21,40 +21,88 @@
     }
   ],
   "newModels": [
-    "anthropic.claude-opus-5-5",
-    "anthropic/claude-opus-5.5",
-    "au.anthropic.claude-opus-5-5",
-    "claude-opus-5-5",
-    "claude-opus-5-5@default",
-    "claude-opus-5.5",
-    "claude-opus-5.5:batch",
-    "command-a-plus",
-    "deepseek-v4.1-flash:batch",
-    "eu-west-2/nvidia.nemotron-super-3-120b",
-    "eu.anthropic.claude-opus-5-5",
-    "gemini-omni-1.1-flash-preview",
-    "global.anthropic.claude-opus-5-5",
-    "gpt-6-luna",
-    "gpt-6-luna-pro",
-    "gpt-6-luna-pro:batch",
-    "gpt-6-luna:batch",
-    "gpt-6-sol",
-    "gpt-6-sol-pro",
-    "gpt-6-sol-pro:batch",
-    "gpt-6-sol:batch",
-    "jp.anthropic.claude-opus-5-5",
-    "llama-guard-3-8b",
-    "openai/gpt-6-luna",
-    "openai/gpt-6-luna-pro",
-    "openai/gpt-6-sol",
-    "openai/gpt-6-sol-pro",
-    "solar-mini4",
-    "us-gov-east-1/anthropic.claude-opus-5-5",
-    "us-gov-west-1/anthropic.claude-opus-5-5",
-    "us-gov.anthropic.claude-opus-5-5",
-    "us.anthropic.claude-opus-5-5",
-    "zai-org/glm-5.2-fast",
-    "zai-org/glm-5.2-maas"
+    "accounts/fireworks/models/deepseek-v4-pro",
+    "accounts/fireworks/models/ember-1",
+    "aion-3.5",
+    "aion-3.5-mini",
+    "aion-labs/aion-3.5",
+    "aion-labs/aion-3.5-mini",
+    "anthropic.claude-mythos-5-1",
+    "anthropic/claude-opus-5.5:batch",
+    "apac.anthropic.claude-fable-5",
+    "apac.anthropic.claude-mythos-preview",
+    "apac.anthropic.claude-opus-4-7",
+    "apac.anthropic.claude-opus-4-8",
+    "apac.anthropic.claude-opus-5",
+    "apac.anthropic.claude-opus-5-5",
+    "apac.anthropic.claude-sonnet-4-6",
+    "apac.anthropic.claude-sonnet-5",
+    "au.anthropic.claude-fable-5",
+    "au.anthropic.claude-mythos-preview",
+    "cohere/command-a-plus",
+    "deep-research-max-preview-04-2026",
+    "deep-research-preview-04-2026",
+    "deepseek-ai/deepseek-coder-33b-instruct",
+    "deepseek.r1-v1:0",
+    "deepseek/deepseek-v4.1-flash:batch",
+    "ember-1",
+    "eu/gpt-5.1-chat",
+    "eu/gpt-5.3-chat",
+    "eu/gpt-6-luna",
+    "eu/gpt-6-sol",
+    "fireworks/ember-1",
+    "gemini-2.5-flash-tts",
+    "gemini-2.5-pro-tts",
+    "gemini-3.8-flash-cyber",
+    "gemini-3.8-flash-lite-tts",
+    "gemini-3.8-flash-tts",
+    "glm-5.3-prime",
+    "global.anthropic.claude-mythos-5-1",
+    "global.openai.gpt-6-luna",
+    "global.openai.gpt-6-sol",
+    "gpt-5.1-chat",
+    "gpt-5.1-chat-latest",
+    "gpt-5.3-chat",
+    "gpt-5.3-chat-latest",
+    "gpt-6-luna-2026-09-22",
+    "gpt-6-sol-2026-09-22",
+    "lyria-realtime-exp",
+    "meta-llama/llama-3-8b-chat-hf",
+    "meta-llama/meta-llama-3-70b-instruct-turbo",
+    "meta/llama-3.3-70b-instruct-maas",
+    "mistral.pixtral-large-2502-v1:0",
+    "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
+    "nvidia/llama-3.1-nemotron-70b-instruct-hf",
+    "o4-mini-deep-research",
+    "openai.gpt-6-luna",
+    "openai.gpt-6-sol",
+    "openai/gpt-6-luna-pro:batch",
+    "openai/gpt-6-luna:batch",
+    "openai/gpt-6-sol-pro:batch",
+    "openai/gpt-6-sol:batch",
+    "openai/gpt-oss-20b:batch",
+    "qwen/qwen2-72b-instruct",
+    "qwen/qwen2.5-72b-instruct-turbo",
+    "qwen/qwen3-coder-next-fp8",
+    "qwen/qwen3.8-max-prime",
+    "qwen/qwen3.8-omni-flash",
+    "qwen3.8-max-prime",
+    "space-bunny-alpha",
+    "stealth/space-bunny-alpha",
+    "together/tev1-4b-experimental",
+    "upstage/solar-mini4",
+    "us.anthropic.claude-mythos-5",
+    "us.anthropic.claude-mythos-5-1",
+    "us.anthropic.claude-mythos-preview",
+    "us.openai.gpt-6-luna",
+    "us.openai.gpt-6-sol",
+    "us/gpt-5.1-chat",
+    "us/gpt-5.3-chat",
+    "us/gpt-6-luna",
+    "us/gpt-6-sol",
+    "z-ai/glm-5.3-prime",
+    "zai-org/glm-4.5-air-fp8",
+    "zai-org/glm-5.3-fast"
   ],
   "models": [
     {
@@ -579,8 +627,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.12,
-          "output": 0.48,
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -595,8 +643,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.39996,
-          "output": 1.19988,
+          "input": 1.32,
+          "output": 3.9600000000000004,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -611,8 +659,8 @@
       "listedAt": "2026-04-24",
       "prices": [
         {
-          "input": 0.03,
-          "output": 0.7999999999999999,
+          "input": 0.04,
+          "output": 0.64,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -659,8 +707,8 @@
       "listedAt": "2026-04-27",
       "prices": [
         {
-          "input": 1.4989,
-          "output": 10.758,
+          "input": 3,
+          "output": 15,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -771,8 +819,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.075,
-          "output": 0.25,
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -1591,6 +1639,21 @@
       "benchmarks": []
     },
     {
+      "id": "accounts/fireworks/models/deepseek-v4-pro",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-v4-pro",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 1.2,
+          "output": 1.2,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "accounts/fireworks/models/deepseek-v4-pro-0813",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "fireworks_ai/accounts/fireworks/models/deepseek-v4-pro-0813",
@@ -1689,6 +1752,21 @@
         {
           "input": 0.5,
           "output": 0.5,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "accounts/fireworks/models/ember-1",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "fireworks_ai/accounts/fireworks/models/ember-1",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 3,
+          "output": 15,
           "vendor": "fireworks_ai",
           "mode": "standard"
         }
@@ -5077,8 +5155,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 3.3000000000000003,
-          "output": 16.5,
+          "input": 4.5,
+          "output": 22.5,
           "vendor": "fireworks_ai",
           "mode": "standard"
         }
@@ -5254,6 +5332,38 @@
       "listedAt": "2026-07-07"
     },
     {
+      "id": "aion-3.5",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "AionLabs: Aion 3.5",
+      "context": 262144,
+      "listedAt": "2026-09-23",
+      "prices": [
+        {
+          "input": 3,
+          "output": 6,
+          "vendor": "aion-labs",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "aion-3.5-mini",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "AionLabs: Aion 3.5 Mini",
+      "context": 262144,
+      "listedAt": "2026-09-23",
+      "prices": [
+        {
+          "input": 0.7,
+          "output": 1.4,
+          "vendor": "aion-labs",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "aion-labs/aion-2.0",
       "firstSeen": "2026-09-18T11:11:35.916Z",
       "name": "openrouter/aion-labs/aion-2.0",
@@ -5291,6 +5401,38 @@
       "name": "openrouter/aion-labs/aion-3.0-mini",
       "context": 131072,
       "listedAt": "2026-07-07",
+      "prices": [
+        {
+          "input": 0.7,
+          "output": 1.4,
+          "vendor": "openrouter",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "aion-labs/aion-3.5",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/aion-labs/aion-3.5",
+      "context": 262144,
+      "listedAt": "2026-09-23",
+      "prices": [
+        {
+          "input": 3,
+          "output": 6,
+          "vendor": "openrouter",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "aion-labs/aion-3.5-mini",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/aion-labs/aion-3.5-mini",
+      "context": 262144,
+      "listedAt": "2026-09-23",
       "prices": [
         {
           "input": 0.7,
@@ -6117,6 +6259,21 @@
           "input": 0.7999999999999999,
           "output": 2.4,
           "vendor": "bedrock",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "anthropic.claude-mythos-5-1",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "anthropic.claude-mythos-5-1",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 10,
+          "output": 50,
+          "vendor": "bedrock_converse",
           "mode": "standard"
         }
       ],
@@ -7072,6 +7229,22 @@
       "benchmarks": []
     },
     {
+      "id": "anthropic/claude-opus-5.5:batch",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/anthropic/claude-opus-5.5:batch",
+      "context": 1000000,
+      "listedAt": "2026-09-22",
+      "prices": [
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "openrouter",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "anthropic/claude-sonnet-4",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "gmi/anthropic/claude-sonnet-4",
@@ -7725,6 +7898,21 @@
       "benchmarks": []
     },
     {
+      "id": "apac.anthropic.claude-fable-5",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "apac.anthropic.claude-fable-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 11,
+          "output": 55,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "apac.anthropic.claude-haiku-4-5-20251001-v1:0",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "apac.anthropic.claude-haiku-4-5-20251001-v1:0",
@@ -7740,6 +7928,81 @@
       "benchmarks": []
     },
     {
+      "id": "apac.anthropic.claude-mythos-preview",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "apac.anthropic.claude-mythos-preview",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 27.5,
+          "output": 137.5,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "apac.anthropic.claude-opus-4-7",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "apac.anthropic.claude-opus-4-7",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 5.5,
+          "output": 27.5,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "apac.anthropic.claude-opus-4-8",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "apac.anthropic.claude-opus-4-8",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 5.5,
+          "output": 27.5,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "apac.anthropic.claude-opus-5",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "apac.anthropic.claude-opus-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 5.5,
+          "output": 27.5,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "apac.anthropic.claude-opus-5-5",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "apac.anthropic.claude-opus-5-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 4.4,
+          "output": 22,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "apac.anthropic.claude-sonnet-4-20250514-v1:0",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "apac.anthropic.claude-sonnet-4-20250514-v1:0",
@@ -7750,6 +8013,36 @@
           "output": 15,
           "vendor": "bedrock_converse",
           "mode": "other"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "apac.anthropic.claude-sonnet-4-6",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "apac.anthropic.claude-sonnet-4-6",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 3.3000000000000003,
+          "output": 16.5,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "apac.anthropic.claude-sonnet-5",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "apac.anthropic.claude-sonnet-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 11,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -7800,6 +8093,21 @@
       "benchmarks": []
     },
     {
+      "id": "au.anthropic.claude-fable-5",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "au.anthropic.claude-fable-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 11,
+          "output": 55,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "au.anthropic.claude-haiku-4-5-20251001-v1:0",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "au.anthropic.claude-haiku-4-5-20251001-v1:0",
@@ -7810,6 +8118,21 @@
           "output": 5.5,
           "vendor": "bedrock_converse",
           "mode": "other"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "au.anthropic.claude-mythos-preview",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "au.anthropic.claude-mythos-preview",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 27.5,
+          "output": 137.5,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -11865,6 +12188,22 @@
       "listedAt": "2025-03-13"
     },
     {
+      "id": "cohere/command-a-plus",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/cohere/command-a-plus",
+      "context": 192000,
+      "listedAt": "2026-09-22",
+      "prices": [
+        {
+          "input": 0.3,
+          "output": 1.5,
+          "vendor": "openrouter",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "cohere/command-r",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "vercel_ai_gateway/cohere/command-r",
@@ -13104,6 +13443,36 @@
       "benchmarks": []
     },
     {
+      "id": "deep-research-max-preview-04-2026",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "gemini/deep-research-max-preview-04-2026",
+      "context": 131072,
+      "prices": [
+        {
+          "input": 2,
+          "output": 12,
+          "vendor": "gemini",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "deep-research-preview-04-2026",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "gemini/deep-research-preview-04-2026",
+      "context": 131072,
+      "prices": [
+        {
+          "input": 2,
+          "output": 12,
+          "vendor": "gemini",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "deep-research-pro-preview-12-2025",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "deep-research-pro-preview-12-2025",
@@ -13119,6 +13488,21 @@
           "input": 2,
           "output": 12,
           "vendor": "gemini",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "deepseek-ai/deepseek-coder-33b-instruct",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "together_ai/deepseek-ai/deepseek-coder-33b-instruct",
+      "context": 16384,
+      "prices": [
+        {
+          "input": 0.7999999999999999,
+          "output": 0.7999999999999999,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -13265,6 +13649,12 @@
           "output": 0.75,
           "vendor": "nebius",
           "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 2,
+          "vendor": "together_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -13294,9 +13684,16 @@
           "output": 0.09,
           "vendor": "nscale",
           "mode": "standard"
+        },
+        {
+          "input": 0.18,
+          "output": 0.18,
+          "vendor": "together_ai",
+          "mode": "standard"
         }
       ],
-      "benchmarks": []
+      "benchmarks": [],
+      "context": 131072
     },
     {
       "id": "deepseek-ai/deepseek-r1-distill-qwen-14b",
@@ -13308,9 +13705,16 @@
           "output": 0.07,
           "vendor": "nscale",
           "mode": "standard"
+        },
+        {
+          "input": 1.5999999999999999,
+          "output": 1.5999999999999999,
+          "vendor": "together_ai",
+          "mode": "standard"
         }
       ],
-      "benchmarks": []
+      "benchmarks": [],
+      "context": 131072
     },
     {
       "id": "deepseek-ai/deepseek-r1-distill-qwen-32b",
@@ -13474,6 +13878,12 @@
           "input": 0.55,
           "output": 1.6500000000000001,
           "vendor": "wandb",
+          "mode": "standard"
+        },
+        {
+          "input": 0.6,
+          "output": 1.7,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -13714,6 +14124,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.19999999999999998,
+          "output": 0.65,
+          "vendor": "wandb",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "baseten",
@@ -13891,8 +14307,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.09999999999999999,
-          "output": 0.5,
+          "input": 0.04,
+          "output": 1,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -13922,8 +14338,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.39999999999999997,
-          "output": 4.300000000000001,
+          "input": 0.39,
+          "output": 2.9000000000000004,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -14490,8 +14906,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.04,
-          "output": 0.64,
+          "input": 0.03,
+          "output": 0.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -14572,8 +14988,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04,
-          "output": 0.64,
+          "input": 0.03,
+          "output": 0.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -14620,8 +15036,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04,
-          "output": 0.64,
+          "input": 0.03,
+          "output": 0.32,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -14673,8 +15089,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04,
-          "output": 0.64,
+          "input": 0.03,
+          "output": 0.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -14721,8 +15137,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04,
-          "output": 0.64,
+          "input": 0.03,
+          "output": 0.32,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -14742,8 +15158,8 @@
       "maker": "DeepSeek",
       "prices": [
         {
-          "input": 0.03,
-          "output": 0.7999999999999999,
+          "input": 0.04,
+          "output": 0.64,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -14832,8 +15248,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.038000000000000006,
-          "output": 0.55,
+          "input": 0.03,
+          "output": 0.32,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -14850,8 +15266,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.049,
-          "output": 0.098,
+          "input": 0.088606,
+          "output": 0.177212,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -14885,8 +15301,8 @@
       "maker": "DeepSeek",
       "prices": [
         {
-          "input": 0.03,
-          "output": 0.7999999999999999,
+          "input": 0.04,
+          "output": 0.64,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -14975,8 +15391,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.038000000000000006,
-          "output": 0.55,
+          "input": 0.03,
+          "output": 0.32,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -14993,8 +15409,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.049,
-          "output": 0.098,
+          "input": 0.088606,
+          "output": 0.177212,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -15028,8 +15444,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.038000000000000006,
-          "output": 0.55,
+          "input": 0.03,
+          "output": 0.32,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -15129,8 +15545,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.9552599999999999,
-          "output": 1.9105199999999998,
+          "input": 0.9396,
+          "output": 1.8792,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15200,8 +15616,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.498696,
-          "output": 1.496088,
+          "input": 0.46199999999999997,
+          "output": 1.386,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15252,8 +15668,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.498696,
-          "output": 1.496088,
+          "input": 0.46199999999999997,
+          "output": 1.386,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15264,8 +15680,8 @@
           "mode": "standard"
         },
         {
-          "input": 1.32,
-          "output": 3.9600000000000004,
+          "input": 0.46199999999999997,
+          "output": 1.386,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -15310,8 +15726,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.9552599999999999,
-          "output": 1.9105199999999998,
+          "input": 0.9396,
+          "output": 1.8792,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15358,8 +15774,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.892272,
-          "output": 1.784544,
+          "input": 0.9396,
+          "output": 1.8792,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -15417,8 +15833,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.9552599999999999,
-          "output": 1.9105199999999998,
+          "input": 0.9396,
+          "output": 1.8792,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15465,8 +15881,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.892272,
-          "output": 1.784544,
+          "input": 0.9396,
+          "output": 1.8792,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -15501,8 +15917,8 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.6,
+          "input": 0.14,
+          "output": 0.42,
           "vendor": "deepseek",
           "mode": "standard"
         }
@@ -15536,6 +15952,22 @@
           "output": 0.66,
           "vendor": "fireworks_ai",
           "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "deepseek.r1-v1:0",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "deepseek.r1-v1:0",
+      "context": 128000,
+      "listedAt": "2025-01-20",
+      "prices": [
+        {
+          "input": 1.35,
+          "output": 5.4,
+          "vendor": "bedrock_converse",
+          "mode": "other"
         }
       ],
       "benchmarks": []
@@ -15986,8 +16418,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.049,
-          "output": 0.098,
+          "input": 0.088606,
+          "output": 0.177212,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -16008,8 +16440,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04,
-          "output": 0.64,
+          "input": 0.03,
+          "output": 0.32,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -16055,8 +16487,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04,
-          "output": 0.64,
+          "input": 0.03,
+          "output": 0.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -16103,8 +16535,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04,
-          "output": 0.64,
+          "input": 0.03,
+          "output": 0.32,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -16155,8 +16587,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04,
-          "output": 0.64,
+          "input": 0.03,
+          "output": 0.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -16203,8 +16635,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04,
-          "output": 0.64,
+          "input": 0.03,
+          "output": 0.32,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -16286,8 +16718,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.892272,
-          "output": 1.784544,
+          "input": 0.9396,
+          "output": 1.8792,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -16308,8 +16740,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 1.32,
-          "output": 3.9600000000000004,
+          "input": 0.46199999999999997,
+          "output": 1.386,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -16361,8 +16793,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.498696,
-          "output": 1.496088,
+          "input": 0.46199999999999997,
+          "output": 1.386,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -16373,8 +16805,8 @@
           "mode": "standard"
         },
         {
-          "input": 1.32,
-          "output": 3.9600000000000004,
+          "input": 0.46199999999999997,
+          "output": 1.386,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -16395,10 +16827,26 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0.3,
-          "output": 1.2,
+          "input": 0.14,
+          "output": 0.42,
           "vendor": "openrouter",
           "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash:batch",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/deepseek/deepseek-v4.1-flash:batch",
+      "context": 1048576,
+      "listedAt": "2026-09-10",
+      "prices": [
+        {
+          "input": 0.112,
+          "output": 0.33599999999999997,
+          "vendor": "openrouter",
+          "mode": "batch"
         }
       ],
       "benchmarks": []
@@ -16433,7 +16881,7 @@
         {
           "input": 0.39999999999999997,
           "output": 2,
-          "vendor": "mistralai",
+          "vendor": "openrouter",
           "mode": "standard"
         }
       ],
@@ -16896,6 +17344,22 @@
           "output": 0,
           "vendor": "gigachat",
           "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "ember-1",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "Fireworks: Ember-1",
+      "context": 1048576,
+      "listedAt": "2026-09-24",
+      "prices": [
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "fireworks",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -18122,6 +18586,21 @@
       "listedAt": "2025-11-13"
     },
     {
+      "id": "eu/gpt-5.1-chat",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "azure/eu/gpt-5.1-chat",
+      "context": 111616,
+      "prices": [
+        {
+          "input": 1.375,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu/gpt-5.1-codex",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/eu/gpt-5.1-codex",
@@ -18190,19 +18669,14 @@
       "listedAt": "2025-12-10",
       "prices": [
         {
-          "input": 1.75,
-          "output": 14,
-          "vendor": "openai",
-          "mode": "standard"
-        },
-        {
-          "input": 1.75,
-          "output": 14,
-          "vendor": "openrouter",
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
           "mode": "standard"
         }
       ],
-      "benchmarks": []
+      "benchmarks": [],
+      "context": 111616
     },
     {
       "id": "eu/gpt-5.2-codex",
@@ -18228,6 +18702,21 @@
         {
           "input": 23.099999999999998,
           "output": 184.79999999999998,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/gpt-5.3-chat",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "azure/eu/gpt-5.3-chat",
+      "context": 111616,
+      "prices": [
+        {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
           "vendor": "azure",
           "mode": "standard"
         }
@@ -18453,6 +18942,38 @@
       "benchmarks": []
     },
     {
+      "id": "eu/gpt-6-luna",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "azure/eu/gpt-6-luna",
+      "context": 922000,
+      "listedAt": "2026-09-22",
+      "prices": [
+        {
+          "input": 0.12,
+          "output": 0.6,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu/gpt-6-sol",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "azure/eu/gpt-6-sol",
+      "context": 922000,
+      "listedAt": "2026-09-22",
+      "prices": [
+        {
+          "input": 2.4,
+          "output": 12,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu/o1-2024-12-17",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/eu/o1-2024-12-17",
@@ -18508,57 +19029,10 @@
           "output": 66,
           "vendor": "azure",
           "mode": "standard"
-        },
-        {
-          "input": 15,
-          "output": 60,
-          "vendor": "openai",
-          "mode": "standard"
-        },
-        {
-          "input": 15,
-          "output": 60,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 15,
-          "output": 60,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 15,
-          "output": 60,
-          "vendor": "openai",
-          "mode": "standard"
-        },
-        {
-          "input": 15,
-          "output": 60,
-          "vendor": "openrouter",
-          "mode": "standard"
-        },
-        {
-          "input": 15,
-          "output": 60,
-          "vendor": "replicate",
-          "mode": "standard"
-        },
-        {
-          "input": 15,
-          "output": 60,
-          "vendor": "vercel_ai_gateway",
-          "mode": "standard"
-        },
-        {
-          "input": 16.5,
-          "output": 66,
-          "vendor": "azure",
-          "mode": "standard"
         }
       ],
-      "benchmarks": []
+      "benchmarks": [],
+      "context": 128000
     },
     {
       "id": "eu/o1-preview-2024-09-12",
@@ -18573,6 +19047,12 @@
           "mode": "standard"
         },
         {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 15,
           "output": 60,
           "vendor": "openai",
@@ -18612,6 +19092,12 @@
           "input": 15,
           "output": 60,
           "vendor": "vercel_ai_gateway",
+          "mode": "standard"
+        },
+        {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -18805,6 +19291,22 @@
           "input": 0.19999999999999998,
           "output": 0.19999999999999998,
           "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "fireworks/ember-1",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/fireworks/ember-1",
+      "context": 1048576,
+      "listedAt": "2026-09-24",
+      "prices": [
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "openrouter",
           "mode": "standard"
         }
       ],
@@ -19602,6 +20104,20 @@
       "context": 8192
     },
     {
+      "id": "gemini-2.5-flash-tts",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "vertex_ai/gemini-2.5-flash-tts",
+      "prices": [
+        {
+          "input": 0.5,
+          "output": 10,
+          "vendor": "vertex_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gemini-2.5-flash:batch",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "Google: Gemini 2.5 Flash (batch)",
@@ -19707,6 +20223,20 @@
           "input": 1,
           "output": 20,
           "vendor": "gemini",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gemini-2.5-pro-tts",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "vertex_ai/gemini-2.5-pro-tts",
+      "prices": [
+        {
+          "input": 1,
+          "output": 20,
+          "vendor": "vertex_ai",
           "mode": "standard"
         }
       ],
@@ -20026,6 +20556,12 @@
           "output": 12,
           "vendor": "vertex_ai-language-models",
           "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 12,
+          "vendor": "gemini",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -20090,6 +20626,12 @@
           "input": 0.5,
           "output": 3,
           "vendor": "vertex_ai-language-models",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5,
+          "output": 3,
+          "vendor": "gemini",
           "mode": "standard"
         }
       ],
@@ -20169,6 +20711,12 @@
           "input": 0.25,
           "output": 1.5,
           "vendor": "vertex_ai-language-models",
+          "mode": "standard"
+        },
+        {
+          "input": 0.25,
+          "output": 1.5,
+          "vendor": "gemini",
           "mode": "standard"
         }
       ],
@@ -20942,6 +21490,57 @@
       "benchmarks": []
     },
     {
+      "id": "gemini-3.8-flash-cyber",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "vertex_ai/gemini-3.8-flash-cyber",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 1.5,
+          "output": 7.5,
+          "vendor": "vertex_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.5,
+          "output": 7.5,
+          "vendor": "vertex_ai-language-models",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gemini-3.8-flash-lite-tts",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "gemini/gemini-3.8-flash-lite-tts",
+      "context": 8192,
+      "prices": [
+        {
+          "input": 0.5,
+          "output": 6,
+          "vendor": "gemini",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gemini-3.8-flash-tts",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "gemini/gemini-3.8-flash-tts",
+      "context": 8192,
+      "prices": [
+        {
+          "input": 0.5,
+          "output": 9,
+          "vendor": "gemini",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gemini-3.8-flash:batch",
       "firstSeen": "2026-09-03T11:12:04.479Z",
       "name": "Google: Gemini 3.8 Flash (batch)",
@@ -20963,6 +21562,12 @@
       "name": "gemini-3.8-live",
       "context": 131072,
       "prices": [
+        {
+          "input": 0.75,
+          "output": 4.5,
+          "vendor": "vertex_ai",
+          "mode": "standard"
+        },
         {
           "input": 0.75,
           "output": 4.5,
@@ -21051,6 +21656,12 @@
           "input": 0.19999999999999998,
           "output": 0,
           "vendor": "vertex_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0,
+          "vendor": "gemini",
           "mode": "standard"
         }
       ],
@@ -21670,6 +22281,12 @@
           "input": 0.09,
           "output": 0.33999999999999997,
           "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39,
+          "output": 0.9700000000000001,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -22636,8 +23253,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.6537999999999999,
-          "output": 2.0547999999999997,
+          "input": 0.84,
+          "output": 2.64,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -22689,6 +23306,22 @@
       "listedAt": "2026-08-18"
     },
     {
+      "id": "glm-5.3-prime",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "Z.ai: GLM 5.3 Prime",
+      "context": 1000000,
+      "listedAt": "2026-09-23",
+      "prices": [
+        {
+          "input": 2.8,
+          "output": 8.8,
+          "vendor": "z-ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "glm-5.3:batch",
       "firstSeen": "2026-09-09T11:20:19.183Z",
       "name": "Z.ai: GLM 5.3 (batch)",
@@ -22696,8 +23329,8 @@
       "listedAt": "2026-08-18",
       "prices": [
         {
-          "input": 0.72,
-          "output": 2.4,
+          "input": 0.44999999999999996,
+          "output": 2,
           "vendor": "z-ai",
           "mode": "batch"
         }
@@ -22868,8 +23501,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.075,
-          "output": 0.25,
+          "input": 0.045,
+          "output": 0.14,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -22996,6 +23629,21 @@
           "output": 5,
           "vendor": "bedrock_converse",
           "mode": "other"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "global.anthropic.claude-mythos-5-1",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "global.anthropic.claude-mythos-5-1",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 10,
+          "output": 50,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -23234,6 +23882,36 @@
         {
           "input": 10,
           "output": 50,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "global.openai.gpt-6-luna",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "global.openai.gpt-6-luna",
+      "context": 1050000,
+      "prices": [
+        {
+          "input": 0.09999999999999999,
+          "output": 0.5,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "global.openai.gpt-6-sol",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "global.openai.gpt-6-sol",
+      "context": 1050000,
+      "prices": [
+        {
+          "input": 2,
+          "output": 10,
           "vendor": "bedrock_converse",
           "mode": "standard"
         }
@@ -24225,6 +24903,12 @@
           "output": 0.65,
           "vendor": "openrouter",
           "mode": "standard"
+        },
+        {
+          "input": 0.7999999999999999,
+          "output": 0.7999999999999999,
+          "vendor": "together_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -24363,6 +25047,12 @@
           "output": 0.3,
           "vendor": "openrouter",
           "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.3,
+          "vendor": "wandb",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -24439,6 +25129,12 @@
           "input": 0.09,
           "output": 0.33999999999999997,
           "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39,
+          "output": 0.9700000000000001,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -25910,6 +26606,12 @@
         {
           "input": 1.25,
           "output": 10,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.25,
+          "output": 10,
           "vendor": "openai",
           "mode": "standard"
         }
@@ -25927,12 +26629,6 @@
           "output": 10,
           "vendor": "openai",
           "mode": "standard"
-        },
-        {
-          "input": 1.25,
-          "output": 10,
-          "vendor": "openrouter",
-          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -25947,6 +26643,12 @@
           "input": 1.25,
           "output": 10,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.25,
+          "output": 10,
+          "vendor": "openai",
           "mode": "standard"
         }
       ],
@@ -26358,6 +27060,36 @@
       "listedAt": "2025-11-13"
     },
     {
+      "id": "gpt-5.1-chat",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "azure/gpt-5.1-chat",
+      "context": 111616,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 10,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gpt-5.1-chat-latest",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "gpt-5.1-chat-latest",
+      "context": 128000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 10,
+          "vendor": "openai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-5.1-codex",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "OpenAI: GPT-5.1-Codex",
@@ -26657,6 +27389,12 @@
           "output": 14,
           "vendor": "openai",
           "mode": "standard"
+        },
+        {
+          "input": 1.75,
+          "output": 14,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -26669,6 +27407,24 @@
       "context": 128000,
       "prices": [
         {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.75,
+          "output": 14,
+          "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.75,
+          "output": 14,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 1.75,
           "output": 14,
           "vendor": "openai",
@@ -26678,6 +27434,12 @@
           "input": 1.75,
           "output": 14,
           "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
           "mode": "standard"
         }
       ],
@@ -26694,12 +27456,6 @@
           "input": 1.75,
           "output": 14,
           "vendor": "openai",
-          "mode": "standard"
-        },
-        {
-          "input": 1.75,
-          "output": 14,
-          "vendor": "openrouter",
           "mode": "standard"
         }
       ],
@@ -26814,6 +27570,36 @@
           "output": 7,
           "vendor": "openai",
           "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gpt-5.3-chat",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "azure/gpt-5.3-chat",
+      "context": 111616,
+      "prices": [
+        {
+          "input": 1.75,
+          "output": 14,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gpt-5.3-chat-latest",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "gpt-5.3-chat-latest",
+      "context": 128000,
+      "prices": [
+        {
+          "input": 1.75,
+          "output": 14,
+          "vendor": "openai",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -28781,6 +29567,34 @@
           "output": 0.5,
           "vendor": "openai",
           "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.5,
+          "vendor": "azure_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.5,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gpt-6-luna-2026-09-22",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "azure/gpt-6-luna-2026-09-22",
+      "context": 922000,
+      "listedAt": "2026-09-22",
+      "prices": [
+        {
+          "input": 0.09999999999999999,
+          "output": 0.5,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -28844,6 +29658,34 @@
           "input": 2,
           "output": 10,
           "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "azure_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gpt-6-sol-2026-09-22",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "azure/gpt-6-sol-2026-09-22",
+      "context": 922000,
+      "listedAt": "2026-09-22",
+      "prices": [
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "azure",
           "mode": "standard"
         }
       ],
@@ -29227,118 +30069,10 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.6,
+          "input": 0.0296,
+          "output": 0.136,
           "vendor": "openai",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "azure_ai",
-          "mode": "standard"
-        },
-        {
-          "input": 0.35,
-          "output": 0.75,
-          "vendor": "cerebras",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "fireworks_ai",
-          "mode": "standard"
-        },
-        {
-          "input": 0.08,
-          "output": 0.39999999999999997,
-          "vendor": "ovhcloud",
-          "mode": "standard"
-        },
-        {
-          "input": 0.22,
-          "output": 0.59,
-          "vendor": "sambanova",
-          "mode": "standard"
-        },
-        {
-          "input": 0.037,
-          "output": 0.16999999999999998,
-          "vendor": "deepinfra",
-          "mode": "standard"
-        },
-        {
-          "input": 0.09999999999999999,
-          "output": 0.5,
-          "vendor": "baseten",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "groq",
-          "mode": "standard"
-        },
-        {
-          "input": 0.7999999999999999,
-          "output": 0.7999999999999999,
-          "vendor": "crusoe",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "nebius",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "openrouter",
-          "mode": "standard"
-        },
-        {
-          "input": 0.18,
-          "output": 0.72,
-          "vendor": "replicate",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "together_ai",
-          "mode": "standard"
-        },
-        {
-          "input": 0.03,
-          "output": 0.16999999999999998,
-          "vendor": "wandb",
-          "mode": "standard"
-        },
-        {
-          "input": 0.159,
-          "output": 0.636,
-          "vendor": "watsonx",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "scaleway",
-          "mode": "standard"
-        },
-        {
-          "input": 0.049999999999999996,
-          "output": 0.25,
-          "vendor": "novita",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "tensormesh",
-          "mode": "standard"
+          "mode": "batch"
         }
       ],
       "benchmarks": [],
@@ -32829,7 +33563,7 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.7062,
+          "input": 0.6562,
           "output": 3.3000000000000003,
           "vendor": "moonshotai",
           "mode": "standard"
@@ -33116,8 +33850,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 3.3000000000000003,
-          "output": 16.5,
+          "input": 4.5,
+          "output": 22.5,
           "vendor": "fireworks_ai",
           "mode": "standard"
         }
@@ -33147,8 +33881,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 1.4989,
-          "output": 10.758,
+          "input": 1.4,
+          "output": 10.75,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -33163,14 +33897,14 @@
       "context": 131072,
       "prices": [
         {
-          "input": 1.4989,
-          "output": 10.758,
+          "input": 3,
+          "output": 15,
           "vendor": "openrouter",
           "mode": "standard"
         },
         {
-          "input": 1.4989,
-          "output": 10.758,
+          "input": 1.4,
+          "output": 10.75,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -33185,14 +33919,14 @@
       "context": 32768,
       "prices": [
         {
-          "input": 1.4989,
-          "output": 10.758,
+          "input": 3,
+          "output": 15,
           "vendor": "openrouter",
           "mode": "standard"
         },
         {
-          "input": 1.4989,
-          "output": 10.758,
+          "input": 1.4,
+          "output": 10.75,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -33207,14 +33941,14 @@
       "context": 8192,
       "prices": [
         {
-          "input": 1.4989,
-          "output": 10.758,
+          "input": 3,
+          "output": 15,
           "vendor": "openrouter",
           "mode": "standard"
         },
         {
-          "input": 1.4989,
-          "output": 10.758,
+          "input": 1.4,
+          "output": 10.75,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -33229,14 +33963,14 @@
       "context": 131072,
       "prices": [
         {
-          "input": 1.4989,
-          "output": 10.758,
+          "input": 3,
+          "output": 15,
           "vendor": "openrouter",
           "mode": "standard"
         },
         {
-          "input": 1.4989,
-          "output": 10.758,
+          "input": 1.4,
+          "output": 10.75,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -33625,10 +34359,16 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0,
-          "output": 0,
+          "input": 0.06,
+          "output": 0.18,
+          "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.06,
+          "output": 0.18,
           "vendor": "inclusionai",
-          "mode": "free"
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -34495,6 +35235,21 @@
       "benchmarks": []
     },
     {
+      "id": "lyria-realtime-exp",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "gemini/lyria-realtime-exp",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "gemini",
+          "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "magistral-medium-latest",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "mistral/magistral-medium-latest",
@@ -35028,6 +35783,21 @@
       "benchmarks": []
     },
     {
+      "id": "meta-llama/llama-3-8b-chat-hf",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "together_ai/meta-llama/Llama-3-8b-chat-hf",
+      "context": 8192,
+      "prices": [
+        {
+          "input": 0.19999999999999998,
+          "output": 0.19999999999999998,
+          "vendor": "together_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "meta-llama/llama-3-8b-instruct",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "novita/meta-llama/llama-3-8b-instruct",
@@ -35386,6 +36156,12 @@
           "output": 0.59,
           "vendor": "novita",
           "mode": "standard"
+        },
+        {
+          "input": 0.18,
+          "output": 0.59,
+          "vendor": "together_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -35500,6 +36276,21 @@
       "benchmarks": []
     },
     {
+      "id": "meta-llama/meta-llama-3-70b-instruct-turbo",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "together_ai/meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
+      "context": 8192,
+      "prices": [
+        {
+          "input": 0.88,
+          "output": 0.88,
+          "vendor": "together_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "meta-llama/meta-llama-3-8b-instruct",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "anyscale/meta-llama/Meta-Llama-3-8B-Instruct",
@@ -35515,6 +36306,12 @@
           "input": 0.03,
           "output": 0.06,
           "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.19999999999999998,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -35579,6 +36376,12 @@
           "output": 0.39999999999999997,
           "vendor": "deepinfra",
           "mode": "standard"
+        },
+        {
+          "input": 0.88,
+          "output": 0.88,
+          "vendor": "together_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -35620,6 +36423,12 @@
           "input": 0.02,
           "output": 0.04,
           "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 0.18,
+          "output": 0.18,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -36426,6 +37235,21 @@
       "listedAt": "2024-12-06"
     },
     {
+      "id": "meta/llama-3.3-70b-instruct-maas",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "vertex_ai/meta/llama-3.3-70b-instruct-maas",
+      "context": 128000,
+      "prices": [
+        {
+          "input": 0.72,
+          "output": 0.72,
+          "vendor": "vertex_ai-llama_models",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "meta/llama-4-maverick",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "vercel_ai_gateway/meta/llama-4-maverick",
@@ -37065,12 +37889,6 @@
       "context": 204800,
       "prices": [
         {
-          "input": 0.255,
-          "output": 1.02,
-          "vendor": "minimax",
-          "mode": "standard"
-        },
-        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "minimax",
@@ -37625,8 +38443,8 @@
       "context": 204800,
       "prices": [
         {
-          "input": 0.255,
-          "output": 1.02,
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -39300,6 +40118,21 @@
       "benchmarks": []
     },
     {
+      "id": "mistral.pixtral-large-2502-v1:0",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "mistral.pixtral-large-2502-v1:0",
+      "context": 128000,
+      "prices": [
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "bedrock_converse",
+          "mode": "other"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "mistral.voxtral-mini-3b-2507",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "mistral.voxtral-mini-3b-2507",
@@ -39724,6 +40557,12 @@
           "output": 0.15,
           "vendor": "anyscale",
           "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.19999999999999998,
+          "vendor": "together_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -40050,6 +40889,12 @@
           "output": 0.08,
           "vendor": "openrouter",
           "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.3,
+          "vendor": "together_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -40229,6 +41074,12 @@
           "input": 0.3,
           "output": 1,
           "vendor": "replicate",
+          "mode": "standard"
+        },
+        {
+          "input": 0.6,
+          "output": 0.6,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -40790,6 +41641,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.2,
+          "output": 4.5,
+          "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
           "input": 0.95,
           "output": 4,
           "vendor": "baseten",
@@ -40830,9 +41687,15 @@
           "mode": "standard"
         },
         {
-          "input": 0.7062,
+          "input": 0.6562,
           "output": 3.3000000000000003,
           "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.95,
+          "output": 4,
+          "vendor": "together_ai",
           "mode": "standard"
         },
         {
@@ -41373,6 +42236,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.6,
+          "output": 3.5999999999999996,
+          "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
           "input": 0.25,
           "output": 2.5,
           "vendor": "perplexity",
@@ -41566,7 +42435,7 @@
         {
           "input": 0.024999999999999998,
           "output": 0.09999999999999999,
-          "vendor": "nex-agi",
+          "vendor": "openrouter",
           "mode": "standard"
         }
       ],
@@ -41598,7 +42467,7 @@
         {
           "input": 0.075,
           "output": 0.25,
-          "vendor": "nex-agi",
+          "vendor": "openrouter",
           "mode": "standard"
         }
       ],
@@ -41785,6 +42654,21 @@
           "input": 0.13,
           "output": 0.39999999999999997,
           "vendor": "nebius",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "together_ai/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0.6,
+          "output": 0.6,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -42014,6 +42898,21 @@
       "benchmarks": []
     },
     {
+      "id": "nvidia/llama-3.1-nemotron-70b-instruct-hf",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "together_ai/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0.88,
+          "output": 0.88,
+          "vendor": "together_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "nebius/nvidia/Llama-3.1-Nemotron-Ultra-253B-v1",
@@ -42202,6 +43101,12 @@
           "output": 2.4,
           "vendor": "openrouter",
           "mode": "standard"
+        },
+        {
+          "input": 0.6,
+          "output": 3.5999999999999996,
+          "vendor": "together_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -42262,7 +43167,7 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.07,
+          "input": 0.08,
           "output": 0.19999999999999998,
           "vendor": "openrouter",
           "mode": "standard"
@@ -42511,6 +43416,12 @@
           "mode": "standard"
         },
         {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 15,
           "output": 60,
           "vendor": "openai",
@@ -42550,6 +43461,12 @@
           "input": 15,
           "output": 60,
           "vendor": "vercel_ai_gateway",
+          "mode": "standard"
+        },
+        {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -42575,6 +43492,12 @@
           "mode": "standard"
         },
         {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 15,
           "output": 60,
           "vendor": "openai",
@@ -42614,6 +43537,12 @@
           "input": 15,
           "output": 60,
           "vendor": "vercel_ai_gateway",
+          "mode": "standard"
+        },
+        {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -42713,6 +43642,12 @@
           "output": 40,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 10,
+          "output": 40,
+          "vendor": "openai",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -42733,6 +43668,12 @@
           "input": 10,
           "output": 40,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 10,
+          "output": 40,
+          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -42923,6 +43864,21 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-04-16"
+    },
+    {
+      "id": "o4-mini-deep-research",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "o4-mini-deep-research",
+      "context": 200000,
+      "prices": [
+        {
+          "input": 2,
+          "output": 8,
+          "vendor": "openai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "o4-mini-high",
@@ -43236,6 +44192,48 @@
           "input": 11,
           "output": 55,
           "vendor": "bedrock_mantle",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "openai.gpt-6-luna",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "bedrock_mantle/openai.gpt-6-luna",
+      "context": 1050000,
+      "prices": [
+        {
+          "input": 0.11,
+          "output": 0.55,
+          "vendor": "bedrock_mantle",
+          "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.5,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "openai.gpt-6-sol",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "bedrock_mantle/openai.gpt-6-sol",
+      "context": 1050000,
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 11,
+          "vendor": "bedrock_mantle",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "bedrock_converse",
           "mode": "standard"
         }
       ],
@@ -44797,6 +45795,38 @@
       "benchmarks": []
     },
     {
+      "id": "openai/gpt-6-luna-pro:batch",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/openai/gpt-6-luna-pro:batch",
+      "context": 1050000,
+      "listedAt": "2026-09-22",
+      "prices": [
+        {
+          "input": 0.049999999999999996,
+          "output": 0.25,
+          "vendor": "openrouter",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "openai/gpt-6-luna:batch",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/openai/gpt-6-luna:batch",
+      "context": 1050000,
+      "listedAt": "2026-09-22",
+      "prices": [
+        {
+          "input": 0.049999999999999996,
+          "output": 0.25,
+          "vendor": "openrouter",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "openai/gpt-6-sol",
       "firstSeen": "2026-09-23T11:33:17.417Z",
       "name": "openrouter/openai/gpt-6-sol",
@@ -44824,6 +45854,38 @@
           "output": 10,
           "vendor": "openrouter",
           "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "openai/gpt-6-sol-pro:batch",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/openai/gpt-6-sol-pro:batch",
+      "context": 1050000,
+      "listedAt": "2026-09-22",
+      "prices": [
+        {
+          "input": 1,
+          "output": 5,
+          "vendor": "openrouter",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "openai/gpt-6-sol:batch",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/openai/gpt-6-sol:batch",
+      "context": 1050000,
+      "listedAt": "2026-09-22",
+      "prices": [
+        {
+          "input": 1,
+          "output": 5,
+          "vendor": "openrouter",
+          "mode": "batch"
         }
       ],
       "benchmarks": []
@@ -45017,118 +46079,10 @@
       "listedAt": "2025-08-05",
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "openai",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "azure_ai",
-          "mode": "standard"
-        },
-        {
-          "input": 0.35,
-          "output": 0.75,
-          "vendor": "cerebras",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "fireworks_ai",
-          "mode": "standard"
-        },
-        {
-          "input": 0.08,
-          "output": 0.39999999999999997,
-          "vendor": "ovhcloud",
-          "mode": "standard"
-        },
-        {
-          "input": 0.22,
-          "output": 0.59,
-          "vendor": "sambanova",
-          "mode": "standard"
-        },
-        {
-          "input": 0.037,
-          "output": 0.16999999999999998,
-          "vendor": "deepinfra",
-          "mode": "standard"
-        },
-        {
-          "input": 0.09999999999999999,
-          "output": 0.5,
-          "vendor": "baseten",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "groq",
-          "mode": "standard"
-        },
-        {
-          "input": 0.7999999999999999,
-          "output": 0.7999999999999999,
-          "vendor": "crusoe",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "nebius",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
+          "input": 0.0296,
+          "output": 0.136,
           "vendor": "openrouter",
-          "mode": "standard"
-        },
-        {
-          "input": 0.18,
-          "output": 0.72,
-          "vendor": "replicate",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "together_ai",
-          "mode": "standard"
-        },
-        {
-          "input": 0.03,
-          "output": 0.16999999999999998,
-          "vendor": "wandb",
-          "mode": "standard"
-        },
-        {
-          "input": 0.159,
-          "output": 0.636,
-          "vendor": "watsonx",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "scaleway",
-          "mode": "standard"
-        },
-        {
-          "input": 0.049999999999999996,
-          "output": 0.25,
-          "vendor": "novita",
-          "mode": "standard"
-        },
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "tensormesh",
-          "mode": "standard"
+          "mode": "batch"
         }
       ],
       "benchmarks": []
@@ -45180,6 +46134,12 @@
           "output": 0.28,
           "vendor": "tensormesh",
           "mode": "standard"
+        },
+        {
+          "input": 0.049999999999999996,
+          "output": 0.19999999999999998,
+          "vendor": "together_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -45196,6 +46156,22 @@
           "output": 0.25,
           "vendor": "vertex_ai-openai_models",
           "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "openai/gpt-oss-20b:batch",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/openai/gpt-oss-20b:batch",
+      "context": 131072,
+      "listedAt": "2025-08-05",
+      "prices": [
+        {
+          "input": 0.024,
+          "output": 0.112,
+          "vendor": "openrouter",
+          "mode": "batch"
         }
       ],
       "benchmarks": []
@@ -45734,6 +46710,12 @@
           "input": 0.09,
           "output": 0.33999999999999997,
           "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39,
+          "output": 0.9700000000000001,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -47185,6 +48167,21 @@
       "benchmarks": []
     },
     {
+      "id": "qwen/qwen2-72b-instruct",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "together_ai/Qwen/Qwen2-72B-Instruct",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0.8999999999999999,
+          "output": 0.8999999999999999,
+          "vendor": "together_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "qwen/qwen2-vl-72b-instruct",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "nebius/Qwen/Qwen2-VL-72B-Instruct",
@@ -47194,6 +48191,12 @@
           "input": 0.13,
           "output": 0.39999999999999997,
           "vendor": "nebius",
+          "mode": "standard"
+        },
+        {
+          "input": 1.2,
+          "output": 1.2,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -47277,6 +48280,21 @@
       "benchmarks": []
     },
     {
+      "id": "qwen/qwen2.5-72b-instruct-turbo",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "together_ai/Qwen/Qwen2.5-72B-Instruct-Turbo",
+      "context": 131072,
+      "prices": [
+        {
+          "input": 1.2,
+          "output": 1.2,
+          "vendor": "together_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "qwen/qwen2.5-7b-instruct",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "deepinfra/Qwen/Qwen2.5-7B-Instruct",
@@ -47328,6 +48346,12 @@
           "input": 0.06,
           "output": 0.19999999999999998,
           "vendor": "nscale",
+          "mode": "standard"
+        },
+        {
+          "input": 0.7999999999999999,
+          "output": 0.7999999999999999,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -47413,6 +48437,12 @@
           "input": 0.7999999999999999,
           "output": 1,
           "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 1.95,
+          "output": 8,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -47662,8 +48692,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04815,
-          "output": 0.19305,
+          "input": 0.09999999999999999,
+          "output": 0.3,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -47867,6 +48897,12 @@
           "output": 1.7999999999999998,
           "vendor": "tensormesh",
           "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 2,
+          "vendor": "together_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -47938,6 +48974,21 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-02-04"
+    },
+    {
+      "id": "qwen/qwen3-coder-next-fp8",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "together_ai/Qwen/Qwen3-Coder-Next-FP8",
+      "context": 262144,
+      "prices": [
+        {
+          "input": 0.5,
+          "output": 1.2,
+          "vendor": "together_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "qwen/qwen3-coder-plus",
@@ -48066,9 +49117,15 @@
           "mode": "standard"
         },
         {
-          "input": 0.09,
+          "input": 0.09999999999999999,
           "output": 1.1,
           "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 1.5,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -48118,6 +49175,12 @@
           "input": 0.15,
           "output": 1.2,
           "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 1.5,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -48311,6 +49374,12 @@
           "output": 0.41600000000000004,
           "vendor": "openrouter",
           "mode": "standard"
+        },
+        {
+          "input": 0.5,
+          "output": 1.5,
+          "vendor": "together_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -48331,6 +49400,12 @@
           "input": 0.117,
           "output": 0.45499999999999996,
           "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.18,
+          "output": 0.6799999999999999,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -48477,6 +49552,12 @@
           "input": 0.44999999999999996,
           "output": 3,
           "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 0.6,
+          "output": 3.5999999999999996,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -49008,6 +50089,38 @@
       "benchmarks": []
     },
     {
+      "id": "qwen/qwen3.8-max-prime",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/qwen/qwen3.8-max-prime",
+      "context": 1000000,
+      "listedAt": "2026-09-23",
+      "prices": [
+        {
+          "input": 4,
+          "output": 12,
+          "vendor": "openrouter",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "qwen/qwen3.8-omni-flash",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/qwen/qwen3.8-omni-flash",
+      "context": 1000000,
+      "listedAt": "2026-09-21",
+      "prices": [
+        {
+          "input": 0.15,
+          "output": 0.47,
+          "vendor": "openrouter",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "qwen/qwq-32b",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "deepinfra/Qwen/QwQ-32B",
@@ -49035,6 +50148,12 @@
           "input": 0.15,
           "output": 0.44999999999999996,
           "vendor": "nebius",
+          "mode": "standard"
+        },
+        {
+          "input": 1.2,
+          "output": 1.2,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -49194,8 +50313,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.04815,
-          "output": 0.19305,
+          "input": 0.09999999999999999,
+          "output": 0.3,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -49498,7 +50617,7 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.09,
+          "input": 0.09999999999999999,
           "output": 1.1,
           "vendor": "qwen",
           "mode": "standard"
@@ -50586,6 +51705,22 @@
       "benchmarks": []
     },
     {
+      "id": "qwen3.8-max-prime",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "Qwen: Qwen3.8 Max Prime",
+      "context": 1000000,
+      "listedAt": "2026-09-23",
+      "prices": [
+        {
+          "input": 4,
+          "output": 12,
+          "vendor": "qwen",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "qwen3.8-omni-flash",
       "firstSeen": "2026-09-19T10:56:15.912Z",
       "name": "dashscope/qwen3.8-omni-flash",
@@ -50671,6 +51806,12 @@
           "input": 0.15,
           "output": 0.44999999999999996,
           "vendor": "nebius",
+          "mode": "standard"
+        },
+        {
+          "input": 1.2,
+          "output": 1.2,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -51869,6 +53010,38 @@
       "benchmarks": []
     },
     {
+      "id": "space-bunny-alpha",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "Space Bunny Alpha",
+      "context": 1000000,
+      "listedAt": "2026-09-23",
+      "prices": [
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "stealth",
+          "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "stealth/space-bunny-alpha",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/stealth/space-bunny-alpha",
+      "context": 1000000,
+      "listedAt": "2026-09-23",
+      "prices": [
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "openrouter",
+          "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "step-3.5-flash",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "StepFun: Step 3.5 Flash",
@@ -52770,6 +53943,21 @@
       "benchmarks": []
     },
     {
+      "id": "together/tev1-4b-experimental",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "together_ai/together/Tev1-4B-experimental",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0.041999999999999996,
+          "output": 0,
+          "vendor": "together_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "trinity-large-thinking",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "Arcee AI: Trinity Large Thinking",
@@ -52877,6 +54065,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2024-11-08"
+    },
+    {
+      "id": "upstage/solar-mini4",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/upstage/solar-mini4",
+      "context": 524288,
+      "listedAt": "2026-09-23",
+      "prices": [
+        {
+          "input": 0.049999999999999996,
+          "output": 0.19999999999999998,
+          "vendor": "openrouter",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "upstage/solar-pro-3",
@@ -54868,6 +56072,51 @@
       "benchmarks": []
     },
     {
+      "id": "us.anthropic.claude-mythos-5",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "us.anthropic.claude-mythos-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 11,
+          "output": 55,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us.anthropic.claude-mythos-5-1",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "us.anthropic.claude-mythos-5-1",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 11,
+          "output": 55,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us.anthropic.claude-mythos-preview",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "us.anthropic.claude-mythos-preview",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 27.5,
+          "output": 137.5,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us.anthropic.claude-opus-4-1-20250805-v1:0",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "us.anthropic.claude-opus-4-1-20250805-v1:0",
@@ -55333,6 +56582,36 @@
       "benchmarks": []
     },
     {
+      "id": "us.openai.gpt-6-luna",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "us.openai.gpt-6-luna",
+      "context": 1050000,
+      "prices": [
+        {
+          "input": 0.11,
+          "output": 0.55,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us.openai.gpt-6-sol",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "us.openai.gpt-6-sol",
+      "context": 1050000,
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 11,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us.writer.palmyra-x4-v1:0",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "us.writer.palmyra-x4-v1:0",
@@ -55745,6 +57024,21 @@
       "listedAt": "2025-11-13"
     },
     {
+      "id": "us/gpt-5.1-chat",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "azure/us/gpt-5.1-chat",
+      "context": 111616,
+      "prices": [
+        {
+          "input": 1.375,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us/gpt-5.1-codex",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/us/gpt-5.1-codex",
@@ -55813,19 +57107,14 @@
       "listedAt": "2025-12-10",
       "prices": [
         {
-          "input": 1.75,
-          "output": 14,
-          "vendor": "openai",
-          "mode": "standard"
-        },
-        {
-          "input": 1.75,
-          "output": 14,
-          "vendor": "openrouter",
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
+          "vendor": "azure",
           "mode": "standard"
         }
       ],
-      "benchmarks": []
+      "benchmarks": [],
+      "context": 111616
     },
     {
       "id": "us/gpt-5.2-codex",
@@ -55851,6 +57140,21 @@
         {
           "input": 23.099999999999998,
           "output": 184.79999999999998,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us/gpt-5.3-chat",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "azure/us/gpt-5.3-chat",
+      "context": 111616,
+      "prices": [
+        {
+          "input": 1.9250000000000003,
+          "output": 15.400000000000002,
           "vendor": "azure",
           "mode": "standard"
         }
@@ -56077,6 +57381,38 @@
       "benchmarks": []
     },
     {
+      "id": "us/gpt-6-luna",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "azure/us/gpt-6-luna",
+      "context": 922000,
+      "listedAt": "2026-09-22",
+      "prices": [
+        {
+          "input": 0.11,
+          "output": 0.55,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us/gpt-6-sol",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "azure/us/gpt-6-sol",
+      "context": 922000,
+      "listedAt": "2026-09-22",
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us/gpt-chat-latest",
       "firstSeen": "2026-09-15T11:42:25.295Z",
       "name": "azure/us/gpt-chat-latest",
@@ -56148,57 +57484,10 @@
           "output": 66,
           "vendor": "azure",
           "mode": "standard"
-        },
-        {
-          "input": 15,
-          "output": 60,
-          "vendor": "openai",
-          "mode": "standard"
-        },
-        {
-          "input": 15,
-          "output": 60,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 15,
-          "output": 60,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 15,
-          "output": 60,
-          "vendor": "openai",
-          "mode": "standard"
-        },
-        {
-          "input": 15,
-          "output": 60,
-          "vendor": "openrouter",
-          "mode": "standard"
-        },
-        {
-          "input": 15,
-          "output": 60,
-          "vendor": "replicate",
-          "mode": "standard"
-        },
-        {
-          "input": 15,
-          "output": 60,
-          "vendor": "vercel_ai_gateway",
-          "mode": "standard"
-        },
-        {
-          "input": 16.5,
-          "output": 66,
-          "vendor": "azure",
-          "mode": "standard"
         }
       ],
-      "benchmarks": []
+      "benchmarks": [],
+      "context": 128000
     },
     {
       "id": "us/o1-preview-2024-09-12",
@@ -56213,6 +57502,12 @@
           "mode": "standard"
         },
         {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 15,
           "output": 60,
           "vendor": "openai",
@@ -56252,6 +57547,12 @@
           "input": 15,
           "output": 60,
           "vendor": "vercel_ai_gateway",
+          "mode": "standard"
+        },
+        {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -57963,8 +59264,8 @@
       "listedAt": "2026-08-18",
       "prices": [
         {
-          "input": 0.6537999999999999,
-          "output": 2.0547999999999997,
+          "input": 0.84,
+          "output": 2.64,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -58020,6 +59321,22 @@
       "benchmarks": []
     },
     {
+      "id": "z-ai/glm-5.3-prime",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "openrouter/z-ai/glm-5.3-prime",
+      "context": 1000000,
+      "listedAt": "2026-09-23",
+      "prices": [
+        {
+          "input": 2.8,
+          "output": 8.8,
+          "vendor": "openrouter",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "z-ai/glm-5.3:batch",
       "firstSeen": "2026-09-18T11:11:35.916Z",
       "name": "openrouter/z-ai/glm-5.3:batch",
@@ -58027,8 +59344,8 @@
       "listedAt": "2026-08-18",
       "prices": [
         {
-          "input": 0.72,
-          "output": 2.4,
+          "input": 0.44999999999999996,
+          "output": 2,
           "vendor": "openrouter",
           "mode": "batch"
         }
@@ -58180,6 +59497,21 @@
       "listedAt": "2025-07-25"
     },
     {
+      "id": "zai-org/glm-4.5-air-fp8",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "together_ai/zai-org/GLM-4.5-Air-FP8",
+      "context": 131072,
+      "prices": [
+        {
+          "input": 0.19999999999999998,
+          "output": 1.1,
+          "vendor": "together_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "zai-org/glm-4.5v",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "novita/zai-org/glm-4.5v",
@@ -58267,6 +59599,12 @@
           "input": 0.39999999999999997,
           "output": 1.75,
           "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 0.44999999999999996,
+          "output": 2,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -58363,6 +59701,12 @@
           "output": 2.08,
           "vendor": "deepinfra",
           "mode": "standard"
+        },
+        {
+          "input": 1,
+          "output": 3.1999999999999997,
+          "vendor": "together_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -58427,6 +59771,12 @@
           "input": 1.0499999999999998,
           "output": 3.5,
           "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -58554,6 +59904,21 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-08-18"
+    },
+    {
+      "id": "zai-org/glm-5.3-fast",
+      "firstSeen": "2026-09-24T11:43:01.736Z",
+      "name": "baseten/zai-org/GLM-5.3-Fast",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 2.0999999999999996,
+          "output": 6.6000000000000005,
+          "vendor": "baseten",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "zai-org/glm-5.3-flash",
