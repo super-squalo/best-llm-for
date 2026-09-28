@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T12:00:08.186Z",
+  "generatedAt": "2026-09-28T13:50:59.650Z",
   "sources": [
     {
       "name": "OpenRouter",
@@ -11,7 +11,7 @@
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3603
+      "records": 3604
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -21,11 +21,7 @@
     }
   ],
   "newModels": [
-    "databricks-claude-opus-5-5",
-    "google/gemma-4-12b-it",
-    "meta-llama/meta-llama-3.1-8b",
-    "nvidia/gemma-4-31b-it-nvfp4",
-    "salesforce/llama-rank-v1"
+    "mai-cyber-1-flash"
   ],
   "models": [
     {
@@ -14172,8 +14168,8 @@
       "context": 163840,
       "prices": [
         {
-          "input": 0.32,
-          "output": 0.8899999999999999,
+          "input": 0.2574,
+          "output": 1.0287,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -14194,8 +14190,8 @@
       "context": 163840,
       "prices": [
         {
-          "input": 0.25,
-          "output": 1,
+          "input": 0.29,
+          "output": 1.1400000000000001,
           "vendor": "deepseek",
           "mode": "standard"
         }
@@ -14333,8 +14329,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.035,
-          "output": 0.29,
+          "input": 0.014,
+          "output": 0.39999999999999997,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -14364,8 +14360,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.24419999999999997,
-          "output": 0.7326,
+          "input": 0.22592,
+          "output": 1.9584000000000001,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -14639,8 +14635,8 @@
       "context": 163840,
       "prices": [
         {
-          "input": 0.26899999999999996,
-          "output": 0.39999999999999997,
+          "input": 0.28,
+          "output": 0.42,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -14767,8 +14763,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.26899999999999996,
-          "output": 0.39999999999999997,
+          "input": 0.28,
+          "output": 0.42,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -14803,8 +14799,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.26899999999999996,
-          "output": 0.39999999999999997,
+          "input": 0.28,
+          "output": 0.42,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -14880,8 +14876,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.046900000000000004,
-          "output": 0.09380000000000001,
+          "input": 0.08386,
+          "output": 0.16772,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15244,8 +15240,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.046900000000000004,
-          "output": 0.09380000000000001,
+          "input": 0.08386,
+          "output": 0.16772,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15322,8 +15318,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.047040000000000005,
-          "output": 0.09408000000000001,
+          "input": 0.14,
+          "output": 0.28,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -15387,8 +15383,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.046900000000000004,
-          "output": 0.09380000000000001,
+          "input": 0.08386,
+          "output": 0.16772,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15465,8 +15461,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.047040000000000005,
-          "output": 0.09408000000000001,
+          "input": 0.14,
+          "output": 0.28,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -15532,8 +15528,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.21559999999999999,
-          "output": 0.6468,
+          "input": 0.44,
+          "output": 1.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15561,8 +15557,8 @@
       "listedAt": "2026-08-21",
       "prices": [
         {
-          "input": 0.21559999999999999,
-          "output": 0.6468,
+          "input": 0.44,
+          "output": 1.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15585,8 +15581,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.22,
-          "output": 0.66,
+          "input": 0.44,
+          "output": 1.32,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -15601,8 +15597,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.348,
-          "output": 0.696,
+          "input": 0.9481259999999999,
+          "output": 1.8962519999999998,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15672,8 +15668,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.24502000000000002,
-          "output": 3.5,
+          "input": 0.3995,
+          "output": 4.199999999999999,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15730,8 +15726,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.24502000000000002,
-          "output": 3.5,
+          "input": 0.3995,
+          "output": 4.199999999999999,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15742,7 +15738,7 @@
           "mode": "standard"
         },
         {
-          "input": 0.24760000000000001,
+          "input": 0.24298000000000003,
           "output": 3.5,
           "vendor": "openrouter",
           "mode": "standard"
@@ -15788,8 +15784,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.348,
-          "output": 0.696,
+          "input": 0.9481259999999999,
+          "output": 1.8962519999999998,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15836,8 +15832,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.348,
-          "output": 0.696,
+          "input": 0.9483,
+          "output": 1.8966,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -15895,8 +15891,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.348,
-          "output": 0.696,
+          "input": 0.9481259999999999,
+          "output": 1.8962519999999998,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15943,8 +15939,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.348,
-          "output": 0.696,
+          "input": 0.9483,
+          "output": 1.8966,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -15979,8 +15975,8 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0.035,
-          "output": 0.29,
+          "input": 0.014,
+          "output": 0.39999999999999997,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -16123,8 +16119,8 @@
       "context": 65536,
       "prices": [
         {
-          "input": 0.32,
-          "output": 0.8899999999999999,
+          "input": 0.2574,
+          "output": 1.0287,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -16139,8 +16135,8 @@
       "context": 65536,
       "prices": [
         {
-          "input": 0.25,
-          "output": 1,
+          "input": 0.29,
+          "output": 1.1400000000000001,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -16451,8 +16447,8 @@
       "context": 163840,
       "prices": [
         {
-          "input": 0.26899999999999996,
-          "output": 0.39999999999999997,
+          "input": 0.28,
+          "output": 0.42,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -16516,8 +16512,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.047040000000000005,
-          "output": 0.09408000000000001,
+          "input": 0.14,
+          "output": 0.28,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -16772,8 +16768,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.22,
-          "output": 0.66,
+          "input": 0.44,
+          "output": 1.32,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -16789,8 +16785,8 @@
       "listedAt": "2026-08-21",
       "prices": [
         {
-          "input": 0.21559999999999999,
-          "output": 0.6468,
+          "input": 0.44,
+          "output": 1.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -16813,8 +16809,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.22,
-          "output": 0.66,
+          "input": 0.44,
+          "output": 1.32,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -16828,8 +16824,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.348,
-          "output": 0.696,
+          "input": 0.9483,
+          "output": 1.8966,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -16850,7 +16846,7 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.24760000000000001,
+          "input": 0.24298000000000003,
           "output": 3.5,
           "vendor": "openrouter",
           "mode": "standard"
@@ -16909,8 +16905,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.24502000000000002,
-          "output": 3.5,
+          "input": 0.3995,
+          "output": 4.199999999999999,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -16921,7 +16917,7 @@
           "mode": "standard"
         },
         {
-          "input": 0.24760000000000001,
+          "input": 0.24298000000000003,
           "output": 3.5,
           "vendor": "openrouter",
           "mode": "standard"
@@ -16943,8 +16939,8 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0.035,
-          "output": 0.29,
+          "input": 0.03483,
+          "output": 0.6,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -22274,8 +22270,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.0675,
-          "output": 0.22499999999999998,
+          "input": 0.09,
+          "output": 0.3,
           "vendor": "google",
           "mode": "standard"
         },
@@ -23451,8 +23447,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.045,
-          "output": 0.14,
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -23546,8 +23542,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.238,
-          "output": 0.748,
+          "input": 0.35559999999999997,
+          "output": 2.574,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -23845,8 +23841,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.2737,
-          "output": 2.574,
+          "input": 0.1785,
+          "output": 2.8049999999999997,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -31999,7 +31995,7 @@
           "mode": "standard"
         },
         {
-          "input": 2,
+          "input": 1.25,
           "output": 6,
           "vendor": "azure_ai",
           "mode": "standard"
@@ -32033,7 +32029,7 @@
           "mode": "standard"
         },
         {
-          "input": 2,
+          "input": 1.25,
           "output": 6,
           "vendor": "azure_ai",
           "mode": "standard"
@@ -33998,8 +33994,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.95,
-          "output": 4,
+          "input": 0.65,
+          "output": 3.41,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -34370,8 +34366,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.9875,
-          "output": 5.53,
+          "input": 1,
+          "output": 9,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -34392,8 +34388,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.9875,
-          "output": 5.53,
+          "input": 1,
+          "output": 9,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -34414,8 +34410,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.9875,
-          "output": 5.53,
+          "input": 1,
+          "output": 9,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -34436,8 +34432,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.9875,
-          "output": 5.53,
+          "input": 1,
+          "output": 9,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -34458,8 +34454,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.9875,
-          "output": 5.53,
+          "input": 1,
+          "output": 9,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -35809,6 +35805,21 @@
           "input": 0.75,
           "output": 4.5,
           "vendor": "github_copilot",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "mai-cyber-1-flash",
+      "firstSeen": "2026-09-28T13:50:59.650Z",
+      "name": "azure_ai/MAI-Cyber-1-Flash",
+      "context": 256000,
+      "prices": [
+        {
+          "input": 0.6,
+          "output": 3.5,
+          "vendor": "azure_ai",
           "mode": "standard"
         }
       ],
@@ -38394,12 +38405,6 @@
       "context": 204800,
       "prices": [
         {
-          "input": 0.255,
-          "output": 1.02,
-          "vendor": "minimax",
-          "mode": "standard"
-        },
-        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "minimax",
@@ -38575,8 +38580,8 @@
       "context": 204800,
       "prices": [
         {
-          "input": 0.21,
-          "output": 0.84,
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "minimax",
           "mode": "standard"
         },
@@ -38616,8 +38621,8 @@
       "context": 196608,
       "prices": [
         {
-          "input": 0.21,
-          "output": 0.84,
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "minimax",
           "mode": "standard"
         },
@@ -38640,8 +38645,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.21,
-          "output": 0.84,
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -39057,8 +39062,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.21,
-          "output": 0.84,
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -49166,8 +49171,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.12,
-          "output": 0.24,
+          "input": 0.22749999999999998,
+          "output": 0.9099999999999999,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -50189,8 +50194,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.3125,
-          "output": 1.25,
+          "input": 0.1625,
+          "output": 1.3,
           "vendor": "openrouter",
           "mode": "standard"
         },
@@ -51687,8 +51692,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.3125,
-          "output": 1.25,
+          "input": 0.1625,
+          "output": 1.3,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -59868,8 +59873,8 @@
       "context": 202752,
       "prices": [
         {
-          "input": 0.9646,
-          "output": 3.0316,
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -60029,8 +60034,8 @@
       "listedAt": "2026-08-18",
       "prices": [
         {
-          "input": 0.238,
-          "output": 0.748,
+          "input": 0.35559999999999997,
+          "output": 2.574,
           "vendor": "openrouter",
           "mode": "standard"
         }
@@ -60045,7 +60050,7 @@
       "listedAt": "2026-08-26",
       "prices": [
         {
-          "input": 0.04,
+          "input": 0.15,
           "output": 0.5,
           "vendor": "openrouter",
           "mode": "standard"
