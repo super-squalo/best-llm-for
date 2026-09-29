@@ -3,7 +3,7 @@
   "kind": "independent",
   "source": "https://livebench.ai/table_2026_06_25.csv",
   "note": "Questions are written after the models are released, so no model can have seen them in training. Task-level scores only: LiveBench computes its headline average from a task-to-category mapping that is not published in machine-readable form, and guessing it would fake their number.",
-  "capturedAt": "2026-09-28",
+  "capturedAt": "2026-09-29",
   "benchmarks": [
     "LiveBench/AMPS_Hard",
     "LiveBench/code_completion",
@@ -1741,36 +1741,6 @@
       }
     },
     {
-      "model": "union-alpha",
-      "measuredBy": "LiveBench",
-      "source": "https://livebench.ai/",
-      "scores": {
-        "LiveBench/AMPS_Hard": 97,
-        "LiveBench/code_completion": 82.609,
-        "LiveBench/code_generation": 81.69,
-        "LiveBench/connections": 97.333,
-        "LiveBench/consecutive_events": 74.572,
-        "LiveBench/integrals_with_game": 95,
-        "LiveBench/javascript": 59.091,
-        "LiveBench/logic_with_navigation": 80,
-        "LiveBench/math_comp": 97.059,
-        "LiveBench/olympiad": 92.115,
-        "LiveBench/paraphrase": 57.217,
-        "LiveBench/plot_unscrambling": 80.334,
-        "LiveBench/python": 55,
-        "LiveBench/simplify": 58.767,
-        "LiveBench/spatial": 98,
-        "LiveBench/story_generation": 60.9,
-        "LiveBench/summarize": 61.233,
-        "LiveBench/tablejoin": 53.154,
-        "LiveBench/tablereformat": 96.078,
-        "LiveBench/theory_of_mind": 75,
-        "LiveBench/typescript": 50,
-        "LiveBench/typos": 80,
-        "LiveBench/zebra_puzzle": 70
-      }
-    },
-    {
       "model": "grok-4.7-xhigh",
       "measuredBy": "LiveBench",
       "source": "https://livebench.ai/",
@@ -1918,6 +1888,66 @@
         "LiveBench/typescript": 40,
         "LiveBench/typos": 64,
         "LiveBench/zebra_puzzle": 96
+      }
+    },
+    {
+      "model": "claude-sonnet-5-5-max-effort",
+      "measuredBy": "LiveBench",
+      "source": "https://livebench.ai/",
+      "scores": {
+        "LiveBench/AMPS_Hard": 98,
+        "LiveBench/code_completion": 86.957,
+        "LiveBench/code_generation": 95.775,
+        "LiveBench/connections": 99.333,
+        "LiveBench/consecutive_events": 40.616,
+        "LiveBench/integrals_with_game": 97,
+        "LiveBench/javascript": 77.273,
+        "LiveBench/logic_with_navigation": 82,
+        "LiveBench/math_comp": 97.059,
+        "LiveBench/olympiad": 92.468,
+        "LiveBench/paraphrase": 48.217,
+        "LiveBench/plot_unscrambling": 48.619,
+        "LiveBench/python": 35,
+        "LiveBench/simplify": 50.85,
+        "LiveBench/spatial": 98,
+        "LiveBench/story_generation": 69.917,
+        "LiveBench/summarize": 58.167,
+        "LiveBench/tablejoin": 39.808,
+        "LiveBench/tablereformat": 98.039,
+        "LiveBench/theory_of_mind": 86.538,
+        "LiveBench/typescript": 56.667,
+        "LiveBench/typos": 86,
+        "LiveBench/zebra_puzzle": 100
+      }
+    },
+    {
+      "model": "claude-sonnet-5-5-xhigh-effort",
+      "measuredBy": "LiveBench",
+      "source": "https://livebench.ai/",
+      "scores": {
+        "LiveBench/AMPS_Hard": 98,
+        "LiveBench/code_completion": 84.783,
+        "LiveBench/code_generation": 92.958,
+        "LiveBench/connections": 98.5,
+        "LiveBench/consecutive_events": 90.936,
+        "LiveBench/integrals_with_game": 100,
+        "LiveBench/javascript": 36.364,
+        "LiveBench/logic_with_navigation": 80,
+        "LiveBench/math_comp": 97.059,
+        "LiveBench/olympiad": 91.72,
+        "LiveBench/paraphrase": 62.283,
+        "LiveBench/plot_unscrambling": 67.789,
+        "LiveBench/python": 35,
+        "LiveBench/simplify": 72.367,
+        "LiveBench/spatial": 98,
+        "LiveBench/story_generation": 77.083,
+        "LiveBench/summarize": 70.333,
+        "LiveBench/tablejoin": 46.885,
+        "LiveBench/tablereformat": 98.039,
+        "LiveBench/theory_of_mind": 69.231,
+        "LiveBench/typescript": 46.667,
+        "LiveBench/typos": 84,
+        "LiveBench/zebra_puzzle": 100
       }
     }
   ]

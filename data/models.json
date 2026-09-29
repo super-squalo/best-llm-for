@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-28T13:50:59.650Z",
+  "generatedAt": "2026-09-29T12:49:49.038Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 458
+      "records": 460
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3604
+      "records": 3628
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -21,7 +21,25 @@
     }
   ],
   "newModels": [
-    "mai-cyber-1-flash"
+    "anthropic.claude-sonnet-5-5",
+    "anthropic/claude-sonnet-5-5",
+    "anthropic/claude-sonnet-5.5",
+    "apac.anthropic.claude-sonnet-5-5",
+    "au.anthropic.claude-sonnet-5-5",
+    "claude-sonnet-5-5",
+    "claude-sonnet-5-5@default",
+    "claude-sonnet-5.5",
+    "claude-sonnet-5.5:batch",
+    "eu.anthropic.claude-sonnet-5-5",
+    "global.anthropic.claude-sonnet-5-5",
+    "global.xai.grok-4.7",
+    "jp.anthropic.claude-sonnet-5-5",
+    "us-gov-east-1/anthropic.claude-sonnet-5-5",
+    "us-gov-west-1/anthropic.claude-sonnet-5-5",
+    "us-gov.anthropic.claude-sonnet-5-5",
+    "us.anthropic.claude-sonnet-5-5",
+    "us.xai.grok-4.7",
+    "xai.grok-4.7"
   ],
   "models": [
     {
@@ -6374,6 +6392,12 @@
           "output": 20,
           "vendor": "bedrock_converse",
           "mode": "standard"
+        },
+        {
+          "input": 4.4,
+          "output": 22,
+          "vendor": "bedrock_mantle",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -6429,6 +6453,27 @@
       "name": "anthropic.claude-sonnet-5",
       "context": 1000000,
       "prices": [
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "anthropic.claude-sonnet-5-5",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "bedrock_mantle/anthropic.claude-sonnet-5-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 11,
+          "vendor": "bedrock_mantle",
+          "mode": "standard"
+        },
         {
           "input": 2,
           "output": 10,
@@ -7378,6 +7423,21 @@
       "listedAt": "2026-06-30"
     },
     {
+      "id": "anthropic/claude-sonnet-5-5",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "perplexity/anthropic/claude-sonnet-5-5",
+      "listedAt": "2026-09-28",
+      "prices": [
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "perplexity",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "anthropic/claude-sonnet-5:batch",
       "firstSeen": "2026-09-18T11:11:35.916Z",
       "name": "openrouter/anthropic/claude-sonnet-5:batch",
@@ -7389,6 +7449,22 @@
           "output": 5,
           "vendor": "openrouter",
           "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "openrouter/anthropic/claude-sonnet-5.5",
+      "context": 1000000,
+      "listedAt": "2026-09-28",
+      "prices": [
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "openrouter",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -7687,8 +7763,8 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 0.309,
-          "output": 1.236,
+          "input": 0.31,
+          "output": 1.24,
           "vendor": "bedrock",
           "mode": "standard"
         }
@@ -8012,6 +8088,21 @@
       "benchmarks": []
     },
     {
+      "id": "apac.anthropic.claude-sonnet-5-5",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "apac.anthropic.claude-sonnet-5-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 11,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "arcee-ai/trinity-large-thinking",
       "firstSeen": "2026-09-18T11:11:35.916Z",
       "name": "openrouter/arcee-ai/trinity-large-thinking",
@@ -8211,6 +8302,21 @@
       "id": "au.anthropic.claude-sonnet-5",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "au.anthropic.claude-sonnet-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 11,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "au.anthropic.claude-sonnet-5-5",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "au.anthropic.claude-sonnet-5-5",
       "context": 1000000,
       "prices": [
         {
@@ -11111,6 +11217,49 @@
       "listedAt": "2026-06-30"
     },
     {
+      "id": "claude-sonnet-5-5",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "claude-sonnet-5-5",
+      "context": 1000000,
+      "listedAt": "2026-09-28",
+      "prices": [
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "anthropic",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "azure_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "vertex_ai-anthropic_models",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "claude-sonnet-5-5@default",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "vertex_ai/claude-sonnet-5-5@default",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "vertex_ai-anthropic_models",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "claude-sonnet-5-high",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "claude-sonnet-5-high",
@@ -11190,6 +11339,38 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-06-30"
+    },
+    {
+      "id": "claude-sonnet-5.5",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "Anthropic: Claude Sonnet 5.5",
+      "context": 1000000,
+      "listedAt": "2026-09-28",
+      "prices": [
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "anthropic",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "claude-sonnet-5.5:batch",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "Anthropic: Claude Sonnet 5.5 (batch)",
+      "context": 1000000,
+      "listedAt": "2026-09-28",
+      "prices": [
+        {
+          "input": 1,
+          "output": 5,
+          "vendor": "anthropic",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "claude-sonnet-5@default",
@@ -14329,8 +14510,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.014,
-          "output": 0.39999999999999997,
+          "input": 0.02,
+          "output": 0.6,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -14360,7 +14541,7 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.22592,
+          "input": 0.096,
           "output": 1.9584000000000001,
           "vendor": "~deepseek",
           "mode": "standard"
@@ -14482,12 +14663,6 @@
       "context": 8192,
       "prices": [
         {
-          "input": 0.7999999999999999,
-          "output": 0.7999999999999999,
-          "vendor": "deepseek",
-          "mode": "standard"
-        },
-        {
           "input": 0.9900000000000001,
           "output": 0.9900000000000001,
           "vendor": "gradient_ai",
@@ -14603,7 +14778,7 @@
       "context": 163840,
       "prices": [
         {
-          "input": 0.27,
+          "input": 0.3,
           "output": 1,
           "vendor": "deepseek",
           "mode": "standard"
@@ -14876,8 +15051,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.08386,
-          "output": 0.16772,
+          "input": 0.08847999999999999,
+          "output": 0.17695999999999998,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -14934,6 +15109,12 @@
           "output": 0.284,
           "vendor": "aihubmix",
           "mode": "standard"
+        },
+        {
+          "input": 0.16999999999999998,
+          "output": 0.21,
+          "vendor": "prism",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -14946,7 +15127,7 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.020999999999999998,
+          "input": 0.018,
           "output": 0.32,
           "vendor": "deepseek",
           "mode": "standard"
@@ -15034,7 +15215,7 @@
           "mode": "standard"
         },
         {
-          "input": 0.020999999999999998,
+          "input": 0.018,
           "output": 0.32,
           "vendor": "deepseek",
           "mode": "standard"
@@ -15141,7 +15322,7 @@
           "mode": "standard"
         },
         {
-          "input": 0.020999999999999998,
+          "input": 0.018,
           "output": 0.32,
           "vendor": "deepseek",
           "mode": "standard"
@@ -15240,8 +15421,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.08386,
-          "output": 0.16772,
+          "input": 0.08847999999999999,
+          "output": 0.17695999999999998,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15300,8 +15481,14 @@
           "mode": "standard"
         },
         {
-          "input": 0.020999999999999998,
-          "output": 0.32,
+          "input": 0.16999999999999998,
+          "output": 0.21,
+          "vendor": "prism",
+          "mode": "standard"
+        },
+        {
+          "input": 0.012,
+          "output": 1.25,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -15383,8 +15570,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.08386,
-          "output": 0.16772,
+          "input": 0.08847999999999999,
+          "output": 0.17695999999999998,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15443,8 +15630,14 @@
           "mode": "standard"
         },
         {
-          "input": 0.020999999999999998,
-          "output": 0.32,
+          "input": 0.16999999999999998,
+          "output": 0.21,
+          "vendor": "prism",
+          "mode": "standard"
+        },
+        {
+          "input": 0.012,
+          "output": 1.25,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -15496,8 +15689,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.020999999999999998,
-          "output": 0.32,
+          "input": 0.012,
+          "output": 1.25,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -15528,8 +15721,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.44,
-          "output": 1.32,
+          "input": 0.21559999999999999,
+          "output": 0.6468,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15557,8 +15750,8 @@
       "listedAt": "2026-08-21",
       "prices": [
         {
-          "input": 0.44,
-          "output": 1.32,
+          "input": 0.21559999999999999,
+          "output": 0.6468,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15597,8 +15790,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.9481259999999999,
-          "output": 1.8962519999999998,
+          "input": 0.953172,
+          "output": 1.906344,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15668,7 +15861,7 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.3995,
+          "input": 0.48,
           "output": 4.199999999999999,
           "vendor": "deepseek",
           "mode": "standard"
@@ -15726,7 +15919,7 @@
           "mode": "standard"
         },
         {
-          "input": 0.3995,
+          "input": 0.48,
           "output": 4.199999999999999,
           "vendor": "deepseek",
           "mode": "standard"
@@ -15784,8 +15977,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.9481259999999999,
-          "output": 1.8962519999999998,
+          "input": 0.953172,
+          "output": 1.906344,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15891,8 +16084,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.9481259999999999,
-          "output": 1.8962519999999998,
+          "input": 0.953172,
+          "output": 1.906344,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15975,15 +16168,21 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0.014,
-          "output": 0.39999999999999997,
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "deepseek",
           "mode": "standard"
         },
         {
-          "input": 0.375,
-          "output": 1.5,
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "azure_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.16999999999999998,
+          "output": 0.63,
+          "vendor": "prism",
           "mode": "standard"
         }
       ],
@@ -16587,7 +16786,7 @@
           "mode": "standard"
         },
         {
-          "input": 0.020999999999999998,
+          "input": 0.018,
           "output": 0.32,
           "vendor": "deepseek",
           "mode": "standard"
@@ -16693,7 +16892,7 @@
           "mode": "standard"
         },
         {
-          "input": 0.020999999999999998,
+          "input": 0.018,
           "output": 0.32,
           "vendor": "deepseek",
           "mode": "standard"
@@ -16785,8 +16984,8 @@
       "listedAt": "2026-08-21",
       "prices": [
         {
-          "input": 0.44,
-          "output": 1.32,
+          "input": 0.21559999999999999,
+          "output": 0.6468,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -16905,7 +17104,7 @@
           "mode": "standard"
         },
         {
-          "input": 0.3995,
+          "input": 0.48,
           "output": 4.199999999999999,
           "vendor": "deepseek",
           "mode": "standard"
@@ -18307,6 +18506,21 @@
       "id": "eu.anthropic.claude-sonnet-5",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "eu.anthropic.claude-sonnet-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 11,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu.anthropic.claude-sonnet-5-5",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "eu.anthropic.claude-sonnet-5-5",
       "context": 1000000,
       "prices": [
         {
@@ -22949,8 +23163,8 @@
       "context": 204800,
       "prices": [
         {
-          "input": 0.9646,
-          "output": 3.0316,
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -23002,8 +23216,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.6496,
-          "output": 2.0416,
+          "input": 0.19490000000000002,
+          "output": 4.4,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -23075,8 +23289,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.6496,
-          "output": 2.0416,
+          "input": 0.19490000000000002,
+          "output": 4.4,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -23201,8 +23415,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.6496,
-          "output": 2.0416,
+          "input": 0.19490000000000002,
+          "output": 4.4,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -23312,8 +23526,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.6496,
-          "output": 2.0416,
+          "input": 0.19490000000000002,
+          "output": 4.4,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -23826,8 +24040,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.045,
-          "output": 0.14,
+          "input": 0.02,
+          "output": 0.3,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -23841,8 +24055,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.1785,
-          "output": 2.8049999999999997,
+          "input": 0.19,
+          "output": 4,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -24124,6 +24338,21 @@
       "benchmarks": []
     },
     {
+      "id": "global.anthropic.claude-sonnet-5-5",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "global.anthropic.claude-sonnet-5-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "global.cohere.embed-v4:0",
       "firstSeen": "2026-09-10T11:17:02.031Z",
       "name": "global.cohere.embed-v4:0",
@@ -24277,6 +24506,21 @@
       "id": "global.xai.grok-4.6",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "global.xai.grok-4.6",
+      "context": 500000,
+      "prices": [
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "global.xai.grok-4.7",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "global.xai.grok-4.7",
       "context": 500000,
       "prices": [
         {
@@ -29576,8 +29820,8 @@
       "context": 1050000,
       "prices": [
         {
-          "input": 2,
-          "output": 10,
+          "input": 4,
+          "output": 20,
           "vendor": "openai",
           "mode": "standard"
         }
@@ -30408,8 +30652,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.6,
+          "input": 0.037,
+          "output": 0.16999999999999998,
           "vendor": "openai",
           "mode": "standard"
         },
@@ -32089,8 +32333,8 @@
       "listedAt": "2026-09-21",
       "prices": [
         {
-          "input": 1.5999999999999999,
-          "output": 4.8,
+          "input": 2,
+          "output": 6,
           "vendor": "x-ai",
           "mode": "standard"
         },
@@ -32218,8 +32462,8 @@
       "context": 500000,
       "prices": [
         {
-          "input": 1.5999999999999999,
-          "output": 4.8,
+          "input": 2,
+          "output": 6,
           "vendor": "~x-ai",
           "mode": "standard"
         }
@@ -33693,6 +33937,21 @@
       "benchmarks": []
     },
     {
+      "id": "jp.anthropic.claude-sonnet-5-5",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "jp.anthropic.claude-sonnet-5-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 11,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "kat-coder-pro-v1",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "kat-coder-pro-v1",
@@ -34366,8 +34625,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 1,
-          "output": 9,
+          "input": 0.39999999999999997,
+          "output": 10,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -34388,8 +34647,8 @@
           "mode": "standard"
         },
         {
-          "input": 1,
-          "output": 9,
+          "input": 0.39999999999999997,
+          "output": 10,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -34410,8 +34669,8 @@
           "mode": "standard"
         },
         {
-          "input": 1,
-          "output": 9,
+          "input": 0.39999999999999997,
+          "output": 10,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -34432,8 +34691,8 @@
           "mode": "standard"
         },
         {
-          "input": 1,
-          "output": 9,
+          "input": 0.39999999999999997,
+          "output": 10,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -34454,8 +34713,8 @@
           "mode": "standard"
         },
         {
-          "input": 1,
-          "output": 9,
+          "input": 0.39999999999999997,
+          "output": 10,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -34795,10 +35054,16 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0,
-          "output": 0,
+          "input": 0.06,
+          "output": 0.18,
+          "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.06,
+          "output": 0.18,
           "vendor": "inclusionai",
-          "mode": "free"
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -37234,8 +37499,8 @@
       "context": 128000,
       "prices": [
         {
-          "input": 5.32,
-          "output": 16,
+          "input": 2.4,
+          "output": 2.4,
           "vendor": "bedrock",
           "mode": "other"
         }
@@ -37249,8 +37514,8 @@
       "context": 128000,
       "prices": [
         {
-          "input": 0.9900000000000001,
-          "output": 0.9900000000000001,
+          "input": 0.72,
+          "output": 0.72,
           "vendor": "bedrock",
           "mode": "other"
         }
@@ -37279,8 +37544,8 @@
       "context": 128000,
       "prices": [
         {
-          "input": 0.35,
-          "output": 0.35,
+          "input": 0.16,
+          "output": 0.16,
           "vendor": "bedrock",
           "mode": "other"
         }
@@ -37324,8 +37589,8 @@
       "context": 128000,
       "prices": [
         {
-          "input": 2,
-          "output": 2,
+          "input": 0.72,
+          "output": 0.72,
           "vendor": "bedrock",
           "mode": "other"
         }
@@ -38580,8 +38845,8 @@
       "context": 204800,
       "prices": [
         {
-          "input": 0.3,
-          "output": 1.2,
+          "input": 0.21,
+          "output": 0.84,
           "vendor": "minimax",
           "mode": "standard"
         },
@@ -38621,8 +38886,8 @@
       "context": 196608,
       "prices": [
         {
-          "input": 0.3,
-          "output": 1.2,
+          "input": 0.21,
+          "output": 0.84,
           "vendor": "minimax",
           "mode": "standard"
         },
@@ -40592,8 +40857,8 @@
       "context": 128000,
       "prices": [
         {
-          "input": 3,
-          "output": 9,
+          "input": 2,
+          "output": 6,
           "vendor": "bedrock",
           "mode": "other"
         }
@@ -42626,12 +42891,6 @@
           "output": 4.25,
           "vendor": "meta",
           "mode": "standard"
-        },
-        {
-          "input": 1.25,
-          "output": 4.25,
-          "vendor": "azure_ai",
-          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -42873,8 +43132,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.08,
-          "output": 0.19999999999999998,
+          "input": 0.06,
+          "output": 0.16,
           "vendor": "nvidia",
           "mode": "standard"
         }
@@ -42987,7 +43246,7 @@
         {
           "input": 0.024999999999999998,
           "output": 0.09999999999999999,
-          "vendor": "openrouter",
+          "vendor": "nex-agi",
           "mode": "standard"
         }
       ],
@@ -43005,6 +43264,12 @@
           "output": 0.09999999999999999,
           "vendor": "openrouter",
           "mode": "standard"
+        },
+        {
+          "input": 0.024999999999999998,
+          "output": 0.09999999999999999,
+          "vendor": "nex-agi",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -43019,7 +43284,7 @@
         {
           "input": 0.075,
           "output": 0.25,
-          "vendor": "openrouter",
+          "vendor": "nex-agi",
           "mode": "standard"
         }
       ],
@@ -43036,6 +43301,12 @@
           "input": 0.075,
           "output": 0.25,
           "vendor": "openrouter",
+          "mode": "standard"
+        },
+        {
+          "input": 0.075,
+          "output": 0.25,
+          "vendor": "nex-agi",
           "mode": "standard"
         }
       ],
@@ -51022,8 +51293,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.09999999999999999,
-          "output": 0.3,
+          "input": 0.04815,
+          "output": 0.19305,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -52252,8 +52523,8 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 0.42,
-          "output": 3,
+          "input": 0.0407,
+          "output": 4.4,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -55382,6 +55653,21 @@
       "benchmarks": []
     },
     {
+      "id": "us-gov-east-1/anthropic.claude-sonnet-5-5",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "bedrock/us-gov-east-1/anthropic.claude-sonnet-5-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 2.4,
+          "output": 12,
+          "vendor": "bedrock",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us-gov-east-1/claude-sonnet-4-5-20250929-v1:0",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "bedrock/us-gov-east-1/claude-sonnet-4-5-20250929-v1:0",
@@ -55813,6 +56099,12 @@
           "output": 24,
           "vendor": "bedrock",
           "mode": "standard"
+        },
+        {
+          "input": 4.8,
+          "output": 24,
+          "vendor": "bedrock_mantle",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -55838,6 +56130,27 @@
       "name": "bedrock/us-gov-west-1/anthropic.claude-sonnet-5",
       "context": 1000000,
       "prices": [
+        {
+          "input": 2.4,
+          "output": 12,
+          "vendor": "bedrock",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us-gov-west-1/anthropic.claude-sonnet-5-5",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "bedrock_mantle/us-gov-west-1/anthropic.claude-sonnet-5-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 2.4,
+          "output": 12,
+          "vendor": "bedrock_mantle",
+          "mode": "standard"
+        },
         {
           "input": 2.4,
           "output": 12,
@@ -56212,6 +56525,21 @@
       "id": "us-gov.anthropic.claude-sonnet-5",
       "firstSeen": "2026-09-04T11:16:57.026Z",
       "name": "us-gov.anthropic.claude-sonnet-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 2.4,
+          "output": 12,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us-gov.anthropic.claude-sonnet-5-5",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "us-gov.anthropic.claude-sonnet-5-5",
       "context": 1000000,
       "prices": [
         {
@@ -57037,6 +57365,21 @@
       "benchmarks": []
     },
     {
+      "id": "us.anthropic.claude-sonnet-5-5",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "us.anthropic.claude-sonnet-5-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 11,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us.cohere.embed-v4:0",
       "firstSeen": "2026-09-10T11:17:02.031Z",
       "name": "us.cohere.embed-v4:0",
@@ -57088,8 +57431,8 @@
       "context": 128000,
       "prices": [
         {
-          "input": 5.32,
-          "output": 16,
+          "input": 2.4,
+          "output": 2.4,
           "vendor": "bedrock",
           "mode": "other"
         }
@@ -57103,8 +57446,8 @@
       "context": 128000,
       "prices": [
         {
-          "input": 0.9900000000000001,
-          "output": 0.9900000000000001,
+          "input": 0.72,
+          "output": 0.72,
           "vendor": "bedrock",
           "mode": "other"
         }
@@ -57133,8 +57476,8 @@
       "context": 128000,
       "prices": [
         {
-          "input": 0.35,
-          "output": 0.35,
+          "input": 0.16,
+          "output": 0.16,
           "vendor": "bedrock",
           "mode": "other"
         }
@@ -57178,8 +57521,8 @@
       "context": 128000,
       "prices": [
         {
-          "input": 2,
-          "output": 2,
+          "input": 0.72,
+          "output": 0.72,
           "vendor": "bedrock",
           "mode": "other"
         }
@@ -57415,6 +57758,21 @@
       "id": "us.xai.grok-4.6",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "us.xai.grok-4.6",
+      "context": 500000,
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 6.6000000000000005,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us.xai.grok-4.7",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "us.xai.grok-4.7",
       "context": 500000,
       "prices": [
         {
@@ -59280,6 +59638,21 @@
       "benchmarks": []
     },
     {
+      "id": "xai.grok-4.7",
+      "firstSeen": "2026-09-29T12:49:49.038Z",
+      "name": "xai.grok-4.7",
+      "context": 500000,
+      "prices": [
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "xai.grok-code-fast-1",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "oci/xai.grok-code-fast-1",
@@ -59912,8 +60285,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.6496,
-          "output": 2.0416,
+          "input": 0.19490000000000002,
+          "output": 4.4,
           "vendor": "z-ai",
           "mode": "standard"
         },
