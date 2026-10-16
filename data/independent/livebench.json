@@ -3,7 +3,7 @@
   "kind": "independent",
   "source": "https://livebench.ai/table_2026_09_02.csv",
   "note": "Questions are written after the models are released, so no model can have seen them in training. Task-level scores only: LiveBench computes its headline average from a task-to-category mapping that is not published in machine-readable form, and guessing it would fake their number.",
-  "capturedAt": "2026-10-15",
+  "capturedAt": "2026-10-16",
   "benchmarks": [
     "LiveBench/design_layout",
     "LiveBench/research",
@@ -203,7 +203,7 @@
       "scores": {
         "LiveBench/design_layout": 72.8,
         "LiveBench/research": 74.6,
-        "LiveBench/browser": 0,
+        "LiveBench/browser": 48,
         "LiveBench/coding": 87.4,
         "LiveBench/long_horizon": 37.1,
         "LiveBench/data_analysis": 74.2,
@@ -539,7 +539,7 @@
       "scores": {
         "LiveBench/design_layout": 66.2,
         "LiveBench/research": 68,
-        "LiveBench/browser": 0,
+        "LiveBench/browser": 8,
         "LiveBench/coding": 70.9,
         "LiveBench/long_horizon": 12.4,
         "LiveBench/data_analysis": 76.2,
@@ -581,7 +581,7 @@
       "scores": {
         "LiveBench/design_layout": 75.9,
         "LiveBench/research": 59.4,
-        "LiveBench/browser": 0,
+        "LiveBench/browser": 32,
         "LiveBench/coding": 86.8,
         "LiveBench/long_horizon": 27.9,
         "LiveBench/data_analysis": 76.6,
@@ -628,6 +628,48 @@
         "LiveBench/long_horizon": 13.3,
         "LiveBench/data_analysis": 53.3,
         "LiveBench/reasoning": 68.3
+      }
+    },
+    {
+      "model": "step-5-preview",
+      "measuredBy": "LiveBench",
+      "source": "https://livebench.ai/",
+      "scores": {
+        "LiveBench/design_layout": 76.9,
+        "LiveBench/research": 72.8,
+        "LiveBench/browser": 24,
+        "LiveBench/coding": 85.6,
+        "LiveBench/long_horizon": 27.5,
+        "LiveBench/data_analysis": 63.5,
+        "LiveBench/reasoning": 83.8
+      }
+    },
+    {
+      "model": "nemotron-super-vl-3.5",
+      "measuredBy": "LiveBench",
+      "source": "https://livebench.ai/",
+      "scores": {
+        "LiveBench/design_layout": 60.7,
+        "LiveBench/research": 70.9,
+        "LiveBench/browser": 4,
+        "LiveBench/coding": 65.5,
+        "LiveBench/long_horizon": 15.8,
+        "LiveBench/data_analysis": 64.6,
+        "LiveBench/reasoning": 78.8
+      }
+    },
+    {
+      "model": "muse-spark-open",
+      "measuredBy": "LiveBench",
+      "source": "https://livebench.ai/",
+      "scores": {
+        "LiveBench/design_layout": 60.3,
+        "LiveBench/research": 80.3,
+        "LiveBench/browser": 36,
+        "LiveBench/coding": 73.6,
+        "LiveBench/long_horizon": 18.9,
+        "LiveBench/data_analysis": 60.2,
+        "LiveBench/reasoning": 73.7
       }
     }
   ]

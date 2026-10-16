@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-15T11:25:39.335Z",
+  "generatedAt": "2026-10-16T11:20:08.618Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 462
+      "records": 465
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3275
+      "records": 3327
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -22,7 +22,28 @@
     }
   ],
   "newModels": [
-    "jev-1.14.0"
+    "accounts/fireworks/models/muse-spark-open",
+    "claude-opus-5-5-fast",
+    "deepseek-ai/deepseek-v4.1-flash-maas",
+    "gpt-5.5-cyber-preview",
+    "jp.amazon.nova-2-lite-v1:0",
+    "llama-3.1-8b-instant",
+    "llama-3.3-70b-versatile",
+    "meta-models/muse-spark-open",
+    "meta-models/muse-spark-open-816b-a42b",
+    "moondream3-preview",
+    "moondream3.1-9b-a2b",
+    "muse-spark-open",
+    "nemotron-3.5-super-vl",
+    "nemotron-3.5-super-vl:free",
+    "nvidia/nvidia-nemotron-3.5-super-vl",
+    "nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b",
+    "qwen3-vl",
+    "qwen3-vl-235b",
+    "xai.grok-4.20-0309-non-reasoning",
+    "xai.grok-4.20-0309-reasoning",
+    "xai.grok-4.20-non-reasoning",
+    "xai.grok-4.20-reasoning"
   ],
   "models": [
     {
@@ -592,14 +613,20 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
+          "input": 0.39999999999999997,
+          "output": 1.5999999999999999,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "deepseek",
           "mode": "standard"
         },
         {
-          "input": 0.02376,
-          "output": 0.72,
+          "input": 0.036,
+          "output": 0.684,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -614,8 +641,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.22499999999999998,
-          "output": 8,
+          "input": 0.25,
+          "output": 5,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -629,6 +656,12 @@
       "context": 1310720,
       "listedAt": "2026-04-24",
       "prices": [
+        {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
         {
           "input": 0.14,
           "output": 0.28,
@@ -690,6 +723,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.25,
           "output": 1.75,
           "vendor": "libertai",
@@ -720,8 +759,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.0144,
-          "output": 0.576,
+          "input": 0.0068,
+          "output": 1.28,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -798,8 +837,8 @@
       "listedAt": "2026-04-27",
       "prices": [
         {
-          "input": 0.3,
-          "output": 14,
+          "input": 0.29400000000000004,
+          "output": 28,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -910,8 +949,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.036,
-          "output": 0.8999999999999999,
+          "input": 0.013399999999999999,
+          "output": 0.8192,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -926,7 +965,7 @@
       "listedAt": "2026-08-19",
       "prices": [
         {
-          "input": 0.024,
+          "input": 0.0608,
           "output": 4.4,
           "vendor": "~z-ai",
           "mode": "standard"
@@ -3388,6 +3427,21 @@
         {
           "input": 0.35,
           "output": 1.5,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "accounts/fireworks/models/muse-spark-open",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "fireworks_ai/accounts/fireworks/models/muse-spark-open",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 4.25,
           "vendor": "fireworks_ai",
           "mode": "standard"
         }
@@ -11679,6 +11733,21 @@
       "benchmarks": []
     },
     {
+      "id": "claude-opus-5-5-fast",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "azure_ai/claude-opus-5-5-fast",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 8,
+          "output": 40,
+          "vendor": "azure_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "claude-opus-5-5@default",
       "firstSeen": "2026-09-23T11:33:17.417Z",
       "name": "vertex_ai/claude-opus-5-5@default",
@@ -11899,7 +11968,13 @@
         {
           "input": 3,
           "output": 15,
-          "vendor": "anthropic",
+          "vendor": "gmi",
+          "mode": "standard"
+        },
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "vercel_ai_gateway",
           "mode": "standard"
         }
       ],
@@ -11922,12 +11997,6 @@
           "input": 3,
           "output": 15,
           "vendor": "vercel_ai_gateway",
-          "mode": "standard"
-        },
-        {
-          "input": 3,
-          "output": 15,
-          "vendor": "anthropic",
           "mode": "standard"
         }
       ],
@@ -15137,6 +15206,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.5,
           "output": 1.5,
           "vendor": "nebius",
@@ -15322,6 +15397,12 @@
       "context": 32768,
       "prices": [
         {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.14,
           "output": 0.28,
           "vendor": "nebius",
@@ -15359,6 +15440,12 @@
           "input": 0.09,
           "output": 0.18,
           "vendor": "sail",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -15402,6 +15489,12 @@
       "context": 512000,
       "prices": [
         {
+          "input": 1.72,
+          "output": 5.1499999999999995,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 1.75,
           "output": 3.5,
           "vendor": "nebius",
@@ -15439,6 +15532,12 @@
           "input": 0.9199999999999999,
           "output": 2.77,
           "vendor": "sail",
+          "mode": "standard"
+        },
+        {
+          "input": 1.72,
+          "output": 5.1499999999999995,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -15482,9 +15581,15 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.6,
+          "input": 0.09,
+          "output": 0.3,
           "vendor": "sail",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.5999999999999999,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -15531,14 +15636,29 @@
       "benchmarks": []
     },
     {
+      "id": "deepseek-ai/deepseek-v4.1-flash-maas",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "vertex_ai/deepseek-ai/deepseek-v4.1-flash-maas",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "vertex_ai-deepseek_models",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "deepseek-chat",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "DeepSeek: DeepSeek V3",
       "context": 163840,
       "prices": [
         {
-          "input": 0.32,
-          "output": 0.8899999999999999,
+          "input": 0.2574,
+          "output": 1.0287,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -15546,6 +15666,12 @@
           "input": 0.28,
           "output": 0.42,
           "vendor": "deepseek",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
           "mode": "standard"
         }
       ],
@@ -15681,6 +15807,12 @@
       "context": 1000000,
       "prices": [
         {
+          "input": 0.39999999999999997,
+          "output": 1.5999999999999999,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "deepseek",
@@ -15698,8 +15830,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.02376,
-          "output": 0.72,
+          "input": 0.036,
+          "output": 0.684,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -15729,8 +15861,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.22499999999999998,
-          "output": 8,
+          "input": 0.25,
+          "output": 5,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -15877,6 +16009,12 @@
           "output": 0.42,
           "vendor": "deepseek",
           "mode": "standard"
+        },
+        {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -15897,6 +16035,12 @@
           "input": 0.27,
           "output": 1.1,
           "vendor": "deepseek",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
           "mode": "standard"
         }
       ],
@@ -16263,6 +16407,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.25,
           "output": 1.75,
           "vendor": "libertai",
@@ -16303,8 +16453,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.016,
-          "output": 0.64,
+          "input": 0.0068,
+          "output": 1.28,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -16361,6 +16511,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.14,
           "output": 0.28,
           "vendor": "nebius",
@@ -16391,8 +16547,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.016,
-          "output": 0.64,
+          "input": 0.0068,
+          "output": 1.28,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -16462,6 +16618,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.14,
           "output": 0.28,
           "vendor": "nebius",
@@ -16492,8 +16654,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.016,
-          "output": 0.64,
+          "input": 0.0068,
+          "output": 1.28,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -16555,6 +16717,12 @@
       "maker": "DeepSeek",
       "prices": [
         {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.14,
           "output": 0.28,
           "vendor": "nebius",
@@ -16615,6 +16783,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.25,
           "output": 1.75,
           "vendor": "libertai",
@@ -16645,8 +16819,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.0144,
-          "output": 0.576,
+          "input": 0.0068,
+          "output": 1.28,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -16692,6 +16866,12 @@
       "maker": "DeepSeek",
       "prices": [
         {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.14,
           "output": 0.28,
           "vendor": "nebius",
@@ -16752,6 +16932,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.25,
           "output": 1.75,
           "vendor": "libertai",
@@ -16782,8 +16968,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.0144,
-          "output": 0.576,
+          "input": 0.0068,
+          "output": 1.28,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -16829,8 +17015,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.0144,
-          "output": 0.576,
+          "input": 0.0068,
+          "output": 1.28,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -16954,6 +17140,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.72,
+          "output": 5.1499999999999995,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 1.32,
           "output": 3.9600000000000004,
           "vendor": "deepseek",
@@ -17029,6 +17221,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.72,
+          "output": 5.1499999999999995,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 1.32,
           "output": 3.9600000000000004,
           "vendor": "nebius",
@@ -17099,6 +17297,12 @@
       "maker": "DeepSeek",
       "prices": [
         {
+          "input": 1.72,
+          "output": 5.1499999999999995,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 1.75,
           "output": 3.5,
           "vendor": "nebius",
@@ -17150,6 +17354,12 @@
           "input": 2.4,
           "output": 4.8,
           "vendor": "qwen_ai_platform",
+          "mode": "standard"
+        },
+        {
+          "input": 1.72,
+          "output": 5.1499999999999995,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -17200,6 +17410,12 @@
       "maker": "DeepSeek",
       "prices": [
         {
+          "input": 1.72,
+          "output": 5.1499999999999995,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 1.75,
           "output": 3.5,
           "vendor": "nebius",
@@ -17251,6 +17467,12 @@
           "input": 2.4,
           "output": 4.8,
           "vendor": "qwen_ai_platform",
+          "mode": "standard"
+        },
+        {
+          "input": 1.72,
+          "output": 5.1499999999999995,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -17302,8 +17524,8 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0.02376,
-          "output": 0.72,
+          "input": 0.036,
+          "output": 0.684,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -17311,6 +17533,12 @@
           "input": 0.01,
           "output": 1.2,
           "vendor": "coralbricks",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.5999999999999999,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -17500,8 +17728,8 @@
       "context": 65536,
       "prices": [
         {
-          "input": 0.32,
-          "output": 0.8899999999999999,
+          "input": 0.2574,
+          "output": 1.0287,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -17509,6 +17737,12 @@
           "input": 0.28,
           "output": 0.42,
           "vendor": "deepseek",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
           "mode": "standard"
         }
       ],
@@ -17896,6 +18130,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.14,
           "output": 0.28,
           "vendor": "nebius",
@@ -17926,8 +18166,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.016,
-          "output": 0.64,
+          "input": 0.0068,
+          "output": 1.28,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -17996,6 +18236,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.19,
+          "output": 0.38,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.14,
           "output": 0.28,
           "vendor": "nebius",
@@ -18026,8 +18272,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.016,
-          "output": 0.64,
+          "input": 0.0068,
+          "output": 1.28,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18178,6 +18424,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.72,
+          "output": 5.1499999999999995,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 1.32,
           "output": 3.9600000000000004,
           "vendor": "nebius",
@@ -18248,9 +18500,15 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.6,
+          "input": 0.09,
+          "output": 0.3,
           "vendor": "sail",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.5999999999999999,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -18278,8 +18536,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.02376,
-          "output": 0.72,
+          "input": 0.036,
+          "output": 0.684,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18287,6 +18545,12 @@
           "input": 0.01,
           "output": 1.2,
           "vendor": "coralbricks",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.5999999999999999,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -18324,9 +18588,15 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.6,
+          "input": 0.09,
+          "output": 0.3,
           "vendor": "sail",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.5999999999999999,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -18354,8 +18624,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.02376,
-          "output": 0.72,
+          "input": 0.036,
+          "output": 0.684,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18363,6 +18633,12 @@
           "input": 0.01,
           "output": 1.2,
           "vendor": "coralbricks",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.5999999999999999,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -23117,8 +23393,8 @@
       "listedAt": "2026-09-02",
       "prices": [
         {
-          "input": 0.75,
-          "output": 3.75,
+          "input": 0.8250000000000001,
+          "output": 4.125,
           "vendor": "google",
           "mode": "standard"
         },
@@ -24593,8 +24869,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.02,
-          "output": 7,
+          "input": 0.037,
+          "output": 9,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -24672,8 +24948,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.02,
-          "output": 7,
+          "input": 0.037,
+          "output": 9,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -24798,8 +25074,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.02,
-          "output": 7,
+          "input": 0.037,
+          "output": 9,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -24909,8 +25185,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.02,
-          "output": 7,
+          "input": 0.037,
+          "output": 9,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -25015,7 +25291,7 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.03,
+          "input": 0.079,
           "output": 4.8,
           "vendor": "z-ai",
           "mode": "standard"
@@ -25024,6 +25300,12 @@
           "input": 1.12,
           "output": 4.4,
           "vendor": "coralbricks",
+          "mode": "standard"
+        },
+        {
+          "input": 1.8199999999999998,
+          "output": 5.720000000000001,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -25077,9 +25359,15 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.5,
+          "input": 0.013399999999999999,
+          "output": 0.8192,
           "vendor": "z-ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.66,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -25122,8 +25410,8 @@
       "context": 1048575,
       "prices": [
         {
-          "input": 0.06,
-          "output": 0.19999999999999998,
+          "input": 0.049999999999999996,
+          "output": 0.18,
           "vendor": "z-ai",
           "mode": "batch"
         }
@@ -25175,7 +25463,7 @@
       "maker": "Z.ai",
       "prices": [
         {
-          "input": 0.03,
+          "input": 0.079,
           "output": 4.8,
           "vendor": "z-ai",
           "mode": "standard"
@@ -25184,6 +25472,12 @@
           "input": 1.12,
           "output": 4.4,
           "vendor": "coralbricks",
+          "mode": "standard"
+        },
+        {
+          "input": 1.8199999999999998,
+          "output": 5.720000000000001,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -25226,6 +25520,12 @@
           "input": 1.26,
           "output": 3.9600000000000004,
           "vendor": "friendliai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.8199999999999998,
+          "output": 5.720000000000001,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -25495,8 +25795,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.036,
-          "output": 0.8999999999999999,
+          "input": 0.013399999999999999,
+          "output": 0.8192,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -25510,7 +25810,7 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.024,
+          "input": 0.0608,
           "output": 4.4,
           "vendor": "~z-ai",
           "mode": "standard"
@@ -27467,8 +27767,8 @@
       "listedAt": "2026-09-02",
       "prices": [
         {
-          "input": 0.75,
-          "output": 3.75,
+          "input": 0.8250000000000001,
+          "output": 4.125,
           "vendor": "google",
           "mode": "standard"
         },
@@ -31282,6 +31582,20 @@
       "benchmarks": []
     },
     {
+      "id": "gpt-5.5-cyber-preview",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "gpt-5.5-cyber-preview",
+      "prices": [
+        {
+          "input": 12.5,
+          "output": 75,
+          "vendor": "openai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-5.5-high (codex-harness)",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "gpt-5.5-high (codex-harness)",
@@ -32802,6 +33116,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.19999999999999998,
+          "output": 0.7999999999999999,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.08,
           "output": 0.39999999999999997,
           "vendor": "ovhcloud",
@@ -32864,6 +33184,12 @@
           "input": 0.07,
           "output": 0.3,
           "vendor": "fireworks_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.04,
+          "output": 0.19,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -35906,6 +36232,21 @@
       "benchmarks": []
     },
     {
+      "id": "jp.amazon.nova-2-lite-v1:0",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "jp.amazon.nova-2-lite-v1:0",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 0.396,
+          "output": 3.311,
+          "vendor": "bedrock_converse",
+          "mode": "other"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "jp.anthropic.claude-haiku-4-5-20251001-v1:0",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "jp.anthropic.claude-haiku-4-5-20251001-v1:0",
@@ -36407,6 +36748,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.8899999999999999,
+          "output": 4.42,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.95,
           "output": 4,
           "vendor": "moonshot",
@@ -36559,8 +36906,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.44999999999999996,
-          "output": 15,
+          "input": 0.30400000000000005,
+          "output": 11.936,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -36620,8 +36967,8 @@
       "maker": "Moonshot",
       "prices": [
         {
-          "input": 0.44999999999999996,
-          "output": 15,
+          "input": 0.30400000000000005,
+          "output": 11.936,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -36752,8 +37099,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.3,
-          "output": 14,
+          "input": 0.29400000000000004,
+          "output": 28,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -36768,8 +37115,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.3,
-          "output": 14,
+          "input": 0.29400000000000004,
+          "output": 28,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -36784,8 +37131,8 @@
       "context": 32768,
       "prices": [
         {
-          "input": 0.3,
-          "output": 14,
+          "input": 0.29400000000000004,
+          "output": 28,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -36800,8 +37147,8 @@
       "context": 8192,
       "prices": [
         {
-          "input": 0.3,
-          "output": 14,
+          "input": 0.29400000000000004,
+          "output": 28,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -36816,8 +37163,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.3,
-          "output": 14,
+          "input": 0.29400000000000004,
+          "output": 28,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -37235,6 +37582,21 @@
       "benchmarks": []
     },
     {
+      "id": "llama-3.1-8b-instant",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "inferenceapis/llama-3.1-8b-instant",
+      "context": 131072,
+      "prices": [
+        {
+          "input": 0.19999999999999998,
+          "output": 0.5,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "llama-3.1-8b-instruct",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "Meta: Llama 3.1 8B Instruct",
@@ -37356,6 +37718,12 @@
           "output": 1.2,
           "vendor": "cerebras",
           "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.5,
+          "vendor": "inferenceapis",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -37367,8 +37735,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.59,
-          "output": 0.7899999999999999,
+          "input": 0.09999999999999999,
+          "output": 0.32,
           "vendor": "meta-llama",
           "mode": "standard"
         },
@@ -37377,10 +37745,31 @@
           "output": 0.71,
           "vendor": "azure_ai",
           "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.5,
+          "vendor": "inferenceapis",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
       "listedAt": "2024-12-06"
+    },
+    {
+      "id": "llama-3.3-70b-versatile",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "inferenceapis/llama-3.3-70b-versatile",
+      "context": 131072,
+      "prices": [
+        {
+          "input": 0.19999999999999998,
+          "output": 0.5,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "llama-4-maverick",
@@ -38740,6 +39129,12 @@
         },
         {
           "input": 0.19999999999999998,
+          "output": 0.5,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
           "output": 0.19999999999999998,
           "vendor": "nscale",
           "mode": "standard"
@@ -38776,6 +39171,12 @@
           "input": 0.09999999999999999,
           "output": 0.32,
           "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.5,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -39219,6 +39620,37 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-08-09"
+    },
+    {
+      "id": "meta-models/muse-spark-open",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "baseten/meta-models/muse-spark-open",
+      "context": 1048576,
+      "listedAt": "2026-10-15",
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 4.25,
+          "vendor": "baseten",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "meta-models/muse-spark-open-816b-a42b",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "together_ai/meta-models/Muse-Spark-Open-816B-A42B",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 4.25,
+          "vendor": "together_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "meta-textgeneration-llama-2-13b",
@@ -40957,6 +41389,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.39,
+          "output": 1.56,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "tencent",
@@ -41004,6 +41442,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.39,
+          "output": 1.56,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "tencent",
@@ -41019,6 +41463,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "novita",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39,
+          "output": 1.56,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -41068,6 +41518,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.39,
+          "output": 1.56,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "tencent",
@@ -41083,6 +41539,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "novita",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39,
+          "output": 1.56,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -41394,6 +41856,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.39,
+          "output": 1.56,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "tencent",
@@ -41409,6 +41877,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "novita",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39,
+          "output": 1.56,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -41458,6 +41932,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.39,
+          "output": 1.56,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "tencent",
@@ -41473,6 +41953,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "novita",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39,
+          "output": 1.56,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -41626,6 +42112,12 @@
       "name": "together_ai/MiniMaxAI/MiniMax-M3",
       "context": 524288,
       "prices": [
+        {
+          "input": 0.39,
+          "output": 1.56,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
         {
           "input": 0.3,
           "output": 1.2,
@@ -42710,8 +43202,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.075,
-          "output": 0.19999999999999998,
+          "input": 0.09375,
+          "output": 0.25,
           "vendor": "mistralai",
           "mode": "standard"
         }
@@ -43942,8 +44434,8 @@
       "context": 128000,
       "prices": [
         {
-          "input": 0.075,
-          "output": 0.19999999999999998,
+          "input": 0.09375,
+          "output": 0.25,
           "vendor": "mistralai",
           "mode": "standard"
         }
@@ -44183,6 +44675,38 @@
           "input": 0.14,
           "output": 0,
           "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "moondream3-preview",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "Moondream: Moondream 3 Preview",
+      "context": 32000,
+      "listedAt": "2026-10-15",
+      "prices": [
+        {
+          "input": 0.3,
+          "output": 2.5,
+          "vendor": "moondream",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "moondream3.1-9b-a2b",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "Moondream: Moondream 3.1",
+      "context": 32000,
+      "listedAt": "2026-10-15",
+      "prices": [
+        {
+          "input": 0.3,
+          "output": 2.5,
+          "vendor": "moondream",
           "mode": "standard"
         }
       ],
@@ -44614,6 +45138,12 @@
       "context": 262144,
       "prices": [
         {
+          "input": 0.8899999999999999,
+          "output": 4.42,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.95,
           "output": 4,
           "vendor": "nebius",
@@ -44707,8 +45237,8 @@
       "listedAt": "2026-07-16",
       "prices": [
         {
-          "input": 0.44999999999999996,
-          "output": 15,
+          "input": 0.30400000000000005,
+          "output": 11.936,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -45108,6 +45638,22 @@
       "benchmarks": []
     },
     {
+      "id": "muse-spark-open",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "Meta: Muse Spark Open",
+      "context": 1048576,
+      "listedAt": "2026-10-15",
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 4.25,
+          "vendor": "meta",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "muse-wonder",
       "firstSeen": "2026-10-13T14:08:40.011Z",
       "name": "Meta: Muse Wonder",
@@ -45377,6 +45923,38 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-08-11"
+    },
+    {
+      "id": "nemotron-3.5-super-vl",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "NVIDIA: Nemotron 3.5 Super VL",
+      "context": 1048576,
+      "listedAt": "2026-10-15",
+      "prices": [
+        {
+          "input": 0.15,
+          "output": 0.5,
+          "vendor": "nvidia",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "nemotron-3.5-super-vl:free",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "NVIDIA: Nemotron 3.5 Super VL (free)",
+      "context": 1000000,
+      "listedAt": "2026-10-15",
+      "prices": [
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "nvidia",
+          "mode": "free"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "nemotron-lightning-3p5-30b-a3b",
@@ -46370,6 +46948,42 @@
       "benchmarks": []
     },
     {
+      "id": "nvidia/nvidia-nemotron-3.5-super-vl",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "together_ai/nvidia/NVIDIA-Nemotron-3.5-Super-VL",
+      "context": 262144,
+      "prices": [
+        {
+          "input": 0.15,
+          "output": 0.5,
+          "vendor": "together_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.19999999999999998,
+          "output": 0.5,
+          "vendor": "baseten",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.75,
+          "vendor": "wandb",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "nvidia/nvidia-nemotron-nano-9b-v2",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "deepinfra/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
@@ -47324,6 +47938,12 @@
         {
           "input": 0.15,
           "output": 0.6,
+          "vendor": "oci",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.6,
           "vendor": "bedrock_mantle",
           "mode": "standard"
         }
@@ -47351,6 +47971,12 @@
       "name": "bedrock_mantle/openai.gpt-oss-20b",
       "context": 131072,
       "prices": [
+        {
+          "input": 0.07,
+          "output": 0.3,
+          "vendor": "oci",
+          "mode": "standard"
+        },
         {
           "input": 0.07,
           "output": 0.3,
@@ -51122,6 +51748,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.19999999999999998,
+          "output": 0.7999999999999999,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.15,
           "output": 0.6,
           "vendor": "nebius",
@@ -51250,6 +51882,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.19999999999999998,
+          "output": 0.7999999999999999,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.08,
           "output": 0.39999999999999997,
           "vendor": "ovhcloud",
@@ -51289,6 +51927,12 @@
           "input": 0.7999999999999999,
           "output": 0.7999999999999999,
           "vendor": "crusoe",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.7999999999999999,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -51361,6 +52005,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.04,
+          "output": 0.19,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.09,
           "output": 0.36,
           "vendor": "replicate",
@@ -51430,6 +52080,12 @@
         },
         {
           "input": 0.04,
+          "output": 0.19,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
+          "input": 0.04,
           "output": 0.15,
           "vendor": "ovhcloud",
           "mode": "standard"
@@ -51450,6 +52106,12 @@
           "input": 0.075,
           "output": 0.3,
           "vendor": "groq",
+          "mode": "standard"
+        },
+        {
+          "input": 0.04,
+          "output": 0.19,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -52140,22 +52802,6 @@
           "input": 2.5,
           "output": 7.5,
           "vendor": "~unbiased",
-          "mode": "standard"
-        }
-      ],
-      "benchmarks": []
-    },
-    {
-      "id": "pareto-26.10-preview",
-      "firstSeen": "2026-10-02T12:31:26.826Z",
-      "name": "Pareto 26.10 Preview",
-      "context": 1048576,
-      "listedAt": "2026-10-01",
-      "prices": [
-        {
-          "input": 0.7999999999999999,
-          "output": 3.1999999999999997,
-          "vendor": "unbiased",
           "mode": "standard"
         }
       ],
@@ -55065,6 +55711,12 @@
       "context": 131072,
       "prices": [
         {
+          "input": 0.26,
+          "output": 1.15,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.5,
           "vendor": "novita",
@@ -55758,6 +56410,12 @@
       "prices": [
         {
           "input": 0.15,
+          "output": 0.5,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
           "output": 0.47,
           "vendor": "together_ai",
           "mode": "standard"
@@ -56342,7 +57000,7 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.09999999999999999,
+          "input": 0.09,
           "output": 1.1,
           "vendor": "qwen",
           "mode": "standard"
@@ -56402,6 +57060,36 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-09-11"
+    },
+    {
+      "id": "qwen3-vl",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "inferenceapis/qwen3-vl",
+      "context": 262144,
+      "prices": [
+        {
+          "input": 0.26,
+          "output": 1.15,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "qwen3-vl-235b",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "inferenceapis/qwen3-vl-235b",
+      "context": 262144,
+      "prices": [
+        {
+          "input": 0.26,
+          "output": 1.15,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "qwen3-vl-235b-a22b-instruct",
@@ -56874,8 +57562,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.32,
-          "output": 3.1999999999999997,
+          "input": 0.25,
+          "output": 2,
           "vendor": "qwen",
           "mode": "standard"
         },
@@ -57316,6 +58004,12 @@
           "input": 0.15,
           "output": 0.47,
           "vendor": "qwen_ai_platform",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.5,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -59933,22 +60627,6 @@
           "input": 2.5,
           "output": 7.5,
           "vendor": "~unbiased",
-          "mode": "standard"
-        }
-      ],
-      "benchmarks": []
-    },
-    {
-      "id": "unbiased/pareto-26.10-preview",
-      "firstSeen": "2026-10-02T12:31:26.826Z",
-      "name": "openrouter/unbiased/pareto-26.10-preview",
-      "context": 1048576,
-      "listedAt": "2026-10-01",
-      "prices": [
-        {
-          "input": 0.7999999999999999,
-          "output": 3.1999999999999997,
-          "vendor": "unbiased",
           "mode": "standard"
         }
       ],
@@ -64870,6 +65548,36 @@
       "benchmarks": []
     },
     {
+      "id": "xai.grok-4.20-0309-non-reasoning",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "oci/xai.grok-4.20-0309-non-reasoning",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "oci",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "xai.grok-4.20-0309-reasoning",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "oci/xai.grok-4.20-0309-reasoning",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "oci",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "xai.grok-4.20-multi-agent",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "oci/xai.grok-4.20-multi-agent",
@@ -64878,6 +65586,36 @@
         {
           "input": 3,
           "output": 15,
+          "vendor": "oci",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "xai.grok-4.20-non-reasoning",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "oci/xai.grok-4.20-non-reasoning",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
+          "vendor": "oci",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "xai.grok-4.20-reasoning",
+      "firstSeen": "2026-10-16T11:20:08.618Z",
+      "name": "oci/xai.grok-4.20-reasoning",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.25,
+          "output": 2.5,
           "vendor": "oci",
           "mode": "standard"
         }
@@ -65859,8 +66597,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.02,
-          "output": 7,
+          "input": 0.037,
+          "output": 9,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -65971,8 +66709,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.02,
-          "output": 7,
+          "input": 0.037,
+          "output": 9,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -66083,8 +66821,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.02,
-          "output": 7,
+          "input": 0.037,
+          "output": 9,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -66189,7 +66927,7 @@
       "listedAt": "2026-08-18",
       "prices": [
         {
-          "input": 0.03,
+          "input": 0.079,
           "output": 4.8,
           "vendor": "z-ai",
           "mode": "standard"
@@ -66198,6 +66936,12 @@
           "input": 1.12,
           "output": 4.4,
           "vendor": "coralbricks",
+          "mode": "standard"
+        },
+        {
+          "input": 1.8199999999999998,
+          "output": 5.720000000000001,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -66243,6 +66987,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.8199999999999998,
+          "output": 5.720000000000001,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 1.4,
           "output": 4.4,
           "vendor": "nebius",
@@ -66277,9 +67027,15 @@
       "listedAt": "2026-08-26",
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.5,
+          "input": 0.013399999999999999,
+          "output": 0.8192,
           "vendor": "z-ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.66,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -66316,6 +67072,12 @@
           "input": 0.15,
           "output": 0.5,
           "vendor": "friendliai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.66,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -66353,9 +67115,15 @@
       "listedAt": "2026-08-26",
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.5,
+          "input": 0.013399999999999999,
+          "output": 0.8192,
           "vendor": "z-ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.66,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -66392,6 +67160,12 @@
           "input": 0.15,
           "output": 0.5,
           "vendor": "friendliai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.66,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -66467,7 +67241,7 @@
       "listedAt": "2026-08-18",
       "prices": [
         {
-          "input": 0.03,
+          "input": 0.079,
           "output": 4.8,
           "vendor": "z-ai",
           "mode": "standard"
@@ -66476,6 +67250,12 @@
           "input": 1.12,
           "output": 4.4,
           "vendor": "coralbricks",
+          "mode": "standard"
+        },
+        {
+          "input": 1.8199999999999998,
+          "output": 5.720000000000001,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -66518,6 +67298,12 @@
           "input": 1.26,
           "output": 3.9600000000000004,
           "vendor": "friendliai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.8199999999999998,
+          "output": 5.720000000000001,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
@@ -67091,6 +67877,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.8199999999999998,
+          "output": 5.720000000000001,
+          "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
           "input": 1.4,
           "output": 4.4,
           "vendor": "nebius",
@@ -67149,6 +67941,12 @@
           "input": 0.15,
           "output": 0.5,
           "vendor": "friendliai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 0.66,
+          "vendor": "inferenceapis",
           "mode": "standard"
         },
         {
