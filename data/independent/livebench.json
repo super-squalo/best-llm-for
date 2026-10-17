@@ -3,7 +3,7 @@
   "kind": "independent",
   "source": "https://livebench.ai/table_2026_09_02.csv",
   "note": "Questions are written after the models are released, so no model can have seen them in training. Task-level scores only: LiveBench computes its headline average from a task-to-category mapping that is not published in machine-readable form, and guessing it would fake their number.",
-  "capturedAt": "2026-10-16",
+  "capturedAt": "2026-10-17",
   "benchmarks": [
     "LiveBench/design_layout",
     "LiveBench/research",
@@ -357,7 +357,7 @@
       "scores": {
         "LiveBench/design_layout": 77,
         "LiveBench/research": 85.3,
-        "LiveBench/browser": 83.3,
+        "LiveBench/browser": 80,
         "LiveBench/coding": 85.4,
         "LiveBench/long_horizon": 43.8,
         "LiveBench/data_analysis": 79.3,
@@ -670,6 +670,20 @@
         "LiveBench/long_horizon": 18.9,
         "LiveBench/data_analysis": 60.2,
         "LiveBench/reasoning": 73.7
+      }
+    },
+    {
+      "model": "beam-1.0",
+      "measuredBy": "LiveBench",
+      "source": "https://livebench.ai/",
+      "scores": {
+        "LiveBench/design_layout": 67.9,
+        "LiveBench/research": 72.8,
+        "LiveBench/browser": 0,
+        "LiveBench/coding": 83.9,
+        "LiveBench/long_horizon": 17.3,
+        "LiveBench/data_analysis": 66.4,
+        "LiveBench/reasoning": 80.2
       }
     }
   ]
