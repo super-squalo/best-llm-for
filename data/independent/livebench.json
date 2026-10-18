@@ -3,7 +3,7 @@
   "kind": "independent",
   "source": "https://livebench.ai/table_2026_09_02.csv",
   "note": "Questions are written after the models are released, so no model can have seen them in training. Task-level scores only: LiveBench computes its headline average from a task-to-category mapping that is not published in machine-readable form, and guessing it would fake their number.",
-  "capturedAt": "2026-10-17",
+  "capturedAt": "2026-10-18",
   "benchmarks": [
     "LiveBench/design_layout",
     "LiveBench/research",
@@ -119,8 +119,8 @@
       "scores": {
         "LiveBench/design_layout": 67.1,
         "LiveBench/research": 67.7,
-        "LiveBench/browser": 29.4,
-        "LiveBench/coding": 80.6,
+        "LiveBench/browser": 36,
+        "LiveBench/coding": 78.2,
         "LiveBench/long_horizon": 21.3,
         "LiveBench/data_analysis": 76.5,
         "LiveBench/reasoning": 90
@@ -355,11 +355,11 @@
       "measuredBy": "LiveBench",
       "source": "https://livebench.ai/",
       "scores": {
-        "LiveBench/design_layout": 77,
-        "LiveBench/research": 85.3,
-        "LiveBench/browser": 80,
-        "LiveBench/coding": 85.4,
-        "LiveBench/long_horizon": 43.8,
+        "LiveBench/design_layout": 79.2,
+        "LiveBench/research": 86.8,
+        "LiveBench/browser": 84,
+        "LiveBench/coding": 90.2,
+        "LiveBench/long_horizon": 40.1,
         "LiveBench/data_analysis": 79.3,
         "LiveBench/reasoning": 86.7
       }
@@ -385,7 +385,7 @@
       "scores": {
         "LiveBench/design_layout": 74.8,
         "LiveBench/research": 68.6,
-        "LiveBench/browser": 81,
+        "LiveBench/browser": 80,
         "LiveBench/coding": 90.2,
         "LiveBench/long_horizon": 40.4,
         "LiveBench/data_analysis": 79.6,
@@ -684,6 +684,20 @@
         "LiveBench/long_horizon": 17.3,
         "LiveBench/data_analysis": 66.4,
         "LiveBench/reasoning": 80.2
+      }
+    },
+    {
+      "model": "deepseek-v4.1-flash-1017",
+      "measuredBy": "LiveBench",
+      "source": "https://livebench.ai/",
+      "scores": {
+        "LiveBench/design_layout": 83.4,
+        "LiveBench/research": 79.5,
+        "LiveBench/browser": 76,
+        "LiveBench/coding": 96,
+        "LiveBench/long_horizon": 50.9,
+        "LiveBench/data_analysis": 79.5,
+        "LiveBench/reasoning": 89.1
       }
     }
   ]
