@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-20T11:32:49.993Z",
+  "generatedAt": "2026-10-21T11:45:54.929Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 470
+      "records": 468
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3375
+      "records": 3395
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -22,8 +22,23 @@
     }
   ],
   "newModels": [
-    "accounts/fireworks/models/minimax-m3p1-flash",
-    "mercury-3"
+    "@cf/cloudflare/clairic",
+    "accounts/fireworks/models/deepseek-v4p1-flash-1017-us",
+    "clairic",
+    "doubao-seed-2-1-lite-260915",
+    "doubao-seed-2-1-pro-260915",
+    "eu/gpt-4o",
+    "eu/gpt-4o-mini",
+    "eu/o1",
+    "eu/o3",
+    "eu/o3-mini",
+    "eu/o4-mini",
+    "us/gpt-4o",
+    "us/gpt-4o-mini",
+    "us/o1",
+    "us/o3",
+    "us/o3-mini",
+    "us/o4-mini"
   ],
   "models": [
     {
@@ -35,6 +50,21 @@
         {
           "input": 0.351,
           "output": 0.5549999999999999,
+          "vendor": "cloudflare",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "@cf/cloudflare/clairic",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "cloudflare/@cf/cloudflare/clairic",
+      "context": 65536,
+      "prices": [
+        {
+          "input": 0.09999999999999999,
+          "output": 0,
           "vendor": "cloudflare",
           "mode": "standard"
         }
@@ -653,8 +683,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.07,
-          "output": 0.5,
+          "input": 0.049,
+          "output": 0.375,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -787,8 +817,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.01208,
-          "output": 0.12,
+          "input": 0.0475,
+          "output": 0.1568,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -977,8 +1007,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.037475999999999995,
-          "output": 0.16,
+          "input": 0.051691,
+          "output": 0.12,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -1835,6 +1865,21 @@
         {
           "input": 0.3,
           "output": 1.2,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "accounts/fireworks/models/deepseek-v4p1-flash-1017-us",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash-1017-us",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.44999999999999996,
+          "output": 1.7999999999999998,
           "vendor": "fireworks_ai",
           "mode": "standard"
         }
@@ -10217,6 +10262,21 @@
       "benchmarks": []
     },
     {
+      "id": "clairic",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "cloudflare/clairic",
+      "context": 65536,
+      "prices": [
+        {
+          "input": 0.09999999999999999,
+          "output": 0,
+          "vendor": "cloudflare",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "classify",
       "firstSeen": "2026-10-11T12:46:28.762Z",
       "name": "scaledown/classify",
@@ -16118,8 +16178,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.07,
-          "output": 0.5,
+          "input": 0.049,
+          "output": 0.375,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -17101,8 +17161,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.01208,
-          "output": 0.12,
+          "input": 0.0475,
+          "output": 0.1568,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -17250,8 +17310,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.01208,
-          "output": 0.12,
+          "input": 0.0475,
+          "output": 0.1568,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -17297,8 +17357,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.01208,
-          "output": 0.12,
+          "input": 0.0475,
+          "output": 0.1568,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -17806,8 +17866,8 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0.056,
-          "output": 0.12,
+          "input": 0.049,
+          "output": 0.375,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18840,8 +18900,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.056,
-          "output": 0.12,
+          "input": 0.049,
+          "output": 0.375,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18934,8 +18994,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.056,
-          "output": 0.12,
+          "input": 0.049,
+          "output": 0.375,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -19280,10 +19340,40 @@
       "benchmarks": []
     },
     {
+      "id": "doubao-seed-2-1-lite-260915",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "volcengine/doubao-seed-2-1-lite-260915",
+      "context": 1024000,
+      "prices": [
+        {
+          "input": 0.11499999999999999,
+          "output": 0.388126,
+          "vendor": "volcengine",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "doubao-seed-2-1-pro-260628",
       "firstSeen": "2026-09-17T11:39:05.964Z",
       "name": "volcengine/doubao-seed-2-1-pro-260628",
       "context": 256000,
+      "prices": [
+        {
+          "input": 0.8625,
+          "output": 4.3125,
+          "vendor": "volcengine",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "doubao-seed-2-1-pro-260915",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "volcengine/doubao-seed-2-1-pro-260915",
+      "context": 1024000,
       "prices": [
         {
           "input": 0.8625,
@@ -20585,6 +20675,22 @@
       "benchmarks": []
     },
     {
+      "id": "eu/gpt-4o",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "azure/eu/gpt-4o",
+      "context": 128000,
+      "listedAt": "2024-05-13",
+      "prices": [
+        {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu/gpt-4o-2024-05-13",
       "firstSeen": "2026-09-17T11:39:05.964Z",
       "name": "azure/eu/gpt-4o-2024-05-13",
@@ -20631,6 +20737,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2024-05-13"
+    },
+    {
+      "id": "eu/gpt-4o-mini",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "azure/eu/gpt-4o-mini",
+      "context": 128000,
+      "listedAt": "2024-07-18",
+      "prices": [
+        {
+          "input": 0.165,
+          "output": 0.66,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "eu/gpt-4o-mini-2024-07-18",
@@ -21237,6 +21359,22 @@
       "benchmarks": []
     },
     {
+      "id": "eu/o1",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "azure/eu/o1",
+      "context": 200000,
+      "listedAt": "2024-12-17",
+      "prices": [
+        {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu/o1-2024-12-17",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/eu/o1-2024-12-17",
@@ -21362,10 +21500,38 @@
           "output": 66,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
       "listedAt": "2024-12-17"
+    },
+    {
+      "id": "eu/o3",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "azure/eu/o3",
+      "context": 200000,
+      "listedAt": "2025-04-16",
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 8.8,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "eu/o3-2025-04-16",
@@ -21398,6 +21564,22 @@
       "benchmarks": []
     },
     {
+      "id": "eu/o3-mini",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "azure/eu/o3-mini",
+      "context": 200000,
+      "listedAt": "2025-01-31",
+      "prices": [
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu/o3-mini-2025-01-31",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/eu/o3-mini-2025-01-31",
@@ -21412,6 +21594,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-01-31"
+    },
+    {
+      "id": "eu/o4-mini",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "azure/eu/o4-mini",
+      "context": 200000,
+      "listedAt": "2025-04-16",
+      "prices": [
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "eu/o4-mini-2025-04-16",
@@ -22480,10 +22678,40 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.15,
-          "output": 1.25,
+          "input": 0.3,
+          "output": 2.5,
           "vendor": "google",
-          "mode": "batch"
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 2.5,
+          "vendor": "vertex_ai-language-models",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 2.5,
+          "vendor": "gemini",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 2.5,
+          "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 2.5,
+          "vendor": "replicate",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 2.5,
+          "vendor": "vercel_ai_gateway",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -22589,10 +22817,40 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.625,
-          "output": 5,
+          "input": 1.25,
+          "output": 10,
           "vendor": "google",
-          "mode": "batch"
+          "mode": "standard"
+        },
+        {
+          "input": 1.25,
+          "output": 10,
+          "vendor": "vertex_ai-language-models",
+          "mode": "standard"
+        },
+        {
+          "input": 1.25,
+          "output": 10,
+          "vendor": "gemini",
+          "mode": "standard"
+        },
+        {
+          "input": 1.25,
+          "output": 10,
+          "vendor": "google",
+          "mode": "standard"
+        },
+        {
+          "input": 1.25,
+          "output": 10,
+          "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 1.25,
+          "output": 10,
+          "vendor": "vercel_ai_gateway",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -25137,8 +25395,8 @@
       "context": 204800,
       "prices": [
         {
-          "input": 0.6,
-          "output": 1.92,
+          "input": 1,
+          "output": 3.1999999999999997,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -25220,8 +25478,8 @@
       "context": 204800,
       "prices": [
         {
-          "input": 0.966,
-          "output": 3.036,
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -25273,8 +25531,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.62,
-          "output": 2.42,
+          "input": 0.0341,
+          "output": 7,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -25352,8 +25610,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.62,
-          "output": 2.42,
+          "input": 0.0341,
+          "output": 7,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -25478,8 +25736,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.62,
-          "output": 2.42,
+          "input": 0.0341,
+          "output": 7,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -25589,8 +25847,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.62,
-          "output": 2.42,
+          "input": 0.0341,
+          "output": 7,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -25763,8 +26021,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.037475999999999995,
-          "output": 0.16,
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -25954,6 +26212,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "baseten",
+          "mode": "standard"
+        },
+        {
+          "input": 1.2,
+          "output": 4,
+          "vendor": "wandb",
           "mode": "standard"
         }
       ],
@@ -26199,8 +26463,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.037475999999999995,
-          "output": 0.16,
+          "input": 0.051691,
+          "output": 0.12,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -39044,6 +39308,12 @@
           "output": 1.2,
           "vendor": "github_copilot",
           "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 1.2,
+          "vendor": "azure_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -41498,8 +41768,8 @@
       "context": 1050000,
       "prices": [
         {
-          "input": 0.14,
-          "output": 0.28,
+          "input": 0.119,
+          "output": 0.238,
           "vendor": "xiaomi",
           "mode": "standard"
         }
@@ -41528,8 +41798,8 @@
       "context": 1050000,
       "prices": [
         {
-          "input": 0.435,
-          "output": 0.87,
+          "input": 0.3045,
+          "output": 0.609,
           "vendor": "xiaomi",
           "mode": "standard"
         }
@@ -43241,8 +43511,8 @@
       "listedAt": "2026-10-06",
       "prices": [
         {
-          "input": 0.6799999999999999,
-          "output": 2.09,
+          "input": 1.3599999999999999,
+          "output": 4.18,
           "vendor": "mistralai",
           "mode": "standard"
         },
@@ -44690,8 +44960,8 @@
       "listedAt": "2026-10-06",
       "prices": [
         {
-          "input": 0.6799999999999999,
-          "output": 2.09,
+          "input": 1.3599999999999999,
+          "output": 4.18,
           "vendor": "mistralai",
           "mode": "standard"
         },
@@ -46363,8 +46633,8 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 0.08,
-          "output": 0.44999999999999996,
+          "input": 0.3,
+          "output": 2.4,
           "vendor": "nvidia",
           "mode": "standard"
         }
@@ -47294,8 +47564,8 @@
       "listedAt": "2026-03-11",
       "prices": [
         {
-          "input": 0.08,
-          "output": 0.44999999999999996,
+          "input": 0.3,
+          "output": 2.4,
           "vendor": "nvidia",
           "mode": "standard"
         },
@@ -47752,6 +48022,18 @@
           "output": 66,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -47809,6 +48091,18 @@
           "input": 15,
           "output": 60,
           "vendor": "vercel_ai_gateway",
+          "mode": "standard"
+        },
+        {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -49309,6 +49603,18 @@
           "output": 11,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -49432,6 +49738,18 @@
         {
           "input": 5.5,
           "output": 16.5,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 2.75,
+          "output": 11,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -49582,6 +49900,18 @@
           "output": 11,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -49680,6 +50010,18 @@
           "output": 0.66,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 0.165,
+          "output": 0.66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 0.165,
+          "output": 0.66,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -49743,6 +50085,18 @@
           "input": 0.15,
           "output": 0.6,
           "vendor": "vercel_ai_gateway",
+          "mode": "standard"
+        },
+        {
+          "input": 0.165,
+          "output": 0.66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 0.165,
+          "output": 0.66,
+          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -49872,6 +50226,18 @@
         {
           "input": 5.5,
           "output": 16.5,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 2.75,
+          "output": 11,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -52987,6 +53353,18 @@
           "output": 4.84,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -53044,6 +53422,18 @@
         {
           "input": 1.513,
           "output": 6.05,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.21,
+          "output": 4.84,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -53138,6 +53528,18 @@
           "output": 8.8,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 2.2,
+          "output": 8.8,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 2.2,
+          "output": 8.8,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -53224,6 +53626,18 @@
           "output": 4.84,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -53281,6 +53695,18 @@
           "input": 1.1,
           "output": 4.4,
           "vendor": "vercel_ai_gateway",
+          "mode": "standard"
+        },
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -56781,8 +57207,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.09999999999999999,
-          "output": 0.15,
+          "input": 0.08,
+          "output": 0.13,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -58141,7 +58567,7 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.15,
+          "input": 0.14,
           "output": 1,
           "vendor": "qwen",
           "mode": "standard"
@@ -58206,8 +58632,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.09999999999999999,
-          "output": 0.15,
+          "input": 0.08,
+          "output": 0.13,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -58240,8 +58666,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.09999999999999999,
-          "output": 0.15,
+          "input": 0.08,
+          "output": 0.13,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -59066,8 +59492,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 1.3,
-          "output": 4.300000000000001,
+          "input": 0.39999999999999997,
+          "output": 1.2,
           "vendor": "baseten",
           "mode": "standard"
         }
@@ -59085,6 +59511,12 @@
           "input": 0.39999999999999997,
           "output": 1.2,
           "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 1,
+          "output": 3,
+          "vendor": "wandb",
           "mode": "standard"
         }
       ],
@@ -64398,6 +64830,22 @@
       "listedAt": "2025-04-14"
     },
     {
+      "id": "us/gpt-4o",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "azure/us/gpt-4o",
+      "context": 128000,
+      "listedAt": "2024-05-13",
+      "prices": [
+        {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us/gpt-4o-2024-05-13",
       "firstSeen": "2026-09-17T11:39:05.964Z",
       "name": "azure/us/gpt-4o-2024-05-13",
@@ -64444,6 +64892,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2024-05-13"
+    },
+    {
+      "id": "us/gpt-4o-mini",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "azure/us/gpt-4o-mini",
+      "context": 128000,
+      "listedAt": "2024-07-18",
+      "prices": [
+        {
+          "input": 0.165,
+          "output": 0.66,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "us/gpt-4o-mini-2024-07-18",
@@ -65066,6 +65530,22 @@
       "benchmarks": []
     },
     {
+      "id": "us/o1",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "azure/us/o1",
+      "context": 200000,
+      "listedAt": "2024-12-17",
+      "prices": [
+        {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us/o1-2024-12-17",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/us/o1-2024-12-17",
@@ -65191,10 +65671,38 @@
           "output": 66,
           "vendor": "azure",
           "mode": "standard"
+        },
+        {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
       "listedAt": "2024-12-17"
+    },
+    {
+      "id": "us/o3",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "azure/us/o3",
+      "context": 200000,
+      "listedAt": "2025-04-16",
+      "prices": [
+        {
+          "input": 2.2,
+          "output": 8.8,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "us/o3-2025-04-16",
@@ -65227,6 +65735,22 @@
       "benchmarks": []
     },
     {
+      "id": "us/o3-mini",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "azure/us/o3-mini",
+      "context": 200000,
+      "listedAt": "2025-01-31",
+      "prices": [
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us/o3-mini-2025-01-31",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure/us/o3-mini-2025-01-31",
@@ -65241,6 +65765,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-01-31"
+    },
+    {
+      "id": "us/o4-mini",
+      "firstSeen": "2026-10-21T11:45:54.929Z",
+      "name": "azure/us/o4-mini",
+      "context": 200000,
+      "listedAt": "2025-04-16",
+      "prices": [
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "us/o4-mini-2025-04-16",
@@ -66802,8 +67342,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.14,
-          "output": 0.28,
+          "input": 0.119,
+          "output": 0.238,
           "vendor": "xiaomi",
           "mode": "standard"
         },
@@ -66830,8 +67370,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.435,
-          "output": 0.87,
+          "input": 0.3045,
+          "output": 0.609,
           "vendor": "xiaomi",
           "mode": "standard"
         },
@@ -67301,8 +67841,8 @@
       "context": 202752,
       "prices": [
         {
-          "input": 0.6,
-          "output": 1.92,
+          "input": 1,
+          "output": 3.1999999999999997,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -67369,8 +67909,8 @@
       "context": 202752,
       "prices": [
         {
-          "input": 0.966,
-          "output": 3.036,
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -67446,8 +67986,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.62,
-          "output": 2.42,
+          "input": 0.0341,
+          "output": 7,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -67558,8 +68098,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.62,
-          "output": 2.42,
+          "input": 0.0341,
+          "output": 7,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -67670,8 +68210,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.62,
-          "output": 2.42,
+          "input": 0.0341,
+          "output": 7,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -67864,6 +68404,12 @@
           "output": 4.4,
           "vendor": "baseten",
           "mode": "standard"
+        },
+        {
+          "input": 1.2,
+          "output": 4,
+          "vendor": "wandb",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -67882,8 +68428,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.037475999999999995,
-          "output": 0.16,
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -67976,8 +68522,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.037475999999999995,
-          "output": 0.16,
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -68189,6 +68735,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "baseten",
+          "mode": "standard"
+        },
+        {
+          "input": 1.2,
+          "output": 4,
+          "vendor": "wandb",
           "mode": "standard"
         }
       ],
@@ -68765,6 +69317,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "baseten",
+          "mode": "standard"
+        },
+        {
+          "input": 1.2,
+          "output": 4,
+          "vendor": "wandb",
           "mode": "standard"
         }
       ],
