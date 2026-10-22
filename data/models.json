@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T11:45:54.929Z",
+  "generatedAt": "2026-10-22T11:48:39.202Z",
   "sources": [
     {
       "name": "OpenRouter",
@@ -22,23 +22,7 @@
     }
   ],
   "newModels": [
-    "@cf/cloudflare/clairic",
-    "accounts/fireworks/models/deepseek-v4p1-flash-1017-us",
-    "clairic",
-    "doubao-seed-2-1-lite-260915",
-    "doubao-seed-2-1-pro-260915",
-    "eu/gpt-4o",
-    "eu/gpt-4o-mini",
-    "eu/o1",
-    "eu/o3",
-    "eu/o3-mini",
-    "eu/o4-mini",
-    "us/gpt-4o",
-    "us/gpt-4o-mini",
-    "us/o1",
-    "us/o3",
-    "us/o3-mini",
-    "us/o4-mini"
+    "flint-v1.0:free"
   ],
   "models": [
     {
@@ -683,8 +667,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.049,
-          "output": 0.375,
+          "input": 0.07,
+          "output": 0.5,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -699,8 +683,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.22499999999999998,
-          "output": 8,
+          "input": 0.25,
+          "output": 5,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -896,7 +880,7 @@
       "prices": [
         {
           "input": 0.238,
-          "output": 16,
+          "output": 24,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -1007,8 +991,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.051691,
-          "output": 0.12,
+          "input": 0.005200000000000001,
+          "output": 0.1985,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -9837,7 +9821,7 @@
       "listedAt": "2026-10-16",
       "prices": [
         {
-          "input": 0.3,
+          "input": 0.25,
           "output": 1,
           "vendor": "reflection",
           "mode": "standard"
@@ -16178,8 +16162,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.049,
-          "output": 0.375,
+          "input": 0.07,
+          "output": 0.5,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -16209,8 +16193,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.22499999999999998,
-          "output": 8,
+          "input": 0.25,
+          "output": 5,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -17866,8 +17850,8 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0.049,
-          "output": 0.375,
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18900,8 +18884,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.049,
-          "output": 0.375,
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18994,8 +18978,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.049,
-          "output": 0.375,
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -21454,6 +21438,12 @@
           "mode": "standard"
         },
         {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 15,
           "output": 60,
           "vendor": "openai",
@@ -21487,12 +21477,6 @@
           "input": 15,
           "output": 60,
           "vendor": "vercel_ai_gateway",
-          "mode": "standard"
-        },
-        {
-          "input": 16.5,
-          "output": 66,
-          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -21787,6 +21771,22 @@
           "output": 15,
           "vendor": "fireworks",
           "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "flint-v1.0:free",
+      "firstSeen": "2026-10-22T11:48:39.202Z",
+      "name": "Recursive: Flint (free)",
+      "context": 262144,
+      "listedAt": "2026-10-21",
+      "prices": [
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "recursive",
+          "mode": "free"
         }
       ],
       "benchmarks": []
@@ -22553,10 +22553,22 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.049999999999999996,
-          "output": 0.19999999999999998,
+          "input": 0.09999999999999999,
+          "output": 0.39999999999999997,
           "vendor": "google",
-          "mode": "batch"
+          "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.39999999999999997,
+          "vendor": "vertex_ai-language-models",
+          "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.39999999999999997,
+          "vendor": "gemini",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -26021,8 +26033,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.5,
+          "input": 0.005200000000000001,
+          "output": 0.1985,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -26463,8 +26475,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.051691,
-          "output": 0.12,
+          "input": 0.005200000000000001,
+          "output": 0.1985,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -37936,7 +37948,7 @@
       "prices": [
         {
           "input": 0.238,
-          "output": 16,
+          "output": 24,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -37952,7 +37964,7 @@
       "prices": [
         {
           "input": 0.238,
-          "output": 16,
+          "output": 24,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -37968,7 +37980,7 @@
       "prices": [
         {
           "input": 0.238,
-          "output": 16,
+          "output": 24,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -37984,7 +37996,7 @@
       "prices": [
         {
           "input": 0.238,
-          "output": 16,
+          "output": 24,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -38000,7 +38012,7 @@
       "prices": [
         {
           "input": 0.238,
-          "output": 16,
+          "output": 24,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -47976,6 +47988,12 @@
           "mode": "standard"
         },
         {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 15,
           "output": 60,
           "vendor": "openai",
@@ -48009,12 +48027,6 @@
           "input": 15,
           "output": 60,
           "vendor": "vercel_ai_gateway",
-          "mode": "standard"
-        },
-        {
-          "input": 16.5,
-          "output": 66,
-          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -48058,6 +48070,12 @@
           "mode": "standard"
         },
         {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 15,
           "output": 60,
           "vendor": "openai",
@@ -48091,12 +48109,6 @@
           "input": 15,
           "output": 60,
           "vendor": "vercel_ai_gateway",
-          "mode": "standard"
-        },
-        {
-          "input": 16.5,
-          "output": 66,
-          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -49479,6 +49491,12 @@
       "context": 128000,
       "prices": [
         {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 5.5,
           "output": 16.5,
           "vendor": "azure",
@@ -49587,20 +49605,14 @@
           "mode": "standard"
         },
         {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 5.5,
           "output": 16.5,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 2.75,
-          "output": 11,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 2.75,
-          "output": 11,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -49628,6 +49640,12 @@
       "listedAt": "2024-05-13",
       "prices": [
         {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 5.5,
           "output": 16.5,
           "vendor": "azure",
@@ -49736,20 +49754,14 @@
           "mode": "standard"
         },
         {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 5.5,
           "output": 16.5,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 2.75,
-          "output": 11,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 2.75,
-          "output": 11,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -49776,6 +49788,12 @@
       "listedAt": "2024-05-13",
       "prices": [
         {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 5.5,
           "output": 16.5,
           "vendor": "azure",
@@ -49884,20 +49902,14 @@
           "mode": "standard"
         },
         {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 5.5,
           "output": 16.5,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 2.75,
-          "output": 11,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 2.75,
-          "output": 11,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -49958,6 +49970,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.165,
+          "output": 0.66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 0.15,
           "output": 0.6,
           "vendor": "azure",
@@ -50003,12 +50021,6 @@
           "input": 0.15,
           "output": 0.6,
           "vendor": "vercel_ai_gateway",
-          "mode": "standard"
-        },
-        {
-          "input": 0.165,
-          "output": 0.66,
-          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -50040,6 +50052,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.165,
+          "output": 0.66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 0.15,
           "output": 0.6,
           "vendor": "azure",
@@ -50085,12 +50103,6 @@
           "input": 0.15,
           "output": 0.6,
           "vendor": "vercel_ai_gateway",
-          "mode": "standard"
-        },
-        {
-          "input": 0.165,
-          "output": 0.66,
-          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -50116,6 +50128,12 @@
       "listedAt": "2024-05-13",
       "prices": [
         {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 5.5,
           "output": 16.5,
           "vendor": "azure",
@@ -50224,20 +50242,14 @@
           "mode": "standard"
         },
         {
+          "input": 2.75,
+          "output": 11,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 5.5,
           "output": 16.5,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 2.75,
-          "output": 11,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 2.75,
-          "output": 11,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -53307,6 +53319,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 1.1,
           "output": 4.4,
           "vendor": "openai",
@@ -53345,12 +53363,6 @@
         {
           "input": 1.513,
           "output": 6.05,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 1.21,
-          "output": 4.84,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -53384,6 +53396,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 1.1,
           "output": 4.4,
           "vendor": "openai",
@@ -53422,12 +53440,6 @@
         {
           "input": 1.513,
           "output": 6.05,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 1.21,
-          "output": 4.84,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -53494,6 +53506,12 @@
           "mode": "standard"
         },
         {
+          "input": 2.2,
+          "output": 8.8,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 2,
           "output": 8,
           "vendor": "openai",
@@ -53521,12 +53539,6 @@
           "input": 2,
           "output": 8,
           "vendor": "vercel_ai_gateway",
-          "mode": "standard"
-        },
-        {
-          "input": 2.2,
-          "output": 8.8,
-          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -53580,6 +53592,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 1.1,
           "output": 4.4,
           "vendor": "openai",
@@ -53619,12 +53637,6 @@
           "input": 1.1,
           "output": 4.4,
           "vendor": "vercel_ai_gateway",
-          "mode": "standard"
-        },
-        {
-          "input": 1.21,
-          "output": 4.84,
-          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -53656,6 +53668,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 1.1,
           "output": 4.4,
           "vendor": "openai",
@@ -53695,12 +53713,6 @@
           "input": 1.1,
           "output": 4.4,
           "vendor": "vercel_ai_gateway",
-          "mode": "standard"
-        },
-        {
-          "input": 1.21,
-          "output": 4.84,
-          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -58479,8 +58491,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.26,
-          "output": 2.08,
+          "input": 0.39999999999999997,
+          "output": 3.1999999999999997,
           "vendor": "qwen",
           "mode": "standard"
         },
@@ -58597,8 +58609,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.39,
-          "output": 2.34,
+          "input": 0.5,
+          "output": 3.5999999999999996,
           "vendor": "qwen",
           "mode": "standard"
         },
@@ -65625,6 +65637,12 @@
           "mode": "standard"
         },
         {
+          "input": 16.5,
+          "output": 66,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 15,
           "output": 60,
           "vendor": "openai",
@@ -65658,12 +65676,6 @@
           "input": 15,
           "output": 60,
           "vendor": "vercel_ai_gateway",
-          "mode": "standard"
-        },
-        {
-          "input": 16.5,
-          "output": 66,
-          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -68428,8 +68440,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.15,
-          "output": 0.5,
+          "input": 0.005200000000000001,
+          "output": 0.1985,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -68522,8 +68534,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.15,
-          "output": 0.5,
+          "input": 0.005200000000000001,
+          "output": 0.1985,
           "vendor": "z-ai",
           "mode": "standard"
         },
