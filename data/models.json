@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T11:48:39.202Z",
+  "generatedAt": "2026-10-23T11:35:40.618Z",
   "sources": [
     {
       "name": "OpenRouter",
@@ -22,7 +22,7 @@
     }
   ],
   "newModels": [
-    "flint-v1.0:free"
+    "minimax-m3.1-flash"
   ],
   "models": [
     {
@@ -683,8 +683,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.25,
-          "output": 5,
+          "input": 0.2565,
+          "output": 8,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -880,7 +880,7 @@
       "prices": [
         {
           "input": 0.238,
-          "output": 24,
+          "output": 16,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -16193,8 +16193,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.25,
-          "output": 5,
+          "input": 0.2565,
+          "output": 8,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -37948,7 +37948,7 @@
       "prices": [
         {
           "input": 0.238,
-          "output": 24,
+          "output": 16,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -37964,7 +37964,7 @@
       "prices": [
         {
           "input": 0.238,
-          "output": 24,
+          "output": 16,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -37980,7 +37980,7 @@
       "prices": [
         {
           "input": 0.238,
-          "output": 24,
+          "output": 16,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -37996,7 +37996,7 @@
       "prices": [
         {
           "input": 0.238,
-          "output": 24,
+          "output": 16,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -38012,7 +38012,7 @@
       "prices": [
         {
           "input": 0.238,
-          "output": 24,
+          "output": 16,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -42445,6 +42445,22 @@
       "listedAt": "2026-05-31"
     },
     {
+      "id": "minimax-m3.1-flash",
+      "firstSeen": "2026-10-23T11:35:40.618Z",
+      "name": "MiniMax: MiniMax M3.1 Flash",
+      "context": 1048576,
+      "listedAt": "2026-10-19",
+      "prices": [
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "minimax",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "minimax-m3.1-flash:free",
       "firstSeen": "2026-10-19T13:09:50.383Z",
       "name": "MiniMax: MiniMax M3.1 Flash (free)",
@@ -42452,10 +42468,10 @@
       "listedAt": "2026-10-19",
       "prices": [
         {
-          "input": 0,
-          "output": 0,
+          "input": 0.15,
+          "output": 0.6,
           "vendor": "minimax",
-          "mode": "free"
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -44087,8 +44103,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.09375,
-          "output": 0.25,
+          "input": 0.075,
+          "output": 0.19999999999999998,
           "vendor": "mistralai",
           "mode": "standard"
         }
@@ -45319,8 +45335,8 @@
       "context": 128000,
       "prices": [
         {
-          "input": 0.09375,
-          "output": 0.25,
+          "input": 0.075,
+          "output": 0.19999999999999998,
           "vendor": "mistralai",
           "mode": "standard"
         }
@@ -57219,8 +57235,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.08,
-          "output": 0.13,
+          "input": 0.16999999999999998,
+          "output": 0.25,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -57588,8 +57604,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04,
-          "output": 1.35,
+          "input": 0.19999999999999998,
+          "output": 2.5,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -58644,8 +58660,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.08,
-          "output": 0.13,
+          "input": 0.16999999999999998,
+          "output": 0.25,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -58678,8 +58694,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.08,
-          "output": 0.13,
+          "input": 0.16999999999999998,
+          "output": 0.25,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -59137,8 +59153,8 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 0.04,
-          "output": 1.35,
+          "input": 0.19999999999999998,
+          "output": 2.5,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -59191,8 +59207,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04,
-          "output": 1.35,
+          "input": 0.19999999999999998,
+          "output": 2.5,
           "vendor": "qwen",
           "mode": "standard"
         }

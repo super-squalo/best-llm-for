@@ -3,7 +3,7 @@
   "kind": "independent",
   "source": "https://github.com/vectara/hallucination-leaderboard",
   "note": "Measured by Vectara, not self-reported. Lower hallucination rate is better.",
-  "capturedAt": "2026-10-22",
+  "capturedAt": "2026-10-23",
   "benchmarks": [
     "Hallucination-Rate",
     "Factual-Consistency"
@@ -52,6 +52,15 @@
       "scores": {
         "Hallucination-Rate": 4.1,
         "Factual-Consistency": 95.9
+      }
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 4.2,
+        "Factual-Consistency": 95.8
       }
     },
     {
@@ -529,6 +538,15 @@
       "scores": {
         "Hallucination-Rate": 9.8,
         "Factual-Consistency": 90.2
+      }
+    },
+    {
+      "model": "anthropic/claude-opus-5-5",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 9.9,
+        "Factual-Consistency": 90.1
       }
     },
     {
