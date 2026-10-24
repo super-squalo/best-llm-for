@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-23T11:35:40.618Z",
+  "generatedAt": "2026-10-24T10:55:49.631Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 468
+      "records": 469
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3395
+      "records": 3396
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -22,7 +22,8 @@
     }
   ],
   "newModels": [
-    "minimax-m3.1-flash"
+    "kimi-k3.1-pro",
+    "minimaxai/minimax-m3.1-flash"
   ],
   "models": [
     {
@@ -667,8 +668,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.07,
-          "output": 0.5,
+          "input": 0.02,
+          "output": 1,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -683,7 +684,7 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.2565,
+          "input": 0.1188,
           "output": 8,
           "vendor": "~deepseek",
           "mode": "standard"
@@ -801,8 +802,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.0475,
-          "output": 0.1568,
+          "input": 0.0422,
+          "output": 0.1694,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -879,8 +880,8 @@
       "listedAt": "2026-04-27",
       "prices": [
         {
-          "input": 0.238,
-          "output": 16,
+          "input": 0.19,
+          "output": 8.940000000000001,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -991,8 +992,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.005200000000000001,
-          "output": 0.1985,
+          "input": 0.0262,
+          "output": 0.10279999999999999,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -1007,8 +1008,8 @@
       "listedAt": "2026-08-19",
       "prices": [
         {
-          "input": 0.079,
-          "output": 1.4,
+          "input": 0.075,
+          "output": 4.295000000000001,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -16162,8 +16163,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.07,
-          "output": 0.5,
+          "input": 0.02,
+          "output": 1,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -16193,7 +16194,7 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.2565,
+          "input": 0.1188,
           "output": 8,
           "vendor": "~deepseek",
           "mode": "standard"
@@ -16779,8 +16780,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.44,
-          "output": 1.32,
+          "input": 0.04444,
+          "output": 0.13332,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -16873,8 +16874,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.44,
-          "output": 1.32,
+          "input": 0.04444,
+          "output": 0.13332,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -16980,8 +16981,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.44,
-          "output": 1.32,
+          "input": 0.04444,
+          "output": 0.13332,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -17145,8 +17146,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.0475,
-          "output": 0.1568,
+          "input": 0.0422,
+          "output": 0.1694,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -17294,8 +17295,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.0475,
-          "output": 0.1568,
+          "input": 0.0422,
+          "output": 0.1694,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -17341,8 +17342,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.0475,
-          "output": 0.1568,
+          "input": 0.0422,
+          "output": 0.1694,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -17436,8 +17437,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.9552599999999999,
-          "output": 1.9105199999999998,
+          "input": 0.337734,
+          "output": 0.675468,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -17653,8 +17654,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.9552599999999999,
-          "output": 1.9105199999999998,
+          "input": 0.337734,
+          "output": 0.675468,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -17766,8 +17767,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.9552599999999999,
-          "output": 1.9105199999999998,
+          "input": 0.337734,
+          "output": 0.675468,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -17850,8 +17851,8 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0.3,
-          "output": 1.2,
+          "input": 0.02,
+          "output": 1,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18508,8 +18509,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.44,
-          "output": 1.32,
+          "input": 0.04444,
+          "output": 0.13332,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18614,8 +18615,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.44,
-          "output": 1.32,
+          "input": 0.04444,
+          "output": 0.13332,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18884,8 +18885,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.3,
-          "output": 1.2,
+          "input": 0.02,
+          "output": 1,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18978,8 +18979,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.3,
-          "output": 1.2,
+          "input": 0.02,
+          "output": 1,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -24801,8 +24802,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.09,
-          "output": 0.3,
+          "input": 0.0675,
+          "output": 0.22499999999999998,
           "vendor": "google",
           "mode": "standard"
         },
@@ -26033,8 +26034,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.005200000000000001,
-          "output": 0.1985,
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -26475,8 +26476,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.005200000000000001,
-          "output": 0.1985,
+          "input": 0.0262,
+          "output": 0.10279999999999999,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -26490,8 +26491,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.079,
-          "output": 1.4,
+          "input": 0.075,
+          "output": 4.295000000000001,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -28709,8 +28710,8 @@
       "listedAt": "2026-04-03",
       "prices": [
         {
-          "input": 0.09,
-          "output": 0.3,
+          "input": 0.0675,
+          "output": 0.22499999999999998,
           "vendor": "google",
           "mode": "standard"
         },
@@ -37743,7 +37744,7 @@
       "prices": [
         {
           "input": 0.23900000000000002,
-          "output": 11.936,
+          "output": 10.8,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -37810,7 +37811,7 @@
       "prices": [
         {
           "input": 0.23900000000000002,
-          "output": 11.936,
+          "output": 10.8,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -37941,14 +37942,30 @@
       "listedAt": "2026-07-16"
     },
     {
+      "id": "kimi-k3.1-pro",
+      "firstSeen": "2026-10-24T10:55:49.631Z",
+      "name": "MoonshotAI: Kimi K3.1 Pro",
+      "context": 1048576,
+      "listedAt": "2026-10-23",
+      "prices": [
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "moonshotai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "kimi-latest",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "MoonshotAI Kimi Latest",
       "context": 1048576,
       "prices": [
         {
-          "input": 0.238,
-          "output": 16,
+          "input": 0.19,
+          "output": 8.940000000000001,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -37963,8 +37980,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.238,
-          "output": 16,
+          "input": 0.19,
+          "output": 8.940000000000001,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -37979,8 +37996,8 @@
       "context": 32768,
       "prices": [
         {
-          "input": 0.238,
-          "output": 16,
+          "input": 0.19,
+          "output": 8.940000000000001,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -37995,8 +38012,8 @@
       "context": 8192,
       "prices": [
         {
-          "input": 0.238,
-          "output": 16,
+          "input": 0.19,
+          "output": 8.940000000000001,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -38011,8 +38028,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.238,
-          "output": 16,
+          "input": 0.19,
+          "output": 8.940000000000001,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -42086,12 +42103,6 @@
       "context": 204800,
       "prices": [
         {
-          "input": 0.27,
-          "output": 0.95,
-          "vendor": "minimax",
-          "mode": "standard"
-        },
-        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "minimax",
@@ -42471,6 +42482,12 @@
           "input": 0.15,
           "output": 0.6,
           "vendor": "minimax",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "together_ai",
           "mode": "standard"
         }
       ],
@@ -43046,6 +43063,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-05-31"
+    },
+    {
+      "id": "minimaxai/minimax-m3.1-flash",
+      "firstSeen": "2026-10-24T10:55:49.631Z",
+      "name": "together_ai/MiniMaxAI/MiniMax-M3.1-Flash",
+      "context": 1048576,
+      "listedAt": "2026-10-19",
+      "prices": [
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "together_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "ministral-14b-2512",
@@ -46139,7 +46172,7 @@
       "prices": [
         {
           "input": 0.23900000000000002,
-          "output": 11.936,
+          "output": 10.8,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -68456,8 +68489,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.005200000000000001,
-          "output": 0.1985,
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -68550,8 +68583,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.005200000000000001,
-          "output": 0.1985,
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "z-ai",
           "mode": "standard"
         },
