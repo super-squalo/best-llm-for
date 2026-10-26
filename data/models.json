@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T11:23:24.948Z",
+  "generatedAt": "2026-10-26T12:58:42.467Z",
   "sources": [
     {
       "name": "OpenRouter",
@@ -21,27 +21,7 @@
       "error": "HTTP 401"
     }
   ],
-  "newModels": [
-    "beam-free",
-    "claude_platform/claude-fable-5",
-    "claude_platform/claude-fable-5-1",
-    "claude_platform/claude-haiku-4-5",
-    "claude_platform/claude-haiku-5-5",
-    "claude_platform/claude-opus-4-5",
-    "claude_platform/claude-opus-4-6",
-    "claude_platform/claude-opus-4-7",
-    "claude_platform/claude-opus-4-8",
-    "claude_platform/claude-opus-5",
-    "claude_platform/claude-opus-5-5",
-    "claude_platform/claude-sonnet-4-5",
-    "claude_platform/claude-sonnet-4-6",
-    "claude_platform/claude-sonnet-5",
-    "claude_platform/claude-sonnet-5-5",
-    "lfm-2.5-2.6b",
-    "llama-3.1-70b",
-    "longcat-2.5-preview-free",
-    "zai-glm-5-3-flash"
-  ],
+  "newModels": [],
   "models": [
     {
       "id": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
@@ -701,8 +681,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.1188,
-          "output": 8,
+          "input": 0.22968,
+          "output": 0.68904,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -819,8 +799,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.0422,
-          "output": 0.1694,
+          "input": 0.0475,
+          "output": 0.1568,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -897,8 +877,8 @@
       "listedAt": "2026-04-27",
       "prices": [
         {
-          "input": 0.18,
-          "output": 16,
+          "input": 0.1529,
+          "output": 9.3421,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -1009,8 +989,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.051300000000000005,
-          "output": 0.0701,
+          "input": 0.041299999999999996,
+          "output": 0.0758,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -1025,8 +1005,8 @@
       "listedAt": "2026-08-19",
       "prices": [
         {
-          "input": 0.0703,
-          "output": 4.3843,
+          "input": 0.0699,
+          "output": 1.4,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -7223,6 +7203,12 @@
         {
           "input": 10,
           "output": 50,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 10,
+          "output": 50,
           "vendor": "anthropic",
           "mode": "standard"
         },
@@ -7249,12 +7235,6 @@
           "output": 55,
           "vendor": "aihubmix",
           "mode": "standard"
-        },
-        {
-          "input": 10,
-          "output": 50,
-          "vendor": "bedrock",
-          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -7270,6 +7250,12 @@
           "input": 10,
           "output": 50,
           "vendor": "perplexity",
+          "mode": "standard"
+        },
+        {
+          "input": 10,
+          "output": 50,
+          "vendor": "bedrock",
           "mode": "standard"
         },
         {
@@ -7300,12 +7286,6 @@
           "input": 10,
           "output": 50,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 10,
-          "output": 50,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -7327,6 +7307,12 @@
         {
           "input": 10,
           "output": 50,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 10,
+          "output": 50,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -7352,12 +7338,6 @@
           "input": 10,
           "output": 50,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 10,
-          "output": 50,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -7429,6 +7409,12 @@
         {
           "input": 1,
           "output": 5,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 1,
+          "output": 5,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -7473,12 +7459,6 @@
           "output": 5,
           "vendor": "github_copilot",
           "mode": "standard"
-        },
-        {
-          "input": 1,
-          "output": 5,
-          "vendor": "bedrock",
-          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -7514,6 +7494,12 @@
         {
           "input": 0.09999999999999999,
           "output": 0.5,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.5,
           "vendor": "anthropic",
           "mode": "standard"
         },
@@ -7545,12 +7531,6 @@
           "input": 0.09999999999999999,
           "output": 0.5,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 0.09999999999999999,
-          "output": 0.5,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -7572,6 +7552,12 @@
         {
           "input": 0.09999999999999999,
           "output": 0.5,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.5,
           "vendor": "anthropic",
           "mode": "standard"
         },
@@ -7603,12 +7589,6 @@
           "input": 0.09999999999999999,
           "output": 0.5,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 0.09999999999999999,
-          "output": 0.5,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -7798,6 +7778,12 @@
         {
           "input": 5,
           "output": 25,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -7823,12 +7809,6 @@
           "input": 5,
           "output": 25,
           "vendor": "anthropic",
-          "mode": "standard"
-        },
-        {
-          "input": 5,
-          "output": 25,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -7872,6 +7852,12 @@
         {
           "input": 5,
           "output": 25,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -7897,12 +7883,6 @@
           "input": 5,
           "output": 25,
           "vendor": "anthropic",
-          "mode": "standard"
-        },
-        {
-          "input": 5,
-          "output": 25,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -7929,6 +7909,12 @@
         {
           "input": 5,
           "output": 25,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -7954,12 +7940,6 @@
           "input": 5,
           "output": 25,
           "vendor": "anthropic",
-          "mode": "standard"
-        },
-        {
-          "input": 5,
-          "output": 25,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -7988,6 +7968,12 @@
         {
           "input": 5,
           "output": 25,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -8013,12 +7999,6 @@
           "input": 5,
           "output": 25,
           "vendor": "anthropic",
-          "mode": "standard"
-        },
-        {
-          "input": 5,
-          "output": 25,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -8046,6 +8026,12 @@
         {
           "input": 5,
           "output": 25,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -8071,12 +8057,6 @@
           "input": 5,
           "output": 25,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 5,
-          "output": 25,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -8104,6 +8084,12 @@
         {
           "input": 5,
           "output": 25,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -8129,12 +8115,6 @@
           "input": 5,
           "output": 25,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 5,
-          "output": 25,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -8199,6 +8179,12 @@
         {
           "input": 5,
           "output": 25,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
           "vendor": "anthropic",
           "mode": "standard"
         },
@@ -8225,12 +8211,6 @@
           "output": 25,
           "vendor": "aihubmix",
           "mode": "standard"
-        },
-        {
-          "input": 5,
-          "output": 25,
-          "vendor": "bedrock",
-          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -8246,6 +8226,12 @@
           "input": 4,
           "output": 20,
           "vendor": "perplexity",
+          "mode": "standard"
+        },
+        {
+          "input": 4,
+          "output": 20,
+          "vendor": "bedrock",
           "mode": "standard"
         },
         {
@@ -8276,12 +8262,6 @@
           "input": 4,
           "output": 20,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 4,
-          "output": 20,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -8303,6 +8283,12 @@
         {
           "input": 4,
           "output": 20,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 4,
+          "output": 20,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -8328,12 +8314,6 @@
           "input": 4,
           "output": 20,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 4,
-          "output": 20,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -8448,6 +8428,12 @@
         {
           "input": 3,
           "output": 15,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 3,
+          "output": 15,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -8480,12 +8466,6 @@
           "output": 15,
           "vendor": "anthropic",
           "mode": "standard"
-        },
-        {
-          "input": 3,
-          "output": 15,
-          "vendor": "bedrock",
-          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -8506,6 +8486,12 @@
           "input": 3,
           "output": 15,
           "vendor": "perplexity",
+          "mode": "standard"
+        },
+        {
+          "input": 3,
+          "output": 15,
+          "vendor": "bedrock",
           "mode": "standard"
         },
         {
@@ -8542,12 +8528,6 @@
           "input": 3,
           "output": 15,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 3,
-          "output": 15,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -8576,6 +8556,12 @@
         {
           "input": 3,
           "output": 15,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 3,
+          "output": 15,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -8607,12 +8593,6 @@
           "input": 3,
           "output": 15,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 3,
-          "output": 15,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -8677,6 +8657,12 @@
         {
           "input": 2,
           "output": 10,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 10,
           "vendor": "anthropic",
           "mode": "standard"
         },
@@ -8703,12 +8689,6 @@
           "output": 10,
           "vendor": "aihubmix",
           "mode": "standard"
-        },
-        {
-          "input": 2,
-          "output": 10,
-          "vendor": "bedrock",
-          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -8724,6 +8704,12 @@
           "input": 2,
           "output": 10,
           "vendor": "perplexity",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "bedrock",
           "mode": "standard"
         },
         {
@@ -8754,12 +8740,6 @@
           "input": 2,
           "output": 10,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 2,
-          "output": 10,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -8781,6 +8761,12 @@
         {
           "input": 2,
           "output": 10,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 10,
           "vendor": "anthropic",
           "mode": "standard"
         },
@@ -8806,12 +8792,6 @@
           "input": 2,
           "output": 10,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 2,
-          "output": 10,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -11655,6 +11635,12 @@
         {
           "input": 5,
           "output": 25,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -11680,12 +11666,6 @@
           "input": 5,
           "output": 25,
           "vendor": "anthropic",
-          "mode": "standard"
-        },
-        {
-          "input": 5,
-          "output": 25,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -11799,6 +11779,12 @@
         {
           "input": 5,
           "output": 25,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -11824,12 +11810,6 @@
           "input": 5,
           "output": 25,
           "vendor": "anthropic",
-          "mode": "standard"
-        },
-        {
-          "input": 5,
-          "output": 25,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -11943,6 +11923,12 @@
         {
           "input": 5,
           "output": 25,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -11968,12 +11954,6 @@
           "input": 5,
           "output": 25,
           "vendor": "anthropic",
-          "mode": "standard"
-        },
-        {
-          "input": 5,
-          "output": 25,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -12071,6 +12051,12 @@
         {
           "input": 5,
           "output": 25,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -12096,12 +12082,6 @@
           "input": 5,
           "output": 25,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 5,
-          "output": 25,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -12451,6 +12431,12 @@
         {
           "input": 5,
           "output": 25,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
           "vendor": "anthropic",
           "mode": "standard"
         },
@@ -12476,12 +12462,6 @@
           "input": 5,
           "output": 25,
           "vendor": "aihubmix",
-          "mode": "standard"
-        },
-        {
-          "input": 5,
-          "output": 25,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -12522,6 +12502,12 @@
         {
           "input": 5,
           "output": 25,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 5,
+          "output": 25,
           "vendor": "anthropic",
           "mode": "standard"
         },
@@ -12547,12 +12533,6 @@
           "input": 5,
           "output": 25,
           "vendor": "aihubmix",
-          "mode": "standard"
-        },
-        {
-          "input": 5,
-          "output": 25,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -12792,6 +12772,12 @@
         {
           "input": 3,
           "output": 15,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 3,
+          "output": 15,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -12823,12 +12809,6 @@
           "input": 3,
           "output": 15,
           "vendor": "anthropic",
-          "mode": "standard"
-        },
-        {
-          "input": 3,
-          "output": 15,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -13116,6 +13096,12 @@
         {
           "input": 2,
           "output": 10,
+          "vendor": "bedrock",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 10,
           "vendor": "anthropic",
           "mode": "standard"
         },
@@ -13141,12 +13127,6 @@
           "input": 2,
           "output": 10,
           "vendor": "aihubmix",
-          "mode": "standard"
-        },
-        {
-          "input": 2,
-          "output": 10,
-          "vendor": "bedrock",
           "mode": "standard"
         }
       ],
@@ -16644,8 +16624,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.1188,
-          "output": 8,
+          "input": 0.22968,
+          "output": 0.68904,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -17230,8 +17210,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.04444,
-          "output": 0.13332,
+          "input": 0.44,
+          "output": 1.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -17324,8 +17304,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04444,
-          "output": 0.13332,
+          "input": 0.44,
+          "output": 1.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -17431,8 +17411,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04444,
-          "output": 0.13332,
+          "input": 0.44,
+          "output": 1.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -17596,8 +17576,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.0422,
-          "output": 0.1694,
+          "input": 0.0475,
+          "output": 0.1568,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -17745,8 +17725,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.0422,
-          "output": 0.1694,
+          "input": 0.0475,
+          "output": 0.1568,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -17792,8 +17772,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.0422,
-          "output": 0.1694,
+          "input": 0.0475,
+          "output": 0.1568,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -17887,8 +17867,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.20879999999999999,
-          "output": 0.41759999999999997,
+          "input": 0.9552599999999999,
+          "output": 1.9105199999999998,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18110,8 +18090,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.20879999999999999,
-          "output": 0.41759999999999997,
+          "input": 0.9552599999999999,
+          "output": 1.9105199999999998,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18229,8 +18209,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.20879999999999999,
-          "output": 0.41759999999999997,
+          "input": 0.9552599999999999,
+          "output": 1.9105199999999998,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18983,8 +18963,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04444,
-          "output": 0.13332,
+          "input": 0.44,
+          "output": 1.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -19089,8 +19069,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.04444,
-          "output": 0.13332,
+          "input": 0.44,
+          "output": 1.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -25294,8 +25274,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.0675,
-          "output": 0.22499999999999998,
+          "input": 0.09,
+          "output": 0.3,
           "vendor": "google",
           "mode": "standard"
         },
@@ -26482,7 +26462,7 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.079,
+          "input": 0.0699,
           "output": 1.4,
           "vendor": "z-ai",
           "mode": "standard"
@@ -26666,7 +26646,7 @@
       "maker": "Z.ai",
       "prices": [
         {
-          "input": 0.079,
+          "input": 0.0699,
           "output": 1.4,
           "vendor": "z-ai",
           "mode": "standard"
@@ -27010,8 +26990,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.051300000000000005,
-          "output": 0.0701,
+          "input": 0.041299999999999996,
+          "output": 0.0758,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -27025,8 +27005,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.0703,
-          "output": 4.3843,
+          "input": 0.0699,
+          "output": 1.4,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -29244,8 +29224,8 @@
       "listedAt": "2026-04-03",
       "prices": [
         {
-          "input": 0.0675,
-          "output": 0.22499999999999998,
+          "input": 0.09,
+          "output": 0.3,
           "vendor": "google",
           "mode": "standard"
         },
@@ -38331,8 +38311,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.23900000000000002,
-          "output": 10.8,
+          "input": 0.161,
+          "output": 20,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -38404,8 +38384,8 @@
       "maker": "Moonshot",
       "prices": [
         {
-          "input": 0.23900000000000002,
-          "output": 10.8,
+          "input": 0.161,
+          "output": 20,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -38570,8 +38550,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.18,
-          "output": 16,
+          "input": 0.1529,
+          "output": 9.3421,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -38586,8 +38566,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.18,
-          "output": 16,
+          "input": 0.1529,
+          "output": 9.3421,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -38602,8 +38582,8 @@
       "context": 32768,
       "prices": [
         {
-          "input": 0.18,
-          "output": 16,
+          "input": 0.1529,
+          "output": 9.3421,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -38618,8 +38598,8 @@
       "context": 8192,
       "prices": [
         {
-          "input": 0.18,
-          "output": 16,
+          "input": 0.1529,
+          "output": 9.3421,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -38634,8 +38614,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.18,
-          "output": 16,
+          "input": 0.1529,
+          "output": 9.3421,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -46919,8 +46899,8 @@
       "listedAt": "2026-07-16",
       "prices": [
         {
-          "input": 0.23900000000000002,
-          "output": 10.8,
+          "input": 0.161,
+          "output": 20,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -58732,7 +58712,7 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.09,
+          "input": 0.09999999999999999,
           "output": 0.3,
           "vendor": "qwen",
           "mode": "standard"
@@ -59318,8 +59298,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.39999999999999997,
-          "output": 3.1999999999999997,
+          "input": 0.26,
+          "output": 2.08,
           "vendor": "qwen",
           "mode": "standard"
         },
@@ -59590,8 +59570,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.25,
-          "output": 2,
+          "input": 0.32,
+          "output": 3.1999999999999997,
           "vendor": "qwen",
           "mode": "standard"
         },
@@ -69245,7 +69225,7 @@
       "listedAt": "2026-08-18",
       "prices": [
         {
-          "input": 0.079,
+          "input": 0.0699,
           "output": 1.4,
           "vendor": "z-ai",
           "mode": "standard"
@@ -69595,7 +69575,7 @@
       "listedAt": "2026-08-18",
       "prices": [
         {
-          "input": 0.079,
+          "input": 0.0699,
           "output": 1.4,
           "vendor": "z-ai",
           "mode": "standard"
