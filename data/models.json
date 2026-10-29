@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-28T12:50:55.150Z",
+  "generatedAt": "2026-10-29T12:57:08.434Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 464
+      "records": 457
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3480
+      "records": 3645
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -22,17 +22,59 @@
     }
   ],
   "newModels": [
-    "morph-dsv41flash",
-    "morph-dsv41flash-1017",
-    "morph-dsv41flash-abliterated",
-    "morph-dsv4flash",
-    "morph-glm53-744b",
-    "morph-glm53flash",
-    "morph-kimik3",
-    "morph-kimik3-fast",
-    "motif-technologies/motif-3",
-    "openai.gpt-6.1-terra",
-    "ternary-bonsai-2-9b"
+    "accounts/fireworks/models/rune",
+    "accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot",
+    "accounts/fireworks/routers/deepseek-v4p1-flash-spot",
+    "accounts/fireworks/routers/glm-5p3-spot",
+    "accounts/fireworks/routers/kimi-k3-spot",
+    "accounts/fireworks/routers/spot-deepseek-v4-flash",
+    "ap-northeast-1/mistral.voxtral-mini-3b-2507",
+    "ap-northeast-1/mistral.voxtral-small-24b-2507",
+    "ap-southeast-2/mistral.voxtral-mini-3b-2507",
+    "ap-southeast-2/mistral.voxtral-small-24b-2507",
+    "apac/gpt-6.1-terra",
+    "databricks-claude-haiku-5-5",
+    "databricks-claude-sonnet-5-5",
+    "databricks-deepseek-v4-1-flash",
+    "databricks-deepseek-v4-1-flash-1017",
+    "databricks-gemini-2-5-flash-lite",
+    "databricks-gemini-3-1-flash-image",
+    "databricks-gemini-3-1-flash-lite-image",
+    "databricks-gemini-3-7-flash",
+    "databricks-gemini-3-8-flash",
+    "databricks-gemini-3-pro-image",
+    "databricks-gemini-4-argon",
+    "databricks-gpt-5-4-pro",
+    "databricks-gpt-6-1-sol",
+    "databricks-gpt-6-1-terra",
+    "databricks-gpt-6-astra",
+    "databricks-gpt-6-luna",
+    "databricks-gpt-6-sol",
+    "databricks-gpt-image-1-5",
+    "databricks-grok-4-7",
+    "databricks-kimi-k2-7",
+    "databricks-typesafeai-jev-1-14-0",
+    "deepseek-v4-1-flash-1017",
+    "deepseek-v4.1-flash-260910",
+    "eu-west-2/mistral.voxtral-mini-3b-2507",
+    "eu-west-2/mistral.voxtral-small-24b-2507",
+    "eu/gpt-6.1-terra",
+    "gemini-3.1-pro",
+    "grok-build",
+    "kimi-k2-instruct-0905",
+    "lfm2.5-1.2b-instruct",
+    "lfm2.5-1.2b-thinking",
+    "llama-3.1-8b-instruct-fast",
+    "llama-3.2-3b-instruct-fast",
+    "nemotron-3-ultra-550b",
+    "particle-1",
+    "qwen-3-coder",
+    "qwen-3.6-plus",
+    "qwen-3.7-max",
+    "qwen-3.7-plus",
+    "qwen-3.8-max",
+    "qwen3-30b-a3b-fp8",
+    "us/gpt-6.1-terra"
   ],
   "models": [
     {
@@ -677,7 +719,7 @@
           "mode": "standard"
         },
         {
-          "input": 0.0115,
+          "input": 0.0233,
           "output": 1.7999999999999998,
           "vendor": "~deepseek",
           "mode": "standard"
@@ -693,7 +735,7 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.2542,
+          "input": 0.1035,
           "output": 8,
           "vendor": "~deepseek",
           "mode": "standard"
@@ -793,6 +835,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.14,
+          "output": 0.28,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "deepseek",
@@ -817,8 +865,14 @@
           "mode": "standard"
         },
         {
-          "input": 0.0475,
-          "output": 0.1568,
+          "input": 0.123,
+          "output": 0.2458,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
+          "input": 0.05676,
+          "output": 0.17028,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -895,8 +949,8 @@
       "listedAt": "2026-04-27",
       "prices": [
         {
-          "input": 0.16049999999999998,
-          "output": 8.940000000000001,
+          "input": 0.18239999999999998,
+          "output": 9.338799999999999,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -1007,8 +1061,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.0237,
-          "output": 0.1324,
+          "input": 0.0457,
+          "output": 0.0742,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -5097,6 +5151,21 @@
       "benchmarks": []
     },
     {
+      "id": "accounts/fireworks/models/rune",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "fireworks_ai/accounts/fireworks/models/rune",
+      "context": 262144,
+      "prices": [
+        {
+          "input": 0.041999999999999996,
+          "output": 0,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "accounts/fireworks/models/snorkel-mistral-7b-pairrm-dpo",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "fireworks_ai/accounts/fireworks/models/snorkel-mistral-7b-pairrm-dpo",
@@ -5337,6 +5406,36 @@
       "benchmarks": []
     },
     {
+      "id": "accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.21,
+          "output": 0.84,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "accounts/fireworks/routers/deepseek-v4p1-flash-spot",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-spot",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.21,
+          "output": 0.84,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "accounts/fireworks/routers/deepseek-v4p1-flash-us",
       "firstSeen": "2026-09-25T11:48:39.236Z",
       "name": "fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-us",
@@ -5427,6 +5526,21 @@
       "benchmarks": []
     },
     {
+      "id": "accounts/fireworks/routers/glm-5p3-spot",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "fireworks_ai/accounts/fireworks/routers/glm-5p3-spot",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.98,
+          "output": 3.08,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "accounts/fireworks/routers/glm-5p3-us",
       "firstSeen": "2026-09-25T11:48:39.236Z",
       "name": "fireworks_ai/accounts/fireworks/routers/glm-5p3-us",
@@ -5487,6 +5601,21 @@
       "benchmarks": []
     },
     {
+      "id": "accounts/fireworks/routers/kimi-k3-spot",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "fireworks_ai/accounts/fireworks/routers/kimi-k3-spot",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 2.0999999999999996,
+          "output": 10.5,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "accounts/fireworks/routers/kimi-k3-us",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "fireworks_ai/accounts/fireworks/routers/kimi-k3-us",
@@ -5510,6 +5639,21 @@
         {
           "input": 0.041999999999999996,
           "output": 0,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "accounts/fireworks/routers/spot-deepseek-v4-flash",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "fireworks_ai/accounts/fireworks/routers/spot-deepseek-v4-flash",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.105,
+          "output": 0.21,
           "vendor": "fireworks_ai",
           "mode": "standard"
         }
@@ -7313,6 +7457,12 @@
           "output": 55,
           "vendor": "aihubmix",
           "mode": "standard"
+        },
+        {
+          "input": 13.5,
+          "output": 67.5,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -7365,6 +7515,12 @@
           "output": 50,
           "vendor": "github_copilot",
           "mode": "standard"
+        },
+        {
+          "input": 13.5,
+          "output": 67.5,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -7416,6 +7572,12 @@
           "input": 10,
           "output": 50,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 13.5,
+          "output": 67.5,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -7521,6 +7683,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.35,
+          "output": 6.75,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 1,
           "output": 5,
           "vendor": "anthropic",
@@ -7610,6 +7778,12 @@
           "output": 0.5,
           "vendor": "github_copilot",
           "mode": "standard"
+        },
+        {
+          "input": 0.135,
+          "output": 0.675,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -7667,6 +7841,12 @@
           "input": 0.09999999999999999,
           "output": 0.5,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 0.135,
+          "output": 0.675,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -8009,6 +8189,12 @@
           "mode": "standard"
         },
         {
+          "input": 6.75,
+          "output": 33.75,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 5,
           "output": 25,
           "vendor": "anthropic",
@@ -8065,6 +8251,12 @@
           "input": 5,
           "output": 25,
           "vendor": "vertex_ai-anthropic_models",
+          "mode": "standard"
+        },
+        {
+          "input": 6.75,
+          "output": 33.75,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -8289,6 +8481,12 @@
           "output": 25,
           "vendor": "aihubmix",
           "mode": "standard"
+        },
+        {
+          "input": 6.75,
+          "output": 33.75,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -8341,6 +8539,12 @@
           "output": 20,
           "vendor": "github_copilot",
           "mode": "standard"
+        },
+        {
+          "input": 5.4,
+          "output": 27,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -8392,6 +8596,12 @@
           "input": 4,
           "output": 20,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 5.4,
+          "output": 27,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -8597,6 +8807,12 @@
           "mode": "standard"
         },
         {
+          "input": 4.05,
+          "output": 20.25,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 3,
           "output": 15,
           "vendor": "anthropic",
@@ -8659,6 +8875,12 @@
           "input": 3,
           "output": 15,
           "vendor": "snowflake",
+          "mode": "standard"
+        },
+        {
+          "input": 4.05,
+          "output": 20.25,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -8767,6 +8989,12 @@
           "output": 10,
           "vendor": "aihubmix",
           "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 13.5,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -8819,6 +9047,12 @@
           "output": 10,
           "vendor": "github_copilot",
           "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 13.5,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -8870,6 +9104,12 @@
           "input": 2,
           "output": 10,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 13.5,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -8960,6 +9200,36 @@
         {
           "input": 0.36,
           "output": 1.44,
+          "vendor": "bedrock",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "ap-northeast-1/mistral.voxtral-mini-3b-2507",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "bedrock/ap-northeast-1/mistral.voxtral-mini-3b-2507",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0.049999999999999996,
+          "output": 0.049999999999999996,
+          "vendor": "bedrock",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "ap-northeast-1/mistral.voxtral-small-24b-2507",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "bedrock/ap-northeast-1/mistral.voxtral-small-24b-2507",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0.12,
+          "output": 0.36,
           "vendor": "bedrock",
           "mode": "standard"
         }
@@ -9171,6 +9441,36 @@
         {
           "input": 0.31,
           "output": 1.24,
+          "vendor": "bedrock",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "ap-southeast-2/mistral.voxtral-mini-3b-2507",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "bedrock/ap-southeast-2/mistral.voxtral-mini-3b-2507",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0.0412,
+          "output": 0.0412,
+          "vendor": "bedrock",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "ap-southeast-2/mistral.voxtral-small-24b-2507",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "bedrock/ap-southeast-2/mistral.voxtral-small-24b-2507",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0.103,
+          "output": 0.309,
           "vendor": "bedrock",
           "mode": "standard"
         }
@@ -9533,6 +9833,22 @@
         {
           "input": 2.4,
           "output": 12,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "apac/gpt-6.1-terra",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "azure/apac/gpt-6.1-terra",
+      "context": 922000,
+      "listedAt": "2026-10-26",
+      "prices": [
+        {
+          "input": 1.2,
+          "output": 6,
           "vendor": "azure",
           "mode": "standard"
         }
@@ -11093,6 +11409,12 @@
           "output": 55,
           "vendor": "aihubmix",
           "mode": "standard"
+        },
+        {
+          "input": 13.5,
+          "output": 67.5,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -11188,6 +11510,12 @@
           "output": 50,
           "vendor": "github_copilot",
           "mode": "standard"
+        },
+        {
+          "input": 13.5,
+          "output": 67.5,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -11273,6 +11601,12 @@
           "input": 1.1,
           "output": 5.5,
           "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 1.35,
+          "output": 6.75,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -11428,6 +11762,12 @@
           "input": 0.09999999999999999,
           "output": 0.5,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 0.135,
+          "output": 0.675,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -11930,6 +12270,12 @@
           "output": 25,
           "vendor": "vertex_ai-anthropic_models",
           "mode": "standard"
+        },
+        {
+          "input": 6.75,
+          "output": 33.75,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -12004,6 +12350,12 @@
           "input": 5,
           "output": 25,
           "vendor": "vertex_ai-anthropic_models",
+          "mode": "standard"
+        },
+        {
+          "input": 6.75,
+          "output": 33.75,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -12409,6 +12761,12 @@
           "output": 25,
           "vendor": "aihubmix",
           "mode": "standard"
+        },
+        {
+          "input": 6.75,
+          "output": 33.75,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -12525,6 +12883,12 @@
           "output": 25,
           "vendor": "aihubmix",
           "mode": "standard"
+        },
+        {
+          "input": 6.75,
+          "output": 33.75,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -12596,6 +12960,12 @@
           "output": 25,
           "vendor": "aihubmix",
           "mode": "standard"
+        },
+        {
+          "input": 6.75,
+          "output": 33.75,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -12647,6 +13017,12 @@
           "input": 4,
           "output": 20,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 5.4,
+          "output": 27,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -12951,6 +13327,12 @@
           "output": 15,
           "vendor": "snowflake",
           "mode": "standard"
+        },
+        {
+          "input": 4.05,
+          "output": 20.25,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -13089,6 +13471,12 @@
           "output": 10,
           "vendor": "aihubmix",
           "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 13.5,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -13190,6 +13578,12 @@
           "output": 10,
           "vendor": "aihubmix",
           "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 13.5,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -13241,6 +13635,12 @@
           "input": 2,
           "output": 10,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 13.5,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -14725,7 +15125,7 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 10.00006,
+          "input": 9.99999,
           "output": 50.00002,
           "vendor": "databricks",
           "mode": "standard"
@@ -14740,7 +15140,7 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 10.00006,
+          "input": 9.99999,
           "output": 50.00002,
           "vendor": "databricks",
           "mode": "standard"
@@ -14764,14 +15164,29 @@
       "benchmarks": []
     },
     {
+      "id": "databricks-claude-haiku-5-5",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-claude-haiku-5-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 0.10003000000000001,
+          "output": 0.5000100000000001,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "databricks-claude-opus-4",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "databricks/databricks-claude-opus-4",
       "context": 200000,
       "prices": [
         {
-          "input": 15.000020000000001,
-          "output": 75.00003000000001,
+          "input": 15.00002,
+          "output": 75.0001,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -14785,8 +15200,8 @@
       "context": 200000,
       "prices": [
         {
-          "input": 15.000020000000001,
-          "output": 75.00003000000001,
+          "input": 15.00002,
+          "output": 75.0001,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -14801,7 +15216,7 @@
       "prices": [
         {
           "input": 5.00003,
-          "output": 25.000010000000003,
+          "output": 25.00001,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -14816,7 +15231,7 @@
       "prices": [
         {
           "input": 5.00003,
-          "output": 25.000010000000003,
+          "output": 25.00001,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -14920,8 +15335,8 @@
       "context": 200000,
       "prices": [
         {
-          "input": 2.9999900000000004,
-          "output": 15.000020000000001,
+          "input": 2.99999,
+          "output": 15.00002,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -14935,8 +15350,8 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 2.9999900000000004,
-          "output": 15.000020000000001,
+          "input": 2.99999,
+          "output": 15.00002,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -14950,8 +15365,53 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 2.99999,
-          "output": 15.00002,
+          "input": 1.99997,
+          "output": 9.99999,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-claude-sonnet-5-5",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-claude-sonnet-5-5",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 1.99997,
+          "output": 9.99999,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-deepseek-v4-1-flash",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-deepseek-v4-1-flash",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 0.30002,
+          "output": 1.20001,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-deepseek-v4-1-flash-1017",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-deepseek-v4-1-flash-1017",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 0.30002,
+          "output": 1.20001,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -15004,6 +15464,21 @@
       "benchmarks": []
     },
     {
+      "id": "databricks-gemini-2-5-flash-lite",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-gemini-2-5-flash-lite",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.12502,
+          "output": 0.5000100000000001,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "databricks-gemini-2-5-pro",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "databricks/databricks-gemini-2-5-pro",
@@ -15019,10 +15494,40 @@
       "benchmarks": []
     },
     {
+      "id": "databricks-gemini-3-1-flash-image",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-gemini-3-1-flash-image",
+      "context": 131072,
+      "prices": [
+        {
+          "input": 0.6250300000000001,
+          "output": 3.7499700000000002,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "databricks-gemini-3-1-flash-lite",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "databricks/databricks-gemini-3-1-flash-lite",
       "context": 1048576,
+      "prices": [
+        {
+          "input": 0.31248,
+          "output": 1.87502,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-gemini-3-1-flash-lite-image",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-gemini-3-1-flash-lite-image",
+      "context": 65536,
       "prices": [
         {
           "input": 0.31248,
@@ -15085,8 +15590,38 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 1.87502,
-          "output": 9.375029999999999,
+          "input": 0.74998,
+          "output": 3.7499700000000002,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-gemini-3-7-flash",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-gemini-3-7-flash",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.74998,
+          "output": 3.7499700000000002,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-gemini-3-8-flash",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-gemini-3-8-flash",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.74998,
+          "output": 3.7499700000000002,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -15117,6 +15652,36 @@
         {
           "input": 2.49998,
           "output": 15.000020000000001,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-gemini-3-pro-image",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-gemini-3-pro-image",
+      "context": 65536,
+      "prices": [
+        {
+          "input": 2.49998,
+          "output": 15.00002,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-gemini-4-argon",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-gemini-4-argon",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 2.49998,
+          "output": 12.49997,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -15289,6 +15854,21 @@
       "benchmarks": []
     },
     {
+      "id": "databricks-gpt-5-4-pro",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-gpt-5-4-pro",
+      "context": 922000,
+      "prices": [
+        {
+          "input": 29.999969999999998,
+          "output": 180.0001,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "databricks-gpt-5-5",
       "firstSeen": "2026-09-06T10:54:05.600Z",
       "name": "databricks/databricks-gpt-5-5",
@@ -15311,7 +15891,7 @@
       "prices": [
         {
           "input": 29.999969999999998,
-          "output": 180.00003,
+          "output": 180.0001,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -15325,8 +15905,8 @@
       "context": 922000,
       "prices": [
         {
-          "input": 1.0000200000000001,
-          "output": 5.99998,
+          "input": 0.19999,
+          "output": 1.20001,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -15355,8 +15935,8 @@
       "context": 922000,
       "prices": [
         {
-          "input": 2.49998,
-          "output": 15.00002,
+          "input": 1.99997,
+          "output": 12.00003,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -15387,6 +15967,95 @@
         {
           "input": 0.049980000000000004,
           "output": 0.39998000000000006,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-gpt-6-1-sol",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-gpt-6-1-sol",
+      "context": 922000,
+      "prices": [
+        {
+          "input": 1.99997,
+          "output": 9.99999,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-gpt-6-1-terra",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-gpt-6-1-terra",
+      "context": 922000,
+      "prices": [
+        {
+          "input": 1.0000200000000001,
+          "output": 5.00003,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-gpt-6-astra",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-gpt-6-astra",
+      "context": 922000,
+      "prices": [
+        {
+          "input": 9.99999,
+          "output": 50.00002,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-gpt-6-luna",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-gpt-6-luna",
+      "context": 922000,
+      "prices": [
+        {
+          "input": 0.10003000000000001,
+          "output": 0.5000100000000001,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-gpt-6-sol",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-gpt-6-sol",
+      "context": 922000,
+      "prices": [
+        {
+          "input": 1.99997,
+          "output": 9.99999,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-gpt-image-1-5",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-gpt-image-1-5",
+      "prices": [
+        {
+          "input": 5.00003,
+          "output": 9.99999,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -15439,6 +16108,21 @@
       "benchmarks": []
     },
     {
+      "id": "databricks-grok-4-7",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-grok-4-7",
+      "context": 500000,
+      "prices": [
+        {
+          "input": 2.49998,
+          "output": 7.50001,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "databricks-gte-large-en",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "databricks/databricks-gte-large-en",
@@ -15462,6 +16146,21 @@
         {
           "input": 1.0000200000000001,
           "output": 4.04999,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-kimi-k2-7",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-kimi-k2-7",
+      "context": 262144,
+      "prices": [
+        {
+          "input": 0.94997,
+          "output": 4.00001,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -15587,6 +16286,20 @@
       "benchmarks": []
     },
     {
+      "id": "databricks-typesafeai-jev-1-14-0",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "databricks/databricks-typesafeai-jev-1-14-0",
+      "prices": [
+        {
+          "input": 0.041999999999999996,
+          "output": 0,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "davinci-002",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "davinci-002",
@@ -15638,10 +16351,10 @@
       "context": 16384,
       "prices": [
         {
-          "input": 0,
+          "input": 0.035,
           "output": 0,
           "vendor": "baseten",
-          "mode": "free"
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -15653,10 +16366,10 @@
       "context": 16384,
       "prices": [
         {
-          "input": 0,
+          "input": 0.09999999999999999,
           "output": 0,
           "vendor": "baseten",
-          "mode": "free"
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -16709,7 +17422,7 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.0115,
+          "input": 0.0233,
           "output": 1.7999999999999998,
           "vendor": "~deepseek",
           "mode": "standard"
@@ -16740,7 +17453,7 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.2542,
+          "input": 0.1035,
           "output": 8,
           "vendor": "~deepseek",
           "mode": "standard"
@@ -16773,9 +17486,21 @@
           "mode": "standard"
         },
         {
+          "input": 0.5710000000000001,
+          "output": 2.2859999999999996,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
           "input": 1.35,
           "output": 5.4,
           "vendor": "azure_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.7424999999999999,
+          "output": 2.957,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -16915,6 +17640,18 @@
           "output": 0.38,
           "vendor": "inferenceapis",
           "mode": "standard"
+        },
+        {
+          "input": 0.286,
+          "output": 1.1429999999999998,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5179999999999999,
+          "output": 0.7571,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -16965,6 +17702,12 @@
           "input": 3,
           "output": 4.5,
           "vendor": "sambanova",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5710000000000001,
+          "output": 1.714,
+          "vendor": "streamlake",
           "mode": "standard"
         },
         {
@@ -17238,6 +17981,22 @@
       "listedAt": "2025-12-01"
     },
     {
+      "id": "deepseek-v4-1-flash-1017",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "mistral/deepseek-v4-1-flash-1017",
+      "context": 1048576,
+      "listedAt": "2026-10-17",
+      "prices": [
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "mistral",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "deepseek-v4-flash",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -17292,6 +18051,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.14,
+          "output": 0.28,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "deepseek",
@@ -17313,6 +18078,12 @@
           "input": 0.16999999999999998,
           "output": 0.21,
           "vendor": "prism",
+          "mode": "standard"
+        },
+        {
+          "input": 0.123,
+          "output": 0.2458,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -17353,6 +18124,12 @@
           "input": 0.19999999999999998,
           "output": 0.39999999999999997,
           "vendor": "qwen_ai_platform",
+          "mode": "standard"
+        },
+        {
+          "input": 0.44,
+          "output": 1.32,
+          "vendor": "streamlake",
           "mode": "standard"
         },
         {
@@ -17447,6 +18224,12 @@
           "input": 0.19999999999999998,
           "output": 0.39999999999999997,
           "vendor": "qwen_ai_platform",
+          "mode": "standard"
+        },
+        {
+          "input": 0.44,
+          "output": 1.32,
+          "vendor": "streamlake",
           "mode": "standard"
         },
         {
@@ -17554,6 +18337,12 @@
           "input": 0.19999999999999998,
           "output": 0.39999999999999997,
           "vendor": "qwen_ai_platform",
+          "mode": "standard"
+        },
+        {
+          "input": 0.44,
+          "output": 1.32,
+          "vendor": "streamlake",
           "mode": "standard"
         },
         {
@@ -17674,6 +18463,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.14,
+          "output": 0.28,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "deepseek",
@@ -17698,8 +18493,14 @@
           "mode": "standard"
         },
         {
-          "input": 0.0475,
-          "output": 0.1568,
+          "input": 0.123,
+          "output": 0.2458,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
+          "input": 0.05676,
+          "output": 0.17028,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -17829,6 +18630,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.14,
+          "output": 0.28,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "deepseek",
@@ -17853,8 +18660,14 @@
           "mode": "standard"
         },
         {
-          "input": 0.0475,
-          "output": 0.1568,
+          "input": 0.123,
+          "output": 0.2458,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
+          "input": 0.05676,
+          "output": 0.17028,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -17900,8 +18713,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.0475,
-          "output": 0.1568,
+          "input": 0.05676,
+          "output": 0.17028,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -17948,6 +18761,12 @@
           "output": 0.66,
           "vendor": "fireworks_ai",
           "mode": "standard"
+        },
+        {
+          "input": 0.3892,
+          "output": 1.1680000000000001,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -17979,6 +18798,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.3892,
+          "output": 1.1680000000000001,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 0.44,
           "output": 1.32,
           "vendor": "novita",
@@ -17995,8 +18820,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.8973180000000001,
-          "output": 1.7946360000000001,
+          "input": 0.894012,
+          "output": 1.788024,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18028,6 +18853,12 @@
           "input": 1.72,
           "output": 5.1499999999999995,
           "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
+          "input": 1.74,
+          "output": 3.48,
+          "vendor": "streamlake",
           "mode": "standard"
         },
         {
@@ -18087,6 +18918,12 @@
           "input": 1.32,
           "output": 3.9600000000000004,
           "vendor": "fireworks_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.32,
+          "output": 3.9600000000000004,
+          "vendor": "streamlake",
           "mode": "standard"
         },
         {
@@ -18162,6 +18999,12 @@
         {
           "input": 1.32,
           "output": 3.9600000000000004,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.32,
+          "output": 3.9600000000000004,
           "vendor": "tencent",
           "mode": "standard"
         },
@@ -18224,8 +19067,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.8973180000000001,
-          "output": 1.7946360000000001,
+          "input": 0.894012,
+          "output": 1.788024,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18257,6 +19100,12 @@
           "input": 1.72,
           "output": 5.1499999999999995,
           "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
+          "input": 1.74,
+          "output": 3.48,
+          "vendor": "streamlake",
           "mode": "standard"
         },
         {
@@ -18349,8 +19198,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.8973180000000001,
-          "output": 1.7946360000000001,
+          "input": 0.894012,
+          "output": 1.788024,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18382,6 +19231,12 @@
           "input": 1.72,
           "output": 5.1499999999999995,
           "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
+          "input": 1.74,
+          "output": 3.48,
+          "vendor": "streamlake",
           "mode": "standard"
         },
         {
@@ -18439,8 +19294,8 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0.14,
-          "output": 0.42,
+          "input": 0.045,
+          "output": 0.5,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18471,6 +19326,12 @@
         {
           "input": 0.3,
           "output": 1.2,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -18484,6 +19345,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.27,
+          "output": 0.8099999999999999,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -18501,6 +19368,27 @@
           "output": 0.6,
           "vendor": "deepseek",
           "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "streamlake",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "deepseek-v4.1-flash-260910",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "streamlake/deepseek-v4.1-flash-260910",
+      "context": 1048568,
+      "prices": [
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "streamlake",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -18512,8 +19400,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.22,
-          "output": 0.75,
+          "input": 0.14,
+          "output": 0.5,
           "vendor": "refuseless",
           "mode": "standard"
         }
@@ -19154,6 +20042,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.44,
+          "output": 1.32,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
           "input": 0.22,
           "output": 0.66,
           "vendor": "fireworks_ai",
@@ -19260,6 +20154,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.44,
+          "output": 1.32,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
           "input": 0.22,
           "output": 0.66,
           "vendor": "fireworks_ai",
@@ -19325,6 +20225,12 @@
           "input": 0.22,
           "output": 0.66,
           "vendor": "fireworks_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3892,
+          "output": 1.1680000000000001,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -19432,6 +20338,12 @@
         {
           "input": 1.32,
           "output": 3.9600000000000004,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.32,
+          "output": 3.9600000000000004,
           "vendor": "tencent",
           "mode": "standard"
         },
@@ -19506,8 +20418,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.14,
-          "output": 0.42,
+          "input": 0.045,
+          "output": 0.5,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -19538,6 +20450,12 @@
         {
           "input": 0.3,
           "output": 1.2,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -19551,6 +20469,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.27,
+          "output": 0.8099999999999999,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -19612,8 +20536,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.14,
-          "output": 0.42,
+          "input": 0.045,
+          "output": 0.5,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -19644,6 +20568,12 @@
         {
           "input": 0.3,
           "output": 1.2,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "azure_ai",
           "mode": "standard"
         },
@@ -19657,6 +20587,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.27,
+          "output": 0.8099999999999999,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -20664,6 +21600,36 @@
         {
           "input": 0.47,
           "output": 1.8599999999999999,
+          "vendor": "bedrock",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu-west-2/mistral.voxtral-mini-3b-2507",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "bedrock/eu-west-2/mistral.voxtral-mini-3b-2507",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0.06,
+          "output": 0.06,
+          "vendor": "bedrock",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu-west-2/mistral.voxtral-small-24b-2507",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "bedrock/eu-west-2/mistral.voxtral-small-24b-2507",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0.16,
+          "output": 0.47,
           "vendor": "bedrock",
           "mode": "standard"
         }
@@ -21983,6 +22949,22 @@
       "benchmarks": []
     },
     {
+      "id": "eu/gpt-6.1-terra",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "azure/eu/gpt-6.1-terra",
+      "context": 922000,
+      "listedAt": "2026-10-26",
+      "prices": [
+        {
+          "input": 1.2,
+          "output": 6,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu/o1",
       "firstSeen": "2026-10-21T11:45:54.929Z",
       "name": "azure/eu/o1",
@@ -22086,13 +23068,13 @@
         {
           "input": 15,
           "output": 60,
-          "vendor": "openai",
+          "vendor": "azure",
           "mode": "standard"
         },
         {
           "input": 15,
           "output": 60,
-          "vendor": "azure",
+          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -23515,45 +24497,9 @@
       "maker": "Google",
       "prices": [
         {
-          "input": 0.5,
-          "output": 3,
-          "vendor": "google",
-          "mode": "standard"
-        },
-        {
-          "input": 0.5,
-          "output": 3,
-          "vendor": "vertex_ai",
-          "mode": "standard"
-        },
-        {
-          "input": 0.5,
-          "output": 3,
-          "vendor": "gemini",
-          "mode": "standard"
-        },
-        {
-          "input": 0.5,
-          "output": 3,
-          "vendor": "vertex_ai-language-models",
-          "mode": "standard"
-        },
-        {
-          "input": 0.5,
-          "output": 3,
-          "vendor": "aihubmix",
-          "mode": "standard"
-        },
-        {
-          "input": 0.5,
-          "output": 3,
-          "vendor": "gmi",
-          "mode": "standard"
-        },
-        {
-          "input": 0.5,
-          "output": 3,
-          "vendor": "perplexity",
+          "input": 0.675,
+          "output": 4.05,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -23571,7 +24517,8 @@
           }
         }
       ],
-      "listedAt": "2025-12-17"
+      "listedAt": "2025-12-17",
+      "context": 1048576
     },
     {
       "id": "gemini-3-flash (thinking-minimal)",
@@ -23579,6 +24526,12 @@
       "name": "gemini-3-flash (thinking-minimal)",
       "maker": "Google",
       "prices": [
+        {
+          "input": 0.675,
+          "output": 4.05,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
         {
           "input": 0.5,
           "output": 3,
@@ -24021,6 +24974,22 @@
       "benchmarks": []
     },
     {
+      "id": "gemini-3.1-pro",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "kyma/gemini-3.1-pro",
+      "context": 1048576,
+      "listedAt": "2026-02-19",
+      "prices": [
+        {
+          "input": 2.7,
+          "output": 16.2,
+          "vendor": "kyma",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gemini-3.1-pro-preview",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "Google: Gemini 3.1 Pro Preview",
@@ -24159,6 +25128,12 @@
           "output": 9,
           "vendor": "vertex_ai-language-models",
           "mode": "standard"
+        },
+        {
+          "input": 2.025,
+          "output": 12.15,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -24192,6 +25167,12 @@
           "input": 1.5,
           "output": 9,
           "vendor": "vertex_ai-language-models",
+          "mode": "standard"
+        },
+        {
+          "input": 2.025,
+          "output": 12.15,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -24252,6 +25233,12 @@
           "input": 0.3,
           "output": 2.499999,
           "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 0.40499999999999997,
+          "output": 3.375,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -24315,6 +25302,12 @@
           "input": 1.5,
           "output": 9,
           "vendor": "vertex_ai-language-models",
+          "mode": "standard"
+        },
+        {
+          "input": 2.025,
+          "output": 12.15,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -24470,6 +25463,12 @@
           "output": 3.75,
           "vendor": "vertex_ai-language-models",
           "mode": "standard"
+        },
+        {
+          "input": 1.0130000000000001,
+          "output": 5.063,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -24503,6 +25502,12 @@
           "input": 0.75,
           "output": 3.75,
           "vendor": "vertex_ai-language-models",
+          "mode": "standard"
+        },
+        {
+          "input": 1.0130000000000001,
+          "output": 5.063,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -24585,6 +25590,12 @@
           "output": 3.75,
           "vendor": "aihubmix",
           "mode": "standard"
+        },
+        {
+          "input": 2.0260000000000002,
+          "output": 10.126,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -24630,6 +25641,12 @@
           "input": 0.75,
           "output": 3.75,
           "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 2.0260000000000002,
+          "output": 10.126,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -24712,6 +25729,12 @@
           "input": 0.75,
           "output": 3.75,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 2.0260000000000002,
+          "output": 10.126,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -24867,6 +25890,12 @@
           "input": 2,
           "output": 10,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 5.4,
+          "output": 27,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -25504,6 +26533,12 @@
           "output": 1.49,
           "vendor": "cerebras",
           "mode": "standard"
+        },
+        {
+          "input": 0.1642,
+          "output": 0.46890000000000004,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -25857,6 +26892,12 @@
           "output": 1.1,
           "vendor": "zai",
           "mode": "standard"
+        },
+        {
+          "input": 0.1797,
+          "output": 1.175,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -25937,8 +26978,8 @@
       "context": 204800,
       "prices": [
         {
-          "input": 0.55,
-          "output": 2.2,
+          "input": 0.5,
+          "output": 2,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -26034,6 +27075,12 @@
           "output": 0,
           "vendor": "zai",
           "mode": "free"
+        },
+        {
+          "input": 0.081,
+          "output": 0.54,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -26071,6 +27118,12 @@
           "input": 1,
           "output": 3.1999999999999997,
           "vendor": "zai",
+          "mode": "standard"
+        },
+        {
+          "input": 1,
+          "output": 3.1999999999999997,
+          "vendor": "streamlake",
           "mode": "standard"
         }
       ],
@@ -26173,6 +27226,18 @@
           "output": 4.4,
           "vendor": "zai",
           "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.89,
+          "output": 5.9399999999999995,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -26198,7 +27263,7 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.014,
+          "input": 0.006,
           "output": 7,
           "vendor": "z-ai",
           "mode": "standard"
@@ -26230,6 +27295,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "tencent",
           "mode": "standard"
         },
@@ -26249,6 +27320,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.9028999999999999,
+          "output": 3.0829999999999997,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -26283,7 +27360,7 @@
           "mode": "standard"
         },
         {
-          "input": 0.014,
+          "input": 0.006,
           "output": 7,
           "vendor": "z-ai",
           "mode": "standard"
@@ -26315,6 +27392,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "tencent",
           "mode": "standard"
         },
@@ -26334,6 +27417,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.9028999999999999,
+          "output": 3.0829999999999997,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -26421,7 +27510,7 @@
           "mode": "standard"
         },
         {
-          "input": 0.014,
+          "input": 0.006,
           "output": 7,
           "vendor": "z-ai",
           "mode": "standard"
@@ -26453,6 +27542,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "tencent",
           "mode": "standard"
         },
@@ -26472,6 +27567,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.9028999999999999,
+          "output": 3.0829999999999997,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -26544,7 +27645,7 @@
           "mode": "standard"
         },
         {
-          "input": 0.014,
+          "input": 0.006,
           "output": 7,
           "vendor": "z-ai",
           "mode": "standard"
@@ -26576,6 +27677,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "tencent",
           "mode": "standard"
         },
@@ -26595,6 +27702,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.9028999999999999,
+          "output": 3.0829999999999997,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -26694,6 +27807,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "tencent",
           "mode": "standard"
         },
@@ -26708,6 +27827,18 @@
           "output": 4.4,
           "vendor": "opencode_go",
           "mode": "standard"
+        },
+        {
+          "input": 1.178,
+          "output": 3.702,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1428571428571428,
+          "output": 4,
+          "vendor": "bigmodel",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -26720,8 +27851,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 1.25,
-          "output": 2.25,
+          "input": 1,
+          "output": 2,
           "vendor": "refuseless",
           "mode": "standard"
         }
@@ -26751,8 +27882,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.5,
+          "input": 0.0457,
+          "output": 0.0742,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -26771,7 +27902,19 @@
         {
           "input": 0.15,
           "output": 0.5,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "tencent",
+          "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.35,
+          "vendor": "zerogpu",
           "mode": "standard"
         },
         {
@@ -26784,6 +27927,18 @@
           "input": 0.15,
           "output": 0.5,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.17200000000000001,
+          "output": 0.5733,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
+          "input": 0.1142857142857143,
+          "output": 0.39999999999999997,
+          "vendor": "bigmodel",
           "mode": "standard"
         }
       ],
@@ -26808,8 +27963,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.25,
-          "output": 0.7999999999999999,
+          "input": 0.12,
+          "output": 0.5,
           "vendor": "refuseless",
           "mode": "standard"
         }
@@ -26849,6 +28004,12 @@
           "input": 0.37,
           "output": 1.25,
           "vendor": "tencent",
+          "mode": "standard"
+        },
+        {
+          "input": 0.2857142857142857,
+          "output": 1,
+          "vendor": "bigmodel",
           "mode": "standard"
         }
       ],
@@ -26908,6 +28069,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "tencent",
           "mode": "standard"
         },
@@ -26921,6 +28088,18 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 1.178,
+          "output": 3.702,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1428571428571428,
+          "output": 4,
+          "vendor": "bigmodel",
           "mode": "standard"
         },
         {
@@ -27226,8 +28405,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.0237,
-          "output": 0.1324,
+          "input": 0.0457,
+          "output": 0.0742,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -28382,6 +29561,12 @@
       "listedAt": "2025-12-17",
       "prices": [
         {
+          "input": 0.675,
+          "output": 4.05,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 0.5,
           "output": 3,
           "vendor": "google",
@@ -28931,6 +30116,12 @@
           "output": 12,
           "vendor": "perplexity",
           "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 16.2,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -29005,6 +30196,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.40499999999999997,
+          "output": 3.375,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 2.5,
           "vendor": "perplexity",
@@ -29042,6 +30239,12 @@
           "input": 1.5,
           "output": 9,
           "vendor": "vertex_ai-language-models",
+          "mode": "standard"
+        },
+        {
+          "input": 2.025,
+          "output": 12.15,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -29104,6 +30307,12 @@
           "input": 0.75,
           "output": 3.75,
           "vendor": "vertex_ai-language-models",
+          "mode": "standard"
+        },
+        {
+          "input": 1.0130000000000001,
+          "output": 5.063,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -29181,6 +30390,12 @@
           "mode": "standard"
         },
         {
+          "input": 2.0260000000000002,
+          "output": 10.126,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 0.75,
           "output": 3.75,
           "vendor": "deepinfra",
@@ -29246,6 +30461,12 @@
           "input": 0.75,
           "output": 3.75,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 2.0260000000000002,
+          "output": 10.126,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -30102,15 +31323,15 @@
       "context": 128000,
       "prices": [
         {
-          "input": 10,
-          "output": 30,
-          "vendor": "openai",
-          "mode": "standard"
-        },
-        {
           "input": 11,
           "output": 33,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 10,
+          "output": 30,
+          "vendor": "openai",
           "mode": "standard"
         }
       ],
@@ -30146,15 +31367,15 @@
       "context": 128000,
       "prices": [
         {
-          "input": 10,
-          "output": 30,
-          "vendor": "openai",
-          "mode": "standard"
-        },
-        {
           "input": 11,
           "output": 33,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 10,
+          "output": 30,
+          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -30270,6 +31491,12 @@
           "input": 0.39999999999999997,
           "output": 1.5999999999999999,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.5999999999999999,
+          "vendor": "zerogpu",
           "mode": "standard"
         }
       ],
@@ -32737,6 +33964,12 @@
         {
           "input": 0.19999999999999998,
           "output": 1.25,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 1.25,
           "vendor": "aihubmix",
           "mode": "standard"
         },
@@ -33520,6 +34753,12 @@
         {
           "input": 0.19999999999999998,
           "output": 1.2,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 1.2,
           "vendor": "aihubmix",
           "mode": "standard"
         },
@@ -33527,6 +34766,12 @@
           "input": 0.2,
           "output": 1.2,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.2944,
+          "output": 1.767,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -33559,6 +34804,12 @@
           "input": 0.19999999999999998,
           "output": 1.2,
           "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.2703,
+          "output": 1.621,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -33614,6 +34865,12 @@
         {
           "input": 0.19999999999999998,
           "output": 1.2,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 1.2,
           "vendor": "aihubmix",
           "mode": "standard"
         },
@@ -33621,6 +34878,12 @@
           "input": 0.2,
           "output": 1.2,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.2944,
+          "output": 1.767,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -33697,6 +34960,12 @@
           "output": 20,
           "vendor": "github_copilot",
           "mode": "standard"
+        },
+        {
+          "input": 5.4,
+          "output": 27,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -33743,6 +35012,12 @@
           "input": 4,
           "output": 20,
           "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 5.4,
+          "output": 27,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -33793,6 +35068,12 @@
           "input": 4,
           "output": 20,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 5.4,
+          "output": 27,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -33875,6 +35156,12 @@
           "output": 12,
           "vendor": "aihubmix",
           "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 16.2,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -33906,6 +35193,12 @@
           "input": 2,
           "output": 12,
           "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 16.2,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -33962,6 +35255,12 @@
           "input": 2,
           "output": 12,
           "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 16.2,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -34043,6 +35342,12 @@
           "input": 10,
           "output": 50,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 13.5,
+          "output": 67.5,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -34145,9 +35450,21 @@
           "mode": "standard"
         },
         {
+          "input": 0.09999999999999999,
+          "output": 0.5,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        },
+        {
           "input": 0.1,
           "output": 0.5,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.16390000000000002,
+          "output": 0.8195,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -34345,6 +35662,12 @@
           "output": 10,
           "vendor": "github_copilot",
           "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 13.5,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -34424,6 +35747,18 @@
           "input": 1,
           "output": 5,
           "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 1,
+          "output": 5,
+          "vendor": "azure_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 1,
+          "output": 5,
+          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -34821,6 +36156,18 @@
           "input": 0.22,
           "output": 0.59,
           "vendor": "sambanova",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        },
+        {
+          "input": 0.0473,
+          "output": 0.2303,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -35266,7 +36613,7 @@
       "prices": [
         {
           "input": 0.06,
-          "output": 0.25,
+          "output": 0.15,
           "vendor": "ibm-granite",
           "mode": "standard"
         }
@@ -35735,6 +37082,12 @@
           "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
+        },
+        {
+          "input": 1.7630000000000001,
+          "output": 3.528,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -36045,6 +37398,12 @@
           "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
+        },
+        {
+          "input": 1.767,
+          "output": 3.534,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -36258,6 +37617,12 @@
           "output": 2.5,
           "vendor": "xai",
           "mode": "standard"
+        },
+        {
+          "input": 1.92,
+          "output": 3.8380000000000005,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -36332,6 +37697,12 @@
           "output": 6,
           "vendor": "github_copilot",
           "mode": "standard"
+        },
+        {
+          "input": 2.73,
+          "output": 8.189,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -36401,6 +37772,12 @@
           "output": 6,
           "vendor": "github_copilot",
           "mode": "standard"
+        },
+        {
+          "input": 2.758,
+          "output": 8.274000000000001,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -36440,6 +37817,12 @@
           "input": 2,
           "output": 6,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 2.758,
+          "output": 8.274000000000001,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -36506,6 +37889,27 @@
           "input": 2,
           "output": 6,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 2.16,
+          "output": 6.4799999999999995,
+          "vendor": "kyma",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-build",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "kyma/grok-build",
+      "context": 256000,
+      "prices": [
+        {
+          "input": 1.389,
+          "output": 2.7769999999999997,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -36905,6 +38309,12 @@
           "output": 0.58,
           "vendor": "opencode_go",
           "mode": "standard"
+        },
+        {
+          "input": 0.15940000000000001,
+          "output": 0.6576,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -36962,6 +38372,12 @@
           "input": 0.834,
           "output": 2.501,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1259000000000001,
+          "output": 3.3764,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -38196,6 +39612,21 @@
       "listedAt": "2025-09-04"
     },
     {
+      "id": "kimi-k2-instruct-0905",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "streamlake/Kimi-K2-Instruct-0905",
+      "context": 224000,
+      "prices": [
+        {
+          "input": 0.5710000000000001,
+          "output": 2.2859999999999996,
+          "vendor": "streamlake",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "kimi-k2-thinking",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "MoonshotAI: Kimi K2 Thinking",
@@ -38395,8 +39826,20 @@
         },
         {
           "input": 0.95,
+          "output": 4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.95,
           "output": 3.9995000000000003,
           "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5909,
+          "output": 2.758,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -38462,6 +39905,12 @@
         {
           "input": 0.95,
           "output": 4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.95,
+          "output": 4,
           "vendor": "tencent",
           "mode": "standard"
         },
@@ -38475,6 +39924,12 @@
           "input": 0.95,
           "output": 4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 1.009,
+          "output": 4.774,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -38612,8 +40067,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.16899999999999998,
-          "output": 20,
+          "input": 0.23900000000000002,
+          "output": 10.8,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -38657,6 +40112,12 @@
           "input": 3,
           "output": 15,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 3.052,
+          "output": 15.258000000000001,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -38685,8 +40146,8 @@
       "maker": "Moonshot",
       "prices": [
         {
-          "input": 0.16899999999999998,
-          "output": 20,
+          "input": 0.23900000000000002,
+          "output": 10.8,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -38730,6 +40191,12 @@
           "input": 3,
           "output": 15,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 3.052,
+          "output": 15.258000000000001,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -38844,7 +40311,19 @@
         {
           "input": 2,
           "output": 10,
+          "vendor": "moonshot",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 10,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 13.5,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -38857,8 +40336,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.16049999999999998,
-          "output": 8.940000000000001,
+          "input": 0.18239999999999998,
+          "output": 9.338799999999999,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -38873,8 +40352,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.16049999999999998,
-          "output": 8.940000000000001,
+          "input": 0.18239999999999998,
+          "output": 9.338799999999999,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -38889,8 +40368,8 @@
       "context": 32768,
       "prices": [
         {
-          "input": 0.16049999999999998,
-          "output": 8.940000000000001,
+          "input": 0.18239999999999998,
+          "output": 9.338799999999999,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -38905,8 +40384,8 @@
       "context": 8192,
       "prices": [
         {
-          "input": 0.16049999999999998,
-          "output": 8.940000000000001,
+          "input": 0.18239999999999998,
+          "output": 9.338799999999999,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -38921,8 +40400,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.16049999999999998,
-          "output": 8.940000000000001,
+          "input": 0.18239999999999998,
+          "output": 9.338799999999999,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -39224,6 +40703,36 @@
       "benchmarks": []
     },
     {
+      "id": "lfm2.5-1.2b-instruct",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "zerogpu/LFM2.5-1.2B-Instruct",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0.02,
+          "output": 0.049999999999999996,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "lfm2.5-1.2b-thinking",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "zerogpu/LFM2.5-1.2B-Thinking",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0.02,
+          "output": 0.049999999999999996,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "ling-3.0-flash",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "Ling-3.0-flash",
@@ -39382,8 +40891,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.02,
-          "output": 0.04,
+          "input": 0.049999999999999996,
+          "output": 0.08,
           "vendor": "meta-llama",
           "mode": "standard"
         },
@@ -39402,6 +40911,21 @@
       ],
       "benchmarks": [],
       "listedAt": "2024-07-23"
+    },
+    {
+      "id": "llama-3.1-8b-instruct-fast",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "zerogpu/llama-3.1-8b-instruct-fast",
+      "context": 131072,
+      "prices": [
+        {
+          "input": 0.15,
+          "output": 0.28,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "llama-3.2-11b-vision-instruct",
@@ -39472,6 +40996,21 @@
       "listedAt": "2024-09-25"
     },
     {
+      "id": "llama-3.2-3b-instruct-fast",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "zerogpu/llama-3.2-3b-instruct-fast",
+      "context": 131072,
+      "prices": [
+        {
+          "input": 0.049999999999999996,
+          "output": 0.3,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "llama-3.2-90b-vision-instruct",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "azure_ai/Llama-3.2-90B-Vision-Instruct",
@@ -39502,6 +41041,12 @@
           "input": 0.19999999999999998,
           "output": 0.5,
           "vendor": "inferenceapis",
+          "mode": "standard"
+        },
+        {
+          "input": 0.135,
+          "output": 0.432,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -39560,6 +41105,12 @@
           "input": 0.1875,
           "output": 0.6525,
           "vendor": "meta-llama",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3344,
+          "output": 1.337,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -41045,6 +42596,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.3344,
+          "output": 1.337,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 0.19999999999999998,
           "output": 0.6,
           "vendor": "vercel_ai_gateway",
@@ -42455,6 +44012,12 @@
           "output": 1.5,
           "vendor": "fireworks_ai",
           "mode": "standard"
+        },
+        {
+          "input": 0.4554,
+          "output": 1.821,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -42489,6 +44052,12 @@
           "output": 1.5,
           "vendor": "fireworks_ai",
           "mode": "standard"
+        },
+        {
+          "input": 0.4554,
+          "output": 1.821,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -42504,6 +44073,12 @@
           "input": 1.25,
           "output": 4.25,
           "vendor": "meta",
+          "mode": "standard"
+        },
+        {
+          "input": 1.542,
+          "output": 5.242999999999999,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -42526,6 +44101,12 @@
           "input": 1.375,
           "output": 4.675,
           "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 1.773,
+          "output": 6.025,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -42564,6 +44145,12 @@
           "input": 1.25,
           "output": 4.25,
           "vendor": "meta",
+          "mode": "standard"
+        },
+        {
+          "input": 1.688,
+          "output": 5.7379999999999995,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -42777,6 +44364,12 @@
           "output": 0.28,
           "vendor": "opencode_go",
           "mode": "standard"
+        },
+        {
+          "input": 0.18589999999999998,
+          "output": 0.37179999999999996,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -42847,6 +44440,12 @@
         {
           "input": 0.14,
           "output": 0.28,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.14,
+          "output": 0.28,
           "vendor": "xiaomi_mimo",
           "mode": "standard"
         },
@@ -42854,6 +44453,12 @@
           "input": 0.14,
           "output": 0.28,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.189,
+          "output": 0.378,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -42875,6 +44480,12 @@
         {
           "input": 0.435,
           "output": 0.87,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.435,
+          "output": 0.87,
           "vendor": "xiaomi_mimo",
           "mode": "standard"
         },
@@ -42882,6 +44493,12 @@
           "input": 0.435,
           "output": 0.87,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5805,
+          "output": 1.1744999999999999,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -43101,6 +44718,18 @@
           "output": 1.2,
           "vendor": "minimax",
           "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.4188,
+          "output": 1.675,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -43158,6 +44787,12 @@
           "output": 1.1832,
           "vendor": "aihubmix",
           "mode": "standard"
+        },
+        {
+          "input": 0.40499999999999997,
+          "output": 1.6199999999999999,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -43198,6 +44833,12 @@
           "input": 0.2958,
           "output": 1.1832,
           "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 0.40499999999999997,
+          "output": 1.6199999999999999,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -43269,6 +44910,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.6,
+          "output": 2.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "tencent",
@@ -43284,6 +44931,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3956,
+          "output": 1.582,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -43328,6 +44981,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.6,
+          "output": 2.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "tencent",
@@ -43343,6 +45002,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3956,
+          "output": 1.582,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -43410,6 +45075,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.6,
+          "output": 2.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "tencent",
@@ -43425,6 +45096,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3956,
+          "output": 1.582,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -43491,6 +45168,12 @@
           "output": 0.25,
           "vendor": "refuseless",
           "mode": "standard"
+        },
+        {
+          "input": 0.20249999999999999,
+          "output": 0.8099999999999999,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -43518,6 +45201,12 @@
           "input": 0.049999999999999996,
           "output": 0.25,
           "vendor": "refuseless",
+          "mode": "standard"
+        },
+        {
+          "input": 0.20249999999999999,
+          "output": 0.8099999999999999,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -43748,6 +45437,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.40499999999999997,
+          "output": 1.6199999999999999,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "novita",
@@ -43816,6 +45511,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.6,
+          "output": 2.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "tencent",
@@ -43831,6 +45532,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3956,
+          "output": 1.582,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -43898,6 +45605,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.6,
+          "output": 2.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
           "input": 0.3,
           "output": 1.2,
           "vendor": "tencent",
@@ -43913,6 +45626,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3956,
+          "output": 1.582,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -44616,8 +46335,8 @@
       "context": 524288,
       "prices": [
         {
-          "input": 0.6799999999999999,
-          "output": 2.09,
+          "input": 1.3599999999999999,
+          "output": 4.18,
           "vendor": "mistral",
           "mode": "standard"
         }
@@ -44638,8 +46357,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.6799999999999999,
-          "output": 2.09,
+          "input": 1.3599999999999999,
+          "output": 4.18,
           "vendor": "mistral",
           "mode": "standard"
         }
@@ -46093,8 +47812,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.6799999999999999,
-          "output": 2.09,
+          "input": 1.3599999999999999,
+          "output": 4.18,
           "vendor": "mistral",
           "mode": "standard"
         }
@@ -47249,8 +48968,8 @@
       "listedAt": "2026-07-16",
       "prices": [
         {
-          "input": 0.16899999999999998,
-          "output": 20,
+          "input": 0.23900000000000002,
+          "output": 10.8,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -47294,6 +49013,12 @@
           "input": 3,
           "output": 15,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 3.052,
+          "output": 15.258000000000001,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -47628,6 +49353,12 @@
           "output": 1.5,
           "vendor": "fireworks_ai",
           "mode": "standard"
+        },
+        {
+          "input": 0.4554,
+          "output": 1.821,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -47662,6 +49393,12 @@
           "output": 1.5,
           "vendor": "fireworks_ai",
           "mode": "standard"
+        },
+        {
+          "input": 0.4554,
+          "output": 1.821,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -47678,6 +49415,12 @@
           "input": 1.25,
           "output": 4.25,
           "vendor": "meta",
+          "mode": "standard"
+        },
+        {
+          "input": 1.542,
+          "output": 5.242999999999999,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -47714,6 +49457,12 @@
           "output": 4.675,
           "vendor": "aihubmix",
           "mode": "standard"
+        },
+        {
+          "input": 1.773,
+          "output": 6.025,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -47735,6 +49484,12 @@
           "input": 1.375,
           "output": 4.675,
           "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 1.773,
+          "output": 6.025,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -47788,6 +49543,12 @@
           "output": 4.25,
           "vendor": "meta",
           "mode": "standard"
+        },
+        {
+          "input": 1.688,
+          "output": 5.7379999999999995,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -47826,6 +49587,12 @@
           "output": 4.25,
           "vendor": "meta",
           "mode": "standard"
+        },
+        {
+          "input": 1.688,
+          "output": 5.7379999999999995,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -47841,6 +49608,12 @@
           "input": 4,
           "output": 20,
           "vendor": "meta",
+          "mode": "standard"
+        },
+        {
+          "input": 5.4,
+          "output": 27,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -47961,6 +49734,21 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-03-11"
+    },
+    {
+      "id": "nemotron-3-ultra-550b",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "kyma/nemotron-3-ultra-550b",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 0.675,
+          "output": 3.375,
+          "vendor": "kyma",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "nemotron-3-ultra-550b-a55b",
@@ -48118,6 +49906,12 @@
           "input": 0.15,
           "output": 0.5,
           "vendor": "nvidia",
+          "mode": "standard"
+        },
+        {
+          "input": 0.081,
+          "output": 0.4725,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -49158,8 +50952,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.15,
-          "output": 0.75,
+          "input": 0.25,
+          "output": 1.5,
           "vendor": "wandb",
           "mode": "standard"
         }
@@ -49196,13 +50990,13 @@
         {
           "input": 15,
           "output": 60,
-          "vendor": "openai",
+          "vendor": "azure",
           "mode": "standard"
         },
         {
           "input": 15,
           "output": 60,
-          "vendor": "azure",
+          "vendor": "openai",
           "mode": "standard"
         }
       ],
@@ -49288,13 +51082,13 @@
         {
           "input": 15,
           "output": 60,
-          "vendor": "openai",
+          "vendor": "azure",
           "mode": "standard"
         },
         {
           "input": 15,
           "output": 60,
-          "vendor": "azure",
+          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -49370,13 +51164,13 @@
         {
           "input": 15,
           "output": 60,
-          "vendor": "openai",
+          "vendor": "azure",
           "mode": "standard"
         },
         {
           "input": 15,
           "output": 60,
-          "vendor": "azure",
+          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -49546,13 +51340,13 @@
         {
           "input": 1.1,
           "output": 4.4,
-          "vendor": "openai",
+          "vendor": "azure",
           "mode": "standard"
         },
         {
           "input": 1.1,
           "output": 4.4,
-          "vendor": "azure",
+          "vendor": "openai",
           "mode": "standard"
         }
       ],
@@ -49588,9 +51382,63 @@
       "context": 200000,
       "prices": [
         {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1,
+          "output": 4.4,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 1.1,
           "output": 4.4,
           "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1,
+          "output": 4.4,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1,
+          "output": 4.4,
+          "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1,
+          "output": 4.4,
+          "vendor": "vercel_ai_gateway",
+          "mode": "standard"
+        },
+        {
+          "input": 1.513,
+          "output": 6.05,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
           "mode": "standard"
         }
       ],
@@ -49682,13 +51530,13 @@
         {
           "input": 1.1,
           "output": 4.4,
-          "vendor": "openai",
+          "vendor": "azure",
           "mode": "standard"
         },
         {
           "input": 1.1,
           "output": 4.4,
-          "vendor": "azure",
+          "vendor": "openai",
           "mode": "standard"
         }
       ],
@@ -49754,9 +51602,63 @@
       "context": 200000,
       "prices": [
         {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1,
+          "output": 4.4,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
           "input": 1.1,
           "output": 4.4,
           "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1,
+          "output": 4.4,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1,
+          "output": 4.4,
+          "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 1,
+          "output": 4,
+          "vendor": "replicate",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1,
+          "output": 4.4,
+          "vendor": "vercel_ai_gateway",
+          "mode": "standard"
+        },
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 1.21,
+          "output": 4.84,
+          "vendor": "azure",
           "mode": "standard"
         }
       ],
@@ -50433,15 +52335,15 @@
       "listedAt": "2024-01-25",
       "prices": [
         {
-          "input": 10,
-          "output": 30,
-          "vendor": "openai",
-          "mode": "standard"
-        },
-        {
           "input": 11,
           "output": 33,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 10,
+          "output": 30,
+          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -50473,15 +52375,15 @@
       "listedAt": "2024-01-25",
       "prices": [
         {
-          "input": 10,
-          "output": 30,
-          "vendor": "openai",
-          "mode": "standard"
-        },
-        {
           "input": 11,
           "output": 33,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 10,
+          "output": 30,
+          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -50572,6 +52474,12 @@
           "input": 0.39999999999999997,
           "output": 1.5999999999999999,
           "vendor": "azure",
+          "mode": "standard"
+        },
+        {
+          "input": 0.39999999999999997,
+          "output": 1.5999999999999999,
+          "vendor": "zerogpu",
           "mode": "standard"
         },
         {
@@ -52755,6 +54663,12 @@
         {
           "input": 0.19999999999999998,
           "output": 1.25,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 1.25,
           "vendor": "aihubmix",
           "mode": "standard"
         },
@@ -53243,6 +55157,12 @@
           "output": 1.2,
           "vendor": "openai",
           "mode": "standard"
+        },
+        {
+          "input": 0.2703,
+          "output": 1.621,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -53258,6 +55178,12 @@
           "input": 0.19999999999999998,
           "output": 1.2,
           "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.2703,
+          "output": 1.621,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -53297,6 +55223,12 @@
         {
           "input": 0.19999999999999998,
           "output": 1.2,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 1.2,
           "vendor": "aihubmix",
           "mode": "standard"
         },
@@ -53304,6 +55236,12 @@
           "input": 0.2,
           "output": 1.2,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.2944,
+          "output": 1.767,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -53355,6 +55293,12 @@
           "output": 20,
           "vendor": "openai",
           "mode": "standard"
+        },
+        {
+          "input": 5.4,
+          "output": 27,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -53370,6 +55314,12 @@
           "input": 4,
           "output": 20,
           "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 5.4,
+          "output": 27,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -53404,6 +55354,12 @@
           "input": 4,
           "output": 20,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 5.4,
+          "output": 27,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -53455,6 +55411,12 @@
           "output": 12,
           "vendor": "openai",
           "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 16.2,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -53470,6 +55432,12 @@
           "input": 2,
           "output": 12,
           "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 16.2,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -53510,6 +55478,12 @@
           "input": 2,
           "output": 12,
           "vendor": "aihubmix",
+          "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 16.2,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -53619,6 +55593,12 @@
           "mode": "standard"
         },
         {
+          "input": 13.5,
+          "output": 67.5,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 10,
           "output": 50,
           "vendor": "azure",
@@ -53725,9 +55705,21 @@
           "mode": "standard"
         },
         {
+          "input": 0.09999999999999999,
+          "output": 0.5,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        },
+        {
           "input": 0.1,
           "output": 0.5,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.16390000000000002,
+          "output": 0.8195,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -53946,6 +55938,12 @@
           "input": 2,
           "output": 10,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 2.7,
+          "output": 13.5,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -54275,6 +56273,18 @@
           "input": 0.22,
           "output": 0.59,
           "vendor": "sambanova",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.6,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        },
+        {
+          "input": 0.0473,
+          "output": 0.2303,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -54658,18 +56668,6 @@
         {
           "input": 1.1,
           "output": 4.4,
-          "vendor": "openai",
-          "mode": "standard"
-        },
-        {
-          "input": 1.1,
-          "output": 4.4,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 1.1,
-          "output": 4.4,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -54677,6 +56675,12 @@
           "input": 1.1,
           "output": 4.4,
           "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1,
+          "output": 4.4,
+          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -54735,18 +56739,6 @@
         {
           "input": 1.1,
           "output": 4.4,
-          "vendor": "openai",
-          "mode": "standard"
-        },
-        {
-          "input": 1.1,
-          "output": 4.4,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 1.1,
-          "output": 4.4,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -54754,6 +56746,12 @@
           "input": 1.1,
           "output": 4.4,
           "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1,
+          "output": 4.4,
+          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -54931,18 +56929,6 @@
         {
           "input": 1.1,
           "output": 4.4,
-          "vendor": "openai",
-          "mode": "standard"
-        },
-        {
-          "input": 1.1,
-          "output": 4.4,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 1.1,
-          "output": 4.4,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -54950,6 +56936,12 @@
           "input": 1.1,
           "output": 4.4,
           "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1,
+          "output": 4.4,
+          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -55007,18 +56999,6 @@
         {
           "input": 1.1,
           "output": 4.4,
-          "vendor": "openai",
-          "mode": "standard"
-        },
-        {
-          "input": 1.1,
-          "output": 4.4,
-          "vendor": "azure",
-          "mode": "standard"
-        },
-        {
-          "input": 1.1,
-          "output": 4.4,
           "vendor": "azure",
           "mode": "standard"
         },
@@ -55026,6 +57006,12 @@
           "input": 1.1,
           "output": 4.4,
           "vendor": "openai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1,
+          "output": 4.4,
+          "vendor": "azure",
           "mode": "standard"
         },
         {
@@ -55310,6 +57296,22 @@
           "input": 0.7999999999999999,
           "output": 3.1999999999999997,
           "vendor": "~unbiased",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "particle-1",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "Particle AI: Particle-1",
+      "context": 1048576,
+      "listedAt": "2026-10-28",
+      "prices": [
+        {
+          "input": 0.25,
+          "output": 1,
+          "vendor": "particle-ai",
           "mode": "standard"
         }
       ],
@@ -56416,6 +58418,72 @@
           "output": 0.7999999999999999,
           "vendor": "cerebras",
           "mode": "standard"
+        },
+        {
+          "input": 0.108,
+          "output": 0.378,
+          "vendor": "kyma",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "qwen-3-coder",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "kyma/qwen-3-coder",
+      "context": 131072,
+      "prices": [
+        {
+          "input": 0.3546,
+          "output": 1.6119999999999999,
+          "vendor": "kyma",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "qwen-3.6-plus",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "kyma/qwen-3.6-plus",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 0.43879999999999997,
+          "output": 2.633,
+          "vendor": "kyma",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "qwen-3.7-max",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "kyma/qwen-3.7-max",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 2.071,
+          "output": 6.207,
+          "vendor": "kyma",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "qwen-3.7-plus",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "kyma/qwen-3.7-plus",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 0.4325,
+          "output": 1.731,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -56430,6 +58498,21 @@
           "input": 0.9900000000000001,
           "output": 1.49,
           "vendor": "cerebras",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "qwen-3.8-max",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "kyma/qwen-3.8-max",
+      "context": 1000000,
+      "prices": [
+        {
+          "input": 2.228,
+          "output": 6.684,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -58761,6 +60844,12 @@
           "output": 0.13,
           "vendor": "qwen",
           "mode": "standard"
+        },
+        {
+          "input": 0.0435,
+          "output": 0.18860000000000002,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -58772,8 +60861,8 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 1.5,
-          "output": 4.5,
+          "input": 2.5,
+          "output": 7.5,
           "vendor": "together_ai",
           "mode": "standard"
         },
@@ -58854,6 +60943,12 @@
           "input": 2,
           "output": 6,
           "vendor": "qwen",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "streamlake",
           "mode": "standard"
         },
         {
@@ -58946,6 +61041,18 @@
           "input": 0.039,
           "output": 1.25,
           "vendor": "qwen",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5,
+          "output": 3,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3826,
+          "output": 2.7319999999999998,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -59252,6 +61359,21 @@
       ],
       "benchmarks": [],
       "listedAt": "2025-04-28"
+    },
+    {
+      "id": "qwen3-30b-a3b-fp8",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "zerogpu/qwen3-30b-a3b-fp8",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0.09999999999999999,
+          "output": 0.44999999999999996,
+          "vendor": "zerogpu",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "qwen3-30b-a3b-instruct-2507",
@@ -59583,12 +61705,6 @@
       "name": "Qwen: Qwen3 Next 80B A3B Thinking",
       "context": 262144,
       "prices": [
-        {
-          "input": 0.15,
-          "output": 1.2,
-          "vendor": "qwen",
-          "mode": "standard"
-        },
         {
           "input": 0.15,
           "output": 1.2,
@@ -59970,6 +62086,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.6,
+          "output": 3.5999999999999996,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
           "input": 0.1644,
           "output": 0.9863999999999999,
           "vendor": "aihubmix",
@@ -60130,6 +62252,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.6,
+          "output": 3.5999999999999996,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
           "input": 0.422,
           "output": 2.532,
           "vendor": "aihubmix",
@@ -60171,6 +62299,18 @@
           "input": 0.15,
           "output": 0.5,
           "vendor": "libertai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.375,
+          "output": 2.25,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.19999999999999998,
+          "output": 1.5,
+          "vendor": "zerogpu",
           "mode": "standard"
         },
         {
@@ -60286,6 +62426,12 @@
           "output": 0.13,
           "vendor": "qwen",
           "mode": "standard"
+        },
+        {
+          "input": 0.0435,
+          "output": 0.18860000000000002,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -60332,8 +62478,8 @@
       "maker": "Alibaba",
       "prices": [
         {
-          "input": 1.5,
-          "output": 4.5,
+          "input": 2.5,
+          "output": 7.5,
           "vendor": "together_ai",
           "mode": "standard"
         },
@@ -60449,6 +62595,12 @@
         {
           "input": 2,
           "output": 6,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
           "vendor": "aihubmix",
           "mode": "standard"
         }
@@ -60483,6 +62635,12 @@
         {
           "input": 2,
           "output": 6,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
           "vendor": "aihubmix",
           "mode": "standard"
         }
@@ -60501,6 +62659,18 @@
           "input": 0.039,
           "output": 1.25,
           "vendor": "qwen",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5,
+          "output": 3,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3826,
+          "output": 2.7319999999999998,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -60562,6 +62732,18 @@
           "output": 1.25,
           "vendor": "qwen",
           "mode": "standard"
+        },
+        {
+          "input": 0.5,
+          "output": 3,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3826,
+          "output": 2.7319999999999998,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -60606,6 +62788,12 @@
           "input": 0.15,
           "output": 0.47,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.20450000000000002,
+          "output": 0.641,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -62072,6 +64260,12 @@
           "output": 1,
           "vendor": "perplexity",
           "mode": "standard"
+        },
+        {
+          "input": 1.35,
+          "output": 1.35,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -62133,6 +64327,12 @@
           "input": 3,
           "output": 15,
           "vendor": "perplexity",
+          "mode": "standard"
+        },
+        {
+          "input": 4.05,
+          "output": 20.25,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -62250,6 +64450,12 @@
           "output": 1.32,
           "vendor": "aihubmix",
           "mode": "standard"
+        },
+        {
+          "input": 0.2229,
+          "output": 1.282,
+          "vendor": "kyma",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -62272,6 +64478,12 @@
           "input": 1,
           "output": 2.7,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 1.35,
+          "output": 3.645,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -62342,6 +64554,12 @@
           "input": 1,
           "output": 2.7,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 1.35,
+          "output": 3.645,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -62583,6 +64801,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.15940000000000001,
+          "output": 0.6576,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 0.18,
           "output": 0.6,
           "vendor": "tencent",
@@ -62626,6 +64850,12 @@
           "input": 0.834,
           "output": 2.501,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1259000000000001,
+          "output": 3.3764,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -66954,6 +69184,22 @@
       "benchmarks": []
     },
     {
+      "id": "us/gpt-6.1-terra",
+      "firstSeen": "2026-10-29T12:57:08.434Z",
+      "name": "azure/us/gpt-6.1-terra",
+      "context": 922000,
+      "listedAt": "2026-10-26",
+      "prices": [
+        {
+          "input": 1.1,
+          "output": 5.5,
+          "vendor": "azure",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "us/gpt-chat-latest",
       "firstSeen": "2026-09-15T11:42:25.295Z",
       "name": "azure/us/gpt-chat-latest",
@@ -67073,13 +69319,13 @@
         {
           "input": 15,
           "output": 60,
-          "vendor": "openai",
+          "vendor": "azure",
           "mode": "standard"
         },
         {
           "input": 15,
           "output": 60,
-          "vendor": "azure",
+          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -67892,6 +70138,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.7630000000000001,
+          "output": 3.528,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 1.25,
           "output": 2.5,
           "vendor": "xai",
@@ -67962,6 +70214,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.767,
+          "output": 3.534,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 1.25,
           "output": 2.5,
           "vendor": "xai",
@@ -68005,6 +70263,12 @@
           "input": 1.25,
           "output": 2.5,
           "vendor": "xai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.92,
+          "output": 3.8380000000000005,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -68054,6 +70318,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.92,
+          "output": 3.8380000000000005,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 1.25,
           "output": 2.5,
           "vendor": "xai",
@@ -68097,6 +70367,12 @@
           "input": 2,
           "output": 6,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 2.73,
+          "output": 8.189,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -68152,6 +70428,12 @@
           "mode": "standard"
         },
         {
+          "input": 2.758,
+          "output": 8.274000000000001,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 2,
           "output": 6,
           "vendor": "vertex_ai",
@@ -68201,6 +70483,12 @@
           "input": 2,
           "output": 6,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 2.16,
+          "output": 6.4799999999999995,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -68800,6 +71088,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.18589999999999998,
+          "output": 0.37179999999999996,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 0.168,
           "output": 0.336,
           "vendor": "novita",
@@ -68865,6 +71159,12 @@
         {
           "input": 0.14,
           "output": 0.28,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.14,
+          "output": 0.28,
           "vendor": "xiaomi_mimo",
           "mode": "standard"
         },
@@ -68872,6 +71172,12 @@
           "input": 0.14,
           "output": 0.28,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.189,
+          "output": 0.378,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -68893,6 +71199,12 @@
         {
           "input": 0.435,
           "output": 0.87,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.435,
+          "output": 0.87,
           "vendor": "xiaomi_mimo",
           "mode": "standard"
         },
@@ -68900,6 +71212,12 @@
           "input": 0.435,
           "output": 0.87,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5805,
+          "output": 1.1744999999999999,
+          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -69056,6 +71374,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.1797,
+          "output": 1.175,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 0.125,
           "output": 0.44999999999999996,
           "vendor": "pinstripes",
@@ -69111,8 +71435,8 @@
       "context": 202800,
       "prices": [
         {
-          "input": 0.55,
-          "output": 2.2,
+          "input": 0.5,
+          "output": 2,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -69163,8 +71487,8 @@
       "context": 202800,
       "prices": [
         {
-          "input": 0.55,
-          "output": 2.2,
+          "input": 0.5,
+          "output": 2,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -69289,6 +71613,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.081,
+          "output": 0.54,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 0.07,
           "output": 0.4,
           "vendor": "novita",
@@ -69320,6 +71650,12 @@
           "input": 1,
           "output": 3.1999999999999997,
           "vendor": "zai",
+          "mode": "standard"
+        },
+        {
+          "input": 1,
+          "output": 3.1999999999999997,
+          "vendor": "streamlake",
           "mode": "standard"
         },
         {
@@ -69411,6 +71747,18 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.89,
+          "output": 5.9399999999999995,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "friendliai",
           "mode": "standard"
         },
@@ -69456,7 +71804,7 @@
           "mode": "standard"
         },
         {
-          "input": 0.014,
+          "input": 0.006,
           "output": 7,
           "vendor": "z-ai",
           "mode": "standard"
@@ -69488,6 +71836,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "tencent",
           "mode": "standard"
         },
@@ -69507,6 +71861,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.9028999999999999,
+          "output": 3.0829999999999997,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -69580,7 +71940,7 @@
           "mode": "standard"
         },
         {
-          "input": 0.014,
+          "input": 0.006,
           "output": 7,
           "vendor": "z-ai",
           "mode": "standard"
@@ -69612,6 +71972,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "tencent",
           "mode": "standard"
         },
@@ -69631,6 +71997,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.9028999999999999,
+          "output": 3.0829999999999997,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -69704,7 +72076,7 @@
           "mode": "standard"
         },
         {
-          "input": 0.014,
+          "input": 0.006,
           "output": 7,
           "vendor": "z-ai",
           "mode": "standard"
@@ -69736,6 +72108,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "tencent",
           "mode": "standard"
         },
@@ -69755,6 +72133,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.9028999999999999,
+          "output": 3.0829999999999997,
+          "vendor": "kyma",
           "mode": "standard"
         },
         {
@@ -69854,6 +72238,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "tencent",
           "mode": "standard"
         },
@@ -69867,6 +72257,18 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 1.178,
+          "output": 3.702,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1428571428571428,
+          "output": 4,
+          "vendor": "bigmodel",
           "mode": "standard"
         },
         {
@@ -69946,8 +72348,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.15,
-          "output": 0.5,
+          "input": 0.0457,
+          "output": 0.0742,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -69966,7 +72368,19 @@
         {
           "input": 0.15,
           "output": 0.5,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "tencent",
+          "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.35,
+          "vendor": "zerogpu",
           "mode": "standard"
         },
         {
@@ -69979,6 +72393,18 @@
           "input": 0.15,
           "output": 0.5,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.17200000000000001,
+          "output": 0.5733,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
+          "input": 0.1142857142857143,
+          "output": 0.39999999999999997,
+          "vendor": "bigmodel",
           "mode": "standard"
         },
         {
@@ -70052,8 +72478,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.15,
-          "output": 0.5,
+          "input": 0.0457,
+          "output": 0.0742,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -70072,7 +72498,19 @@
         {
           "input": 0.15,
           "output": 0.5,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "tencent",
+          "mode": "standard"
+        },
+        {
+          "input": 0.09999999999999999,
+          "output": 0.35,
+          "vendor": "zerogpu",
           "mode": "standard"
         },
         {
@@ -70085,6 +72523,18 @@
           "input": 0.15,
           "output": 0.5,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.17200000000000001,
+          "output": 0.5733,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
+          "input": 0.1142857142857143,
+          "output": 0.39999999999999997,
+          "vendor": "bigmodel",
           "mode": "standard"
         },
         {
@@ -70162,6 +72612,12 @@
           "output": 1.25,
           "vendor": "tencent",
           "mode": "standard"
+        },
+        {
+          "input": 0.2857142857142857,
+          "output": 1,
+          "vendor": "bigmodel",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -70222,6 +72678,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "tencent",
           "mode": "standard"
         },
@@ -70235,6 +72697,18 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 1.178,
+          "output": 3.702,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
+          "input": 1.1428571428571428,
+          "output": 4,
+          "vendor": "bigmodel",
           "mode": "standard"
         },
         {
