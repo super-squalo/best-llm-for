@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-29T12:57:08.434Z",
+  "generatedAt": "2026-10-30T12:51:18.452Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 457
+      "records": 456
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3645
+      "records": 3660
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -22,59 +22,11 @@
     }
   ],
   "newModels": [
-    "accounts/fireworks/models/rune",
-    "accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot",
-    "accounts/fireworks/routers/deepseek-v4p1-flash-spot",
-    "accounts/fireworks/routers/glm-5p3-spot",
-    "accounts/fireworks/routers/kimi-k3-spot",
-    "accounts/fireworks/routers/spot-deepseek-v4-flash",
-    "ap-northeast-1/mistral.voxtral-mini-3b-2507",
-    "ap-northeast-1/mistral.voxtral-small-24b-2507",
-    "ap-southeast-2/mistral.voxtral-mini-3b-2507",
-    "ap-southeast-2/mistral.voxtral-small-24b-2507",
-    "apac/gpt-6.1-terra",
-    "databricks-claude-haiku-5-5",
-    "databricks-claude-sonnet-5-5",
-    "databricks-deepseek-v4-1-flash",
-    "databricks-deepseek-v4-1-flash-1017",
-    "databricks-gemini-2-5-flash-lite",
-    "databricks-gemini-3-1-flash-image",
-    "databricks-gemini-3-1-flash-lite-image",
-    "databricks-gemini-3-7-flash",
-    "databricks-gemini-3-8-flash",
-    "databricks-gemini-3-pro-image",
-    "databricks-gemini-4-argon",
-    "databricks-gpt-5-4-pro",
-    "databricks-gpt-6-1-sol",
-    "databricks-gpt-6-1-terra",
-    "databricks-gpt-6-astra",
-    "databricks-gpt-6-luna",
-    "databricks-gpt-6-sol",
-    "databricks-gpt-image-1-5",
-    "databricks-grok-4-7",
-    "databricks-kimi-k2-7",
-    "databricks-typesafeai-jev-1-14-0",
-    "deepseek-v4-1-flash-1017",
-    "deepseek-v4.1-flash-260910",
-    "eu-west-2/mistral.voxtral-mini-3b-2507",
-    "eu-west-2/mistral.voxtral-small-24b-2507",
-    "eu/gpt-6.1-terra",
-    "gemini-3.1-pro",
-    "grok-build",
-    "kimi-k2-instruct-0905",
-    "lfm2.5-1.2b-instruct",
-    "lfm2.5-1.2b-thinking",
-    "llama-3.1-8b-instruct-fast",
-    "llama-3.2-3b-instruct-fast",
-    "nemotron-3-ultra-550b",
-    "particle-1",
-    "qwen-3-coder",
-    "qwen-3.6-plus",
-    "qwen-3.7-max",
-    "qwen-3.7-plus",
-    "qwen-3.8-max",
-    "qwen3-30b-a3b-fp8",
-    "us/gpt-6.1-terra"
+    "accounts/fireworks/models/ultramarine-1-flash-us",
+    "decision-models/baseten-joey-2b-latest",
+    "eu-jeff-1.0.0",
+    "eu-jeff-latest",
+    "qwen-audio-3.1-tts-flash"
   ],
   "models": [
     {
@@ -719,8 +671,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.0233,
-          "output": 1.7999999999999998,
+          "input": 0.031,
+          "output": 0.27,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -736,7 +688,7 @@
       "prices": [
         {
           "input": 0.1035,
-          "output": 8,
+          "output": 4,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -865,14 +817,20 @@
           "mode": "standard"
         },
         {
+          "input": 0.176,
+          "output": 0.5279999999999999,
+          "vendor": "clf_ai_gateway",
+          "mode": "standard"
+        },
+        {
           "input": 0.123,
           "output": 0.2458,
           "vendor": "kyma",
           "mode": "standard"
         },
         {
-          "input": 0.05676,
-          "output": 0.17028,
+          "input": 0.0496,
+          "output": 0.18869999999999998,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -949,8 +907,8 @@
       "listedAt": "2026-04-27",
       "prices": [
         {
-          "input": 0.18239999999999998,
-          "output": 9.338799999999999,
+          "input": 0.171,
+          "output": 10.5572,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -1061,8 +1019,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.0457,
-          "output": 0.0742,
+          "input": 0.019700000000000002,
+          "output": 0.11420000000000001,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -5309,6 +5267,21 @@
         {
           "input": 0.19999999999999998,
           "output": 0.19999999999999998,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "accounts/fireworks/models/ultramarine-1-flash-us",
+      "firstSeen": "2026-10-30T12:51:18.452Z",
+      "name": "fireworks_ai/accounts/fireworks/models/ultramarine-1-flash-us",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 0.22499999999999998,
+          "output": 0.75,
           "vendor": "fireworks_ai",
           "mode": "standard"
         }
@@ -15305,8 +15278,8 @@
       "context": 200000,
       "prices": [
         {
-          "input": 2.9999900000000004,
-          "output": 15.000020000000001,
+          "input": 2.99999,
+          "output": 15.00002,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -15546,7 +15519,7 @@
       "prices": [
         {
           "input": 2.49998,
-          "output": 15.000020000000001,
+          "output": 15.00002,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -15695,7 +15668,7 @@
       "context": 128000,
       "prices": [
         {
-          "input": 0.15000999999999998,
+          "input": 0.15001,
           "output": 0.5000100000000001,
           "vendor": "databricks",
           "mode": "standard"
@@ -15756,7 +15729,7 @@
       "prices": [
         {
           "input": 1.24999,
-          "output": 9.999990000000002,
+          "output": 9.99999,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -15771,7 +15744,7 @@
       "prices": [
         {
           "input": 1.24999,
-          "output": 9.999990000000002,
+          "output": 9.99999,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -15816,7 +15789,7 @@
       "prices": [
         {
           "input": 2.49998,
-          "output": 15.000020000000001,
+          "output": 15.00002,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -15950,8 +15923,8 @@
       "context": 272000,
       "prices": [
         {
-          "input": 0.24997000000000005,
-          "output": 1.9999700000000002,
+          "input": 0.24997,
+          "output": 1.99997,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -15966,7 +15939,7 @@
       "prices": [
         {
           "input": 0.049980000000000004,
-          "output": 0.39998000000000006,
+          "output": 0.39998,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -16069,7 +16042,7 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.15000999999999998,
+          "input": 0.15001,
           "output": 0.59997,
           "vendor": "databricks",
           "mode": "standard"
@@ -16085,7 +16058,7 @@
       "prices": [
         {
           "input": 0.07,
-          "output": 0.30001999999999995,
+          "output": 0.30002,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -16129,7 +16102,7 @@
       "context": 8192,
       "prices": [
         {
-          "input": 0.12999000000000002,
+          "input": 0.12999,
           "output": 0,
           "vendor": "databricks",
           "mode": "standard"
@@ -16190,7 +16163,7 @@
       "prices": [
         {
           "input": 0.5000100000000001,
-          "output": 1.5000300000000002,
+          "output": 1.50003,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -16204,7 +16177,7 @@
       "context": 200000,
       "prices": [
         {
-          "input": 0.15000999999999998,
+          "input": 0.15001,
           "output": 0.45003000000000004,
           "vendor": "databricks",
           "mode": "standard"
@@ -16220,7 +16193,7 @@
       "prices": [
         {
           "input": 0.5000100000000001,
-          "output": 1.5000300000000002,
+          "output": 1.50003,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -16352,6 +16325,21 @@
       "prices": [
         {
           "input": 0.035,
+          "output": 0,
+          "vendor": "baseten",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "decision-models/baseten-joey-2b-latest",
+      "firstSeen": "2026-10-30T12:51:18.452Z",
+      "name": "baseten/decision-models/baseten-joey-2b-latest",
+      "context": 16384,
+      "prices": [
+        {
+          "input": 0.01,
           "output": 0,
           "vendor": "baseten",
           "mode": "standard"
@@ -17422,8 +17410,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.0233,
-          "output": 1.7999999999999998,
+          "input": 0.031,
+          "output": 0.27,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -17454,7 +17442,7 @@
       "prices": [
         {
           "input": 0.1035,
-          "output": 8,
+          "output": 4,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -17758,8 +17746,8 @@
       "context": 163840,
       "prices": [
         {
-          "input": 0.28,
-          "output": 0.42,
+          "input": 0.26,
+          "output": 0.38,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -17886,8 +17874,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.28,
-          "output": 0.42,
+          "input": 0.26,
+          "output": 0.38,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18078,6 +18066,12 @@
           "input": 0.16999999999999998,
           "output": 0.21,
           "vendor": "prism",
+          "mode": "standard"
+        },
+        {
+          "input": 0.176,
+          "output": 0.5279999999999999,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -18493,14 +18487,20 @@
           "mode": "standard"
         },
         {
+          "input": 0.176,
+          "output": 0.5279999999999999,
+          "vendor": "clf_ai_gateway",
+          "mode": "standard"
+        },
+        {
           "input": 0.123,
           "output": 0.2458,
           "vendor": "kyma",
           "mode": "standard"
         },
         {
-          "input": 0.05676,
-          "output": 0.17028,
+          "input": 0.0496,
+          "output": 0.18869999999999998,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -18660,14 +18660,20 @@
           "mode": "standard"
         },
         {
+          "input": 0.176,
+          "output": 0.5279999999999999,
+          "vendor": "clf_ai_gateway",
+          "mode": "standard"
+        },
+        {
           "input": 0.123,
           "output": 0.2458,
           "vendor": "kyma",
           "mode": "standard"
         },
         {
-          "input": 0.05676,
-          "output": 0.17028,
+          "input": 0.0496,
+          "output": 0.18869999999999998,
           "vendor": "~deepseek",
           "mode": "standard"
         },
@@ -18713,8 +18719,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.05676,
-          "output": 0.17028,
+          "input": 0.0496,
+          "output": 0.18869999999999998,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -18820,8 +18826,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.894012,
-          "output": 1.788024,
+          "input": 0.816234,
+          "output": 1.632468,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -18883,6 +18889,12 @@
           "input": 1.32,
           "output": 3.9600000000000004,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5279999999999999,
+          "output": 1.584,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         }
       ],
@@ -19067,8 +19079,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.894012,
-          "output": 1.788024,
+          "input": 0.816234,
+          "output": 1.632468,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -19130,6 +19142,12 @@
           "input": 1.32,
           "output": 3.9600000000000004,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5279999999999999,
+          "output": 1.584,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -19198,8 +19216,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.894012,
-          "output": 1.788024,
+          "input": 0.816234,
+          "output": 1.632468,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -19261,6 +19279,12 @@
           "input": 1.32,
           "output": 3.9600000000000004,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5279999999999999,
+          "output": 1.584,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -19345,6 +19369,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.12,
+          "output": 0.48,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -20472,6 +20502,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.12,
+          "output": 0.48,
+          "vendor": "clf_ai_gateway",
+          "mode": "standard"
+        },
+        {
           "input": 0.27,
           "output": 0.8099999999999999,
           "vendor": "kyma",
@@ -20587,6 +20623,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.12,
+          "output": 0.48,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -21351,6 +21393,36 @@
       "benchmarks": []
     },
     {
+      "id": "eu-jeff-1.0.0",
+      "firstSeen": "2026-10-30T12:51:18.452Z",
+      "name": "eu_jev/eu-jeff-1.0.0",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0.0415,
+          "output": 0,
+          "vendor": "eu_jev",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "eu-jeff-latest",
+      "firstSeen": "2026-10-30T12:51:18.452Z",
+      "name": "eu_jev/eu-jeff-latest",
+      "context": 32768,
+      "prices": [
+        {
+          "input": 0.0415,
+          "output": 0,
+          "vendor": "eu_jev",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "eu-north-1/deepseek.v3.2",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "bedrock/eu-north-1/deepseek.v3.2",
@@ -21902,21 +21974,6 @@
           "output": 55,
           "vendor": "bedrock_converse",
           "mode": "standard"
-        }
-      ],
-      "benchmarks": []
-    },
-    {
-      "id": "eu.anthropic.claude-haiku-4-5-20251001-v1:0",
-      "firstSeen": "2026-08-28T21:24:06.288Z",
-      "name": "eu.anthropic.claude-haiku-4-5-20251001-v1:0",
-      "context": 200000,
-      "prices": [
-        {
-          "input": 1.1,
-          "output": 5.5,
-          "vendor": "bedrock_converse",
-          "mode": "other"
         }
       ],
       "benchmarks": []
@@ -27077,6 +27134,12 @@
           "mode": "free"
         },
         {
+          "input": 0.024,
+          "output": 0.16,
+          "vendor": "clf_ai_gateway",
+          "mode": "standard"
+        },
+        {
           "input": 0.081,
           "output": 0.54,
           "vendor": "kyma",
@@ -27323,6 +27386,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.56,
+          "output": 1.76,
+          "vendor": "clf_ai_gateway",
+          "mode": "standard"
+        },
+        {
           "input": 0.9028999999999999,
           "output": 3.0829999999999997,
           "vendor": "kyma",
@@ -27417,6 +27486,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.56,
+          "output": 1.76,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -27570,6 +27645,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.56,
+          "output": 1.76,
+          "vendor": "clf_ai_gateway",
+          "mode": "standard"
+        },
+        {
           "input": 0.9028999999999999,
           "output": 3.0829999999999997,
           "vendor": "kyma",
@@ -27705,6 +27786,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.56,
+          "output": 1.76,
+          "vendor": "clf_ai_gateway",
+          "mode": "standard"
+        },
+        {
           "input": 0.9028999999999999,
           "output": 3.0829999999999997,
           "vendor": "kyma",
@@ -27775,8 +27862,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.0699,
-          "output": 1.4,
+          "input": 0.08,
+          "output": 3.5999999999999996,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -27826,6 +27913,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.56,
+          "output": 1.76,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -27882,8 +27975,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.0457,
-          "output": 0.0742,
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -27927,6 +28020,12 @@
           "input": 0.15,
           "output": 0.5,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.06,
+          "output": 0.19999999999999998,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -28037,8 +28136,8 @@
       "maker": "Z.ai",
       "prices": [
         {
-          "input": 0.0699,
-          "output": 1.4,
+          "input": 0.08,
+          "output": 3.5999999999999996,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -28088,6 +28187,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.56,
+          "output": 1.76,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -28375,6 +28480,12 @@
           "mode": "standard"
         },
         {
+          "input": 1.2,
+          "output": 4,
+          "vendor": "zai",
+          "mode": "standard"
+        },
+        {
           "input": 0.7041999999999999,
           "output": 3.09848,
           "vendor": "aihubmix",
@@ -28405,8 +28516,8 @@
       "listedAt": "2026-08-27",
       "prices": [
         {
-          "input": 0.0457,
-          "output": 0.0742,
+          "input": 0.019700000000000002,
+          "output": 0.11420000000000001,
           "vendor": "~z-ai",
           "mode": "standard"
         }
@@ -30076,6 +30187,12 @@
       "listedAt": "2026-02-19",
       "prices": [
         {
+          "input": 2.7,
+          "output": 16.2,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
           "input": 2,
           "output": 12,
           "vendor": "google",
@@ -30115,12 +30232,6 @@
           "input": 2,
           "output": 12,
           "vendor": "perplexity",
-          "mode": "standard"
-        },
-        {
-          "input": 2.7,
-          "output": 16.2,
-          "vendor": "kyma",
           "mode": "standard"
         }
       ],
@@ -39837,6 +39948,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.38,
+          "output": 1.5999999999999999,
+          "vendor": "clf_ai_gateway",
+          "mode": "standard"
+        },
+        {
           "input": 0.5909,
           "output": 2.758,
           "vendor": "kyma",
@@ -39867,8 +39984,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.56,
-          "output": 3.1,
+          "input": 0.6,
+          "output": 3.5,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -39924,6 +40041,12 @@
           "input": 0.95,
           "output": 4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.38,
+          "output": 1.5999999999999999,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -40067,8 +40190,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.23900000000000002,
-          "output": 10.8,
+          "input": 0.192,
+          "output": 15,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -40146,8 +40269,8 @@
       "maker": "Moonshot",
       "prices": [
         {
-          "input": 0.23900000000000002,
-          "output": 10.8,
+          "input": 0.192,
+          "output": 15,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -40336,8 +40459,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.18239999999999998,
-          "output": 9.338799999999999,
+          "input": 0.171,
+          "output": 10.5572,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -40352,8 +40475,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.18239999999999998,
-          "output": 9.338799999999999,
+          "input": 0.171,
+          "output": 10.5572,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -40368,8 +40491,8 @@
       "context": 32768,
       "prices": [
         {
-          "input": 0.18239999999999998,
-          "output": 9.338799999999999,
+          "input": 0.171,
+          "output": 10.5572,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -40384,8 +40507,8 @@
       "context": 8192,
       "prices": [
         {
-          "input": 0.18239999999999998,
-          "output": 9.338799999999999,
+          "input": 0.171,
+          "output": 10.5572,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -40400,8 +40523,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.18239999999999998,
-          "output": 9.338799999999999,
+          "input": 0.171,
+          "output": 10.5572,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -46351,8 +46474,8 @@
       "listedAt": "2026-10-06",
       "prices": [
         {
-          "input": 1.3599999999999999,
-          "output": 4.18,
+          "input": 0.7,
+          "output": 2.0999999999999996,
           "vendor": "mistralai",
           "mode": "standard"
         },
@@ -47806,8 +47929,8 @@
       "listedAt": "2026-10-06",
       "prices": [
         {
-          "input": 1.3599999999999999,
-          "output": 4.18,
+          "input": 0.7,
+          "output": 2.0999999999999996,
           "vendor": "mistralai",
           "mode": "standard"
         },
@@ -48968,8 +49091,8 @@
       "listedAt": "2026-07-16",
       "prices": [
         {
-          "input": 0.23900000000000002,
-          "output": 10.8,
+          "input": 0.192,
+          "output": 15,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -58519,6 +58642,20 @@
       "benchmarks": []
     },
     {
+      "id": "qwen-audio-3.1-tts-flash",
+      "firstSeen": "2026-10-30T12:51:18.452Z",
+      "name": "dashscope/qwen-audio-3.1-tts-flash",
+      "prices": [
+        {
+          "input": 0.22999999999999998,
+          "output": 1.87,
+          "vendor": "dashscope",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "qwen-coder",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "dashscope/qwen-coder",
@@ -60861,8 +60998,8 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 2.5,
-          "output": 7.5,
+          "input": 1.5,
+          "output": 4.5,
           "vendor": "together_ai",
           "mode": "standard"
         },
@@ -61038,8 +61175,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.039,
-          "output": 1.25,
+          "input": 0.15,
+          "output": 1.875,
           "vendor": "qwen",
           "mode": "standard"
         },
@@ -61047,6 +61184,12 @@
           "input": 0.5,
           "output": 3,
           "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.18,
+          "output": 1.28,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -62240,8 +62383,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.44999999999999996,
-          "output": 2.7,
+          "input": 0.32,
+          "output": 3.1999999999999997,
           "vendor": "qwen",
           "mode": "standard"
         },
@@ -62478,8 +62621,8 @@
       "maker": "Alibaba",
       "prices": [
         {
-          "input": 2.5,
-          "output": 7.5,
+          "input": 1.5,
+          "output": 4.5,
           "vendor": "together_ai",
           "mode": "standard"
         },
@@ -62656,8 +62799,8 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 0.039,
-          "output": 1.25,
+          "input": 0.15,
+          "output": 1.875,
           "vendor": "qwen",
           "mode": "standard"
         },
@@ -62665,6 +62808,12 @@
           "input": 0.5,
           "output": 3,
           "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.18,
+          "output": 1.28,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -62728,8 +62877,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.039,
-          "output": 1.25,
+          "input": 0.15,
+          "output": 1.875,
           "vendor": "qwen",
           "mode": "standard"
         },
@@ -62737,6 +62886,12 @@
           "input": 0.5,
           "output": 3,
           "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.18,
+          "output": 1.28,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -64204,22 +64359,6 @@
       "benchmarks": []
     },
     {
-      "id": "solar-pro-3",
-      "firstSeen": "2026-08-28T21:24:06.288Z",
-      "name": "Upstage: Solar Pro 3",
-      "context": 131072,
-      "prices": [
-        {
-          "input": 0.15,
-          "output": 0.6,
-          "vendor": "upstage",
-          "mode": "standard"
-        }
-      ],
-      "benchmarks": [],
-      "listedAt": "2026-01-27"
-    },
-    {
       "id": "solar-pro4",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "Upstage: Solar Pro 4",
@@ -65570,22 +65709,6 @@
         {
           "input": 0.049999999999999996,
           "output": 0.19999999999999998,
-          "vendor": "upstage",
-          "mode": "standard"
-        }
-      ],
-      "benchmarks": []
-    },
-    {
-      "id": "upstage/solar-pro-3",
-      "firstSeen": "2026-09-18T11:11:35.916Z",
-      "name": "openrouter/upstage/solar-pro-3",
-      "context": 131072,
-      "listedAt": "2026-01-27",
-      "prices": [
-        {
-          "input": 0.15,
-          "output": 0.6,
           "vendor": "upstage",
           "mode": "standard"
         }
@@ -71613,6 +71736,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.024,
+          "output": 0.16,
+          "vendor": "clf_ai_gateway",
+          "mode": "standard"
+        },
+        {
           "input": 0.081,
           "output": 0.54,
           "vendor": "kyma",
@@ -71864,6 +71993,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.56,
+          "output": 1.76,
+          "vendor": "clf_ai_gateway",
+          "mode": "standard"
+        },
+        {
           "input": 0.9028999999999999,
           "output": 3.0829999999999997,
           "vendor": "kyma",
@@ -71997,6 +72132,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.56,
+          "output": 1.76,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -72136,6 +72277,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.56,
+          "output": 1.76,
+          "vendor": "clf_ai_gateway",
+          "mode": "standard"
+        },
+        {
           "input": 0.9028999999999999,
           "output": 3.0829999999999997,
           "vendor": "kyma",
@@ -72206,8 +72353,8 @@
       "listedAt": "2026-08-18",
       "prices": [
         {
-          "input": 0.0699,
-          "output": 1.4,
+          "input": 0.08,
+          "output": 3.5999999999999996,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -72257,6 +72404,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.56,
+          "output": 1.76,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -72348,8 +72501,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.0457,
-          "output": 0.0742,
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -72393,6 +72546,12 @@
           "input": 0.15,
           "output": 0.5,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.06,
+          "output": 0.19999999999999998,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -72478,8 +72637,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.0457,
-          "output": 0.0742,
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -72523,6 +72682,12 @@
           "input": 0.15,
           "output": 0.5,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.06,
+          "output": 0.19999999999999998,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -72646,8 +72811,8 @@
       "listedAt": "2026-08-18",
       "prices": [
         {
-          "input": 0.0699,
-          "output": 1.4,
+          "input": 0.08,
+          "output": 3.5999999999999996,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -72697,6 +72862,12 @@
           "input": 1.4,
           "output": 4.4,
           "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.56,
+          "output": 1.76,
+          "vendor": "clf_ai_gateway",
           "mode": "standard"
         },
         {
@@ -72785,6 +72956,12 @@
           "input": 1.2,
           "output": 4,
           "vendor": "z-ai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.2,
+          "output": 4,
+          "vendor": "zai",
           "mode": "standard"
         },
         {
