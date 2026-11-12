@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-11T14:18:10.055Z",
+  "generatedAt": "2026-11-12T15:10:12.191Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 466
+      "records": 468
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3972
+      "records": 3975
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -22,55 +22,11 @@
     }
   ],
   "newModels": [
-    "accounts/fireworks/routers/deepseek-flash-latest",
-    "accounts/fireworks/routers/glm-fast-latest",
-    "accounts/fireworks/routers/glm-flash-latest",
-    "accounts/fireworks/routers/glm-latest",
-    "accounts/fireworks/routers/kimi-fast-latest",
-    "accounts/fireworks/routers/kimi-latest",
-    "accounts/fireworks/routers/minimax-latest",
-    "accounts/fireworks/routers/qwen-max-latest",
-    "anthropic/claude-fable-5.2",
-    "claude-mythos-5-2@default",
-    "databricks-claude-fable-5-2",
-    "ernie-5.5-flash-preview:free",
-    "ernie-light-dt-1.0-intl",
-    "gemini-4-carbon",
-    "gemini-4-carbon-cyber-permissive",
-    "gemini-4-carbon:batch",
-    "google/gemini-3-flash",
-    "google/gemini-3.1-flash-tts",
-    "google/gemini-3.8-flash-lite-tts",
-    "google/gemini-3.8-flash-tts",
-    "google/gemini-4-carbon",
-    "ibm-granite/granite-20b-code-instruct-8k",
-    "ibm-granite/granite-3.0-2b-instruct",
-    "ibm-granite/granite-3.0-8b-instruct",
-    "ibm-granite/granite-3.1-2b-instruct",
-    "ibm-granite/granite-3.1-8b-instruct",
-    "ibm-granite/granite-3.2-8b-instruct",
-    "ibm-granite/granite-4.0-h-small",
-    "ibm-granite/granite-8b-code-instruct-128k",
-    "ibm-granite/granite-speech-4.1-2b",
-    "ibm-granite/granite-vision-3.3-2b",
-    "ibm-granite/granite-vision-4.1-4b",
-    "meta/llama-4-maverick-instruct",
-    "meta/llama-4-scout-instruct",
-    "meta/llama-guard-4-12b",
-    "meta/meta-llama-3-70b",
-    "meta/meta-llama-3-70b-instruct",
-    "meta/meta-llama-3-8b",
-    "meta/meta-llama-3-8b-instruct",
-    "midm-k-3.0-pro",
-    "mistral-large-4-latest",
-    "motif-3",
-    "openai/gpt-4o-mini-transcribe",
-    "openai/gpt-4o-transcribe",
-    "perceptron-ai-inc/isaac-0.1",
-    "qwen/qwen3-7-plus",
-    "snowflake/snowflake-arctic-instruct",
-    "system.ai.claude-fable-5-2",
-    "us-gov-east-1/openai.gpt-5.6-cyber"
+    "databricks-gemini-4-carbon",
+    "gemini-decision-1",
+    "kimi-k3.1-pro:batch",
+    "pareto-26.10-preview",
+    "system.ai.gemini-4-carbon"
   ],
   "models": [
     {
@@ -715,8 +671,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.006,
-          "output": 0.5,
+          "input": 0.022,
+          "output": 0.39999999999999997,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -9021,8 +8977,8 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 2,
-          "output": 10,
+          "input": 3,
+          "output": 15,
           "vendor": "deepinfra",
           "mode": "standard"
         },
@@ -9065,8 +9021,8 @@
       "listedAt": "2026-06-30",
       "prices": [
         {
-          "input": 2,
-          "output": 10,
+          "input": 3,
+          "output": 15,
           "vendor": "deepinfra",
           "mode": "standard"
         },
@@ -13855,8 +13811,8 @@
       "maker": "Anthropic",
       "prices": [
         {
-          "input": 2,
-          "output": 10,
+          "input": 3,
+          "output": 15,
           "vendor": "deepinfra",
           "mode": "standard"
         },
@@ -15490,8 +15446,8 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 8,
-          "output": 40,
+          "input": 8.00002,
+          "output": 40.000029999999995,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -16032,6 +15988,21 @@
         {
           "input": 2.49998,
           "output": 12.49997,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "databricks-gemini-4-carbon",
+      "firstSeen": "2026-11-12T15:10:12.191Z",
+      "name": "databricks/databricks-gemini-4-carbon",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 2,
+          "output": 10,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -17944,8 +17915,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.006,
-          "output": 0.5,
+          "input": 0.022,
+          "output": 0.39999999999999997,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -19328,8 +19299,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.888966,
-          "output": 1.777932,
+          "input": 0.892272,
+          "output": 1.784544,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -19620,8 +19591,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.888966,
-          "output": 1.777932,
+          "input": 0.892272,
+          "output": 1.784544,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -19763,8 +19734,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.888966,
-          "output": 1.777932,
+          "input": 0.892272,
+          "output": 1.784544,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -19919,8 +19890,8 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0.051,
-          "output": 0.5670000000000001,
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -20001,8 +19972,8 @@
       "listedAt": "2026-10-17",
       "prices": [
         {
-          "input": 0.006,
-          "output": 0.5,
+          "input": 0.15,
+          "output": 0.6,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -20029,8 +20000,8 @@
       "listedAt": "2026-10-17",
       "prices": [
         {
-          "input": 0.011,
-          "output": 0.19999999999999998,
+          "input": 0.049999999999999996,
+          "output": 0.15,
           "vendor": "deepseek",
           "mode": "batch"
         }
@@ -21158,8 +21129,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.051,
-          "output": 0.5670000000000001,
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -21294,8 +21265,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.051,
-          "output": 0.5670000000000001,
+          "input": 0.3,
+          "output": 1.2,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -25546,6 +25517,12 @@
         {
           "input": 0.5,
           "output": 3,
+          "vendor": "replicate",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5,
+          "output": 3,
           "vendor": "gmi",
           "mode": "standard"
         },
@@ -25553,12 +25530,6 @@
           "input": 0.5,
           "output": 3,
           "vendor": "perplexity",
-          "mode": "standard"
-        },
-        {
-          "input": 0.5,
-          "output": 3,
-          "vendor": "replicate",
           "mode": "standard"
         }
       ],
@@ -27021,6 +26992,21 @@
       "benchmarks": []
     },
     {
+      "id": "gemini-decision-1",
+      "firstSeen": "2026-11-12T15:10:12.191Z",
+      "name": "gemini/gemini-decision-1",
+      "context": 262144,
+      "prices": [
+        {
+          "input": 0.09999999999999999,
+          "output": 0,
+          "vendor": "gemini",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gemini-embedding-001",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "gemini-embedding-001",
@@ -27515,7 +27501,7 @@
       "prices": [
         {
           "input": 0.08,
-          "output": 0.44999999999999996,
+          "output": 0.35,
           "vendor": "google",
           "mode": "standard"
         },
@@ -28458,8 +28444,8 @@
       "context": 204800,
       "prices": [
         {
-          "input": 1.33,
-          "output": 4.18,
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -28782,8 +28768,8 @@
       "listedAt": "2026-06-16",
       "prices": [
         {
-          "input": 0.527,
-          "output": 1.0750000000000002,
+          "input": 0.322,
+          "output": 0.989,
           "vendor": "z-ai",
           "mode": "batch"
         }
@@ -29172,8 +29158,8 @@
       "context": 1048575,
       "prices": [
         {
-          "input": 0.047,
-          "output": 0.061000000000000006,
+          "input": 0.049999999999999996,
+          "output": 0.18,
           "vendor": "z-ai",
           "mode": "batch"
         }
@@ -30909,6 +30895,12 @@
         {
           "input": 0.5,
           "output": 3,
+          "vendor": "replicate",
+          "mode": "standard"
+        },
+        {
+          "input": 0.5,
+          "output": 3,
           "vendor": "gmi",
           "mode": "standard"
         },
@@ -30916,12 +30908,6 @@
           "input": 0.5,
           "output": 3,
           "vendor": "perplexity",
-          "mode": "standard"
-        },
-        {
-          "input": 0.5,
-          "output": 3,
-          "vendor": "replicate",
           "mode": "standard"
         }
       ],
@@ -36415,8 +36401,8 @@
       "context": 1050000,
       "prices": [
         {
-          "input": 4,
-          "output": 20,
+          "input": 4.4,
+          "output": 22,
           "vendor": "openai",
           "mode": "standard"
         },
@@ -36430,6 +36416,12 @@
           "input": 4,
           "output": 20,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 4,
+          "output": 20,
+          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -36524,8 +36516,8 @@
           "mode": "standard"
         },
         {
-          "input": 4,
-          "output": 20,
+          "input": 4.4,
+          "output": 22,
           "vendor": "openai",
           "mode": "standard"
         },
@@ -36539,6 +36531,12 @@
           "input": 4,
           "output": 20,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 4,
+          "output": 20,
+          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -38189,7 +38187,7 @@
       "prices": [
         {
           "input": 0.06,
-          "output": 0.25,
+          "output": 0.15,
           "vendor": "ibm-granite",
           "mode": "standard"
         }
@@ -42302,8 +42300,8 @@
       "listedAt": "2026-10-23",
       "prices": [
         {
-          "input": 2,
-          "output": 10,
+          "input": 0.2375,
+          "output": 8.785599999999999,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -42339,6 +42337,22 @@
           "output": 20,
           "vendor": "moonshot",
           "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "kimi-k3.1-pro:batch",
+      "firstSeen": "2026-11-12T15:10:12.191Z",
+      "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+      "context": 1048576,
+      "listedAt": "2026-10-23",
+      "prices": [
+        {
+          "input": 0.7,
+          "output": 6,
+          "vendor": "moonshotai",
+          "mode": "batch"
         }
       ],
       "benchmarks": []
@@ -47350,6 +47364,12 @@
       "listedAt": "2026-10-19",
       "prices": [
         {
+          "input": 0.075,
+          "output": 0.3,
+          "vendor": "minimax",
+          "mode": "standard"
+        },
+        {
           "input": 0.15,
           "output": 0.6,
           "vendor": "minimax",
@@ -47387,6 +47407,12 @@
           "input": 0.11249999999999999,
           "output": 0.44999999999999996,
           "vendor": "empiriolabs",
+          "mode": "standard"
+        },
+        {
+          "input": 0.075,
+          "output": 0.3,
+          "vendor": "minimax",
           "mode": "standard"
         },
         {
@@ -50270,7 +50296,7 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.019000000000000003,
+          "input": 0.029,
           "output": 0.03,
           "vendor": "deepinfra",
           "mode": "standard"
@@ -53493,8 +53519,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.08,
-          "output": 0.19999999999999998,
+          "input": 0.06,
+          "output": 0.16,
           "vendor": "deepinfra",
           "mode": "standard"
         }
@@ -58025,8 +58051,8 @@
           "mode": "standard"
         },
         {
-          "input": 4,
-          "output": 20,
+          "input": 4.4,
+          "output": 22,
           "vendor": "openai",
           "mode": "standard"
         },
@@ -58040,6 +58066,12 @@
           "input": 4,
           "output": 20,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 4,
+          "output": 20,
+          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -60037,6 +60069,22 @@
       "name": "Pareto 26.10",
       "context": 1048576,
       "listedAt": "2026-10-15",
+      "prices": [
+        {
+          "input": 0.7999999999999999,
+          "output": 3.1999999999999997,
+          "vendor": "unbiased",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "pareto-26.10-preview",
+      "firstSeen": "2026-11-12T15:10:12.191Z",
+      "name": "Pareto 26.10 Preview",
+      "context": 1048576,
+      "listedAt": "2026-10-01",
       "prices": [
         {
           "input": 0.7999999999999999,
@@ -64146,8 +64194,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.09999999999999999,
-          "output": 0.22,
+          "input": 0.12,
+          "output": 0.24,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -68349,8 +68397,23 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 8,
-          "output": 40,
+          "input": 8.00002,
+          "output": 40.000029999999995,
+          "vendor": "databricks",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "system.ai.gemini-4-carbon",
+      "firstSeen": "2026-11-12T15:10:12.191Z",
+      "name": "databricks/system.ai.gemini-4-carbon",
+      "context": 1048576,
+      "prices": [
+        {
+          "input": 2,
+          "output": 10,
           "vendor": "databricks",
           "mode": "standard"
         }
@@ -75879,8 +75942,8 @@
           "mode": "standard"
         },
         {
-          "input": 1.33,
-          "output": 4.18,
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "z-ai",
           "mode": "standard"
         },
