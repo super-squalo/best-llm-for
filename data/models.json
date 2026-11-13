@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-12T15:10:12.191Z",
+  "generatedAt": "2026-11-13T14:31:42.423Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 468
+      "records": 470
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3975
+      "records": 3986
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -22,11 +22,15 @@
     }
   ],
   "newModels": [
-    "databricks-gemini-4-carbon",
-    "gemini-decision-1",
-    "kimi-k3.1-pro:batch",
-    "pareto-26.10-preview",
-    "system.ai.gemini-4-carbon"
+    "anthropic/claude-fable-5-2",
+    "drex-max",
+    "drex-max-v1.1",
+    "gemini-4-hydrogen",
+    "gemini-4-hydrogen:batch",
+    "inkling-2-small",
+    "particle-1:free",
+    "thinkingmachines/inkling-2-small",
+    "xai/grok4.7"
   ],
   "models": [
     {
@@ -671,8 +675,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.022,
-          "output": 0.39999999999999997,
+          "input": 0.038000000000000006,
+          "output": 0.5,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -869,8 +873,8 @@
       "listedAt": "2026-04-27",
       "prices": [
         {
-          "input": 0.75,
-          "output": 3.75,
+          "input": 1.5,
+          "output": 7.5,
           "vendor": "~google",
           "mode": "standard"
         },
@@ -914,7 +918,7 @@
       "prices": [
         {
           "input": 0.18239999999999998,
-          "output": 11.0055,
+          "output": 10.6066,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -7562,6 +7566,21 @@
         {
           "input": 10,
           "output": 50,
+          "vendor": "perplexity",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "anthropic/claude-fable-5-2",
+      "firstSeen": "2026-11-13T14:31:42.423Z",
+      "name": "perplexity/anthropic/claude-fable-5-2",
+      "listedAt": "2026-11-09",
+      "prices": [
+        {
+          "input": 8,
+          "output": 40,
           "vendor": "perplexity",
           "mode": "standard"
         }
@@ -16780,6 +16799,12 @@
           "output": 12,
           "vendor": "gemini",
           "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 12,
+          "vendor": "vertex_ai",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -17915,8 +17940,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.022,
-          "output": 0.39999999999999997,
+          "input": 0.038000000000000006,
+          "output": 0.5,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -19299,8 +19324,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.892272,
-          "output": 1.784544,
+          "input": 0.8999999999999999,
+          "output": 1.5,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -19591,8 +19616,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.892272,
-          "output": 1.784544,
+          "input": 0.8999999999999999,
+          "output": 1.5,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -19734,8 +19759,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.892272,
-          "output": 1.784544,
+          "input": 0.8999999999999999,
+          "output": 1.5,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -19972,8 +19997,8 @@
       "listedAt": "2026-10-17",
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.6,
+          "input": 0.038000000000000006,
+          "output": 0.5,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -19981,6 +20006,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "azure_ai",
           "mode": "standard"
         },
         {
@@ -21722,7 +21753,37 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.06,
+          "input": 0.03,
+          "output": 0,
+          "vendor": "nace",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "drex-max",
+      "firstSeen": "2026-11-13T14:31:42.423Z",
+      "name": "nace/drex-max",
+      "context": 262144,
+      "prices": [
+        {
+          "input": 0.03,
+          "output": 0,
+          "vendor": "nace",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "drex-max-v1.1",
+      "firstSeen": "2026-11-13T14:31:42.423Z",
+      "name": "nace/drex-max-v1.1",
+      "context": 262144,
+      "prices": [
+        {
+          "input": 0.03,
           "output": 0,
           "vendor": "nace",
           "mode": "standard"
@@ -21737,7 +21798,7 @@
       "context": 32768,
       "prices": [
         {
-          "input": 0.04,
+          "input": 0.03,
           "output": 0,
           "vendor": "nace",
           "mode": "standard"
@@ -21752,7 +21813,7 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.049999999999999996,
+          "input": 0.03,
           "output": 0,
           "vendor": "nace",
           "mode": "standard"
@@ -21767,7 +21828,7 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.06,
+          "input": 0.03,
           "output": 0,
           "vendor": "nace",
           "mode": "standard"
@@ -26992,6 +27053,50 @@
       "benchmarks": []
     },
     {
+      "id": "gemini-4-hydrogen",
+      "firstSeen": "2026-11-13T14:31:42.423Z",
+      "name": "Google: Gemini 4 Hydrogen",
+      "context": 1048576,
+      "listedAt": "2026-11-12",
+      "prices": [
+        {
+          "input": 1.5,
+          "output": 7.5,
+          "vendor": "google",
+          "mode": "standard"
+        },
+        {
+          "input": 1.5,
+          "output": 7.5,
+          "vendor": "gemini",
+          "mode": "standard"
+        },
+        {
+          "input": 1.5,
+          "output": 7.5,
+          "vendor": "vertex_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gemini-4-hydrogen:batch",
+      "firstSeen": "2026-11-13T14:31:42.423Z",
+      "name": "Google: Gemini 4 Hydrogen (batch)",
+      "context": 1048576,
+      "listedAt": "2026-11-12",
+      "prices": [
+        {
+          "input": 0.75,
+          "output": 3.75,
+          "vendor": "google",
+          "mode": "batch"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gemini-decision-1",
       "firstSeen": "2026-11-12T15:10:12.191Z",
       "name": "gemini/gemini-decision-1",
@@ -27139,8 +27244,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.75,
-          "output": 3.75,
+          "input": 1.5,
+          "output": 7.5,
           "vendor": "~google",
           "mode": "standard"
         },
@@ -27597,8 +27702,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.08,
-          "output": 0.09999999999999999,
+          "input": 0.09,
+          "output": 0.3,
           "vendor": "google",
           "mode": "standard"
         },
@@ -28931,8 +29036,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.0699,
-          "output": 1.4,
+          "input": 0.08399999999999999,
+          "output": 3.5999999999999996,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -29239,8 +29344,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.0699,
-          "output": 1.4,
+          "input": 0.08399999999999999,
+          "output": 3.5999999999999996,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -31914,6 +32019,18 @@
         {
           "input": 2,
           "output": 10,
+          "vendor": "perplexity",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "gmi",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 10,
           "vendor": "replicate",
           "mode": "standard"
         }
@@ -32144,8 +32261,8 @@
       "listedAt": "2026-04-03",
       "prices": [
         {
-          "input": 0.08,
-          "output": 0.09999999999999999,
+          "input": 0.09,
+          "output": 0.3,
           "vendor": "google",
           "mode": "standard"
         },
@@ -38187,7 +38304,7 @@
       "prices": [
         {
           "input": 0.06,
-          "output": 0.15,
+          "output": 0.25,
           "vendor": "ibm-granite",
           "mode": "standard"
         }
@@ -40662,6 +40779,22 @@
       "listedAt": "2026-07-30"
     },
     {
+      "id": "inkling-2-small",
+      "firstSeen": "2026-11-13T14:31:42.423Z",
+      "name": "Thinking Machines: Inkling 2 Small",
+      "context": 1048576,
+      "listedAt": "2026-11-09",
+      "prices": [
+        {
+          "input": 0.3,
+          "output": 1,
+          "vendor": "thinkingmachines",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "inkling-2-small:free",
       "firstSeen": "2026-11-10T14:50:15.916Z",
       "name": "Thinking Machines: Inkling 2 Small (free)",
@@ -41619,8 +41752,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.532,
-          "output": 3.3249999999999997,
+          "input": 0.5,
+          "output": 2.5,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -41668,8 +41801,8 @@
       "maker": "Moonshot",
       "prices": [
         {
-          "input": 0.532,
-          "output": 3.3249999999999997,
+          "input": 0.5,
+          "output": 2.5,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -42300,8 +42433,8 @@
       "listedAt": "2026-10-23",
       "prices": [
         {
-          "input": 0.2375,
-          "output": 8.785599999999999,
+          "input": 2,
+          "output": 10,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -42365,7 +42498,7 @@
       "prices": [
         {
           "input": 0.18239999999999998,
-          "output": 11.0055,
+          "output": 10.6066,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -42381,7 +42514,7 @@
       "prices": [
         {
           "input": 0.18239999999999998,
-          "output": 11.0055,
+          "output": 10.6066,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -42397,7 +42530,7 @@
       "prices": [
         {
           "input": 0.18239999999999998,
-          "output": 11.0055,
+          "output": 10.6066,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -42413,7 +42546,7 @@
       "prices": [
         {
           "input": 0.18239999999999998,
-          "output": 11.0055,
+          "output": 10.6066,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -42429,7 +42562,7 @@
       "prices": [
         {
           "input": 0.18239999999999998,
-          "output": 11.0055,
+          "output": 10.6066,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -42587,38 +42720,6 @@
         }
       ],
       "benchmarks": []
-    },
-    {
-      "id": "lfm-2.5-2.6b",
-      "firstSeen": "2026-10-25T11:23:24.948Z",
-      "name": "LiquidAI: LFM2.5-2.6B",
-      "context": 128000,
-      "listedAt": "2026-08-11",
-      "prices": [
-        {
-          "input": 0.35,
-          "output": 0.5,
-          "vendor": "liquid",
-          "mode": "standard"
-        }
-      ],
-      "benchmarks": []
-    },
-    {
-      "id": "lfm-2.5-2.6b:free",
-      "firstSeen": "2026-08-28T21:24:06.288Z",
-      "name": "LiquidAI: LFM2.5-2.6B (free)",
-      "context": 65536,
-      "prices": [
-        {
-          "input": 0,
-          "output": 0,
-          "vendor": "liquid",
-          "mode": "free"
-        }
-      ],
-      "benchmarks": [],
-      "listedAt": "2026-08-11"
     },
     {
       "id": "lfm-2.5-24b-a2b",
@@ -46613,8 +46714,8 @@
       "context": 1050000,
       "prices": [
         {
-          "input": 0.48,
-          "output": 1.7999999999999998,
+          "input": 0.435,
+          "output": 0.87,
           "vendor": "xiaomi",
           "mode": "standard"
         },
@@ -46925,7 +47026,7 @@
       "prices": [
         {
           "input": 0.27,
-          "output": 1.08,
+          "output": 0.95,
           "vendor": "minimax",
           "mode": "standard"
         },
@@ -47364,12 +47465,6 @@
       "listedAt": "2026-10-19",
       "prices": [
         {
-          "input": 0.075,
-          "output": 0.3,
-          "vendor": "minimax",
-          "mode": "standard"
-        },
-        {
           "input": 0.15,
           "output": 0.6,
           "vendor": "minimax",
@@ -47407,12 +47502,6 @@
           "input": 0.11249999999999999,
           "output": 0.44999999999999996,
           "vendor": "empiriolabs",
-          "mode": "standard"
-        },
-        {
-          "input": 0.075,
-          "output": 0.3,
-          "vendor": "minimax",
           "mode": "standard"
         },
         {
@@ -60160,6 +60249,22 @@
       "benchmarks": []
     },
     {
+      "id": "particle-1:free",
+      "firstSeen": "2026-11-13T14:31:42.423Z",
+      "name": "Particle AI: Particle-1 (free)",
+      "context": 1048576,
+      "listedAt": "2026-10-28",
+      "prices": [
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "particle-ai",
+          "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "pearl-ai/gemma-4-31b-it",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "together_ai/pearl-ai/gemma-4-31b-it",
@@ -63470,8 +63575,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.16999999999999998,
-          "output": 0.25,
+          "input": 0.044,
+          "output": 0.065,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -65515,8 +65620,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.16999999999999998,
-          "output": 0.25,
+          "input": 0.044,
+          "output": 0.065,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -65555,8 +65660,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.16999999999999998,
-          "output": 0.25,
+          "input": 0.044,
+          "output": 0.065,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -66963,8 +67068,8 @@
       "listedAt": "2026-11-04",
       "prices": [
         {
-          "input": 0.19999999999999998,
-          "output": 0.6,
+          "input": 0.09999999999999999,
+          "output": 0.3,
           "vendor": "ricursiveai",
           "mode": "standard"
         }
@@ -68907,6 +69012,22 @@
       ],
       "benchmarks": [],
       "listedAt": "2026-07-17"
+    },
+    {
+      "id": "thinkingmachines/inkling-2-small",
+      "firstSeen": "2026-11-13T14:31:42.423Z",
+      "name": "together_ai/thinkingmachines/Inkling-2-Small",
+      "context": 1048576,
+      "listedAt": "2026-11-09",
+      "prices": [
+        {
+          "input": 0.3,
+          "output": 1,
+          "vendor": "together_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "thinkingmachines/inkling-small",
@@ -75182,6 +75303,21 @@
       "benchmarks": []
     },
     {
+      "id": "xai/grok4.7",
+      "firstSeen": "2026-11-13T14:31:42.423Z",
+      "name": "gmi/xai/grok4.7",
+      "context": 500000,
+      "prices": [
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "gmi",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "xiaomi/mimo-v2-flash",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "openrouter/xiaomi/mimo-v2-flash",
@@ -75249,8 +75385,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.48,
-          "output": 1.7999999999999998,
+          "input": 0.435,
+          "output": 0.87,
           "vendor": "xiaomi",
           "mode": "standard"
         },
@@ -76475,8 +76611,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.0699,
-          "output": 1.4,
+          "input": 0.08399999999999999,
+          "output": 3.5999999999999996,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -76981,8 +77117,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.0699,
-          "output": 1.4,
+          "input": 0.08399999999999999,
+          "output": 3.5999999999999996,
           "vendor": "z-ai",
           "mode": "standard"
         },
