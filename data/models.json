@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-13T14:31:42.423Z",
+  "generatedAt": "2026-11-14T13:28:23.493Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 470
+      "records": 471
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3986
+      "records": 3992
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -22,15 +22,8 @@
     }
   ],
   "newModels": [
-    "anthropic/claude-fable-5-2",
-    "drex-max",
-    "drex-max-v1.1",
-    "gemini-4-hydrogen",
-    "gemini-4-hydrogen:batch",
-    "inkling-2-small",
-    "particle-1:free",
-    "thinkingmachines/inkling-2-small",
-    "xai/grok4.7"
+    "google/gemini-4-hydrogen",
+    "ling-3.2-flash:free"
   ],
   "models": [
     {
@@ -918,7 +911,7 @@
       "prices": [
         {
           "input": 0.18239999999999998,
-          "output": 10.6066,
+          "output": 11.0055,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -17767,8 +17760,8 @@
       "context": 163840,
       "prices": [
         {
-          "input": 0.32,
-          "output": 0.8899999999999999,
+          "input": 0.2574,
+          "output": 1.0287,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -19915,8 +19908,8 @@
       "listedAt": "2026-09-10",
       "prices": [
         {
-          "input": 0.3,
-          "output": 1.2,
+          "input": 0.050699999999999995,
+          "output": 0.20279999999999998,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -20256,8 +20249,8 @@
       "context": 65536,
       "prices": [
         {
-          "input": 0.32,
-          "output": 0.8899999999999999,
+          "input": 0.2574,
+          "output": 1.0287,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -21160,8 +21153,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.3,
-          "output": 1.2,
+          "input": 0.050699999999999995,
+          "output": 0.20279999999999998,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -21296,8 +21289,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.3,
-          "output": 1.2,
+          "input": 0.050699999999999995,
+          "output": 0.20279999999999998,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -27076,6 +27069,12 @@
           "output": 7.5,
           "vendor": "vertex_ai",
           "mode": "standard"
+        },
+        {
+          "input": 1.5,
+          "output": 7.5,
+          "vendor": "github_copilot",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -27702,8 +27701,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.09,
-          "output": 0.3,
+          "input": 0.0675,
+          "output": 0.22499999999999998,
           "vendor": "google",
           "mode": "standard"
         },
@@ -32038,6 +32037,21 @@
       "benchmarks": []
     },
     {
+      "id": "google/gemini-4-hydrogen",
+      "firstSeen": "2026-11-14T13:28:23.493Z",
+      "name": "perplexity/google/gemini-4-hydrogen",
+      "listedAt": "2026-11-12",
+      "prices": [
+        {
+          "input": 1.5,
+          "output": 7.5,
+          "vendor": "perplexity",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "google/gemini-embedding-001",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "vercel_ai_gateway/google/gemini-embedding-001",
@@ -32261,8 +32275,8 @@
       "listedAt": "2026-04-03",
       "prices": [
         {
-          "input": 0.09,
-          "output": 0.3,
+          "input": 0.0675,
+          "output": 0.22499999999999998,
           "vendor": "google",
           "mode": "standard"
         },
@@ -36518,8 +36532,8 @@
       "context": 1050000,
       "prices": [
         {
-          "input": 4.4,
-          "output": 22,
+          "input": 4,
+          "output": 20,
           "vendor": "openai",
           "mode": "standard"
         },
@@ -36533,12 +36547,6 @@
           "input": 4,
           "output": 20,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 4,
-          "output": 20,
-          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -36633,8 +36641,8 @@
           "mode": "standard"
         },
         {
-          "input": 4.4,
-          "output": 22,
+          "input": 4,
+          "output": 20,
           "vendor": "openai",
           "mode": "standard"
         },
@@ -36648,12 +36656,6 @@
           "input": 4,
           "output": 20,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 4,
-          "output": 20,
-          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -42498,7 +42500,7 @@
       "prices": [
         {
           "input": 0.18239999999999998,
-          "output": 10.6066,
+          "output": 11.0055,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -42514,7 +42516,7 @@
       "prices": [
         {
           "input": 0.18239999999999998,
-          "output": 10.6066,
+          "output": 11.0055,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -42530,7 +42532,7 @@
       "prices": [
         {
           "input": 0.18239999999999998,
-          "output": 10.6066,
+          "output": 11.0055,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -42546,7 +42548,7 @@
       "prices": [
         {
           "input": 0.18239999999999998,
-          "output": 10.6066,
+          "output": 11.0055,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -42562,7 +42564,7 @@
       "prices": [
         {
           "input": 0.18239999999999998,
-          "output": 10.6066,
+          "output": 11.0055,
           "vendor": "~moonshotai",
           "mode": "standard"
         }
@@ -42910,6 +42912,22 @@
       "benchmarks": []
     },
     {
+      "id": "ling-3.2-flash:free",
+      "firstSeen": "2026-11-14T13:28:23.493Z",
+      "name": "inclusionAI: Ling 3.2 Flash (free)",
+      "context": 1048576,
+      "listedAt": "2026-11-13",
+      "prices": [
+        {
+          "input": 0,
+          "output": 0,
+          "vendor": "inclusionai",
+          "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "llama-2-70b-chat",
       "firstSeen": "2026-08-28T21:24:06.288Z",
       "name": "perplexity/llama-2-70b-chat",
@@ -43099,8 +43117,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.049999999999999996,
-          "output": 0.33,
+          "input": 0.0509,
+          "output": 0.335,
           "vendor": "meta-llama",
           "mode": "standard"
         }
@@ -53655,6 +53673,12 @@
         {
           "input": 0.15,
           "output": 0.5,
+          "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "together_ai",
           "mode": "standard"
         }
@@ -58140,8 +58164,8 @@
           "mode": "standard"
         },
         {
-          "input": 4.4,
-          "output": 22,
+          "input": 4,
+          "output": 20,
           "vendor": "openai",
           "mode": "standard"
         },
@@ -58155,12 +58179,6 @@
           "input": 4,
           "output": 20,
           "vendor": "github_copilot",
-          "mode": "standard"
-        },
-        {
-          "input": 4,
-          "output": 20,
-          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -63575,8 +63593,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.044,
-          "output": 0.065,
+          "input": 0.16999999999999998,
+          "output": 0.25,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -65620,8 +65638,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.044,
-          "output": 0.065,
+          "input": 0.16999999999999998,
+          "output": 0.25,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -65660,8 +65678,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.044,
-          "output": 0.065,
+          "input": 0.16999999999999998,
+          "output": 0.25,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -68671,6 +68689,12 @@
       "context": 1048576,
       "listedAt": "2026-08-28",
       "prices": [
+        {
+          "input": 0.834,
+          "output": 2.501,
+          "vendor": "deepinfra",
+          "mode": "standard"
+        },
         {
           "input": 0.834,
           "output": 2.501,
@@ -75462,6 +75486,12 @@
           "mode": "standard"
         },
         {
+          "input": 0.14,
+          "output": 0.28,
+          "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
           "input": 0.112,
           "output": 0.224,
           "vendor": "gmi",
@@ -75622,6 +75652,12 @@
       "context": 1050000,
       "listedAt": "2026-09-21",
       "prices": [
+        {
+          "input": 0.14,
+          "output": 0.28,
+          "vendor": "deepinfra",
+          "mode": "standard"
+        },
         {
           "input": 0.112,
           "output": 0.224,
@@ -76881,6 +76917,12 @@
         {
           "input": 0.15,
           "output": 0.5,
+          "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.5,
           "vendor": "aiand",
           "mode": "standard"
         },
@@ -77030,6 +77072,12 @@
           "input": 0.15,
           "output": 0.5,
           "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.5,
+          "vendor": "deepinfra",
           "mode": "standard"
         },
         {
@@ -78006,6 +78054,12 @@
           "input": 0.15,
           "output": 0.5,
           "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 0.15,
+          "output": 0.5,
+          "vendor": "deepinfra",
           "mode": "standard"
         },
         {
