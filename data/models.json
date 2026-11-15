@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-14T13:28:23.493Z",
+  "generatedAt": "2026-11-15T13:53:58.490Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 471
+      "records": 467
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 3992
+      "records": 3996
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -22,8 +22,10 @@
     }
   ],
   "newModels": [
-    "google/gemini-4-hydrogen",
-    "ling-3.2-flash:free"
+    "openai/gpt-6-luna-decisions",
+    "typesafe-ai/jev",
+    "typesafe-ai/jev-1.13.0",
+    "typesafe-ai/jev-1.14.0"
   ],
   "models": [
     {
@@ -668,8 +670,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.038000000000000006,
-          "output": 0.5,
+          "input": 0.02,
+          "output": 0.108,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -17933,8 +17935,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.038000000000000006,
-          "output": 0.5,
+          "input": 0.02,
+          "output": 0.108,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -19990,8 +19992,8 @@
       "listedAt": "2026-10-17",
       "prices": [
         {
-          "input": 0.038000000000000006,
-          "output": 0.5,
+          "input": 0.02,
+          "output": 0.108,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -20024,8 +20026,8 @@
       "listedAt": "2026-10-17",
       "prices": [
         {
-          "input": 0.049999999999999996,
-          "output": 0.15,
+          "input": 0.029,
+          "output": 0.252,
           "vendor": "deepseek",
           "mode": "batch"
         }
@@ -28288,8 +28290,8 @@
       "context": 204800,
       "prices": [
         {
-          "input": 0.6,
-          "output": 2.2,
+          "input": 0.39999999999999997,
+          "output": 1.75,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -28872,10 +28874,142 @@
       "listedAt": "2026-06-16",
       "prices": [
         {
-          "input": 0.322,
-          "output": 0.989,
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "mistral",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "empiriolabs",
+          "mode": "standard"
+        },
+        {
+          "input": 0.007,
+          "output": 6.8,
           "vendor": "z-ai",
-          "mode": "batch"
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "dashscope",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "qwencloud",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "qwen_ai_platform",
+          "mode": "standard"
+        },
+        {
+          "input": 0.61,
+          "output": 1.9800000000000002,
+          "vendor": "scx-ai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "streamlake",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "tencent",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "zai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.7999999999999998,
+          "output": 5.5,
+          "vendor": "scaleway",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "opencode_go",
+          "mode": "standard"
+        },
+        {
+          "input": 0.56,
+          "output": 1.76,
+          "vendor": "clf_ai_gateway",
+          "mode": "standard"
+        },
+        {
+          "input": 0.9028999999999999,
+          "output": 3.0829999999999997,
+          "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "perplexity",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "friendliai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "nebius",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "together_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "novita",
+          "mode": "standard"
+        },
+        {
+          "input": 0.62,
+          "output": 2.42,
+          "vendor": "wandb",
+          "mode": "standard"
+        },
+        {
+          "input": 0.75,
+          "output": 2.4,
+          "vendor": "deepinfra",
+          "mode": "standard"
+        },
+        {
+          "input": 1,
+          "output": 4,
+          "vendor": "aiand",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "baseten",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -36532,8 +36666,8 @@
       "context": 1050000,
       "prices": [
         {
-          "input": 4,
-          "output": 20,
+          "input": 4.4,
+          "output": 22,
           "vendor": "openai",
           "mode": "standard"
         },
@@ -36547,6 +36681,12 @@
           "input": 4,
           "output": 20,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 4,
+          "output": 20,
+          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -36641,8 +36781,8 @@
           "mode": "standard"
         },
         {
-          "input": 4,
-          "output": 20,
+          "input": 4.4,
+          "output": 22,
           "vendor": "openai",
           "mode": "standard"
         },
@@ -36656,6 +36796,12 @@
           "input": 4,
           "output": 20,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 4,
+          "output": 20,
+          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -38306,7 +38452,7 @@
       "prices": [
         {
           "input": 0.06,
-          "output": 0.25,
+          "output": 0.15,
           "vendor": "ibm-granite",
           "mode": "standard"
         }
@@ -39936,22 +40082,6 @@
         }
       ],
       "benchmarks": []
-    },
-    {
-      "id": "hunyuan-a13b-instruct",
-      "firstSeen": "2026-08-28T21:24:06.288Z",
-      "name": "Tencent: Hunyuan A13B Instruct",
-      "context": 131072,
-      "prices": [
-        {
-          "input": 0.14,
-          "output": 0.5700000000000001,
-          "vendor": "tencent",
-          "mode": "standard"
-        }
-      ],
-      "benchmarks": [],
-      "listedAt": "2025-07-08"
     },
     {
       "id": "hunyuan-hy3-preview",
@@ -42435,8 +42565,8 @@
       "listedAt": "2026-10-23",
       "prices": [
         {
-          "input": 2,
-          "output": 10,
+          "input": 0.2403,
+          "output": 8.402299999999999,
           "vendor": "moonshotai",
           "mode": "standard"
         },
@@ -42484,8 +42614,8 @@
       "listedAt": "2026-10-23",
       "prices": [
         {
-          "input": 0.7,
-          "output": 6,
+          "input": 0.275,
+          "output": 4.125,
           "vendor": "moonshotai",
           "mode": "batch"
         }
@@ -52555,7 +52685,7 @@
       "prices": [
         {
           "input": 0.15,
-          "output": 0.47,
+          "output": 0.5,
           "vendor": "nvidia",
           "mode": "standard"
         },
@@ -58164,8 +58294,8 @@
           "mode": "standard"
         },
         {
-          "input": 4,
-          "output": 20,
+          "input": 4.4,
+          "output": 22,
           "vendor": "openai",
           "mode": "standard"
         },
@@ -58179,6 +58309,12 @@
           "input": 4,
           "output": 20,
           "vendor": "github_copilot",
+          "mode": "standard"
+        },
+        {
+          "input": 4,
+          "output": 20,
+          "vendor": "openai",
           "mode": "standard"
         },
         {
@@ -58509,6 +58645,21 @@
           "input": 0.09999999999999999,
           "output": 0.5,
           "vendor": "gmi",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "openai/gpt-6-luna-decisions",
+      "firstSeen": "2026-11-15T13:53:58.490Z",
+      "name": "vercel_ai_gateway/openai/gpt-6-luna-decisions",
+      "context": 1050000,
+      "prices": [
+        {
+          "input": 0.09999999999999999,
+          "output": 0,
+          "vendor": "vercel_ai_gateway",
           "mode": "standard"
         }
       ],
@@ -60258,7 +60409,7 @@
       "listedAt": "2026-10-28",
       "prices": [
         {
-          "input": 0.049999999999999996,
+          "input": 0.06,
           "output": 0.5,
           "vendor": "particle-ai",
           "mode": "standard"
@@ -63593,8 +63744,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.16999999999999998,
-          "output": 0.25,
+          "input": 0.020999999999999998,
+          "output": 0.03,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -65359,9 +65510,9 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.29,
+          "input": 0.19999999999999998,
           "output": 1,
-          "vendor": "qwen",
+          "vendor": "novita",
           "mode": "standard"
         }
       ],
@@ -65638,8 +65789,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.16999999999999998,
-          "output": 0.25,
+          "input": 0.020999999999999998,
+          "output": 0.03,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -65678,8 +65829,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.16999999999999998,
-          "output": 0.25,
+          "input": 0.020999999999999998,
+          "output": 0.03,
           "vendor": "qwen",
           "mode": "standard"
         }
@@ -68174,7 +68325,7 @@
         {
           "input": 0.09999999999999999,
           "output": 0.3,
-          "vendor": "stepfun",
+          "vendor": "empiriolabs",
           "mode": "standard"
         }
       ],
@@ -68322,12 +68473,6 @@
           "input": 0.09999999999999999,
           "output": 0.3,
           "vendor": "empiriolabs",
-          "mode": "standard"
-        },
-        {
-          "input": 0.09999999999999999,
-          "output": 0.3,
-          "vendor": "stepfun",
           "mode": "standard"
         }
       ],
@@ -68538,22 +68683,6 @@
           "input": 2,
           "output": 10,
           "vendor": "databricks",
-          "mode": "standard"
-        }
-      ],
-      "benchmarks": []
-    },
-    {
-      "id": "tencent/hunyuan-a13b-instruct",
-      "firstSeen": "2026-09-18T11:11:35.916Z",
-      "name": "openrouter/tencent/hunyuan-a13b-instruct",
-      "context": 131072,
-      "listedAt": "2025-07-08",
-      "prices": [
-        {
-          "input": 0.14,
-          "output": 0.5700000000000001,
-          "vendor": "tencent",
           "mode": "standard"
         }
       ],
@@ -69347,6 +69476,51 @@
           "output": 0,
           "vendor": "laya",
           "mode": "free"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "typesafe-ai/jev",
+      "firstSeen": "2026-11-15T13:53:58.490Z",
+      "name": "vercel_ai_gateway/typesafe-ai/jev",
+      "context": 32000,
+      "prices": [
+        {
+          "input": 0.041999999999999996,
+          "output": 0,
+          "vendor": "vercel_ai_gateway",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "typesafe-ai/jev-1.13.0",
+      "firstSeen": "2026-11-15T13:53:58.490Z",
+      "name": "vercel_ai_gateway/typesafe-ai/jev-1.13.0",
+      "context": 32000,
+      "prices": [
+        {
+          "input": 0.041999999999999996,
+          "output": 0,
+          "vendor": "vercel_ai_gateway",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "typesafe-ai/jev-1.14.0",
+      "firstSeen": "2026-11-15T13:53:58.490Z",
+      "name": "vercel_ai_gateway/typesafe-ai/jev-1.14.0",
+      "context": 32000,
+      "prices": [
+        {
+          "input": 0.041999999999999996,
+          "output": 0,
+          "vendor": "vercel_ai_gateway",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -75942,8 +76116,8 @@
       "context": 202752,
       "prices": [
         {
-          "input": 0.6,
-          "output": 2.2,
+          "input": 0.39999999999999997,
+          "output": 1.75,
           "vendor": "z-ai",
           "mode": "standard"
         },
