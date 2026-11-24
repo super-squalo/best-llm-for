@@ -3,7 +3,7 @@
   "kind": "independent",
   "source": "https://video-mme.github.io/home_page.html",
   "note": "900 videos from a few seconds to an hour. The plain score is without subtitles - the model has to watch rather than read.",
-  "capturedAt": "2026-11-23",
+  "capturedAt": "2026-11-24",
   "benchmarks": [
     "Video-MME",
     "Video-MME-With-Subtitles"
@@ -25,6 +25,15 @@
       "scores": {
         "Video-MME": 75,
         "Video-MME-With-Subtitles": 81.3
+      }
+    },
+    {
+      "model": "JT4.1 CMCC",
+      "measuredBy": "Video-MME",
+      "source": "https://video-mme.github.io/home_page.html",
+      "scores": {
+        "Video-MME": 71.2,
+        "Video-MME-With-Subtitles": 79.9
       }
     },
     {
