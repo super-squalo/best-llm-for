@@ -3,7 +3,7 @@
   "kind": "independent",
   "source": "https://github.com/vectara/hallucination-leaderboard",
   "note": "Measured by Vectara, not self-reported. Lower hallucination rate is better.",
-  "capturedAt": "2026-11-24",
+  "capturedAt": "2026-11-25",
   "benchmarks": [
     "Hallucination-Rate",
     "Factual-Consistency"
@@ -271,6 +271,15 @@
       }
     },
     {
+      "model": "deepseek-ai/DeepSeek-V4-Flash",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 6.4,
+        "Factual-Consistency": 93.6
+      }
+    },
+    {
       "model": "openai/gpt-6-sol",
       "measuredBy": "Vectara",
       "source": "https://github.com/vectara/hallucination-leaderboard",
@@ -406,6 +415,15 @@
       }
     },
     {
+      "model": "zai-org/GLM-5.3-Flash",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 8.5,
+        "Factual-Consistency": 91.5
+      }
+    },
+    {
       "model": "deepseek-ai/DeepSeek-V4-Pro",
       "measuredBy": "Vectara",
       "source": "https://github.com/vectara/hallucination-leaderboard",
@@ -524,6 +542,15 @@
     },
     {
       "model": "ai21labs/jamba-large-1.7-2025-07",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 9.7,
+        "Factual-Consistency": 90.3
+      }
+    },
+    {
+      "model": "zai-org/GLM-5.2",
       "measuredBy": "Vectara",
       "source": "https://github.com/vectara/hallucination-leaderboard",
       "scores": {
@@ -676,7 +703,25 @@
       }
     },
     {
+      "model": "MiniMaxAI/minimax-m3.1-flash",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 11,
+        "Factual-Consistency": 89
+      }
+    },
+    {
       "model": "qwen/qwen3.5-122b-a10b",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 11.2,
+        "Factual-Consistency": 88.8
+      }
+    },
+    {
+      "model": "MiniMaxAI/minimax-m3",
       "measuredBy": "Vectara",
       "source": "https://github.com/vectara/hallucination-leaderboard",
       "scores": {
@@ -835,6 +880,15 @@
       "scores": {
         "Hallucination-Rate": 13.6,
         "Factual-Consistency": 86.4
+      }
+    },
+    {
+      "model": "moonshotai/Kimi-K2-Instruct",
+      "measuredBy": "Vectara",
+      "source": "https://github.com/vectara/hallucination-leaderboard",
+      "scores": {
+        "Hallucination-Rate": 13.9,
+        "Factual-Consistency": 86.1
       }
     },
     {

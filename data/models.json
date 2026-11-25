@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-24T17:39:29.232Z",
+  "generatedAt": "2026-11-25T17:10:00.030Z",
   "sources": [
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
-      "records": 470
+      "records": 469
     },
     {
       "name": "LiteLLM",
       "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
       "ok": true,
-      "records": 4943
+      "records": 4956
     },
     {
       "name": "arena.ai coding leaderboard",
@@ -22,7 +22,18 @@
     }
   ],
   "newModels": [
-    "gemini-4-neon-cyber-permissive"
+    "accounts/fireworks/models/hy4-flash",
+    "accounts/fireworks/models/qwen4-max",
+    "gpt-6-astra-healthcare",
+    "gpt-6.1-sol-healthcare",
+    "gpt-6.2-astra-healthcare",
+    "gpt-6.2-sol-healthcare",
+    "grok-4.6-latest",
+    "grok-4.7-latest",
+    "mimo-v2.6-flash-mopd",
+    "solar-mini-4-5",
+    "solar-pro-4-contributor",
+    "us-gov.openai.gpt-5.6-cyber"
   ],
   "models": [
     {
@@ -682,8 +693,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.03,
-          "output": 0.19999999999999998,
+          "input": 0.036,
+          "output": 0.5,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -2611,6 +2622,21 @@
         {
           "input": 0.19999999999999998,
           "output": 0.19999999999999998,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "accounts/fireworks/models/hy4-flash",
+      "firstSeen": "2026-11-25T17:10:00.030Z",
+      "name": "fireworks_ai/accounts/fireworks/models/hy4-flash",
+      "context": 524288,
+      "prices": [
+        {
+          "input": 0.07,
+          "output": 0.28099999999999997,
           "vendor": "fireworks_ai",
           "mode": "standard"
         }
@@ -5131,6 +5157,21 @@
         {
           "input": 2,
           "output": 6,
+          "vendor": "fireworks_ai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "accounts/fireworks/models/qwen4-max",
+      "firstSeen": "2026-11-25T17:10:00.030Z",
+      "name": "fireworks_ai/accounts/fireworks/models/qwen4-max",
+      "context": 262144,
+      "prices": [
+        {
+          "input": 1.5,
+          "output": 4.5,
           "vendor": "fireworks_ai",
           "mode": "standard"
         }
@@ -22223,8 +22264,8 @@
       "listedAt": "2026-09-14",
       "prices": [
         {
-          "input": 0.03,
-          "output": 0.19999999999999998,
+          "input": 0.036,
+          "output": 0.5,
           "vendor": "~deepseek",
           "mode": "standard"
         }
@@ -23628,8 +23669,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.21559999999999999,
-          "output": 0.6468,
+          "input": 0.44,
+          "output": 1.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -23669,8 +23710,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.21559999999999999,
-          "output": 0.6468,
+          "input": 0.44,
+          "output": 1.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -23709,8 +23750,8 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 1.28,
-          "output": 2.56,
+          "input": 0.7674,
+          "output": 1.5852000000000002,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -24007,8 +24048,8 @@
           "mode": "standard"
         },
         {
-          "input": 1.28,
-          "output": 2.56,
+          "input": 0.7674,
+          "output": 1.5852000000000002,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -24156,8 +24197,8 @@
           "mode": "standard"
         },
         {
-          "input": 1.28,
-          "output": 2.56,
+          "input": 0.7674,
+          "output": 1.5852000000000002,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -24388,6 +24429,12 @@
           "output": 1.2,
           "vendor": "wally",
           "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "huawei_maas",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -24400,8 +24447,8 @@
       "listedAt": "2026-10-17",
       "prices": [
         {
-          "input": 0.03,
-          "output": 0.19999999999999998,
+          "input": 0.15,
+          "output": 0.6,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -24421,6 +24468,12 @@
           "input": 0.375,
           "output": 1.5,
           "vendor": "wally",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "huawei_maas",
           "mode": "standard"
         }
       ],
@@ -25355,8 +25408,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.21559999999999999,
-          "output": 0.6468,
+          "input": 0.44,
+          "output": 1.32,
           "vendor": "deepseek",
           "mode": "standard"
         },
@@ -25663,6 +25716,12 @@
           "output": 1.2,
           "vendor": "wally",
           "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "huawei_maas",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -25798,6 +25857,12 @@
           "input": 0.3,
           "output": 1.2,
           "vendor": "wally",
+          "mode": "standard"
+        },
+        {
+          "input": 0.3,
+          "output": 1.2,
+          "vendor": "huawei_maas",
           "mode": "standard"
         }
       ],
@@ -36877,8 +36942,8 @@
       "context": 131072,
       "prices": [
         {
-          "input": 0.13,
-          "output": 0.85,
+          "input": 0.14,
+          "output": 0.86,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -37420,6 +37485,12 @@
           "output": 3.0829999999999997,
           "vendor": "kyma",
           "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "huawei_maas",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -37528,6 +37599,12 @@
           "input": 0.9028999999999999,
           "output": 3.0829999999999997,
           "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "huawei_maas",
           "mode": "standard"
         },
         {
@@ -37710,6 +37787,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "huawei_maas",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "perplexity",
           "mode": "standard"
         },
@@ -37842,6 +37925,12 @@
           "output": 4,
           "vendor": "bigmodel",
           "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "huawei_maas",
+          "mode": "standard"
         }
       ],
       "benchmarks": [],
@@ -37891,8 +37980,8 @@
       "context": 1310720,
       "prices": [
         {
-          "input": 0.15,
-          "output": 0.5,
+          "input": 0.12,
+          "output": 0.38,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -38149,6 +38238,12 @@
           "input": 1.1428571428571428,
           "output": 4,
           "vendor": "bigmodel",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "huawei_maas",
           "mode": "standard"
         },
         {
@@ -46093,6 +46188,21 @@
       "benchmarks": []
     },
     {
+      "id": "gpt-6-astra-healthcare",
+      "firstSeen": "2026-11-25T17:10:00.030Z",
+      "name": "gpt-6-astra-healthcare",
+      "context": 922000,
+      "prices": [
+        {
+          "input": 10,
+          "output": 50,
+          "vendor": "openai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-6-astra-law",
       "firstSeen": "2026-11-01T13:18:13.724Z",
       "name": "gpt-6-astra-law",
@@ -46456,6 +46566,21 @@
       "benchmarks": []
     },
     {
+      "id": "gpt-6.1-sol-healthcare",
+      "firstSeen": "2026-11-25T17:10:00.030Z",
+      "name": "gpt-6.1-sol-healthcare",
+      "context": 922000,
+      "prices": [
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "openai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-6.1-sol-pro",
       "firstSeen": "2026-09-30T12:31:54.236Z",
       "name": "OpenAI: GPT-6.1 Sol Pro",
@@ -46614,6 +46739,21 @@
       "benchmarks": []
     },
     {
+      "id": "gpt-6.2-astra-healthcare",
+      "firstSeen": "2026-11-25T17:10:00.030Z",
+      "name": "gpt-6.2-astra-healthcare",
+      "context": 922000,
+      "prices": [
+        {
+          "input": 8,
+          "output": 40,
+          "vendor": "openai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "gpt-6.2-astra-law",
       "firstSeen": "2026-11-18T15:36:33.304Z",
       "name": "gpt-6.2-astra-law",
@@ -46699,6 +46839,21 @@
           "input": 2,
           "output": 10,
           "vendor": "github_copilot",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "gpt-6.2-sol-healthcare",
+      "firstSeen": "2026-11-25T17:10:00.030Z",
+      "name": "gpt-6.2-sol-healthcare",
+      "context": 922000,
+      "prices": [
+        {
+          "input": 2,
+          "output": 10,
+          "vendor": "openai",
           "mode": "standard"
         }
       ],
@@ -48812,6 +48967,12 @@
           "output": 6,
           "vendor": "perplexity_orchestrator",
           "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "xai",
+          "mode": "standard"
         }
       ],
       "benchmarks": [
@@ -48829,6 +48990,22 @@
         }
       ],
       "listedAt": "2026-08-12"
+    },
+    {
+      "id": "grok-4.6-latest",
+      "firstSeen": "2026-11-25T17:10:00.030Z",
+      "name": "xai/grok-4.6-latest",
+      "context": 500000,
+      "listedAt": "2026-08-12",
+      "prices": [
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "xai",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
     },
     {
       "id": "grok-4.6:batch",
@@ -48887,6 +49064,22 @@
           "input": 2.16,
           "output": 6.4799999999999995,
           "vendor": "kyma",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "grok-4.7-latest",
+      "firstSeen": "2026-11-25T17:10:00.030Z",
+      "name": "xai/grok-4.7-latest",
+      "context": 500000,
+      "listedAt": "2026-09-21",
+      "prices": [
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "xai",
           "mode": "standard"
         }
       ],
@@ -56616,12 +56809,6 @@
       "context": 1050000,
       "prices": [
         {
-          "input": 0.39999999999999997,
-          "output": 2,
-          "vendor": "xiaomi",
-          "mode": "standard"
-        },
-        {
           "input": 0.14,
           "output": 0.28,
           "vendor": "opencode_go",
@@ -56715,6 +56902,22 @@
           "input": 0.189,
           "output": 0.378,
           "vendor": "kyma",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "mimo-v2.6-flash-mopd",
+      "firstSeen": "2026-11-25T17:10:00.030Z",
+      "name": "Xiaomi: MiMo-V2.6-Flash-MOPD",
+      "context": 1048576,
+      "listedAt": "2026-11-23",
+      "prices": [
+        {
+          "input": 0.5,
+          "output": 1,
+          "vendor": "xiaomi",
           "mode": "standard"
         }
       ],
@@ -56962,12 +57165,6 @@
       "maker": "MiniMax",
       "context": 204800,
       "prices": [
-        {
-          "input": 0.27,
-          "output": 0.95,
-          "vendor": "minimax",
-          "mode": "standard"
-        },
         {
           "input": 0.3,
           "output": 1.2,
@@ -62500,7 +62697,7 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.049999999999999996,
+          "input": 0.07,
           "output": 0.19999999999999998,
           "vendor": "nvidia",
           "mode": "standard"
@@ -63497,7 +63694,7 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.049999999999999996,
+          "input": 0.07,
           "output": 0.19999999999999998,
           "vendor": "nvidia",
           "mode": "standard"
@@ -63520,7 +63717,7 @@
       "listedAt": "2026-08-11",
       "prices": [
         {
-          "input": 0.049999999999999996,
+          "input": 0.07,
           "output": 0.19999999999999998,
           "vendor": "nvidia",
           "mode": "standard"
@@ -70719,57 +70916,9 @@
       "listedAt": "2026-09-17",
       "prices": [
         {
-          "input": 0.7999999999999999,
-          "output": 3.1999999999999997,
+          "input": -1000000,
+          "output": -1000000,
           "vendor": "~unbiased",
-          "mode": "standard"
-        }
-      ],
-      "benchmarks": []
-    },
-    {
-      "id": "pareto-26.10",
-      "firstSeen": "2026-10-18T11:01:08.250Z",
-      "name": "Pareto 26.10",
-      "context": 1048576,
-      "listedAt": "2026-10-15",
-      "prices": [
-        {
-          "input": 0.7999999999999999,
-          "output": 3.1999999999999997,
-          "vendor": "unbiased",
-          "mode": "standard"
-        }
-      ],
-      "benchmarks": []
-    },
-    {
-      "id": "pareto-26.10-preview",
-      "firstSeen": "2026-11-12T15:10:12.191Z",
-      "name": "Pareto 26.10 Preview",
-      "context": 1048576,
-      "listedAt": "2026-10-01",
-      "prices": [
-        {
-          "input": 0.7999999999999999,
-          "output": 3.1999999999999997,
-          "vendor": "unbiased",
-          "mode": "standard"
-        }
-      ],
-      "benchmarks": []
-    },
-    {
-      "id": "pareto-26.9",
-      "firstSeen": "2026-10-14T11:48:46.156Z",
-      "name": "Pareto 26.9",
-      "context": 262144,
-      "listedAt": "2026-10-13",
-      "prices": [
-        {
-          "input": 2.5,
-          "output": 7.5,
-          "vendor": "unbiased",
           "mode": "standard"
         }
       ],
@@ -70799,8 +70948,8 @@
       "listedAt": "2026-10-13",
       "prices": [
         {
-          "input": 0.7999999999999999,
-          "output": 3.1999999999999997,
+          "input": -1000000,
+          "output": -1000000,
           "vendor": "~unbiased",
           "mode": "standard"
         }
@@ -74730,8 +74879,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.06,
-          "output": 1.96,
+          "input": 0.035,
+          "output": 1.5,
           "vendor": "qwen",
           "mode": "standard"
         },
@@ -76504,8 +76653,8 @@
       "context": 262144,
       "prices": [
         {
-          "input": 0.049999999999999996,
-          "output": 0.7,
+          "input": 0.09999999999999999,
+          "output": 0.8899999999999999,
           "vendor": "qwen",
           "mode": "standard"
         },
@@ -76882,8 +77031,8 @@
       "context": 1000000,
       "prices": [
         {
-          "input": 0.06,
-          "output": 1.96,
+          "input": 0.035,
+          "output": 1.5,
           "vendor": "qwen",
           "mode": "standard"
         },
@@ -76994,8 +77143,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.06,
-          "output": 1.96,
+          "input": 0.035,
+          "output": 1.5,
           "vendor": "qwen",
           "mode": "standard"
         },
@@ -79442,6 +79591,22 @@
       "benchmarks": []
     },
     {
+      "id": "solar-mini-4-5",
+      "firstSeen": "2026-11-25T17:10:00.030Z",
+      "name": "Upstage: Solar Mini 4.5 (Preview)",
+      "context": 524288,
+      "listedAt": "2026-11-24",
+      "prices": [
+        {
+          "input": 0.01,
+          "output": 0.04,
+          "vendor": "upstage",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
       "id": "solar-mini4",
       "firstSeen": "2026-09-23T11:33:17.417Z",
       "name": "Upstage: Solar Mini 4",
@@ -79451,6 +79616,22 @@
         {
           "input": 0.049999999999999996,
           "output": 0.19999999999999998,
+          "vendor": "upstage",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "solar-pro-4-contributor",
+      "firstSeen": "2026-11-25T17:10:00.030Z",
+      "name": "Upstage: Solar Pro 4 Contributor",
+      "context": 524288,
+      "listedAt": "2026-11-24",
+      "prices": [
+        {
+          "input": 0.09,
+          "output": 0.36,
           "vendor": "upstage",
           "mode": "standard"
         }
@@ -81023,8 +81204,8 @@
       "listedAt": "2026-09-17",
       "prices": [
         {
-          "input": 0.7999999999999999,
-          "output": 3.1999999999999997,
+          "input": -1000000,
+          "output": -1000000,
           "vendor": "~unbiased",
           "mode": "standard"
         }
@@ -83223,6 +83404,21 @@
         {
           "input": 3.3000000000000003,
           "output": 19.8,
+          "vendor": "bedrock_converse",
+          "mode": "standard"
+        }
+      ],
+      "benchmarks": []
+    },
+    {
+      "id": "us-gov.openai.gpt-5.6-cyber",
+      "firstSeen": "2026-11-25T17:10:00.030Z",
+      "name": "us-gov.openai.gpt-5.6-cyber",
+      "context": 922000,
+      "prices": [
+        {
+          "input": 16.875,
+          "output": 101.25,
           "vendor": "bedrock_converse",
           "mode": "standard"
         }
@@ -87222,6 +87418,12 @@
           "output": 6,
           "vendor": "perplexity_orchestrator",
           "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "xai",
+          "mode": "standard"
         }
       ],
       "benchmarks": []
@@ -87285,6 +87487,12 @@
           "input": 2,
           "output": 6,
           "vendor": "vertex_ai",
+          "mode": "standard"
+        },
+        {
+          "input": 2,
+          "output": 6,
+          "vendor": "xai",
           "mode": "standard"
         }
       ],
@@ -87918,12 +88126,6 @@
       "context": 1048576,
       "prices": [
         {
-          "input": 0.39999999999999997,
-          "output": 2,
-          "vendor": "xiaomi",
-          "mode": "standard"
-        },
-        {
           "input": 0.14,
           "output": 0.28,
           "vendor": "opencode_go",
@@ -88280,8 +88482,8 @@
       "listedAt": "2025-07-25",
       "prices": [
         {
-          "input": 0.13,
-          "output": 0.85,
+          "input": 0.14,
+          "output": 0.86,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -88832,6 +89034,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "huawei_maas",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "perplexity",
           "mode": "standard"
         },
@@ -88975,6 +89183,12 @@
           "input": 0.9028999999999999,
           "output": 3.0829999999999997,
           "vendor": "kyma",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "huawei_maas",
           "mode": "standard"
         },
         {
@@ -89128,6 +89342,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "huawei_maas",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "perplexity",
           "mode": "standard"
         },
@@ -89270,6 +89490,12 @@
         {
           "input": 1.4,
           "output": 4.4,
+          "vendor": "huawei_maas",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
           "vendor": "perplexity",
           "mode": "standard"
         },
@@ -89368,8 +89594,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.15,
-          "output": 0.5,
+          "input": 0.12,
+          "output": 0.38,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -89534,8 +89760,8 @@
           "mode": "standard"
         },
         {
-          "input": 0.15,
-          "output": 0.5,
+          "input": 0.12,
+          "output": 0.38,
           "vendor": "z-ai",
           "mode": "standard"
         },
@@ -89807,6 +90033,12 @@
           "input": 1.1428571428571428,
           "output": 4,
           "vendor": "bigmodel",
+          "mode": "standard"
+        },
+        {
+          "input": 1.4,
+          "output": 4.4,
+          "vendor": "huawei_maas",
           "mode": "standard"
         },
         {
